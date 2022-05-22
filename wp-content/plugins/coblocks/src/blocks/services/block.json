@@ -1,0 +1,26 @@
+{
+	"name": "coblocks/services",
+	"category": "layout",
+	"attributes": {
+		"columns": {
+			"type": "integer",
+			"default": 2
+		},
+		"alignment": {
+			"type": "string",
+			"default": "none"
+		},
+		"headingLevel": {
+			"type": "integer",
+			"default": 3
+		},
+		"buttons": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"title": "Services",
+	"textdomain": "coblocks",
+	"editorScript": "blocks-6",
+	"description": "Add up to four columns of services to display."
+}

@@ -1,0 +1,62 @@
+{
+	"name": "coblocks/hero",
+	"category": "layout",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "full"
+		},
+		"contentAlign": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"customTextColor": {
+			"type": "string"
+		},
+		"maxWidth": {
+			"type": "number",
+			"default": 560
+		},
+		"saveCoBlocksMeta": {
+			"type": "boolean",
+			"default": true
+		},
+		"paddingSize": {
+			"type": "string",
+			"default": "huge"
+		},
+		"paddingUnit": {
+			"type": "string",
+			"default": "px"
+		},
+		"paddingTop": {
+			"type": "number",
+			"default": 60
+		},
+		"paddingBottom": {
+			"type": "number",
+			"default": 60
+		},
+		"paddingLeft": {
+			"type": "number",
+			"default": 60
+		},
+		"paddingRight": {
+			"type": "number",
+			"default": 60
+		},
+		"customBackgroundColor": {
+			"type": "string"
+		},
+		"height": {
+			"type": "number",
+			"default": 500
+		}
+	},
+	"title": "Hero",
+	"textdomain": "coblocks",
+	"editorScript": "blocks-9",
+	"description": "An introductory area of a page accompanied by a small amount of text and a call to action."
+}

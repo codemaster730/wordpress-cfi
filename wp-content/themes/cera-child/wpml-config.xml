@@ -1,0 +1,20 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_cera-child">
+			<key name="hero_title" />
+            <key name="hero_subtitle" />
+            <key name="hero_text" />
+            <key name="hero_button_text" />
+            <key name="hero_button_link" />
+            <key name="404_title" />
+            <key name="404_subtitle" />
+            <key name="404_text" />
+            <key name="404_button_text" />
+            <key name="hero_scroll_to_content_button_text" />
+            <key name="archive_forum_title" />
+            <key name="archive_forum_description" />
+            <key name="the_events_calendar_title" />
+            <key name="the_events_calendar_description" />
+        </key>
+    </admin-texts>
+</wpml-config>

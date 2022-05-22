@@ -1,0 +1,607 @@
+# Copyright (C) 2022 grimlock-buddypress
+# This file is distributed under the same license as the grimlock-buddypress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: grimlock-buddypress\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../grimlock-buddypress.php:41
+msgid "%1$sGrimlock for BuddyPress%2$s requires %1$sGrimlock %3$s%2$s to continue running properly. Please %4$supdate Grimlock.%5$s"
+msgstr ""
+
+#: ../inc/class-grimlock-buddypress.php:117
+msgid "Logged In Users"
+msgstr ""
+
+#: ../inc/class-grimlock-buddypress.php:118
+msgid "Logged Out Users"
+msgstr ""
+
+#: ../inc/class-grimlock-buddypress.php:171
+msgid "BuddyPress Left Sidebar"
+msgstr ""
+
+#: ../inc/class-grimlock-buddypress.php:172
+msgid "The left hand area for BuddyPress pages."
+msgstr ""
+
+#: ../inc/class-grimlock-buddypress.php:181, ../inc/customizer/class-grimlock-buddypress-customizer.php:367
+msgid "BuddyPress"
+msgstr ""
+
+#: ../inc/class-grimlock-buddypress.php:182, ../inc/class-grimlock-buddypress.php:194
+msgid "The right hand area for BuddyPress pages."
+msgstr ""
+
+#: ../inc/class-grimlock-buddypress.php:193
+msgid "BuddyPress Right Sidebar"
+msgstr ""
+
+#: ../inc/class-grimlock-buddypress.php:238
+msgctxt "bp_profile_menu_mobile_label"
+msgid "Menu"
+msgstr ""
+
+#: ../inc/class-grimlock-buddypress.php:239, ../inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:127
+msgid "You have no new notification"
+msgstr ""
+
+#: ../inc/class-grimlock-buddypress.php:321
+msgid "Biographical Info"
+msgstr ""
+
+#: ../inc/class-grimlock-buddypress.php:325
+msgid "Synchronize this field with the author biography"
+msgstr ""
+
+#: ../inc/grimlock-buddypress-template-functions.php:96
+msgid "Online"
+msgstr ""
+
+#: ../inc/grimlock-buddypress-template-functions.php:111, ../inc/grimlock-buddypress-template-functions.php:129
+msgctxt "Grimlock BuddyPress text button more"
+msgid "More"
+msgstr ""
+
+#: ../inc/grimlock-buddypress-template-functions.php:245
+msgid "Group secondary navigation"
+msgstr ""
+
+#: ../inc/grimlock-buddypress-template-functions.php:258
+msgid "Members"
+msgstr ""
+
+#: ../inc/grimlock-buddypress-template-functions.php:302
+msgid "Private Message"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:48, ../inc/widget/class-grimlock-buddypress-groups-section-widget.php:27
+msgid "Grimlock BuddyPress Groups Section"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:54
+msgid "query"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:54
+msgid "section"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:54
+msgid "groups"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:70, ../inc/customizer/class-grimlock-buddypress-activities-customizer.php:85, ../inc/customizer/class-grimlock-buddypress-group-customizer.php:73, ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:101, ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:96, ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:65, ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-single-bp-doc-customizer.php:54
+msgid "General"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:71
+msgid "Query"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:72, ../inc/block/class-grimlock-buddypress-groups-section-block.php:125, ../inc/customizer/class-grimlock-buddypress-activities-customizer.php:96, ../inc/customizer/class-grimlock-buddypress-group-customizer.php:80, ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:114, ../inc/customizer/class-grimlock-buddypress-members-customizer.php:172, ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:108, ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:75, ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-single-bp-doc-customizer.php:62
+msgid "Layout"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:73, ../inc/customizer/class-grimlock-buddypress-activities-customizer.php:105, ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:125, ../inc/customizer/class-grimlock-buddypress-members-customizer.php:185, ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:115, ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:89, ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-single-bp-doc-customizer.php:76
+msgid "Style"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:87
+msgid "Max groups to show"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:103
+msgid "Default groups to show"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:105, ../inc/component/class-grimlock-buddypress-groups-section-component.php:91, ../inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:85
+msgid "Newest"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:106, ../inc/component/class-grimlock-buddypress-groups-section-component.php:93, ../inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:86
+msgid "Active"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:107, ../inc/component/class-grimlock-buddypress-groups-section-component.php:95, ../inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:87
+msgid "Popular"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:108, ../inc/component/class-grimlock-buddypress-groups-section-component.php:97, ../inc/customizer/class-grimlock-buddypress-members-customizer.php:873, ../inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:88
+msgid "Alphabetical"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:146
+msgid "Alignment"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:166, ../inc/component/class-grimlock-buddypress-groups-section-component.php:27, ../inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:101, ../inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:152
+msgid "Groups"
+msgstr ""
+
+#: ../inc/block/class-grimlock-buddypress-groups-section-block.php:168, ../inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:154
+msgid "More groups"
+msgstr ""
+
+#: ../inc/bp-maps-for-members/class-grimlock-buddypress-bp-maps-for-members.php:43
+msgid "BP Members Map Filters"
+msgstr ""
+
+#: ../inc/bp-maps-for-members/class-grimlock-buddypress-bp-maps-for-members.php:44
+msgid "The filters area for the members map"
+msgstr ""
+
+#: ../inc/buddypress-media/grimlock-buddypress-buddypress-media-template-functions.php:40
+msgid "View all media"
+msgstr ""
+
+#: ../inc/buddypress-media/grimlock-buddypress-buddypress-media-template-functions.php:38
+msgid "Add new media"
+msgstr ""
+
+#: ../inc/charitable/class-grimlock-buddypress-charitable.php:26, ../inc/charitable/class-grimlock-buddypress-charitable.php:49
+msgid "Donations"
+msgstr ""
+
+#: ../inc/component/class-grimlock-buddypress-groups-section-component.php:139
+msgid "You must activate \"User Groups component\" in the BuddyPress settings page"
+msgstr ""
+
+#: ../inc/component/class-grimlock-buddypress-groups-section-component.php:133
+msgid "There are no groups to display."
+msgstr ""
+
+#: ../inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:85
+msgid "Friends"
+msgstr ""
+
+#. translators: %s: Friends slug
+#. translators: %s: Groups slug
+#. translators: %s: Notifications slug
+#. translators: %s: Messages slug
+#: ../inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:88, ../inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:104, ../inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:120, ../inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:145
+msgid "My %s"
+msgstr ""
+
+#: ../inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:117
+msgid "Notifications"
+msgstr ""
+
+#: ../inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:142
+msgid "Messages"
+msgstr ""
+
+#: ../inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:155
+msgid "Settings"
+msgstr ""
+
+#: ../inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:180
+msgid "avatar"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-activities-customizer.php:27
+msgid "Activity Stream"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-activities-customizer.php:62, ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:72, ../inc/customizer/class-grimlock-buddypress-members-customizer.php:92
+msgid "Header Display"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-customizer.php:27
+msgid "Global"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-customizer.php:97
+msgid "Navigation"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-customizer.php:202
+msgid "Display Navbar Friends Icon"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-customizer.php:225
+msgid "Display Navbar Groups Icon"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-customizer.php:248
+msgid "Display Navbar Notifications Icon"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-customizer.php:270
+msgid "Display Navbar Notifications List"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-customizer.php:300
+msgid "Display Navbar Messages Icon"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-customizer.php:323
+msgid "Display Navbar Settings Icon"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-customizer.php:346
+msgid "Enable Tooltips for Navbar Icons"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-group-customizer.php:29
+msgid "Group Page"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-group-customizer.php:118
+msgid "Default Group Cover"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-group-customizer.php:139, ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:385
+msgid "Sidebars"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:27
+msgid "Groups Directory"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:158
+msgid "Display groups actions text"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:159
+msgid "If this field is checked, BuddyPress action buttons for group lists will have a text in addition to the icon."
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:181
+msgid "Display group types"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:219
+msgid "Groups per Page"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:220, ../inc/customizer/class-grimlock-buddypress-members-customizer.php:835
+msgid "Insert 0 to remove the page limit."
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:247
+msgid "Display groups counts"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-groups-customizer.php:268
+msgid "Groups Layout"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:27
+msgid "Members Directory"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:154
+msgid "Directory"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:230
+msgid "Display member types"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:252
+msgid "Display members actions text"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:253
+msgid "If this field is checked, BuddyPress action buttons for members lists will have a text in addition to the icon."
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:275
+msgid "Display last activity"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:296
+msgid "Members Layout"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:356
+msgid "Members Displayed Profile Fields"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:380
+msgid "Enable range slider for age range fields in members search form"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:402
+msgid "Display field labels in members search form"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:423
+msgid "Friend Icons"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:452
+msgid "Follow Icons"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:503
+msgid "Actions Buttons Background Color"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:552
+msgid "Friend Buttons Color"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:582
+msgid "Follow Buttons Color"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:631
+msgid "Message Buttons Color"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:680
+msgid "Success Buttons Color"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:730
+msgid "Delete Buttons Color"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:788
+msgid "Miscellaneous Buttons Color"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:834
+msgid "Members per Page"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:861
+msgid "Default order"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:867
+msgid "Last active"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:868
+msgid "Newest registered"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:892
+msgid "Hide myself"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:893
+msgid "Hide the logged in user from the members directory."
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:915
+msgid "Display members counts"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:936
+msgid "Displayed Name in Members Cards"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:941, ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:295
+msgid "Full Name"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:942, ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:296
+msgid "Username"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-members-customizer.php:943, ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:297
+msgid "Full Name + Username"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:29
+msgid "Profile"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:149
+msgid "Profile Header Background Color"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:202
+msgid "Profile Header Text Color"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:248
+msgid "Default Member Avatar"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:269
+msgid "Default Profile Cover"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:290
+msgid "Displayed Name on Profile"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:317
+msgid "Replace Last Activity by Author Bio in Profile Header"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:339
+msgid "Display secondary nav text on mobile"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:340
+msgid "When unchecked, only icons will be displayed on mobile."
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:359
+msgid "Mobile navigation default state"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:365
+msgid "Open"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-buddypress-profile-customizer.php:366
+msgid "Closed"
+msgstr ""
+
+#: ../inc/favorites/class-grimlock-buddypress-favorites.php:34
+msgid "%1$s Favorite Post"
+msgid_plural "%1$s Favorite Posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/favorites/class-grimlock-buddypress-favorites.php:44, ../inc/favorites/class-grimlock-buddypress-favorites.php:72
+msgid "Favorites"
+msgstr ""
+
+#: ../inc/widget/class-grimlock-buddypress-groups-section-widget.php:29
+msgid "A flexible component that showcase BuddyPress groups."
+msgstr ""
+
+#: ../inc/bp-verified-member/customizer/class-grimlock-buddypress-bp-verified-member-customizer.php:30
+msgid "Verified Member"
+msgstr ""
+
+#: ../inc/bp-verified-member/customizer/class-grimlock-buddypress-bp-verified-member-customizer.php:85
+msgid "Verified badge color"
+msgstr ""
+
+#: ../inc/bp-verified-member/customizer/class-grimlock-buddypress-bp-verified-member-customizer.php:110
+msgid "Unverified badge color"
+msgstr ""
+
+#: ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:28
+msgid "Docs Directory"
+msgstr ""
+
+#: ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:129
+msgid "Display"
+msgstr ""
+
+#: ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:176
+msgid "Title"
+msgstr ""
+
+#: ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:177
+msgid "You can change the header title of the docs directory by editing it in BuddyPress Docs settings in the admin."
+msgstr ""
+
+#: ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:200
+msgid "Description"
+msgstr ""
+
+#: ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:224
+msgid "Header image"
+msgstr ""
+
+#: ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:313
+msgid ", <a href=\"#archive_bp_doc_custom_header_padding_y\" rel=\"tc-control\">Docs Page</a>"
+msgstr ""
+
+#: ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:332
+msgid ", <a href=\"#archive_bp_doc_custom_header_layout\" rel=\"tc-control\">Docs Page</a>"
+msgstr ""
+
+#: ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-archive-bp-doc-customizer.php:351
+msgid ", <a href=\"#archive_bp_doc_custom_header_container_layout\" rel=\"tc-control\">Docs Page</a>"
+msgstr ""
+
+#: ../inc/buddypress-docs/customizer/class-grimlock-buddypress-buddypress-docs-single-bp-doc-customizer.php:28
+msgid "Single Doc"
+msgstr ""
+
+#: ../inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:106
+msgid "Layout:"
+msgstr ""
+
+#: ../inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:129
+msgid "Alignment:"
+msgstr ""
+
+#: ../inc/youzify/customizer/class-grimlock-buddypress-youzify-customizer.php:67
+msgid "Heads Up ! We have detected that you are using Youzify. Please note that this Customizer panel doesn't modify the Youzify login form, it will only modify the default WordPress login."
+msgstr ""
+
+#: ../templates/activity/entry.php:64
+msgid "More actions"
+msgstr ""
+
+#: ../templates/members/bps-filters.php:20, ../templates/members/bps-filters.php:21
+msgid "Reset Filters"
+msgstr ""
+
+#: ../templates/members/bps-form-directory.php:174, ../templates/members/bps-form-home.php:148
+msgid "from"
+msgstr ""
+
+#: ../templates/members/bps-form-directory.php:183, ../templates/members/bps-form-home.php:157
+msgid "to"
+msgstr ""
+
+#: ../templates/members/bps-form-directory.php:233, ../templates/members/bps-form-home.php:207
+msgid "Select a location"
+msgstr ""
+
+#: ../templates/members/bps-form-directory.php:234, ../templates/members/bps-form-home.php:208
+msgid "Get current location"
+msgstr ""
+
+#: ../templates/members/bps-form-directory.php:363, ../templates/members/bps-form-home.php:340
+msgid "Submit"
+msgstr ""
+
+#: ../templates/members/members-map.php:150
+msgid "View directory"
+msgstr ""
+
+#: ../templates/members/members-map.php:156
+msgid "Show filters"
+msgstr ""
+
+#: ../templates/members/members-map.php:159
+msgid "Hide filters"
+msgstr ""
+
+#: ../templates/members/members-map.php:198
+msgid "View all members"
+msgstr ""
+
+#: ../templates/members/members-map.php:209
+msgid "Show map"
+msgstr ""
+
+#: ../templates/members/members-map.php:210
+msgid "Hide map"
+msgstr ""
+
+#: ../templates/members/single/cover-image-header.php:158
+msgid "You must login to see the percentage match"
+msgstr ""
+
+#: ../templates/members/single/cover-image-header.php:159
+msgid "Match"
+msgstr ""
+
+#: ../templates/members/single/profile/change-avatar.php:21
+msgid "Your profile photo will be used on your profile and throughout the site."
+msgstr ""

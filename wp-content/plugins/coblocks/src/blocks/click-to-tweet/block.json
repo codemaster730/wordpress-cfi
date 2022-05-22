@@ -1,0 +1,55 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "coblocks/click-to-tweet",
+	"category": "formatting",
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p",
+			"default": ""
+		},
+		"textAlign": {
+			"type": "string"
+		},
+		"via": {
+			"type": "string"
+		},
+		"buttonText": {
+			"type": "string",
+			"default": "Tweet"
+		},
+		"buttonColor": {
+			"type": "string"
+		},
+		"customButtonColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"customTextColor": {
+			"type": "string"
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"html": false,
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalFontWeight": true,
+			"__experimentalLetterSpacing": true,
+			"__experimentalTextTransform": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true
+			}
+		}
+	},
+	"title": "Click to Tweet",
+	"textdomain": "coblocks",
+	"editorScript": "blocks-3",
+	"description": "Add a quote for readers to tweet via Twitter."
+}

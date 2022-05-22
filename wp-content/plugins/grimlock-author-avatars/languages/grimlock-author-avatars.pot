@@ -1,0 +1,195 @@
+# Copyright (C) 2022 grimlock-author-avatars
+# This file is distributed under the same license as the grimlock-author-avatars package.
+msgid ""
+msgstr ""
+"Project-Id-Version: grimlock-author-avatars\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:56, ../inc/widget/class-grimlock-author-avatars-section-widget.php:27
+msgid "Grimlock Author Avatars Section"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:62
+msgid "query"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:62
+msgid "section"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:62
+msgid "author"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:62
+msgid "avatar"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:78
+msgid "General"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:79
+msgid "Query"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:80, ../inc/block/class-grimlock-author-avatars-section-block.php:272
+msgid "Layout"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:81
+msgid "Style"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:110
+msgid "Only show users of roles"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:128, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:169
+msgid "Show user names next to avatars"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:144
+msgid "Number of users shown"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:159, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:185
+msgid "Author page"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:160, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:186
+msgid "Website"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:167, ../inc/block/class-grimlock-author-avatars-section-block.php:164, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:193, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:190
+msgid "Lastest post"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:165, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:191
+msgid "Blog"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:175, ../inc/block/class-grimlock-author-avatars-section-block.php:173, ../inc/block/class-grimlock-author-avatars-section-block.php:171, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:201, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:199, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:197
+msgid "Member page"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:178, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:204
+msgid "None"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:182
+msgid "Link user avatars to"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:198, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:226
+msgid "Random"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:199, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:227
+msgid "ID"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:200, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:228
+msgid "Login"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:201, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:229
+msgid "Display name"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:202, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:230
+msgid "Last name"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:203, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:231
+msgid "First name"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:204, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:232
+msgid "Registration date"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:205, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:233
+msgid "Recent site activity"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:206, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:234
+msgid "Recent post activity"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:210, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:238
+msgid "bbPress post count"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:214, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:242
+msgid "BuddyPress Recent activity"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:219
+msgid "Order by"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:236
+msgid "Order"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:238, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:270
+msgid "Ascending"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:239, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:271
+msgid "Descending"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:256
+msgid "Excluded users (list of comma-separated user ids to exclude)"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:298
+msgid "Alignment"
+msgstr ""
+
+#: ../inc/block/class-grimlock-author-avatars-section-block.php:318, ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:307
+msgid "Author Avatars"
+msgstr ""
+
+#: ../inc/widget/class-grimlock-author-avatars-section-widget.php:29
+msgid "A flexible component that showcase author avatars."
+msgstr ""
+
+#: ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:72
+msgid "Layout:"
+msgstr ""
+
+#: ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:97
+msgid "Alignment:"
+msgstr ""
+
+#: ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:120
+msgid "Number of users shown:"
+msgstr ""
+
+#: ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:149
+msgid "Only show users of roles:"
+msgstr ""
+
+#: ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:209
+msgid "Link user avatars to:"
+msgstr ""
+
+#: ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:248
+msgid "Order by:"
+msgstr ""
+
+#: ../inc/widget/fields/class-grimlock-author-avatars-section-widget-fields.php:267
+msgid "Order:"
+msgstr ""

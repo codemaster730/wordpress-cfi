@@ -1,0 +1,124 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Grimlock for BuddyPress\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2018-07-27 16:50+0200\n"
+"PO-Revision-Date: 2018-07-27 16:55+0200\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n:1,2;esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x;_ex;_nx:1,2;_n_noop:1,2;_nx_noop:1,2;translate_nooped_plural\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: themosaurus <support@themosaurus.com>\n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: libs\n"
+"X-Poedit-SearchPathExcluded-3: vendor\n"
+"X-Poedit-SearchPathExcluded-4: assets\n"
+
+#: inc/class-grimlock-buddypress.php:49
+msgid "Logged In Users"
+msgstr "Utilisateurs connectés"
+
+#: inc/class-grimlock-buddypress.php:50
+msgid "Logged Out Users"
+msgstr "Utilisateurs déconnectés"
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:27
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:155
+msgid "Groups"
+msgstr "Groupes"
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:91
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:87
+msgid "Newest"
+msgstr "Récent"
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:93
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:88
+msgid "Active"
+msgstr "Actif"
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:95
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:89
+msgid "Popular"
+msgstr "Populaire"
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:97
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:90
+msgid "Alphabetical"
+msgstr "Alphabétique"
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:114
+#, php-format
+msgid "created %s"
+msgstr "créé %s"
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:118
+#, php-format
+msgid "active %s"
+msgstr "actif %s"
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:133
+msgid "There are no groups to display."
+msgstr "Il n’y a pas de groupes à afficher."
+
+#: inc/component/class-grimlock-buddypress-groups-section-component.php:139
+msgid "You must activate \"User Groups component\" in the BuddyPress settings page"
+msgstr "Vous devez activer « User Groups composent » dans la page de réglages de BuddyPress"
+
+#: inc/component/class-grimlock-buddypress-navbar-nav-menu-component.php:47
+msgid "My Account"
+msgstr "Mon Compte"
+
+#: inc/widget/class-grimlock-buddypress-groups-section-widget.php:27
+msgid "Grimlock BuddyPress Groups Section"
+msgstr "Grimlock BuddyPress Groups Section"
+
+#: inc/widget/class-grimlock-buddypress-groups-section-widget.php:29
+msgid "A flexible component that showcase BuddyPress groups."
+msgstr "Un composant flexible pour afficher les groupes de BuddyPress."
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:48
+msgid "General"
+msgstr "Général"
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:49
+msgid "Query"
+msgstr "Requête"
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:50
+msgid "Layout"
+msgstr "Mise en page"
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:51
+msgid "Style"
+msgstr "Style"
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:66
+msgid "Max groups to show:"
+msgstr "Nombre de groupes à afficher:"
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:84
+msgid "Default groups to show:"
+msgstr "Groupes par défaut:"
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:108
+msgid "Layout:"
+msgstr "Mise en page:"
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:132
+msgid "Alignment:"
+msgstr "Alignement:"
+
+#: inc/widget/fields/class-grimlock-buddypress-groups-section-widget-fields.php:157
+msgid "More groups"
+msgstr "Plus de groupes"

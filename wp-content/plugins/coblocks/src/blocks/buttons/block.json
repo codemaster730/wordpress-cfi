@@ -1,0 +1,22 @@
+{
+	"name": "coblocks/buttons",
+	"category": "layout",
+	"attributes": {
+		"items": {
+			"type": "number",
+			"default": "2"
+		},
+		"contentAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"isStackedOnMobile": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"title": "Buttons (Deprecated)",
+	"textdomain": "coblocks",
+	"editorScript": "blocks-1",
+	"description": "This block is replaced by core Buttons block."
+}

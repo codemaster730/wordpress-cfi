@@ -1,0 +1,20 @@
+{
+	"name": "coblocks/faq-item",
+	"category": "layout",
+	"attributes": {
+		"open": {
+			"type": "boolean",
+			"default": false
+		},
+		"question": {
+			"type": "string",
+			"source": "html",
+			"selector": ".wp-block-coblocks-faq-item__question__content"
+		}
+	},
+	"title": "FAQ Item",
+	"textdomain": "coblocks",
+	"editorScript": "blocks-2",
+	"description": "A question/answer within the FAQ block.",
+	"parent": [ "coblocks/faq" ]
+}

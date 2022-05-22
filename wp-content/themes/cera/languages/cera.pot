@@ -1,0 +1,584 @@
+# Copyright (C) 2022 cera
+# This file is distributed under the same license as the cera package.
+msgid ""
+msgstr ""
+"Project-Id-Version: cera\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../attachment.php:32
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#: ../attachment.php:68, ../inc/template-functions.php:627, ../inc/template-functions.php:665
+msgid "Pages:"
+msgstr ""
+
+#: ../attachment.php:72, ../inc/template-functions.php:631, ../inc/template-functions.php:669
+msgid "Page"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: ../attachment.php:83
+msgid "Edit %s"
+msgstr ""
+
+#: ../attachment.php:95
+msgid "Previous Image"
+msgstr ""
+
+#: ../attachment.php:96
+msgid "Next Image"
+msgstr ""
+
+#. translators: 1: Comment number, 2: Post title
+#: ../comments.php:33
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:42, ../comments.php:64
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:45, ../comments.php:67
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:46, ../comments.php:68
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: ../functions.php:700
+msgid "Intranet & Extranet, <br/>the simple way"
+msgstr ""
+
+#: ../functions.php:704
+msgid "Take full advantage of an intranet or extranet <br/>platform for your business. In a few steps."
+msgstr ""
+
+#: ../functions.php:1231, ../inc/template-functions.php:691, ../inc/template-functions.php:695
+msgid "404"
+msgstr ""
+
+#: ../functions.php:1243, ../inc/template-functions.php:696
+msgid "Page not found."
+msgstr ""
+
+#: ../functions.php:1251, ../inc/template-functions.php:697
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: ../functions.php:1354
+msgid "Community Events"
+msgstr ""
+
+#: ../functions.php:1358
+msgid "Take part in our special community events to meet new people or just have fun!"
+msgstr ""
+
+#: ../functions.php:1442
+msgid "Welcome to the Forum"
+msgstr ""
+
+#: ../functions.php:1446
+msgid "Share your thoughts on several topics like lifestyle, social and leisure!"
+msgstr ""
+
+#: ../header.php:41
+msgid "Skip to main content"
+msgstr ""
+
+#: ../inc/class-cera.php:75
+msgid "Primary"
+msgstr ""
+
+#: ../inc/class-cera.php:167
+msgid "Small"
+msgstr ""
+
+#: ../inc/class-cera.php:168
+msgid "S"
+msgstr ""
+
+#: ../inc/class-cera.php:173
+msgid "Regular"
+msgstr ""
+
+#: ../inc/class-cera.php:174
+msgid "M"
+msgstr ""
+
+#: ../inc/class-cera.php:179
+msgid "Large"
+msgstr ""
+
+#: ../inc/class-cera.php:180
+msgid "L"
+msgstr ""
+
+#: ../inc/class-cera.php:185
+msgid "Larger"
+msgstr ""
+
+#: ../inc/class-cera.php:186
+msgid "XL"
+msgstr ""
+
+#: ../inc/class-cera.php:191
+msgid "Largest"
+msgstr ""
+
+#: ../inc/class-cera.php:192
+msgid "XXL"
+msgstr ""
+
+#: ../inc/class-cera.php:259
+msgid "Thumbnail: One Column"
+msgstr ""
+
+#: ../inc/class-cera.php:260
+msgid "Thumbnail: Two Columns"
+msgstr ""
+
+#: ../inc/class-cera.php:261
+msgid "Thumbnail: Three Columns"
+msgstr ""
+
+#: ../inc/class-cera.php:262
+msgid "Thumbnail: Four Columns"
+msgstr ""
+
+#: ../inc/class-cera.php:263
+msgid "Thumbnail: One Column Lateral"
+msgstr ""
+
+#: ../inc/class-cera.php:264
+msgid "Thumbnail: Two Columns Lateral"
+msgstr ""
+
+#: ../inc/class-cera.php:289
+msgid "Sidebar 1"
+msgstr ""
+
+#: ../inc/class-cera.php:290
+msgid "The left hand content area."
+msgstr ""
+
+#: ../inc/class-cera.php:294
+msgid "Vertical Navbar"
+msgstr ""
+
+#: ../inc/class-cera.php:295
+msgid "The Vertical Navbar area."
+msgstr ""
+
+#: ../inc/class-cera.php:299
+msgid "Footer 1"
+msgstr ""
+
+#: ../inc/class-cera.php:300
+msgid "The first area for the footer of all pages."
+msgstr ""
+
+#: ../inc/class-cera.php:304
+msgid "Footer 2"
+msgstr ""
+
+#: ../inc/class-cera.php:305
+msgid "The second area for the footer of all pages."
+msgstr ""
+
+#: ../inc/class-cera.php:309
+msgid "Footer 3"
+msgstr ""
+
+#: ../inc/class-cera.php:310
+msgid "The third area for the footer of all pages."
+msgstr ""
+
+#: ../inc/class-cera.php:314
+msgid "Footer 4"
+msgstr ""
+
+#: ../inc/class-cera.php:315
+msgid "The fourth area for the footer of all pages."
+msgstr ""
+
+#: ../inc/class-cera.php:319, ../inc/grimlock/customizer/class-cera-grimlock-dashboard-customizer.php:29
+msgid "Dashboard"
+msgstr ""
+
+#: ../inc/class-cera.php:320
+msgid "The area for the dashboard page."
+msgstr ""
+
+#: ../inc/class-cera.php:381
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../inc/class-cera.php:436
+msgctxt "priority_menu_label_"
+msgid "More"
+msgstr ""
+
+#: ../inc/class-cera.php:437
+msgctxt "priority_menu_mobile_label"
+msgid "Menu"
+msgstr ""
+
+#: ../inc/class-cera.php:438
+msgctxt "priority_menu_mobile_label_categories"
+msgid "Categories"
+msgstr ""
+
+#: ../inc/class-cera.php:439
+msgctxt "priority_menu_mobile_label_tags"
+msgid "Tags"
+msgstr ""
+
+#: ../inc/class-cera.php:440
+msgctxt "priority_menu_mobile_label_formats"
+msgid "Formats"
+msgstr ""
+
+#: ../inc/template-functions.php:180
+msgid "Login"
+msgstr ""
+
+#: ../inc/template-functions.php:183
+msgid "Register"
+msgstr ""
+
+#. translators: %s: The search query
+#. translators: %s: The search query
+#: ../inc/template-functions.php:209, ../search.php:23
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../inc/template-functions.php:575, ../inc/template-functions.php:572
+msgid "Continue reading"
+msgstr ""
+
+#: ../inc/template-functions.php:699
+msgid "Go back to homepage"
+msgstr ""
+
+#: ../inc/template-functions.php:736
+msgid "Posted on"
+msgstr ""
+
+#: ../inc/template-functions.php:750
+msgid "by"
+msgstr ""
+
+#: ../inc/template-functions.php:766
+msgid "Sticky"
+msgstr ""
+
+#. translators: 1: Name of current post, 2: Right arrow
+#: ../inc/template-functions.php:789
+msgid "Continue reading %1$s %2$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: ../inc/template-functions.php:806
+msgid " "
+msgstr ""
+
+#. translators: %s: The post format name
+#: ../inc/template-functions.php:841
+msgid "View posts formatted as %s"
+msgstr ""
+
+#: ../inc/template-functions.php:883
+msgid "By"
+msgstr ""
+
+#. translators: %s: The author name
+#: ../inc/template-functions.php:890
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../inc/template-functions.php:952
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: 1: Date, 2: Time
+#: ../inc/template-functions.php:962
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../inc/template-functions.php:975
+msgid "Edit"
+msgstr ""
+
+#: ../inc/template-functions.php:919
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/template-functions.php:1039
+msgid "Archives"
+msgstr ""
+
+#: ../inc/template-functions.php:1032
+msgid "Chats"
+msgstr ""
+
+#: ../inc/template-functions.php:1030
+msgid "Audio"
+msgstr ""
+
+#: ../inc/template-functions.php:1028
+msgid "Statuses"
+msgstr ""
+
+#: ../inc/template-functions.php:1026
+msgid "Links"
+msgstr ""
+
+#: ../inc/template-functions.php:1024
+msgid "Quotes"
+msgstr ""
+
+#: ../inc/template-functions.php:1022
+msgid "Videos"
+msgstr ""
+
+#: ../inc/template-functions.php:1020
+msgid "Images"
+msgstr ""
+
+#: ../inc/template-functions.php:1018
+msgid "Galleries"
+msgstr ""
+
+#: ../inc/template-functions.php:1016
+msgid "Asides"
+msgstr ""
+
+#: ../inc/template-functions.php:1013
+msgid "F j, Y"
+msgstr ""
+
+#: ../inc/template-functions.php:1011
+msgid "F Y"
+msgstr ""
+
+#: ../inc/template-functions.php:1009
+msgid "Y"
+msgstr ""
+
+#: ../inc/grimlock/class-cera-grimlock.php:320
+msgid "Secondary"
+msgstr ""
+
+#: ../inc/grimlock/class-cera-grimlock.php:334
+msgid "Homepage"
+msgstr ""
+
+#: ../inc/grimlock/class-cera-grimlock.php:335
+msgid "The area replacing the content for the homepage template."
+msgstr ""
+
+#: ../inc/grimlock/class-cera-grimlock.php:339
+msgid "Vertical Navbar Top"
+msgstr ""
+
+#: ../inc/grimlock/class-cera-grimlock.php:340
+msgid "The Vertical Navbar Top Area."
+msgstr ""
+
+#: ../inc/grimlock/class-cera-grimlock.php:344
+msgid "Vertical Navbar Bottom"
+msgstr ""
+
+#: ../inc/grimlock/class-cera-grimlock.php:345
+msgid "The Vertical Navbar Bottom Area."
+msgstr ""
+
+#: ../inc/grimlock/grimlock-template-functions.php:362
+msgid "Categories: "
+msgstr ""
+
+#: ../inc/grimlock/grimlock-template-functions.php:363
+msgid "All categories"
+msgstr ""
+
+#: ../inc/grimlock/grimlock-template-functions.php:366
+msgid "Post tags: "
+msgstr ""
+
+#: ../inc/grimlock/grimlock-template-functions.php:367
+msgid "All post tags"
+msgstr ""
+
+#: ../inc/grimlock/grimlock-template-functions.php:370
+msgid "Post formats: "
+msgstr ""
+
+#: ../inc/grimlock/grimlock-template-functions.php:371
+msgid "All post formats"
+msgstr ""
+
+#: ../inc/merlin/class-cera-merlin.php:39
+msgid "Customizing Menus"
+msgstr ""
+
+#: ../inc/merlin/class-cera-merlin.php:64, ../inc/merlin/class-cera-merlin.php:133, ../inc/merlin/class-cera-merlin.php:206, ../inc/merlin/class-cera-merlin.php:276, ../inc/merlin/class-cera-merlin.php:374, ../inc/merlin/class-cera-merlin.php:450
+msgid "Visit doc.themosaurus.com to get the full documentation for the theme"
+msgstr ""
+
+#. translators: 1: Opening <a> tag 2: Closing <a> tag 3: Opening <strong> tag 4: Closing <strong> tag
+#: ../inc/merlin/class-cera-merlin.php:201, ../inc/merlin/class-cera-merlin.php:207
+msgid "Heads up!"
+msgstr ""
+
+#: ../inc/merlin/class-cera-merlin.php:207
+msgid "To complete this demo setup, don't forget to install the %1$sLearnDash%2$s plugin if you haven't already."
+msgstr ""
+
+#: ../inc/bp-profile-search/customizer/class-cera-bp-profile-search-grimlock-hero-customizer.php:83
+msgid "Form Color Scheme"
+msgstr ""
+
+#: ../inc/bp-profile-search/customizer/class-cera-bp-profile-search-grimlock-hero-customizer.php:87
+msgid "Light"
+msgstr ""
+
+#: ../inc/bp-profile-search/customizer/class-cera-bp-profile-search-grimlock-hero-customizer.php:88
+msgid "Dark"
+msgstr ""
+
+#: ../inc/bp-profile-search/customizer/class-cera-bp-profile-search-grimlock-hero-customizer.php:89
+msgid "None"
+msgstr ""
+
+#: ../inc/grimlock/customizer/class-cera-grimlock-dashboard-customizer.php:48
+msgid "These settings will affect pages that are using the \"Dashboard\" page template."
+msgstr ""
+
+#: ../inc/grimlock/customizer/class-cera-grimlock-dashboard-customizer.php:92
+msgid "Layout"
+msgstr ""
+
+#: ../inc/grimlock/customizer/class-cera-grimlock-dashboard-customizer.php:93
+msgid "Note that the columns will still collapse as the screen size gets smaller."
+msgstr ""
+
+#: ../inc/grimlock/customizer/class-cera-grimlock-dashboard-customizer.php:119
+msgid "Equalize widgets heights"
+msgstr ""
+
+#: ../inc/grimlock/customizer/class-cera-grimlock-navigation-customizer.php:85
+msgid "Display Vertical Navigation for Logged Out Users"
+msgstr ""
+
+#: ../inc/grimlock/customizer/class-cera-grimlock-navigation-customizer.php:118
+msgid "Vertical Navigation Default State"
+msgstr ""
+
+#: ../inc/grimlock/customizer/class-cera-grimlock-navigation-customizer.php:138
+msgid "Open"
+msgstr ""
+
+#: ../inc/grimlock/customizer/class-cera-grimlock-navigation-customizer.php:139
+msgid "Closed"
+msgstr ""
+
+#: ../inc/grimlock-hero/customizer/class-cera-grimlock-hero-customizer.php:38
+msgid "Discover Cera"
+msgstr ""
+
+#: ../inc/grimlock-hero/customizer/class-cera-grimlock-hero-customizer.php:98
+msgid "Content Background Color"
+msgstr ""
+
+#: ../inc/grimlock-hero/customizer/class-cera-grimlock-hero-customizer.php:131
+msgid "Scroll To Content Button Text"
+msgstr ""
+
+#: ../inc/grimlock-hero/customizer/class-cera-grimlock-hero-customizer.php:162
+msgid "Display scroll to content button"
+msgstr ""
+
+#: ../inc/grimlock-hero/customizer/class-cera-grimlock-hero-customizer.php:233
+msgid "Find out more"
+msgstr ""
+
+#: ../searchform.php:13, ../searchform.php:15, ../template-parts/content-search-form.php:25
+msgid "Search everything..."
+msgstr ""
+
+#: ../searchform.php:15
+msgid "Search for:"
+msgstr ""
+
+#: ../template-classic-12-cols-left.php:5
+msgid "Full Width Template"
+msgstr ""
+
+#: ../template-classic-3-9-cols-left.php:5
+msgid "Sidebar Template: Left"
+msgstr ""
+
+#: ../template-classic-9-3-cols-left.php:5
+msgid "Sidebar Template: Right"
+msgstr ""
+
+#: ../template-dashboard.php:5
+msgid "Dashboard Template"
+msgstr ""
+
+#: ../template-homepage-minimal.php:5
+msgid "Homepage Template: Minimal"
+msgstr ""
+
+#: ../template-homepage.php:5
+msgid "Homepage Template"
+msgstr ""
+
+#: ../template-minimal.php:5
+msgid "Minimal Template"
+msgstr ""
+
+#: ../template-narrow-12-cols-left.php:5
+msgid "Full Width Template: Narrow"
+msgstr ""
+
+#: ../template-narrower-12-cols-left.php:5
+msgid "Full Width Template: Narrower"
+msgstr ""
+
+#: ../template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: ../template-parts/content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../template-parts/content-none.php:30
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:28
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""

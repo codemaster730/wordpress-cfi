@@ -1,0 +1,676 @@
+/**
+ * Styles for Grimlock Author Avatars List
+ *
+ * Adds integration features between Grimlock and Author Avatars List
+ * https://themosaurus.com/
+ *
+ */
+/**
+ * Section authors
+ */
+[class*="cols-overlay-slider"] .shortcode-author-avatars {
+  position: relative;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-container .swiper-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-container:not([class*="horizontal"]) ~ [class*="swiper-button"] {
+  opacity: 0;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-slide {
+  flex: none !important;
+  max-width: none !important;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-pagination:not(.swiper-pagination-progressbar) {
+  display: none !important;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-pagination .swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: .4;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #fff;
+  opacity: 1;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--grimlock-button-primary-background-color);
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-pagination.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: var(--grimlock-button-primary-background-color);
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-pagination-progressbar {
+  display: none !important;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev,
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-container-rtl .swiper-button-next,
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next,
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-container-rtl .swiper-button-prev {
+  background-image: none;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev,
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next {
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 0 !important;
+  box-shadow: none !important;
+  transform: translate3d(0, 0, 0) scale(1);
+  transition: all 0.2s ease-in-out;
+  border-radius: 500px;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev,
+  [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next {
+    transition: none;
+  }
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev:after,
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next:after {
+  font-size: 1.15rem;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev:not(.swiper-button-disabled):hover,
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next:not(.swiper-button-disabled):hover {
+  transform: translate3d(0, 0, 0) scale(1.15);
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next:after {
+  font-family: var(--grimlock-icon-arrow-right-font-family) !important;
+  content: var(--grimlock-icon-arrow-right);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html[dir="rtl"] [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next:after {
+  font-family: var(--grimlock-icon-arrow-left-font-family) !important;
+  content: var(--grimlock-icon-arrow-left);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev:after {
+  font-family: var(--grimlock-icon-arrow-left-font-family) !important;
+  content: var(--grimlock-icon-arrow-left);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html[dir="rtl"] [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev:after {
+  font-family: var(--grimlock-icon-arrow-right-font-family) !important;
+  content: var(--grimlock-icon-arrow-right);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev.swiper-button-disabled,
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next.swiper-button-disabled {
+  opacity: 0;
+  cursor: default;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev,
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-container-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+}
+
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next,
+[class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-container-rtl .swiper-button-prev {
+  right: 10px;
+  left: auto;
+}
+
+@media (max-width: 991.98px) {
+  [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev,
+  [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next {
+    transform: scale(0.7) !important;
+  }
+  [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev {
+    left: -1.5vw;
+  }
+  [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next {
+    right: -1.5vw;
+  }
+}
+
+.grimlock-author-avatars-section.region--container-fluid [class*="cols-overlay-slider"] .shortcode-author-avatars {
+  margin: 0;
+}
+
+.grimlock-author-avatars-section.region--container-fluid [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-container {
+  padding: 0;
+}
+
+.grimlock-author-avatars-section.region--container-fluid [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-pagination-progressbar {
+  display: block !important;
+}
+
+@media screen and (min-width: 1425px) {
+  .grimlock-author-avatars-section.region--container-classic [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next,
+  .grimlock-author-avatars-section.region--container-narrow [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next,
+  .grimlock-author-avatars-section.region--container-narrower [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next {
+    right: -4vw;
+  }
+  .grimlock-author-avatars-section.region--container-classic [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev,
+  .grimlock-author-avatars-section.region--container-narrow [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev,
+  .grimlock-author-avatars-section.region--container-narrower [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev {
+    left: -4vw;
+  }
+  .grimlock-author-avatars-section.region--container-classic [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev,
+  .grimlock-author-avatars-section.region--container-classic [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next,
+  .grimlock-author-avatars-section.region--container-narrow [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev,
+  .grimlock-author-avatars-section.region--container-narrow [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next,
+  .grimlock-author-avatars-section.region--container-narrower [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-prev,
+  .grimlock-author-avatars-section.region--container-narrower [class*="cols-overlay-slider"] .shortcode-author-avatars .swiper-button-next {
+    background: var(--grimlock-color-faded);
+    color: inherit;
+  }
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list {
+  display: flex;
+  width: auto !important;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user {
+  text-align: center;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user .card {
+  max-width: 100%;
+  min-width: 100%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user .card a {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.avatar {
+  display: block;
+  float: none;
+  padding: 1.5rem 1rem 1rem 1rem;
+  margin: 0;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.avatar img.avatar {
+  margin: 0;
+  float: none;
+  max-width: 100%;
+  width: 85px;
+  height: 85px;
+  border-radius: 500px;
+  user-drag: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.name {
+  color: var(--grimlock-archive-post-title-color);
+  font-weight: var(--grimlock-heading-font-weight);
+  font-family: var(--grimlock-heading-font-family);
+  letter-spacing: var(--grimlock-heading-letter-spacing);
+  text-transform: var(--grimlock-heading-text-transform);
+  font-size: var(--grimlock-heading4-font-size);
+  display: block;
+  float: none;
+  font-size: 1rem;
+  padding-right: .7rem;
+  padding-left: .7rem;
+  margin-bottom: .5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.name a {
+  color: inherit !important;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.name a:hover {
+  color: var(--grimlock-archive-post-link-hover-color) !important;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.name:hover {
+  color: var(--grimlock-archive-post-link-hover-color);
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.name .bp-verified-badge {
+  margin-left: .3em;
+  position: relative;
+  top: -0.1em;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user .bp-member-xprofile-custom-fields {
+  font-size: .85em;
+  padding-right: .7rem;
+  padding-left: .7rem;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user .bp-member-xprofile-custom-fields:empty {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .section__content--avatars-12-by-5-cols-classic .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section__content--avatars-3-3-3-3-cols-classic .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section__content--avatars-4-4-4-cols-classic .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list {
+  margin: 0;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+  padding: 0 !important;
+  margin: 0 0 -1px 0 !important;
+}
+
+@media (min-width: 768px) {
+  .section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li .card {
+  padding: 0;
+  margin: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none;
+  background: none !important;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li .card img.avatar {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0 !important;
+  box-shadow: none;
+  border: 0;
+  opacity: 1 !important;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li .card .ov-h > a {
+  display: block;
+  background: rgba(0, 0, 0, 0.15) !important;
+  border-radius: 0 !important;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li span.avatar {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li span.name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 5px;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #fff !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li span.name .bp-verified-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9;
+  margin: 0;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li .bp-member-xprofile-custom-fields {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 10px;
+  z-index: 2;
+  opacity: 0;
+  color: #fff;
+  padding: 0 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li:hover span.name {
+  opacity: 1;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li:hover .bp-member-xprofile-custom-fields {
+  opacity: 1;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list {
+  padding: 2vw 0 0 0;
+  display: block;
+  text-align: center;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+  flex: none !important;
+  max-width: none !important;
+  width: auto !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+@media (min-width: 992px) {
+  .section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    float: left;
+  }
+  .section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li:first-child {
+    margin-left: 115px;
+  }
+  .section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li:first-child:before {
+    color: #000;
+    content: '';
+    display: block;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    left: calc(-100% + 15px);
+    border-radius: 500px;
+    box-shadow: -115px 0 0 0 currentColor, -230px 0 0 0 currentColor, -345px 0 0 0 currentColor;
+    opacity: .15;
+    pointer-events: none;
+  }
+  .section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li:last-child:after {
+    color: #000;
+    content: '';
+    display: block;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    right: calc(-100% + 15px);
+    border-radius: 500px;
+    box-shadow: 115px 0 0 0 currentColor, 230px 0 0 0 currentColor, 345px 0 0 0 currentColor;
+    opacity: .15;
+    pointer-events: none;
+  }
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li .card {
+  padding: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  width: 85px;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li span.avatar {
+  padding: 0;
+  width: 85px;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li span.avatar img {
+  width: 85px;
+  height: 85px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li span.name {
+  position: absolute;
+  width: calc(100% + 20px);
+  display: block;
+  padding: 3px;
+  font-size: .75em;
+  text-align: center;
+  bottom: -1.5em;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: var(--grimlock-button-border-radius);
+  margin: 0;
+  left: -10px;
+  color: inherit !important;
+  pointer-events: none;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li span.name .bp-verified-badge {
+  position: absolute;
+  top: -100%;
+  right: 0;
+  margin: 0;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li .bp-member-xprofile-custom-fields {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .section__content--avatars-2-2-2-2-2-2-cols-line .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .region--container-narrow .shortcode-author-avatars .grimlock-author-avatars__author-list > li,
+  .region--container-narrower .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+}
+
+#secondary-left .grimlock-author-avatars-section .region__container,
+#secondary-left .grimlock-author-avatars-section .region__row,
+#secondary-left .grimlock-author-avatars-section .region__col,
+#secondary-right .grimlock-author-avatars-section .region__container,
+#secondary-right .grimlock-author-avatars-section .region__row,
+#secondary-right .grimlock-author-avatars-section .region__col {
+  padding: 0;
+  margin: 0;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list {
+  margin-left: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list__item,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list__item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 !important;
+  margin-bottom: .5rem !important;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list__item:last-child,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list__item:last-child {
+  margin-bottom: 0 !important;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card {
+  text-align: left;
+  padding: .5rem;
+  transform: none;
+  background-color: var(--grimlock-table-striped-background-color);
+  box-shadow: none;
+  border: none;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card span.avatar,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card span.avatar {
+  height: 100%;
+  float: left;
+  margin-right: .75rem;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card span.avatar img.avatar,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card span.avatar img.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 500px;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card span.name,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card span.name {
+  width: 100% !important;
+  font-size: .85em !important;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card span.name .bp-verified-badge,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card span.name .bp-verified-badge {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 2px solid var(--grimlock-archive-post-background-color);
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card .bp-member-xprofile-custom-fields,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card .bp-member-xprofile-custom-fields {
+  font-size: .75em;
+  line-height: 1em;
+}
+
+.no_users {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/**
+ * Modal User
+ */
+.grimlock-author-avatars-modal-user .member-cover-image {
+  display: flex;
+  align-items: flex-end;
+  padding: 1.5rem;
+}
+
+.grimlock-author-avatars-modal-user .member-cover-image[style*="background"] {
+  min-height: 300px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grimlock-author-avatars-modal-user .member-cover-image .member-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.grimlock-author-avatars-modal-user .member-cover-image .member-header .avatar {
+  max-width: 120px;
+  height: auto;
+}
+
+.grimlock-author-avatars-modal-user .member-profile-fields {
+  margin-top: 1.5rem;
+}
+
+/**
+ * Do not add your customizations here, this file will be overridden in future release of the plugin.
+ * Make your CSS changes in the Custom CSS panel of the WordPress Customizer or create a child theme : https://codex.wordpress.org/Child_Themes
+ */
+

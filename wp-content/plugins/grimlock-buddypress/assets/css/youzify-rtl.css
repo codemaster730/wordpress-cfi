@@ -1,0 +1,3726 @@
+/**
+ * Styles for Youzify
+ *
+ * The best wordpress community & user profile wordpress plugin
+ * https://youzify.kainelabs.com/
+ *
+ */
+#youzify #message > p :is(.btn, .button) {
+  background-color: var(--grimlock-alert-color) !important;
+  color: var(--grimlock-alert-background-color) !important;
+  border: none !important;
+  text-decoration: none !important;
+  padding: .75em 1.35em;
+  font-size: 1em;
+}
+
+#youzify #message > p :hover:is(.btn, .button), #youzify #message > p :active:is(.btn, .button), #youzify #message > p :focus:is(.btn, .button) {
+  opacity: .75 !important;
+}
+
+#youzify #message > p,
+#youzify div#message > p {
+  position: relative;
+  padding: var(--grimlock-alert-padding);
+  margin-bottom: var(--grimlock-alert-margin-bottom);
+  border: 0 !important;
+  border-radius: var(--grimlock-alert-border-radius);
+  background-color: var(--grimlock-alert-background-color) !important;
+  color: var(--grimlock-alert-color) !important;
+  font-size: var(--grimlock-alert-font-size);
+}
+
+#youzify #message > p a:not([class*="button"]) {
+  color: inherit !important;
+  text-decoration: underline;
+}
+
+#youzify #message > p a:not([class*="button"]):hover, #youzify #message > p a:not([class*="button"]):active, #youzify #message > p a:not([class*="button"]):focus {
+  opacity: .75 !important;
+  text-decoration: none !important;
+}
+
+#youzify #message > p.success, #youzify #message > p.updated,
+#youzify div#message > p.success,
+#youzify div#message > p.updated, #youzify #message.updated > p, #youzify #message.success > p,
+#youzify div#message.updated > p,
+#youzify div#message.success > p {
+  --grimlock-alert-color: var(--grimlock-alert-success-color);
+  --grimlock-alert-background-color: var(--grimlock-alert-success-background-color);
+}
+
+#youzify #message.error > p,
+#youzify div#message.error > p {
+  --grimlock-alert-color: var(--grimlock-alert-danger-color);
+  --grimlock-alert-background-color: var(--grimlock-alert-danger-background-color);
+}
+
+#youzify #message.warning > p,
+#youzify div#message.warning > p {
+  --grimlock-alert-color: var(--grimlock-alert-warning-color);
+  --grimlock-alert-background-color: var(--grimlock-alert-warning-background-color);
+}
+
+/*------------------------------------*\
+    #STYLES
+\*------------------------------------*/
+/* Grid & layout */
+.youzify-forum .youzify-page-main-content .youzify-main-column {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .youzify-forum .youzify-page-main-content .youzify-main-column {
+    width: 75%;
+  }
+}
+
+.youzify-forum .youzify-page-main-content .youzify-main-column #bbpress-forums {
+  margin-left: 0;
+}
+
+.youzify-forum .youzify-sidebar-column {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .youzify-forum .youzify-sidebar-column {
+    width: 25%;
+  }
+}
+
+.youzify-content #bbpress-forums #bbp-search-form #bbp_search_submit,
+.youzify-content #bbpress-forums .bbp-search-form #bbp_search_submit {
+  width: auto;
+  margin-right: .5rem;
+}
+
+.youzify-content #bbp-topic-search-form > div {
+  display: flex;
+}
+
+.youzify-content #bbpress-forums li.bbp-body ul.topic {
+  background: none;
+}
+
+.youzify-content #bbpress-forums div.odd, .youzify-content #bbpress-forums ul.odd {
+  background: none;
+}
+
+@media (max-width: 1199.98px) {
+  #youzify .youzify.youzify-directory .youzify-page-main-content {
+    padding: 25px 0 0;
+  }
+}
+
+#youzify .youzify.youzify-profile .youzify-page-main-content, #youzify .youzify.youzify-group .youzify-page-main-content {
+  padding: 2rem 30px;
+}
+
+#youzify .youzify.youzify-profile .youzify-page-main-content .youzify-right-sidebar-layout, #youzify .youzify.youzify-group .youzify-page-main-content .youzify-right-sidebar-layout {
+  grid-template-columns: calc(75% - 30px) 25%;
+  grid-gap: 30px;
+}
+
+@media (min-width: 992px) {
+  #youzify-profile-navmenu .youzify-inner-content,
+  .youzify .wild-content,
+  .youzify .youzify-boxed-navbar,
+  .youzify-cover-content,
+  .youzify-header-content,
+  .youzify-page-main-content,
+  .youzify-vertical-layout .youzify-content {
+    width: 100%;
+    max-width: 1400px;
+  }
+}
+
+.page-template-template-classic-12-cols-left #youzify-profile-navmenu .youzify-inner-content, .page-template-template-classic-12-cols-left
+.youzify .wild-content, .page-template-template-classic-12-cols-left
+.youzify .youzify-boxed-navbar, .page-template-template-classic-12-cols-left
+.youzify-cover-content, .page-template-template-classic-12-cols-left
+.youzify-header-content, .page-template-template-classic-12-cols-left
+.youzify-page-main-content, .page-template-template-classic-12-cols-left
+.youzify-vertical-layout .youzify-content {
+  max-width: 100% !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#youzify-profile-navmenu .youzify-inner-content {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#youzify-members-directory,
+#youzify-groups-directory {
+  position: relative;
+  max-width: 100% !important;
+}
+
+#youzify {
+  width: 100%;
+}
+
+.youzify *:not(.dashicons):not([class*="icon"]):not([class*="fas fa-"]):not(:is(i)) {
+  font-family: inherit;
+}
+
+.youzify a[class*="button"],
+.youzify button[type="submit"],
+.youzify .youzify-social-buttons a,
+.youzify #youzify-members-list .youzify-user-actions a {
+  font-family: var(--grimlock-button-font-family) !important;
+  font-weight: var(--grimlock-button-font-weight) !important;
+}
+
+.youzify .item-title,
+.youzify :is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--grimlock-heading-font-family) !important;
+  font-weight: var(--grimlock-heading-font-weight) !important;
+}
+
+#youzify-profile-navmenu,
+.youzify #subnav,
+.youzify-widget:not(.youzify-no-bg),
+.youzify .activity-list > li,
+#youzify-wall-form {
+  border-style: solid;
+}
+
+.youzify-box-head .youzify-box-icon i {
+  border-radius: 500px !important;
+}
+
+.logy_checkbox_field .logy_field_indication:after {
+  width: 6px;
+  height: 10px;
+}
+
+.youzify-quote-content:before {
+  content: none !important;
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+
+.youzify-quote-content blockquote:before {
+  content: none !important;
+}
+
+.youzify-link-cover {
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+}
+
+::-moz-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+:-ms-input-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+::placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+:-moz-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+::-moz-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+:-ms-input-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+::-webkit-input-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+.youzify-forums-topic-item .youzify-forums-topic-meta .bbp-author-name,
+.youzify-forums-topic-item .youzify-forums-topic-meta .youzify-forums-topic-author,
+.youzify-forums-topic-item .youzify-forums-topic-meta .youzify-forums-topic-forum a,
+.youzify-forums-topic-item .youzify-forums-topic-forum i,
+#bbpress-forums li.bbp-forum-reply-count i,
+#bbpress-forums li.bbp-forum-topic-count i,
+#bbpress-forums li.bbp-topic-reply-count i,
+#bbpress-forums li.bbp-topic-voice-count i,
+.youzify-infos-content .youzify-info-data,
+.youzify-infos-content .youzify-info-data a,
+.youzify-infos-content .youzify-info-label,
+.youzify-widget .youzify-user-tags .youzify-utag-name,
+.youzify-custom-widget-box a, .youzify-custom-widget-box p,
+.youzify-widget .youzify-user-tags .youzify-utag-description,
+.youzify-widget .youzify-widget-main-content,
+.youzify-recent-posts .youzify-post-meta ul li,
+.youzify-widget .youzify-user-tags .youzify-utag-name i,
+.youzify-widget-title i,
+.youzify-items-list-widget .youzify-item-meta .youzify-meta-item,
+.youzify-notifications-widget .youzify-notif-item .youzify-notif-content .youzify-notif-time,
+.youzify-user-statistics .youzify-sdescription,
+.youzify-user-statistics li,
+.youzify-tab-comment .view-comment-button,
+.youzify-tab-comment .youzify-comment-excerpt p,
+.youzify-nav-settings .youzify-settings-icon,
+.youzify-profile-navmenu > .youzify-navbar-item a,
+.youzify-profile-navmenu > li a,
+.youzify .activity-header p,
+.youzify #activity-stream .ac-reply-content a,
+.youzify-tab-title-box .youzify-tab-title-icon i,
+.youzify-account-head span,
+.settings-sidebar .account-menus ul li i,
+.account-menus .youzify-menu-head i,
+.youzify .editfield .field-visibility-settings-notoggle,
+.youzify .editfield .field-visibility-settings-toggle,
+.nice-select .current,
+#youzify-export-data .youzify-section-content p,
+.uk-option-item .option-desc,
+.mycred-history #buddypress.youzify .mycred-table tfoot th,
+.mycred-history #buddypress.youzify .mycred-table thead th,
+#buddypress.youzify .mycred-table tbody td,
+.youzify-review-item .youzify-item-content .youzify-item-desc,
+.youzify-review-item .youzify-head-meta .youzify-item-date,
+.youzify-wall-new-post .youzify-post-meta .youzify-meta-item,
+.youzify .activity-meta .youzify-post-liked-by .youzify-liked-this,
+.youzify-quick-buttons .youzify-button-item i,
+.youzify-quick-buttons .youzify-button-item span,
+#whats-new-post-in-box label,
+#youzify-members-list .youzify-name,
+#youzify-members-list .youzify-name i,
+.youzify-my-account-widget .youzify-widget-header .youzify-widget-head .youzify-hello,
+.youzify .thread-sender .thread-from .activity,
+.youzify .thread-info .thread-excerpt,
+.youzify-my-account-widget .youzify-menu-links .youzify-section-title,
+.youzify-my-account-widget .youzify-menu-links .youzify-link-item .youzify-link-title,
+.youzify-items-list-widget .youzify-list-item .youzify-item-meta .youzify-meta-item,
+#whats-new-post-in-box,
+.youzify-wall-options .youzify-wall-opts-item label,
+.youzify .youzify-wall-embed .youzify-embed-meta,
+.youzify .activity-inner p,
+.youzify .activity-inner,
+.youzify .group-members-list .item .item-meta,
+.youzify .youzify-wall-embed .youzify-embed-meta .youzify-embed-meta-item span,
+.youzify .activity-list li.load-more a,
+.youzify .activity-list li.load-newest a,
+.youzify-tab-post .youzify-post-meta ul li a,
+.youzify-tab-comment .youzify-comment-meta ul li,
+.youzify-tab-comment .youzify-comment-date span,
+.youzify-bbp-freshness-data .youzify-bbp-freshness-time,
+.youzify-bbp-freshness-data .youzify-bbp-freshness-time a,
+.youzify-bbp-freshness-content .youzify-bbp-freshness-author,
+.youzify-bbp-freshness-content .youzify-bbp-freshness-author a,
+#bbpress-forums li.bbp-forum-reply-count i,
+#bbpress-forums li.bbp-forum-topic-count i,
+#bbpress-forums li.bbp-topic-reply-count i,
+#bbpress-forums li.bbp-topic-voice-count i,
+#bbpress-forums .bbp-body li.bbp-forum-reply-count,
+#bbpress-forums .bbp-body li.bbp-forum-topic-count,
+#bbpress-forums .bbp-body li.bbp-topic-reply-count,
+#bbpress-forums .bbp-body li.bbp-topic-voice-count,
+div.bbp-template-notice p,
+.youzify-forums-forum-item .youzify-forums-forum-desc,
+.youzify-bbp-topic-head-meta .youzify-bbp-topic-head-meta-item,
+.youzify-wall-link-data .youzify-wall-link-desc,
+.youzify .acomment-content p,
+#youzify-wall-form .youzify-file-preview .youzify-attachment-details .youzify-file-icon,
+#youzify-wall-form .youzify-file-preview .youzify-attachment-details .youzify-file-name,
+#youzify-wall-form .youzify-file-preview .youzify-attachment-details .youzify-delete-attachment,
+.youzify .activity-comments .acomment-meta a .time-since,
+.youzify .activity-meta .youzify-post-liked-by .youzify-view-all,
+.youzify .activity-comments .acomment-meta a.activity-time-since i,
+.youzify .group-members-list .item .item-meta span,
+.group_members #youzify-members-list .item .item-meta span,
+.follows .youzify #youzify-members-list .item .item-meta span,
+.my-friends .youzify #youzify-members-list .item .item-meta span,
+.youzify-responsive-menu span,
+.youzify .bp-avatar-nav li.current a,
+.notifications tbody td.notification-since,
+.youzify .bp-avatar-nav li a,
+#group-settings-form .main-column p,
+.youzify-group-settings-tab .main-column p,
+#youzify-groups-list .item .item-meta .group-status,
+#group-settings-form .youzify-group-submit-form #group-creation-previous,
+.item-list-tabs li label,
+.youzify-group-settings-tab .youzify-group-submit-form #group-creation-previous,
+.youzify .group-request-list .item .item-meta,
+#buddypress .messages-notices thead th,
+#buddypress .notifications thead th,
+.youzify-group-infos-widget .youzify-group-widget-content,
+.youzify-header-networks li a,
+#invite-list ul li label,
+.widget.widget_display_topics li,
+.widget_display_topics li,
+.youzify-head-content .youzify-head-meta,
+.youzify-head-content .youzify-head-meta a,
+.youzify-head-content .youzify-head-meta a:hover,
+.youzify-author .youzify-user-ratings-details .youzify-separator,
+.youzify-author .youzify-user-ratings-details .youzify-star-rating i.star-empty,
+.youzify-author .youzify-user-ratings-details .youzify-star-rating i.star-half,
+.youzify-author .youzify-user-ratings-details .youzify-user-ratings-rate,
+.youzify-author .youzify-user-ratings-details .youzify-user-ratings-total,
+.youzify-author .youzify-user-statistics .youzify-snumber,
+.youzify-author .youzify-user-statistics .youzify-sdescription,
+#message-thread .message-metadata .activity,
+#message-thread .message-content,
+.youzify-widget .youzify-widget-head .youzify-edit-widget,
+#message-recipients .highlight .highlight-meta,
+#group-settings-form fieldset,
+fieldset p,
+#youzify .uk-option-item .option-infos label,
+.youzify-group-settings-tab fieldset p,
+.yzmsg-form-item label,
+.sitewide-notices .youzify-notice-head .youzify-notice-sent,
+.messages-notices .thread-options a span,
+.sitewide-notices .youzify-notice-msg p,
+#youzify-not-friend-message i,
+#youzify-not-friend-message strong,
+#youzify-not-friend-message p,
+.my-groups .youzify #youzify-groups-list .item .item-meta span,
+span.bbp-author-ip,
+.bbp-reply-header .bbp-reply-post-date,
+#youzify-groups-list .action .youzify-manage-group,
+.youzify-group-settings-tab p,
+#group-settings-form h3,
+#youzify-group-body h3,
+#group-settings-form fieldset p,
+#group-settings-form p,
+.youzify-group-settings-tab fieldset p,
+#bbpress-forums div.bbp-forum-author,
+#bbpress-forums div.bbp-reply-author,
+#bbpress-forums div.bbp-topic-author,
+#youzify-group-buttons a.leave-group, #youzify-group-buttons a.membership-requested,
+.notifications .notification-actions a span,
+.youzify #bp-delete-avatar:before, .youzify #bp-delete-cover-image:before,
+.youzify-settings-sidebar .youzify-account-menus ul li a,
+.youzify-settings-sidebar .youzify-account-menus ul li i,
+.youzify .editfield .description,
+.youzify-project-title,
+.youzify-project-meta ul li,
+.youzify-project-content .youzify-project-text p,
+.youzify .youzify-link-content p,
+.youzify-skill-bar-percent,
+.youzify-aboutme-bio,
+.youzify-media-filter .youzify-filter-item .youzify-filter-content,
+.youzify-media-filter .youzify-filter-item .youzify-filter-content:not(.youzify-current-filter):hover i,
+.youzify-account-settings-menu .youzify-menu-head .youzify-menu-description,
+.youzify .activity-header .time-since,
+.youzify .activity-header a.activity-time-since span,
+.youzify .activity-header .youzify-timestamp-area span.youzify-separator-point,
+.youzify .activity-header .youzify-timestamp-area i,
+.youzify-services .youzify-item-title,
+.youzify-item-content p,
+.youzify-form-tool i,
+.youzify-video-head .youzify-video-title,
+.youzify-video-head .youzify-video-desc,
+.logy-form-note,
+.youzify-service-icon i,
+.youzify-user-statistics a,
+.youzify-media-filter .youzify-filter-item .youzify-filter-content,
+.youzify-directory-filter .item-list-tabs li a span,
+.youzify #activity-stream .ac-form .youzify-load-emojis i,
+.youzify-wall-comments-buttons i,
+#youzify .group-members-list .item .item-meta,
+.youzify-media-no-items {
+  color: inherit;
+}
+
+#buddypress.youzify div.bp-avatar-status p.warning,
+#buddypress.youzify div.bp-cover-image-status p.warning,
+.youzify div.bp-avatar-status p.warning,
+.youzify div.bp-cover-image-status p.warning,
+body.youzify div.bp-avatar-status p.warning,
+.youzify .bp-avatar p,
+.drag-drop .drag-drop-inside p,
+.youzify-wall-options .youzify-wall-opts-item label i,
+#bbpress-forums .bbp-forums-list a,
+.youzify .unread .thread-sender .thread-from .from a,
+.youzify .unread .thread-sender .thread-from .from .thread-count,
+.youzify .unread .thread-sender .thread-from .from,
+.youzify .unread .thread-info a,
+.youzify .unread .thread-options .delete,
+.youzify .unread .thread-options .delete > span,
+.youzify div.item-list-tabs .youzify-bar-select,
+.youzify-head-content .youzify-head-username,
+.youzify-widget .youzify-widget-head a,
+span.bbp-admin-links a:not(:hover),
+span.bbp-admin-links,
+.thread-options .unread,
+.thread-options .unread > span,
+.logy-form-item label,
+#logy_signup_form fieldset legend, #logy_signup_form label,
+.youzify .youzify-wall-embed .youzify-embed-action .message-button .youzify-send-message,
+#buddypress.youzify div.generic-button a:not(.friendship-button),
+.buddypress .youzify div.generic-button a:not(.friendship-button),
+.youzify-user-actions a:not(.friendship-button),
+.activity-time-since,
+.youzify-user-statistics a {
+  color: inherit !important;
+}
+
+.settings-inner-content .options-section-title h2 {
+  font-weight: 600;
+}
+
+.youzify-dialog > div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.youzify-video-content .jetpack-video-wrapper {
+  margin-bottom: 0 !important;
+}
+
+.time-since {
+  margin-right: 0 !important;
+}
+
+.youzify table.doctable thead tr {
+  background-color: var(--grimlock-button-primary-background-color);
+}
+
+.youzify table.doctable thead tr a:not([class*="btn"]) {
+  color: var(--grimlock-button-primary-color) !important;
+}
+
+.youzify table.doctable thead tr a:not([class*="btn"]):hover {
+  color: var(--grimlock-button-primary-hover-color) !important;
+}
+
+.youzify table youzify_cs_checkbox_field youzify_field_indication:after {
+  border-color: currentColor !important;
+}
+
+.notifications-options-nav {
+  display: inline-flex;
+}
+
+.youzify .youzify-wall-embed .youzify-embed-action .group-button a.leave-group,
+.youzify .youzify-wall-embed .youzify-embed-action .message-button .youzify-send-message,
+#youzify-group-buttons a.leave-group, #youzify-group-buttons a.membership-requested {
+  border: 0 !important;
+}
+
+.logy-form .form-cover-title {
+  font-weight: 600;
+}
+
+#youzify-group-body form input[type="submit"] {
+  height: auto;
+}
+
+.youzify-link-inner-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff !important;
+}
+
+.youzify-link-inner-content .youzify-link-url {
+  color: #fff !important;
+}
+
+.youzify .checkbox,
+.youzify .radio {
+  margin-top: 1rem;
+}
+
+.youzify .checkbox input[type="checkbox"],
+.youzify .checkbox input[type="radio"],
+.youzify .radio input[type="checkbox"],
+.youzify .radio input[type="radio"] {
+  margin-left: 5px;
+}
+
+.youzify-copyright {
+  display: none !important;
+}
+
+#content > .region__container > .region__row > .youzify {
+  width: 100%;
+  margin: 0;
+}
+
+.youzify-page,
+#buddypress.youzify-page {
+  background: none !important;
+  margin-top: 0;
+}
+
+.youzify-page-main-content {
+  padding: 2rem 15px;
+  z-index: auto;
+}
+
+[class*="youzify-"][class*="-scheme"].buddypress.directory.members:not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content, [class*="youzify-"][class*="-scheme"].buddypress.directory.groups:not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content, [class*="youzify-"][class*="-scheme"].buddypress.directory.activity:not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content, [class*="youzify-"][class*="-scheme"].buddypress.groups.single-item:not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content, [class*="youzify-"][class*="-scheme"].buddypress.bp-user:not(.activity-permalink):not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content, [class*="youzify-"][class*="-scheme"].buddypress.groups.group-create:not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#buddypress.youzify .youzify-wall-embed .youzify-embed-action .group-button a.leave-group {
+  color: #fff !important;
+}
+
+.youzify blockquote:before {
+  font-family: FontAwesome !important;
+}
+
+#youzify-wall-form #whats-new-post-in-box label {
+  display: none;
+}
+
+.item-list-tabs.activity-type-tabs > ul > li + li {
+  margin-right: 1rem;
+}
+
+.youzify #subnav div.item-list-tabs {
+  margin: 0;
+}
+
+/****
+# Options
+ ****/
+.avatar {
+  opacity: 1 !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.youzify-member-avatar,
+.youzify-profile-img,
+.youzify-settings-img,
+.youzify .avatar {
+  overflow: hidden;
+}
+
+.youzify-member-avatar img,
+.youzify-profile-img img,
+.youzify-settings-img img,
+.youzify .avatar img {
+  opacity: 1 !important;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.youzify-profile-photo-effect .youzify-profile-img {
+  display: flex;
+}
+
+.youzify-items-list-widget .youzify-list-item .youzify-item-avatar img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.youzify-card-show-avatar-border .item-avatar,
+.youzify-card-show-avatar-border .youzify-item-avatar,
+.youzify-photo-border {
+  border-width: 7px;
+  background-color: #fff;
+}
+
+#buddypress.youzify .acomment-options a,
+#buddypress.youzify .activity-meta a {
+  background: none !important;
+  color: inherit !important;
+  font-weight: 500 !important;
+  font-size: .85em !important;
+  padding: 5px !important;
+}
+
+.youzify .activity-meta .yzpr-yes-reaction {
+  top: 0;
+  margin-left: 15px;
+}
+
+#buddypress a.button.bp-primary-action.acomment-reply > span {
+  background: none;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.youzify-card-action-buttons-border-oval .hmk-get-percent,
+.youzify-card-action-buttons-border-oval .youzify-user-statistics .youzify-data-item span,
+.youzify-card-action-buttons-border-oval .youzify-user-statistics .youzify-data-item span {
+  border-radius: 500px;
+}
+
+.youzify-tools-only-icons .youzify-tool-btn {
+  border-radius: 500px;
+}
+
+/****
+# Directories
+ ****/
+#youzify-groups-list .action .group-button {
+  color: #fff !important;
+  border: 0 !important;
+}
+
+#youzify-groups-list .action .group-button:before,
+#youzify-groups-list .action .group-button i {
+  color: inherit !important;
+}
+
+#youzify-groups-list .action .group-button a.leave-group {
+  color: #fff !important;
+  background: #e74c3c !important;
+}
+
+#youzify-members-list,
+#youzify-groups-list {
+  margin-right: -15px;
+  margin-left: -15px;
+  width: auto;
+  max-width: none;
+  position: relative;
+}
+
+.page-template-template-classic-12-cols-left #youzify-members-list, .page-template-template-classic-12-cols-left
+#youzify-groups-list {
+  max-width: none !important;
+}
+
+@media (min-width: 992px) {
+  .page-template-template-classic-12-cols-left #youzify-members-list li, .page-template-template-classic-12-cols-left
+  #youzify-groups-list li {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-template-template-classic-12-cols-left #youzify-members-list li, .page-template-template-classic-12-cols-left
+  #youzify-groups-list li {
+    width: 20%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #youzify-members-list,
+  #youzify-groups-list {
+    overflow: hidden;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+#youzify-members-list > li,
+#youzify-groups-list > li {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+#youzify-members-list > li .youzify-user-cover,
+#youzify-groups-list > li .youzify-user-cover {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+#youzify-members-list > li .youzify-fullname,
+#youzify-groups-list > li .youzify-fullname {
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+#youzify-members-list > li .youzify-user-data,
+#youzify-members-list > li .youzify-group-data,
+#youzify-groups-list > li .youzify-user-data,
+#youzify-groups-list > li .youzify-group-data {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  position: relative;
+  border-style: solid;
+}
+
+#youzify-members-list > li .youzify-user-data:hover,
+#youzify-members-list > li .youzify-group-data:hover,
+#youzify-groups-list > li .youzify-user-data:hover,
+#youzify-groups-list > li .youzify-group-data:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  z-index: 12;
+}
+
+#youzify-members-list > li .hmk-trigger-match,
+#youzify-groups-list > li .hmk-trigger-match {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9;
+}
+
+#youzify-members-list > li .hmk-trigger-match .hmk-get-percent,
+#youzify-groups-list > li .hmk-trigger-match .hmk-get-percent {
+  margin-top: 0;
+  border-radius: 3px;
+  font-weight: 600;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  #youzify-members-list > li .hmk-trigger-match .hmk-get-percent,
+  #youzify-groups-list > li .hmk-trigger-match .hmk-get-percent {
+    transition: none;
+  }
+}
+
+#youzify-members-list > li .hmk-trigger-match .hmk-get-percent[class*="value-"],
+#youzify-groups-list > li .hmk-trigger-match .hmk-get-percent[class*="value-"] {
+  opacity: 1 !important;
+}
+
+#youzify-members-list > li .hmk-trigger-match .hmk-get-percent.loading, #youzify-members-list > li .hmk-trigger-match .hmk-get-percent[class*="value-"],
+#youzify-groups-list > li .hmk-trigger-match .hmk-get-percent.loading,
+#youzify-groups-list > li .hmk-trigger-match .hmk-get-percent[class*="value-"] {
+  pointer-events: none;
+}
+
+#youzify-members-list > li:hover .hmk-trigger-match .hmk-get-percent,
+#youzify-groups-list > li:hover .hmk-trigger-match .hmk-get-percent {
+  opacity: 1;
+}
+
+#youzify-members-list > li .action,
+#youzify-members-list > li .youzify-user-actions,
+#youzify-members-list > li .youzify-user-actions,
+#youzify-groups-list > li .action,
+#youzify-groups-list > li .youzify-user-actions,
+#youzify-groups-list > li .youzify-user-actions {
+  margin-top: 0;
+}
+
+#youzify-members-list > li .action:empty,
+#youzify-members-list > li .youzify-user-actions:empty,
+#youzify-members-list > li .youzify-user-actions:empty,
+#youzify-groups-list > li .action:empty,
+#youzify-groups-list > li .youzify-user-actions:empty,
+#youzify-groups-list > li .youzify-user-actions:empty {
+  display: none;
+}
+
+#youzify-members-list > li .action a,
+#youzify-members-list > li .youzify-user-actions a,
+#youzify-members-list > li .youzify-user-actions a,
+#youzify-groups-list > li .action a,
+#youzify-groups-list > li .youzify-user-actions a,
+#youzify-groups-list > li .youzify-user-actions a {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  color: inherit;
+}
+
+#youzify-members-list .youzify-user-ratings-details,
+#youzify-groups-list .youzify-user-ratings-details {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#youzify-members-list .youzify-user-ratings-details .youzify-user-rating-stars,
+#youzify-groups-list .youzify-user-ratings-details .youzify-user-rating-stars {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#youzify-members-list.youzify-card-action-buttons-inline-block .action .generic-button,
+#youzify-members-list.youzify-card-action-buttons-inline-block .youzify-user-actions .generic-button,
+#youzify-members-list.youzify-card-action-buttons-inline-block .youzify-user-actions .generic-button,
+#youzify-groups-list.youzify-card-action-buttons-inline-block .action .generic-button,
+#youzify-groups-list.youzify-card-action-buttons-inline-block .youzify-user-actions .generic-button,
+#youzify-groups-list.youzify-card-action-buttons-inline-block .youzify-user-actions .generic-button {
+  display: inline-block;
+}
+
+/****
+# Activity
+ ****/
+#send_message_form youzify_cs_checkbox_field youzify_field_indication:after {
+  width: 6px;
+  height: 9px;
+}
+
+#message-thread .message-box {
+  margin-bottom: 10px;
+}
+
+#youzify-wall-nav,
+.youzify-directory-filter {
+  border-style: solid;
+}
+
+#youzify-wall-nav #subnav,
+.youzify-directory-filter #subnav {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+#youzify-wall-nav #subnav {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+#youzify-members-list .youzify-name {
+  margin-top: 5px;
+}
+
+#youzify-members-list .item-meta {
+  margin-bottom: 10px;
+  padding-top: 5px;
+  font-weight: 600;
+  opacity: .8;
+}
+
+#youzify-members-list .item-meta i {
+  position: relative;
+  top: 1px;
+}
+
+.youzify-wall-options .youzify-wall-opts-item label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .6rem 1rem;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.activity-list .activity-content {
+  width: 100%;
+}
+
+.activity-list .activity-head span {
+  margin-right: .5rem;
+}
+
+.activity-list .activity-head span i {
+  margin-left: 3px;
+}
+
+.activity-list .activity-head > p a:last-child > span {
+  margin-right: 0;
+}
+
+.youzify .editfield .description {
+  margin-right: 0 !important;
+}
+
+.youzify .activity-meta .button {
+  border: 0 !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  color: inherit !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  font-size: 0.9em !important;
+  padding: .5rem !important;
+  display: inline-flex;
+  align-items: center;
+}
+
+.youzify .activity-meta .button span {
+  order: 9;
+}
+
+.youzify .activity-meta .button span:empty {
+  display: none !important;
+}
+
+.youzify .activity-meta .button:before {
+  color: inherit !important;
+}
+
+.youzify-form-actions > a,
+.youzify-form-actions > button {
+  padding: .2rem .7rem !important;
+  height: 40px !important;
+  border: 0 !important;
+  text-transform: capitalize !important;
+  font-size: 0.9em !important;
+  line-height: 0 !important;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youzify-reset-options:before, .youzify-save-options:before, .youzify-item-button:before {
+  content: none !important;
+}
+
+.wp-editor-tabs button {
+  border-radius: 0 !important;
+}
+
+.youzify-project-type {
+  pointer-events: none;
+}
+
+.youzify-cphoto-content {
+  border-top-width: 4px;
+}
+
+.wp-picker-container .wp-picker-input-wrap .button {
+  padding: 5px !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1em;
+}
+
+.youzify .wp-color-result-text, .youzify-main-content .wp-color-result-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.youzify-group-manage-members-search #members-dir-search #search-members-form {
+  display: flex;
+}
+
+@media (max-width: 991.98px) {
+  .youzify-group-manage-members-search #members-dir-search #search-members-form {
+    flex-direction: column;
+  }
+}
+
+.youzify-group-manage-members-search #members-dir-search #search-members-form label {
+  width: 100%;
+  height: 50px;
+}
+
+.youzify-group-manage-members-search #members-dir-search #search-members-form label input {
+  width: 100%;
+  height: 100%;
+}
+
+.youzify-group-manage-members-search #members-dir-search #search-members-form > input {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0 0 0;
+}
+
+@media (min-width: 992px) {
+  .youzify-group-manage-members-search #members-dir-search #search-members-form > input {
+    margin: 0 10px 0 0;
+    width: 20%;
+  }
+}
+
+.activity-list .activity .acomment-options a {
+  color: inherit;
+  display: inline-flex;
+}
+
+.activity-list .activity .acomment-options a span {
+  order: 9;
+  min-width: 18px;
+  min-height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3px;
+}
+
+.activity-list .activity .acomment-options a span:empty {
+  display: none !important;
+}
+
+.activity-list .activity .acomment-options a i {
+  color: inherit;
+}
+
+.youzify #activity-stream .ac-form {
+  background-color: transparent;
+}
+
+/****
+# Profiles
+ ****/
+.youzify-column-content #youzify-members-list > li .hmk-trigger-match,
+.youzify-column-content #youzify-groups-list > li .hmk-trigger-match {
+  position: static;
+  margin-top: .2rem;
+}
+
+.youzify-column-content #youzify-members-list > li .hmk-trigger-match .hmk-get-percent,
+.youzify-column-content #youzify-groups-list > li .hmk-trigger-match .hmk-get-percent {
+  opacity: 1 !important;
+  font-size: .7em;
+  padding: .3em .7em;
+}
+
+#buddypress .youzify-main-column table.profile-fields tbody tr td {
+  background: none;
+}
+
+.youzify-name .youzify-user-status,
+.youzify-user-status .youzify-user-status {
+  border-radius: 500px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  line-height: 0;
+  height: 20px;
+  color: #fff;
+  background-color: #454748;
+  margin-right: 9px !important;
+}
+
+.youzify-name .youzify-user-status.youzify-user-offline,
+.youzify-user-status .youzify-user-status.youzify-user-offline {
+  background-color: #e74c3c;
+}
+
+.youzify-name .youzify-user-status.youzify-user-online,
+.youzify-user-status .youzify-user-status.youzify-user-online {
+  background-color: #3DBDB6;
+}
+
+.youzify .group-members-list,
+.group_members #youzify-members-list,
+.follows .youzify #youzify-members-list,
+.my-friends .youzify #youzify-members-dir-searchlist,
+.youzify .friends #youzify-members-list {
+  margin: 0;
+}
+
+.youzify .group-members-list li,
+.group_members #youzify-members-list li,
+.follows .youzify #youzify-members-list li,
+.my-friends .youzify #youzify-members-dir-searchlist li,
+.youzify .friends #youzify-members-list li {
+  padding: 0;
+}
+
+.youzify .group-members-list li .youzify-user-data,
+.group_members #youzify-members-list li .youzify-user-data,
+.follows .youzify #youzify-members-list li .youzify-user-data,
+.my-friends .youzify #youzify-members-dir-searchlist li .youzify-user-data,
+.youzify .friends #youzify-members-list li .youzify-user-data {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .youzify .group-members-list li .youzify-user-data,
+  .group_members #youzify-members-list li .youzify-user-data,
+  .follows .youzify #youzify-members-list li .youzify-user-data,
+  .my-friends .youzify #youzify-members-dir-searchlist li .youzify-user-data,
+  .youzify .friends #youzify-members-list li .youzify-user-data {
+    justify-content: normal;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .youzify .group-members-list li .youzify-user-data .item,
+  .group_members #youzify-members-list li .youzify-user-data .item,
+  .follows .youzify #youzify-members-list li .youzify-user-data .item,
+  .my-friends .youzify #youzify-members-dir-searchlist li .youzify-user-data .item,
+  .youzify .friends #youzify-members-list li .youzify-user-data .item {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.youzify .group-members-list li .youzify-item-avatar,
+.group_members #youzify-members-list li .youzify-item-avatar,
+.follows .youzify #youzify-members-list li .youzify-item-avatar,
+.my-friends .youzify #youzify-members-dir-searchlist li .youzify-item-avatar,
+.youzify .friends #youzify-members-list li .youzify-item-avatar {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .youzify .group-members-list li .youzify-item-avatar,
+  .group_members #youzify-members-list li .youzify-item-avatar,
+  .follows .youzify #youzify-members-list li .youzify-item-avatar,
+  .my-friends .youzify #youzify-members-dir-searchlist li .youzify-item-avatar,
+  .youzify .friends #youzify-members-list li .youzify-item-avatar {
+    margin-left: 8px;
+    align-self: flex-start;
+    width: auto;
+  }
+}
+
+.youzify .group-members-list li .youzify-item-avatar img,
+.group_members #youzify-members-list li .youzify-item-avatar img,
+.follows .youzify #youzify-members-list li .youzify-item-avatar img,
+.my-friends .youzify #youzify-members-dir-searchlist li .youzify-item-avatar img,
+.youzify .friends #youzify-members-list li .youzify-item-avatar img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.youzify .group-members-list li .youzify-user-actions,
+.group_members #youzify-members-list li .youzify-user-actions,
+.follows .youzify #youzify-members-list li .youzify-user-actions,
+.my-friends .youzify #youzify-members-dir-searchlist li .youzify-user-actions,
+.youzify .friends #youzify-members-list li .youzify-user-actions {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .youzify .group-members-list li .youzify-user-actions,
+  .group_members #youzify-members-list li .youzify-user-actions,
+  .follows .youzify #youzify-members-list li .youzify-user-actions,
+  .my-friends .youzify #youzify-members-dir-searchlist li .youzify-user-actions,
+  .youzify .friends #youzify-members-list li .youzify-user-actions {
+    margin-right: auto;
+    margin-top: 0;
+    width: auto;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .youzify .group-members-list li .youzify-user-actions > div,
+  .group_members #youzify-members-list li .youzify-user-actions > div,
+  .follows .youzify #youzify-members-list li .youzify-user-actions > div,
+  .my-friends .youzify #youzify-members-dir-searchlist li .youzify-user-actions > div,
+  .youzify .friends #youzify-members-list li .youzify-user-actions > div {
+    display: block;
+    margin: 0 0 10px 0;
+  }
+}
+
+.youzify .group-members-list li .youzify-user-actions a,
+.group_members #youzify-members-list li .youzify-user-actions a,
+.follows .youzify #youzify-members-list li .youzify-user-actions a,
+.my-friends .youzify #youzify-members-dir-searchlist li .youzify-user-actions a,
+.youzify .friends #youzify-members-list li .youzify-user-actions a {
+  padding: .4rem 0.8rem !important;
+  font-size: 0.8em;
+  letter-spacing: 0;
+}
+
+@media (max-width: 991.98px) {
+  .youzify .group-members-list li .youzify-user-actions a,
+  .group_members #youzify-members-list li .youzify-user-actions a,
+  .follows .youzify #youzify-members-list li .youzify-user-actions a,
+  .my-friends .youzify #youzify-members-dir-searchlist li .youzify-user-actions a,
+  .youzify .friends #youzify-members-list li .youzify-user-actions a {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.youzify-card-action-buttons-block .youzify-user-actions .follow-button a {
+  transition: all 0.2s ease-in-out;
+}
+
+.bp-widget.mycred h4 {
+  margin-bottom: 1rem;
+}
+
+.bp-widget.mycred table td {
+  padding: 20px 15px !important;
+}
+
+/****
+# Messages + Notifications
+ ****/
+#message-threads.messages-notices.sitewide-notices .thread-options {
+  border-radius: 0 !important;
+}
+
+#message-threads.messages-notices.sitewide-notices .thread-options a.button {
+  background: none !important;
+  padding: 0 !important;
+  border: 0 !important;
+  letter-spacing: 0 !important;
+  border-radius: 0 !important;
+}
+
+#message-recipients .button.confirm {
+  padding: 0.5rem 0.9rem !important;
+}
+
+/****
+# Navs + Subnavs
+ ****/
+.youzify-horizontal-layout .youzify-group-navmenu li a {
+  min-width: 0;
+}
+
+.youzify-directory-filter {
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  position: relative;
+  z-index: 15;
+}
+
+@media (min-width: 768px) {
+  .youzify-directory-filter {
+    display: flex;
+    align-items: center;
+  }
+  .youzify-directory-filter .item-list-tabs {
+    margin-left: auto;
+    width: inherit;
+  }
+}
+
+.youzify-directory-filter #subnav {
+  background: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+label[for="members-order-by"],
+label[for="groups-order-by"],
+label[for="activity-filter-by"],
+.filter label[for] {
+  display: none !important;
+}
+
+#members-order-select.ml-md-auto,
+#groups-order-select.ml-md-auto {
+  padding: 1rem;
+}
+
+#youzify-wall-nav .item-list-tabs li a,
+.youzify-directory-filter .item-list-tabs li a {
+  display: flex;
+  align-items: center;
+}
+
+#youzify-wall-nav .item-list-tabs li a span,
+.youzify-directory-filter .item-list-tabs li a span {
+  min-width: 25px;
+  min-height: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 500px !important;
+  line-height: 0;
+  text-align: center;
+  font-size: 0.85em;
+  padding: 0 5px;
+  line-height: 0;
+  letter-spacing: 0;
+}
+
+@media (min-width: 768px) {
+  .youzify-page-main-content > .item-list-tabs > ul,
+  .item-list-tabs.youzify-default-subnav > ul,
+  #subnav .item-list-tabs,
+  .youzify-directory-filter > .item-list-tabs > ul,
+  #youzify-group-body .item-list-tabs > ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.youzify-page-main-content > .item-list-tabs > ul li,
+.item-list-tabs.youzify-default-subnav > ul li,
+#subnav .item-list-tabs li,
+.youzify-directory-filter > .item-list-tabs > ul li,
+#youzify-group-body .item-list-tabs > ul li {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .youzify-page-main-content > .item-list-tabs > ul li,
+  .item-list-tabs.youzify-default-subnav > ul li,
+  #subnav .item-list-tabs li,
+  .youzify-directory-filter > .item-list-tabs > ul li,
+  #youzify-group-body .item-list-tabs > ul li {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .youzify-page-main-content > .item-list-tabs > ul li + li,
+  .item-list-tabs.youzify-default-subnav > ul li + li,
+  #subnav .item-list-tabs li + li,
+  .youzify-directory-filter > .item-list-tabs > ul li + li,
+  #youzify-group-body .item-list-tabs > ul li + li {
+    margin-right: 1rem;
+  }
+}
+
+.youzify-page-main-content > .item-list-tabs > ul .last,
+.item-list-tabs.youzify-default-subnav > ul .last,
+#subnav .item-list-tabs .last,
+.youzify-directory-filter > .item-list-tabs > ul .last,
+#youzify-group-body .item-list-tabs > ul .last {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .youzify-page-main-content > .item-list-tabs > ul .last,
+  .item-list-tabs.youzify-default-subnav > ul .last,
+  #subnav .item-list-tabs .last,
+  .youzify-directory-filter > .item-list-tabs > ul .last,
+  #youzify-group-body .item-list-tabs > ul .last {
+    margin-right: auto;
+  }
+}
+
+textarea.wp-editor-area {
+  border-radius: 0 !important;
+}
+
+@media (min-width: 768px) {
+  #youzify-wall-actions {
+    display: flex;
+    align-items: center;
+  }
+  #youzify-wall-actions .youzify-posting-form-actions {
+    margin-right: auto;
+  }
+}
+
+.youzify-profile-navmenu .youzify-nav-view-more-menu {
+  border: 0;
+}
+
+@media (min-width: 768px) {
+  .youzify-profile-navmenu .youzify-nav-view-more-menu {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.youzify-profile-navmenu .youzify-nav-view-more-menu li a span.count,
+.youzify-profile-navmenu .youzify-navbar-item a span,
+.youzify-profile-navmenu .youzify-navbar-item a span.count,
+.youzify-my-account-widget .youzify-menu-links .youzify-link-item .youzify-link-title .youzify-link-count,
+.youzify-group-navmenu #membership-requests-groups-li a span,
+.youzify-group-navmenu a#members span,
+.youzify-group-navmenu a#media span {
+  border-radius: 500px;
+  text-align: center;
+  min-width: 23px;
+  min-height: 23px;
+  line-height: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  float: left;
+}
+
+.youzify-profile-navmenu > li > a {
+  display: inline-flex;
+  align-items: center;
+}
+
+#youzify-profile-navmenu {
+  border-radius: 0 !important;
+}
+
+#youzify-profile-navmenu .youzify-settings-area {
+  text-align: left;
+}
+
+#youzify-wall-form #whats-new-content,
+#youzify-wall-form .youzify-wall-textarea {
+  color: inherit !important;
+  border-radius: 0 !important;
+}
+
+.emojionearea .emojionearea-editor {
+  color: inherit !important;
+}
+
+.youzify .youzify-boxed-navbar .youzify-profile-navmenu {
+  margin-right: 0;
+}
+
+#buddypress div.item-list-tabs#subnav.youzify-default-subnav {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#buddypress #subnav .item-list-tabs.primary-list-tabs {
+  margin-bottom: 0;
+}
+
+#buddypress #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul {
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+#buddypress #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul > li > a {
+  border-radius: 0;
+  margin: 0;
+}
+
+#buddypress #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul > li > a:before {
+  content: none;
+}
+
+#buddypress #subnav .filter,
+#buddypress #subnav .last {
+  display: flex;
+  align-items: center;
+}
+
+#buddypress #subnav .filter label[for],
+#buddypress #subnav .last label[for] {
+  display: none !important;
+  margin-bottom: 0;
+}
+
+#buddypress #subnav div.item-list-tabs,
+#buddypress.youzify div.item-list-tabs {
+  background: none;
+}
+
+/****
+# Ratings + Votes
+ ****/
+.youzify-user-ratings-details .youzify-user-ratings-rate,
+.youzify-user-ratings-details .youzify-user-ratings-total {
+  color: inherit;
+  opacity: .8;
+}
+
+.youzify-user-ratings-details .youzify-separator {
+  color: inherit;
+  opacity: .5;
+}
+
+.youzify-user-ratings-details .youzify-star-rating .star-empty {
+  opacity: .25;
+}
+
+.youzify-rate-user > label {
+  cursor: pointer;
+}
+
+.youzify-modal-close-icon {
+  border: 0;
+  font-size: 1rem !important;
+}
+
+/****
+# Pagination
+ ****/
+.youzify-page-main-content .pagination {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.youzify-page-main-content .pagination .pagination-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem 0 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .youzify-page-main-content .pagination .pagination-inner {
+    flex-direction: row;
+    justify-content: normal;
+  }
+}
+
+.youzify-page-main-content .pagination .pag-count {
+  margin-bottom: 1rem;
+  color: inherit !important;
+  font-style: inherit !important;
+  margin-right: 0 !important;
+  opacity: .5;
+}
+
+@media (min-width: 768px) {
+  .youzify-page-main-content .pagination .pag-count {
+    margin-left: auto;
+    margin-bottom: 0;
+  }
+}
+
+.youzify-page-main-content .pagination .page-numbers {
+  margin-top: 0;
+  width: 35px;
+  height: 35px;
+  font-weight: 600;
+  padding-right: 2px !important;
+  padding-left: 2px !important;
+  line-height: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.youzify-page-main-content .pagination .pagination-links {
+  margin: 0;
+}
+
+.emojionearea .emojionearea-button {
+  background: #fff;
+  border-radius: 500px;
+  z-index: 0;
+}
+
+/****
+# Widgets
+ ****/
+.youzify-sidebar .widget-content,
+.youzify-sidebar .youzify-my-account-widget {
+  border-style: solid;
+}
+
+.youzify-sidebar .youzify-head-content .youzify-head-username {
+  color: var(--grimlock-heading-color) !important;
+}
+
+.youzify-sidebar .youzify-author .youzify-user-statistics {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.youzify-widget {
+  margin-bottom: 2rem;
+}
+
+.youzify-profile-sidebar .youzify-user-img {
+  margin: 0 auto 1rem auto;
+  width: 100px;
+  height: 100px;
+}
+
+a.youzify-profile-login {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.youzify-wg-networks a {
+  color: #fff !important;
+}
+
+.youzify-aboutme-description {
+  color: inherit;
+  opacity: .75;
+  font-style: italic;
+  line-height: 1.4em;
+  font-size: 0.85em;
+}
+
+.youzify-user_balance .youzify-widget-head {
+  border: 0;
+}
+
+.youzify-user_balance .youzify-widget-head + .youzify-widget-content .youzify-user-balance-box {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.sidebar .widget #groups-list-options,
+.sidebar .widget #members-list-options,
+.sidebar .widget #friends-list-options,
+.sidebar .widget #bp-group-rating-list-options,
+.youzify-sidebar-column .widget #groups-list-options,
+.youzify-sidebar-column .widget #members-list-options,
+.youzify-sidebar-column .widget #friends-list-options,
+.youzify-sidebar-column .widget #bp-group-rating-list-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem .5rem 1rem .5rem !important;
+}
+
+.sidebar .widget #groups-list-options a,
+.sidebar .widget #members-list-options a,
+.sidebar .widget #friends-list-options a,
+.sidebar .widget #bp-group-rating-list-options a,
+.youzify-sidebar-column .widget #groups-list-options a,
+.youzify-sidebar-column .widget #members-list-options a,
+.youzify-sidebar-column .widget #friends-list-options a,
+.youzify-sidebar-column .widget #bp-group-rating-list-options a {
+  border: 0;
+  font-size: .75rem;
+  letter-spacing: 0;
+  font-weight: bold;
+  opacity: 1 !important;
+}
+
+.sidebar .widget #groups-list-options a:hover,
+.sidebar .widget #members-list-options a:hover,
+.sidebar .widget #friends-list-options a:hover,
+.sidebar .widget #bp-group-rating-list-options a:hover,
+.youzify-sidebar-column .widget #groups-list-options a:hover,
+.youzify-sidebar-column .widget #members-list-options a:hover,
+.youzify-sidebar-column .widget #friends-list-options a:hover,
+.youzify-sidebar-column .widget #bp-group-rating-list-options a:hover {
+  opacity: .7 !important;
+}
+
+.sidebar .widget_bp_core_members_widget #members-list .vcard,
+.sidebar .widget_bp_group_review_tab #bp-group-rating .vcard,
+.sidebar .widget_bp_groups_widget #groups-list li,
+.youzify-sidebar-column .widget_bp_core_members_widget #members-list .vcard,
+.youzify-sidebar-column .widget_bp_group_review_tab #bp-group-rating .vcard,
+.youzify-sidebar-column .widget_bp_groups_widget #groups-list li {
+  padding: .5rem;
+  display: flex;
+  align-items: center !important;
+  margin: 15px 0 0 0;
+}
+
+.sidebar .widget_bp_core_members_widget #members-list .vcard div.item-avatar,
+.sidebar .widget_bp_group_review_tab #bp-group-rating .vcard div.item-avatar,
+.sidebar .widget_bp_groups_widget #groups-list li div.item-avatar,
+.youzify-sidebar-column .widget_bp_core_members_widget #members-list .vcard div.item-avatar,
+.youzify-sidebar-column .widget_bp_group_review_tab #bp-group-rating .vcard div.item-avatar,
+.youzify-sidebar-column .widget_bp_groups_widget #groups-list li div.item-avatar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sidebar .widget_bp_core_members_widget #members-list .vcard div.item-avatar > a,
+.sidebar .widget_bp_group_review_tab #bp-group-rating .vcard div.item-avatar > a,
+.sidebar .widget_bp_groups_widget #groups-list li div.item-avatar > a,
+.youzify-sidebar-column .widget_bp_core_members_widget #members-list .vcard div.item-avatar > a,
+.youzify-sidebar-column .widget_bp_group_review_tab #bp-group-rating .vcard div.item-avatar > a,
+.youzify-sidebar-column .widget_bp_groups_widget #groups-list li div.item-avatar > a {
+  width: auto !important;
+  height: auto !important;
+}
+
+.sidebar .widget_bp_core_whos_online_widget .item-avatar img.avatar,
+.sidebar .widget_bp_core_recently_active_widget .item-avatar img.avatar,
+.youzify-sidebar-column .widget_bp_core_whos_online_widget .item-avatar img.avatar,
+.youzify-sidebar-column .widget_bp_core_recently_active_widget .item-avatar img.avatar {
+  width: 50px !important;
+  height: 50px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.sidebar .widget ul#groups-list.item-list > li div.item-avatar img.avatar,
+.sidebar .widget ul#members-list.item-list > li div.item-avatar img.avatar,
+.sidebar .widget ul#friends-list.item-list > li div.item-avatar img.avatar,
+.sidebar .widget ul#bp-group-rating.item-list > li div.item-avatar img.avatar,
+.youzify-sidebar-column .widget ul#groups-list.item-list > li div.item-avatar img.avatar,
+.youzify-sidebar-column .widget ul#members-list.item-list > li div.item-avatar img.avatar,
+.youzify-sidebar-column .widget ul#friends-list.item-list > li div.item-avatar img.avatar,
+.youzify-sidebar-column .widget ul#bp-group-rating.item-list > li div.item-avatar img.avatar {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.sidebar .widget_bp_core_recently_active_widget .avatar-block img,
+.youzify-sidebar-column .widget_bp_core_recently_active_widget .avatar-block img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.sidebar .widget_bp_core_members_widget #members-list .vcard .item-meta .activity,
+.sidebar .widget_bp_groups_widget #groups-list li .item-meta .activity,
+.youzify-sidebar-column .widget_bp_core_members_widget #members-list .vcard .item-meta .activity,
+.youzify-sidebar-column .widget_bp_groups_widget #groups-list li .item-meta .activity {
+  font-size: .7em !important;
+}
+
+.sidebar .widget:not(.widget-content) ul#groups-list.item-list > li,
+.youzify-sidebar-column .widget:not(.widget-content) ul#groups-list.item-list > li {
+  margin-bottom: 0;
+}
+
+/****
+# ProfileHeader
+ ****/
+.youzify-cover-content {
+  color: #fff;
+}
+
+#youzify-profile-header .youzify-cover-content {
+  z-index: 98;
+}
+
+#youzify-profile-header .youzify-tools {
+  z-index: 999;
+}
+
+.youzify-header-cover {
+  color: #fff !important;
+}
+
+.youzify-header-networks a {
+  color: inherit !important;
+}
+
+.youzify-header-networks a i {
+  color: inherit;
+}
+
+.youzify-header-head .youzify-usermeta li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.youzify-header-head .youzify-usermeta li,
+.youzify-header-head .youzify-usermeta li i,
+.youzify-header-head .youzify-usermeta li span {
+  color: inherit;
+}
+
+.youzify-head-content .youzify-head-username {
+  color: #fff;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+}
+
+.youzify .youzify-boxed-navbar .youzify-settings-area,
+.youzify .youzify-boxed-navbar .youzify-social-buttons {
+  padding-left: 25px;
+}
+
+.youzify-profile-header .youzify-cover-content .youzify-inner-content {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+@media (min-width: 992px) {
+  .youzify-profile-header .youzify-cover-content .youzify-inner-content {
+    width: 100%;
+    max-width: 1400px;
+  }
+}
+
+.youzify-hdr-v1 .youzify-cover-content .youzify-inner-content {
+  width: 100%;
+  right: 50%;
+  transform: translate3d(50%, 0, 0);
+}
+
+.youzify-hdr-v1 .youzify-user-statistics {
+  left: 30px;
+}
+
+@media (min-width: 768px) {
+  .youzify-hdr-v1.youzify-hdr-v8 .youzify-cover-content .youzify-inner-content {
+    transform: translate3d(50%, -20%, 0);
+  }
+}
+
+@media (min-width: 992px) {
+  .youzify-hdr-v2 .youzify-cover-content,
+  .youzify-hdr-v7 .youzify-cover-content {
+    width: 100%;
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .youzify-hdr-v2 .youzify-cover-content .youzify-inner-content {
+    padding-right: 185px;
+  }
+}
+
+@media (min-width: 768px) {
+  .youzify-hdr-v3 .youzify-cover-content .youzify-inner-content {
+    max-width: 380px;
+  }
+}
+
+.youzify-hdr-v3 .youzify-name h2 {
+  font-weight: 600;
+}
+
+#youzify-profile-navmenu .youzify-settings-menu {
+  top: 100%;
+  border: 0;
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.12);
+}
+
+#youzify-profile-navmenu .youzify-settings-menu a {
+  display: flex;
+}
+
+#youzify-profile-navmenu .youzify-settings-menu a i {
+  color: inherit !important;
+}
+
+#youzify-profile-navmenu .youzify-settings-menu a span {
+  color: inherit !important;
+}
+
+.youzify-account-settings-menu .youzify-arrow-bottom {
+  border-color: currentColor !important;
+}
+
+/****
+# Members Swap fixes
+ ****/
+#buddypress.buddypress-members-index-swap {
+  margin: 2rem auto;
+  width: 100%;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .card-body {
+  padding-bottom: 1rem !important;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .entry-title a {
+  display: inline-flex;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .action a:before {
+  margin: 0;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .action .youzify-profile-settings {
+  display: none;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .youzify-user-ratings-details {
+  text-align: center;
+  padding: 0 1rem 2rem 1rem;
+  margin: 0;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .youzify-user-ratings-details > div:not(.youzify-user-rating-stars),
+#buddypress.buddypress-members-index-swap .bp-card-list__item .youzify-user-ratings-details span {
+  display: none;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .youzify-user-ratings-details .youzify-user-rating-stars {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item.is-current-user .action {
+  display: none !important;
+}
+
+#youzify-profile-navmenu .youzify-settings-menu {
+  width: 225px;
+}
+
+/****
+# BP Search Profile fixes
+ ****/
+.youzify .bps_form .bps-custom-select {
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+.youzify .bps_form .editfield {
+  border: 0 !important;
+}
+
+.youzify .bps_form .editfield input[type="search"],
+.youzify .bps_form .editfield input[type="text"],
+.youzify .bps_form .editfield input[type="date"] {
+  min-height: 54px;
+}
+
+#youzify-members-directory a.bps-toggle-modal {
+  top: 18px !important;
+  left: calc(1rem + 5px) !important;
+  z-index: 50 !important;
+  background-color: var(--grimlock-table-striped-background-color);
+}
+
+@media (min-width: 768px) {
+  #youzify-members-directory a.bps-toggle-modal {
+    left: 1rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #youzify-members-directory a.bps-toggle-modal ~ .youzify-directory-filter {
+    padding-left: calc(50px + 1rem);
+    width: 100%;
+  }
+}
+
+#youzify-members-directory .bps_filters {
+  position: fixed !important;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 !important;
+  border: 0;
+  z-index: 99;
+}
+
+.bps_form .editfield input, .bps_form .editfield select {
+  margin-bottom: .5rem;
+}
+
+.bps_form .editfield .nice-select {
+  width: 100%;
+  margin-bottom: .5rem;
+  border-style: solid;
+}
+
+.bps_form .editfield .nice-select .current {
+  height: 50px;
+  line-height: 50px;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-align: right;
+}
+
+.bps_form .editfield .nice-select .option {
+  color: inherit;
+}
+
+.bps_form .editfield .nice-select .option.focus, .bps_form .editfield .nice-select .option.selected, .bps_form .editfield .nice-select .option.selected.focus, .bps_form .editfield .nice-select .option:hover {
+  font-weight: inherit;
+}
+
+.bps_form .description {
+  opacity: 0.7;
+  font-size: .8em;
+}
+
+.bps_form .submit {
+  margin-top: 1.5rem;
+}
+
+.youzify-group-infos-widget .youzify-group-widget-title {
+  font-weight: 600;
+}
+
+.youzify-widget .youzify-recent-posts .youzify-post-meta ul li {
+  font-size: 10px;
+  margin-top: 8px;
+  font-weight: 600;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.youzify-widget .youzify-recent-posts .youzify-post-head .youzify-post-title a:hover {
+  color: var(--grimlock-archive-post-title-color) !important;
+}
+
+/****
+# Site notices & warnings
+ ****/
+#sitewide-notice #message {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+#youzify #message,
+#youzify div#message {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: none !important;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#youzify #message > p,
+#youzify div#message > p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#youzify #message > p:before,
+#youzify div#message > p:before {
+  font-family: FontAwesome !important;
+  margin-left: 8px;
+}
+
+#youzify #message a,
+#youzify div#message a {
+  color: inherit !important;
+}
+
+#youzify #message a:hover,
+#youzify div#message a:hover {
+  opacity: 0.7;
+}
+
+#youzify #message.updated > p:before, #youzify #message.success > p:before,
+#youzify div#message.updated > p:before,
+#youzify div#message.success > p:before {
+  font-family: var(--grimlock-icon-alert-circle-font-family) !important;
+  content: var(--grimlock-icon-alert-circle);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#youzify #message img.avatar,
+#youzify div#message img.avatar {
+  margin: 0;
+  width: 14px;
+}
+
+#youzify #message {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0;
+}
+
+#youzify #message.bp-template-notice {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  overflow: auto;
+}
+
+/****
+# Uploads
+ ****/
+.youzify-tab-post {
+  border-style: solid;
+}
+
+.youzify-tab-post .youzify-post-meta ul li {
+  font-size: 0.8em;
+  color: inherit;
+}
+
+.youzify-tab-post .youzify-post-text p {
+  font-size: 0.9em;
+  color: inherit;
+}
+
+.youzify-tab-comment {
+  border-style: solid;
+}
+
+.youzify-tab-comment .youzify-comment-date span {
+  opacity: .5;
+}
+
+/****
+# Loading state
+ ****/
+.youzify-loading .youzify_msg {
+  color: inherit;
+}
+
+.youzify-loading .youzify_msg span,
+.youzify-loading .youzify_msg .youzify-msg-icon i {
+  color: inherit;
+}
+
+.youzify-loading .youzify_msg span {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/****
+# Forums
+ ****/
+.youzify-forums-topic-title {
+  font-size: 1.2em;
+  color: var(--grimlock-archive-post-title-color);
+}
+
+.youzify-forums-topic-author .bbp-author-avatar {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.youzify-forums-topic-author .bbp-author-avatar .avatar {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.youzify-bbp-box-content > div:not([class]) {
+  background: none !important;
+}
+
+.mygroups #youzify-groups-list .action .button.remove,
+.mygroups #youzify-groups-list .action .button.leave-group,
+#friend-list .action .button.remove,
+#friend-list .action .button.leave-group {
+  padding: .5rem 1rem;
+  font-size: 0.8em;
+  letter-spacing: 0;
+  background: #e74c3c !important;
+  color: #fff !important;
+}
+
+.mygroups #youzify-groups-list .action .button.remove:before,
+.mygroups #youzify-groups-list .action .button.leave-group:before,
+#friend-list .action .button.remove:before,
+#friend-list .action .button.leave-group:before {
+  color: inherit !important;
+}
+
+.mygroups #youzify-groups-list {
+  margin: 0;
+}
+
+.mygroups #youzify-groups-list > li {
+  padding: 0;
+}
+
+#item-header .friendship-button a,
+#item-header .follow-button a,
+#item-header .message-button a {
+  font-size: .85em;
+  letter-spacing: 0;
+  padding: .5rem 1rem;
+}
+
+#item-header .friendship-button a:before,
+#item-header .follow-button a:before,
+#item-header .message-button a:before {
+  font-size: .95em;
+}
+
+#item-header .youzify-send-message {
+  margin-right: 10px;
+}
+
+#item-header .youzify-follow-message-button a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: none;
+  border: none;
+  height: 40px;
+  padding: 0 1rem;
+}
+
+#item-header .youzify-follow-message-button .message-button a {
+  padding: 0;
+  margin: 0;
+}
+
+#item-header .youzify-follow-message-button .message-button a:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 500px;
+  width: 38px;
+  height: 38px;
+  line-height: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2px;
+}
+
+.youzify-horizontal-layout .youzify-navbar-inline-icons .youzify-navbar-item a,
+.youzify-vertical-layout .youzify-navbar-inline-icons .youzify-navbar-item a {
+  min-width: 110px;
+}
+
+.youzify-bbp-freshness-author-img .bbp-author-avatar {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.youzify-bbp-freshness-author-img .bbp-author-avatar img.avatar {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.youzify-forums-topic-author {
+  display: inline-flex;
+  align-items: center;
+}
+
+.settings-inner-content .options-section-title h2 i {
+  color: inherit;
+  border-radius: 500px;
+}
+
+.youzify-change-photo:hover {
+  transform: scale(1.1);
+}
+
+.youzify-change-photo:hover i {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.youzify .bp-avatar-nav ul.avatar-nav-items {
+  border: none;
+}
+
+.youzify .bp-avatar-nav ul.avatar-nav-items li {
+  margin-left: 5px;
+}
+
+.youzify .bp-avatar-nav ul.avatar-nav-items li.current {
+  border: 0;
+  border-radius: 500px;
+}
+
+#youzify-export-data .youzify-section-content,
+.youzify-section-content > .uk-option-item {
+  background: none;
+}
+
+.youzify-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.youzify.youzify-account-page .youzify-settings-sidebar .youzify-account-header > ul a {
+  color: #fff !important;
+}
+
+.youzify.youzify-account-page .youzify-settings-sidebar .youzify-head-buttons {
+  border: 0;
+  background: none;
+}
+
+.youzify.youzify-account-page .youzify-settings-sidebar .youzify-account-settings-menu {
+  background: none;
+}
+
+.youzify.youzify-account-page .youzify-settings-sidebar .youzify-account-settings-menu .youzify-account-menu {
+  border-bottom-width: 2px;
+  background: none !important;
+}
+
+.youzify.youzify-account-page .youzify-settings-sidebar .youzify-account-settings-menu .youzify-account-menus {
+  background: none;
+}
+
+.youzify.youzify-account-page .youzify-settings-sidebar .youzify-account-settings-menu .youzify-account-menus ul {
+  background: none;
+  padding: 1rem;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+.youzify.youzify-account-page .youzify-settings-sidebar .youzify-account-settings-menu .youzify-account-menus ul li a {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.youzify.youzify-account-page .nice-select {
+  min-width: 250px;
+}
+
+.youzify .editfield label .bp-required-field-label,
+.youzify .editfield legend .bp-required-field-label {
+  background-color: #e74c3c;
+  color: #fff;
+  border-radius: 500px;
+}
+
+.datebox-selects .nice-select {
+  min-width: 85px !important;
+  max-width: 120px;
+}
+
+.youzify .bp-avatar-status p.success,
+.youzify .bp-cover-image-status p.success {
+  background-color: #3DBDB6;
+  color: #fff !important;
+}
+
+@media screen and (min-width: 1025px) {
+  .settings-main-content > #template-notices {
+    margin-right: 35px;
+  }
+}
+
+.youzify-show-item-tools i.loaded i, .youzify-show-item-tools i.loading i {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.youzify-show-item-tools i, .youzify-show-item-tools i:hover {
+  color: inherit;
+}
+
+.youzify-item-tools {
+  border: none;
+  text-align: center;
+}
+
+.youzify-item-tools .youzify-tool-name {
+  color: inherit;
+}
+
+.youzify-item-tools .youzify-item-tool {
+  margin-left: 15px;
+}
+
+.youzify-item-tools .youzify-item-tool .youzify-tool-icon {
+  margin-left: 2px;
+  pointer-events: none;
+}
+
+.youzify-item-tools i, .youzify-item-tools i:hover {
+  color: inherit;
+}
+
+.youzify-post-more-button:hover,
+.youzify-read-more:hover {
+  color: #fff !important;
+}
+
+.youzify-post-more-button .youzify-btn-icon,
+.youzify-post-more-button .youzify-rm-icon,
+.youzify-read-more .youzify-btn-icon,
+.youzify-read-more .youzify-rm-icon {
+  float: left;
+}
+
+.youzify-post-more-button .youzify-btn-icon .fa-angle-double-right:before,
+.youzify-post-more-button .youzify-rm-icon .fa-angle-double-right:before,
+.youzify-read-more .youzify-btn-icon .fa-angle-double-right:before,
+.youzify-read-more .youzify-rm-icon .fa-angle-double-right:before {
+  content: "\f105";
+}
+
+.youzify-items-list-widget .youzify-list-item .youzify-item-action .youzify-icon-button i {
+  border-radius: 500px;
+}
+
+i.youzify-big-verified-icon {
+  font-size: 14px;
+}
+
+#youzify-profile-navmenu .friendship-button a {
+  color: #fff !important;
+}
+
+.youzify-bbp-freshness-time {
+  margin-top: 0;
+}
+
+.youzify-bbp-topic-head {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.youzify-bbp-topic-head .youzify-bbp-topic-head-meta {
+  margin-top: 0 !important;
+}
+
+.youzify-bbp-topic-head .youzify-bbp-topic-head-meta .bbp-author-avatar {
+  display: none;
+}
+
+.youzify-quote-post .youzify-quote-icon {
+  border-radius: 500px;
+}
+
+.youzify-quote-post blockquote {
+  margin: 0 !important;
+  background: none !important;
+  padding: 0;
+  width: 100%;
+  border: 0;
+  color: #fff !important;
+}
+
+.youzify-quote-post blockquote:before {
+  content: none !important;
+}
+
+.youzify-quote-post .youzify-quote-owner {
+  float: right;
+  margin-top: 0.7rem;
+}
+
+.youzify-bookmark-tool .youzify-tool-icon i {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+  .youzify-horizontal-layout .youzify-page-main-content {
+    padding: 15px 20px 0 !important;
+  }
+  .youzify .youzify-boxed-navbar {
+    margin: 0 20px !important;
+    width: auto !important;
+  }
+}
+
+fieldset + fieldset {
+  margin-top: 2rem;
+}
+
+.youzify-group-submit-form {
+  margin-top: 2rem;
+}
+
+#invite-list ul li label img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.youzify-user-statistics .youzify-snumber {
+  font-weight: 600;
+}
+
+.youzify-user-statistics .youzify-sdescription {
+  text-transform: capitalize;
+}
+
+#invite-list li {
+  padding: 0 !important;
+}
+
+#invite-list li label {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#invite-list li label youzify_field_indication {
+  top: 1.4rem !important;
+  right: 5px;
+}
+
+#invite-list li label youzify_field_indication:after {
+  top: 4px;
+  right: 8px;
+}
+
+#buddypress div.item-list-tabs.primary-list-tabs > ul > li,
+#buddypress.youzify div.item-list-tabs li {
+  background: none !important;
+  color: inherit !important;
+}
+
+@media (max-width: 991.98px) {
+  #buddypress div.item-list-tabs.primary-list-tabs > ul > li,
+  #buddypress.youzify div.item-list-tabs li {
+    margin-bottom: 1rem;
+  }
+}
+
+#buddypress div.item-list-tabs.primary-list-tabs > ul > li a,
+#buddypress.youzify div.item-list-tabs li a {
+  background: none !important;
+  margin: 0 !important;
+  color: inherit !important;
+  text-transform: capitalize;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@media (min-width: 576px) {
+  #buddypress div.item-list-tabs.primary-list-tabs > ul > li a,
+  #buddypress.youzify div.item-list-tabs li a {
+    padding: 0 .5rem;
+  }
+}
+
+#buddypress div.item-list-tabs.primary-list-tabs > ul > li label,
+#buddypress.youzify div.item-list-tabs li label {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  #directory-show-filter {
+    display: none !important;
+  }
+  #members-order-select {
+    margin-bottom: 0 !important;
+  }
+}
+
+#search-members-form input[type="submit"],
+#members-dir-search input[type="submit"],
+.youzify-directory-filter input[type="submit"],
+.messages-options-nav input[type="submit"],
+.notifications-options-nav input[type="submit"] {
+  padding: .4rem 1.15rem !important;
+  letter-spacing: 0 !important;
+  line-height: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.youzify #group-settings-form .group-members-list li {
+  display: flex !important;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.youzify #group-settings-form .group-members-list li .item {
+  width: auto;
+}
+
+.youzify #group-settings-form .group-members-list li .action a.button {
+  border: 0 !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  letter-spacing: 0 !important;
+  background: none !important;
+  border-radius: 0 !important;
+  color: inherit !important;
+  padding: 0;
+}
+
+.youzify #group-settings-form .group-members-list li .action a.button i {
+  opacity: .7;
+  color: inherit !important;
+}
+
+.youzify #group-settings-form p {
+  font-size: .75em;
+}
+
+.group-members-list .section-header {
+  margin-top: 2.5rem;
+}
+
+.group-members-list .section-header i,
+.main-column .section-header i {
+  border-radius: 500px !important;
+}
+
+#youzify table.messages-notices,
+#youzify table.notifications {
+  margin-bottom: 1rem;
+}
+
+#youzify table.messages-notices thead,
+#youzify table.notifications thead {
+  background: none !important;
+}
+
+#youzify table.messages-notices td,
+#youzify table.messages-notices th,
+#youzify table.notifications td,
+#youzify table.notifications th {
+  vertical-align: middle;
+}
+
+#youzify table.messages-notices .notification-description,
+#youzify table.notifications .notification-description {
+  text-align: right;
+}
+
+#youzify table.messages-notices .notification-description a,
+#youzify table.notifications .notification-description a {
+  padding: 0;
+}
+
+#youzify table.messages-notices .thread-options a span,
+#youzify table.messages-notices .notification-actions a span,
+#youzify table.notifications .thread-options a span,
+#youzify table.notifications .notification-actions a span {
+  border-radius: 500px !important;
+}
+
+#youzify table.messages-notices .thread-options .delete span,
+#youzify table.messages-notices .notification-actions .delete span,
+#youzify table.notifications .thread-options .delete span,
+#youzify table.notifications .notification-actions .delete span {
+  color: #fff;
+  background-color: var(--grimlock-color-danger);
+}
+
+.select-style {
+  opacity: 1 !important;
+}
+
+.select-style:before, .select-style:after {
+  content: none !important;
+}
+
+.youzify-settings-area .youzify-quick-buttons .youzify-button-count {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none !important;
+}
+
+.wp-core-ui .quicktags-toolbar input.button.button-small {
+  padding: 5px !important;
+  line-height: 1rem !important;
+}
+
+.youzify-bbp-form-item .nice-select {
+  width: 100%;
+}
+
+.nice-select {
+  width: 100%;
+}
+
+.messages-options-nav .nice-select {
+  width: auto;
+}
+
+.nice-select .list {
+  max-height: 250px !important;
+  border-radius: var(--grimlock-control-border-radius);
+}
+
+@media (min-width: 768px) {
+  .nice-select .list {
+    min-width: calc(100% + 15px);
+  }
+}
+
+.nice-select .list .option {
+  color: inherit !important;
+  line-height: 1.4em;
+  align-items: center;
+  display: flex;
+  padding: 5px 10px;
+  font-weight: var(--grimlock-navigation-font-weight);
+}
+
+.nice-select.current {
+  text-align: right;
+}
+
+.nice-select:after {
+  margin-top: -2px;
+}
+
+.nice-select:after,
+.youzify div.item-list-tabs .youzify-bar-select:after {
+  border-color: currentColor;
+}
+
+.nice-select.open, .nice-select:active,
+.nice-select:focus {
+  border-color: transparent;
+}
+
+#group-settings-form #bbp_group_forum_id + .nice-select {
+  min-width: 250px;
+}
+
+.manage-members #group-settings-form,
+.membership-requests #group-settings-form {
+  box-shadow: none;
+}
+
+/* Modal search */
+.modal .bps-custom-select {
+  border: 0 !important;
+}
+
+.modal .bps-custom-select:after {
+  content: none !important;
+}
+
+.youzify-account-header ul li a .youzify-link-item {
+  color: #fff !important;
+}
+
+.youzify-media-box,
+.youzify-media-filter {
+  background: none !important;
+}
+
+.youzify-media .youzify-media-group-icon i {
+  border-radius: 500px;
+}
+
+.youzify-media-group-head .youzify-media-group-view-all {
+  color: #fff !important;
+}
+
+.youzify-media-group-head .youzify-media-group-view-all:hover {
+  opacity: .7;
+}
+
+#grimlock-login-form-modal .modal-content,
+#grimlock-login-form-modal .modal-body {
+  padding: 0 !important;
+}
+
+#grimlock-login-form-modal .logy-form {
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+  box-shadow: none;
+}
+
+#grimlock-login-form-modal .modal-body > #loginform {
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.dir-filter label[for] {
+  display: none !important;
+}
+
+#bbp-search-form {
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+}
+
+@media only screen and (min-width: 425px) {
+  #bbp-search-form > div {
+    display: flex;
+  }
+}
+
+#bbp-search-form button[type="submit"] {
+  position: static !important;
+  opacity: 1 !important;
+}
+
+.activity.bp-user.activity-permalink.wall #content {
+  margin: 0;
+  padding: 0;
+}
+
+.activity.bp-user.activity-permalink.wall #content > .region__container {
+  max-width: 100%;
+}
+
+.youzify .activity-comments {
+  background: var(--grimlock-table-striped-background-color) !important;
+}
+
+.bbp-reply-header .bbp-meta {
+  padding: 1rem;
+}
+
+.youzify-no-items-found {
+  padding: 2rem;
+}
+
+.page-template-template-dashboard .widget.buddypress .item-options a {
+  color: inherit !important;
+}
+
+.youzify-forums-statistics-content .youzify-forums-statistics-nbr {
+  font-weight: 600;
+  color: inherit !important;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+/* bbPress */
+.widget.widget_display_topics ul.bbp-replies-widget li,
+.widget.widget_display_topics ul.bbp-topics-widget li,
+.widget_display_topics ul.bbp-replies-widget li,
+.widget_display_topics ul.bbp-topics-widget li {
+  padding: .5rem 70px .5rem 25px;
+  margin-bottom: .5rem;
+}
+
+.widget.widget_display_topics ul.bbp-replies-widget li:not(:hover),
+.widget.widget_display_topics ul.bbp-topics-widget li:not(:hover),
+.widget_display_topics ul.bbp-replies-widget li:not(:hover),
+.widget_display_topics ul.bbp-topics-widget li:not(:hover) {
+  background: none;
+}
+
+.widget_bp_core_members_widget #members-list .vcard, .widget_bp_groups_widget #groups-list li {
+  margin: .5rem 0 0 0;
+}
+
+#bbpress-forums div.bbp-forum-author img.avatar,
+#bbpress-forums div.bbp-reply-author img.avatar,
+#bbpress-forums div.bbp-topic-author img.avatar {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+#bbpress-forums div.even, #bbpress-forums ul.even {
+  padding: 1rem;
+}
+
+#bbpress-forums ul.bbp-forums li.bbp-header,
+#bbpress-forums ul.bbp-topics li.bbp-header,
+#bbpress-forums ul.bbp-search-results li.bbp-header {
+  margin-bottom: .5rem;
+}
+
+#bbpress-forums ul.bbp-forums li.bbp-header ul li,
+#bbpress-forums ul.bbp-topics li.bbp-header ul li,
+#bbpress-forums ul.bbp-search-results li.bbp-header ul li {
+  background: none !important;
+  color: #fff !important;
+}
+
+#bbpress-forums li.bbp-body ul.forum,
+#bbpress-forums li.bbp-body ul.topic {
+  padding: 1.2rem;
+  border-radius: 0 !important;
+}
+
+#bbpress-forums li.bbp-forum-freshness, #bbpress-forums li.bbp-topic-freshness {
+  text-align: center;
+}
+
+.youzify-forums-topic-meta,
+.youzify-forums-topic-author {
+  display: flex;
+  align-items: center;
+}
+
+.youzify-bbp-freshness-data {
+  display: flex;
+  word-break: break-word;
+}
+
+#bbpress-forums ul.bbp-forums li.bbp-header,
+#bbpress-forums ul.bbp-topics li.bbp-header,
+#bbpress-forums ul.bbp-search-results li.bbp-header {
+  padding: 1rem;
+  text-transform: none;
+  opacity: 1;
+}
+
+#bbpress-forums ul.bbp-forums li.bbp-body ul.forum,
+#bbpress-forums ul.bbp-forums li.bbp-body ul.topic,
+#bbpress-forums ul.bbp-topics li.bbp-body ul.forum,
+#bbpress-forums ul.bbp-topics li.bbp-body ul.topic,
+#bbpress-forums ul.bbp-search-results li.bbp-body ul.forum,
+#bbpress-forums ul.bbp-search-results li.bbp-body ul.topic {
+  display: flex;
+  align-items: center;
+}
+
+#bbpress-forums .bbp-forums-list {
+  margin-top: 1rem !important;
+}
+
+.youzify #bbpress-forums select {
+  width: 100%;
+}
+
+.youzify #bbpress-forums #bbp-search-form #bbp_search,
+.youzify #bbpress-forums .bbp-search-form #rs,
+.youzify #bbpress-forums .bbp-search-form #ts {
+  color: var(--grimlock-control-color);
+  border: var(--grimlock-control-border-width) solid var(--grimlock-control-border-color);
+  border-radius: var(--grimlock-control-border-radius);
+  background-color: var(--grimlock-control-background-color);
+}
+
+.youzify #bbpress-forums #bbp-search-form #bbp_search:focus,
+.youzify #bbpress-forums .bbp-search-form #rs:focus,
+.youzify #bbpress-forums .bbp-search-form #ts:focus {
+  color: var(--grimlock-control-focus-color);
+  border-color: var(--grimlock-control-focus-border-color);
+  background-color: var(--grimlock-control-focus-background-color);
+}
+
+.youzify #bbpress-forums li.bbp-body,
+.youzify #bbpress-forums li.bbp-footer,
+.youzify #bbpress-forums li.bbp-header {
+  border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+}
+
+.youzify #bbpress-forums div.bbp-search-form {
+  border-style: solid;
+}
+
+.youzify #bbpress-forums div.bbp-search-form:after {
+  content: none;
+}
+
+.youzify #bbpress-forums div.bbp-search-form form#bbp-search-form {
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.youzify #bbpress-forums div.bbp-search-form form#bbp-search-form:after {
+  content: none;
+}
+
+.youzify #bbpress-forums div.bbp-search-form form#bbp-search-form input[type="submit"]#bbp_search_submit {
+  opacity: 1;
+  margin: 0;
+  color: #fff;
+  border: none;
+  padding: 0 15px;
+  font-size: 12px !important;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+#buddypress .bboss_search_results_wrapper #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul > li.axctive, #buddypress .bboss_search_results_wrapper #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul > li.current {
+  color: var(--grimlock-button-primary-background-color) !important;
+}
+
+#buddypress .bboss_search_results_wrapper #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul > li > a {
+  padding: .8rem 1.1rem !important;
+}
+
+/* WooCommerce */
+#youzify .youzify .yzwc-main-content table.shop_table {
+  width: 100%;
+  margin: 0 0 24px -1px;
+  padding-right: 0;
+  text-align: right;
+  background-color: transparent;
+  border: var(--grimlock-table-border-width) solid var(--grimlock-table-border-color) !important;
+  border-collapse: collapse !important;
+  overflow: visible;
+}
+
+#youzify .youzify .yzwc-main-content table.shop_table th, #youzify .youzify .yzwc-main-content table.shop_table td {
+  color: var(--grimlock-text-color);
+  line-height: 1.5em;
+}
+
+#youzify .youzify .yzwc-main-content table.shop_table th {
+  padding: 9px 12px;
+  font-weight: 700;
+  border-top: var(--grimlock-table-border-width) solid var(--grimlock-table-border-color);
+}
+
+#youzify .youzify .yzwc-main-content table.shop_table td {
+  padding: 20px 12px;
+  border-top: var(--grimlock-table-border-width) solid var(--grimlock-table-border-color);
+  vertical-align: middle;
+}
+
+#youzify .youzify .yzwc-main-content table.shop_table tfoot tr {
+  background-color: transparent !important;
+}
+
+#youzify #group-settings-form textarea, #youzify .youzify-group-settings-tab textarea {
+  color: var(--grimlock-control-color);
+}
+
+.youzify .yzwc-main-content .woocommerce-checkout-review-order table.shop_table tfoot .order-total,
+.youzify .yzwc-main-content .woocommerce-checkout-review-order table.shop_table thead,
+.youzify .yzwc-main-content table.shop_table td a.woocommerce-MyAccount-downloads-file:before,
+.youzify .yzwc-main-content table.shop_table td a.view:before,
+.youzify table.shop_table.order_details tfoot tr:last-child,
+.youzify .yzwc-main-content table.shop_table td.actions .coupon button,
+.youzify .yzwc-main-content table.shop_table td.woocommerce-orders-table__cell-order-number a,
+.youzify .yzwc-main-content table.shop_table thead,
+.youzify .yzwc-main-content table.shop_table thead tr {
+  background-color: transparent !important;
+}
+
+.youzify .yzwc-main-content table.shop_table tbody td,
+.youzify .yzwc-main-content table.shop_table thead th {
+  text-align: right;
+}
+
+#youzify .youzify .yzwc-main-content .woocommerce table.shop_table td a {
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+}
+
+#youzify .youzify .yzwc-main-content .woocommerce table.shop_table td a.remove {
+  position: relative;
+  top: auto;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  font-weight: normal !important;
+  color: inherit !important;
+  text-indent: -9999px;
+  padding: 0;
+  clear: none;
+  background: none;
+  z-index: 2;
+  font-size: 1em;
+  opacity: .5;
+}
+
+#youzify .youzify .yzwc-main-content .woocommerce table.shop_table td a.remove:before {
+  font-family: var(--grimlock-icon-times-circle-font-family) !important;
+  content: var(--grimlock-icon-times-circle);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  text-indent: 0;
+}
+
+#youzify .youzify .yzwc-main-content .woocommerce table.shop_table td a.remove:hover, #youzify .youzify .yzwc-main-content .woocommerce table.shop_table td a.remove:active, #youzify .youzify .yzwc-main-content .woocommerce table.shop_table td a.remove:focus {
+  background: none !important;
+  color: var(--grimlock-color-danger) !important;
+  opacity: 1;
+}
+
+#youzify .youzify .yzwc-main-content .woocommerce table.shop_table td .amount {
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+}
+
+#youzify .youzify .yzwc-main-content .woocommerce table.shop_table td td input {
+  border: 2px solid var(--grimlock-table-striped-background-color);
+  background: var(--grimlock-table-striped-background-color);
+  border-radius: var(--grimlock-button-border-radius);
+}
+
+#youzify .youzify .yzwc-main-content .woocommerce table.shop_table td.actions > button {
+  height: 45px;
+  color: var(--grimlock-button-primary-color);
+  background-color: var(--grimlock-button-primary-background-color) !important;
+}
+
+#youzify .youzify .yzwc-main-content .woocommerce table.shop_table td.actions > button:hover, #youzify .youzify .yzwc-main-content .woocommerce table.shop_table td.actions > button:active, #youzify .youzify .yzwc-main-content .woocommerce table.shop_table td.actions > button:focus {
+  color: var(--grimlock-button-primary-hover-color);
+  background-color: var(--grimlock-button-primary-hover-background-color) !important;
+}
+
+.youzify .yzwc-main-content table.shop_table a:not(:hover) {
+  color: inherit;
+}
+
+#youzify .youzify table.cart td.actions .coupon .input-text {
+  border: var(--grimlock-control-border-width) solid var(--grimlock-control-border-color);
+  background: var(--grimlock-control-background-color);
+  padding: .3rem 1rem;
+  width: 100% !important;
+  margin-left: .75rem;
+  height: 45px;
+}
+
+#youzify .youzify table.cart td.actions .coupon .button {
+  line-height: normal;
+  height: 45px;
+  padding: .3rem 1.2rem;
+  color: var(--grimlock-button-primary-color);
+  background-color: var(--grimlock-button-primary-background-color) !important;
+  border: var(--grimlock-button-border-width) solid var(--grimlock-button-primary-background-color);
+}
+
+#youzify .youzify table.cart td.actions .coupon .button:hover, #youzify .youzify table.cart td.actions .coupon .button:active, #youzify .youzify table.cart td.actions .coupon .button:focus {
+  color: var(--grimlock-button-primary-hover-color);
+  background-color: var(--grimlock-button-primary-hover-background-color) !important;
+  border-color: var(--grimlock-button-primary-hover-background-color);
+}
+
+#youzify .youzify .woocommerce .cart-collaterals .cart_totals {
+  background-color: var(--grimlock-archive-post-background-color);
+  border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+  padding: 1.5rem;
+  color: var(--grimlock-archive-post-color);
+  position: relative;
+  width: 100%;
+}
+
+#youzify .youzify .woocommerce .cart-collaterals .cart_totals h2 {
+  display: block;
+}
+
+#youzify .youzify .woocommerce .cart-collaterals .cart_totals .shop_table {
+  margin: 0 0 6px;
+  font-size: .9em;
+}
+
+#youzify .youzify .woocommerce .cart-collaterals .cart_totals .shop_table .order-total {
+  font-weight: 600;
+}
+
+#youzify .youzify .woocommerce .cart-collaterals .cart_totals .shop_table th, #youzify .youzify .woocommerce .cart-collaterals .cart_totals .shop_table td {
+  text-align: right;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+#youzify .youzify .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.checkout-button {
+  margin-bottom: 0;
+  white-space: normal;
+  padding: 1.2rem 1rem;
+  font-size: 1em;
+}
+
+#youzify .youzify .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.checkout-button:before {
+  content: none;
+}
+
+#youzify .youzify .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.checkout-button:hover, #youzify .youzify .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.checkout-button:active, #youzify .youzify .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.checkout-button:focus {
+  color: var(--grimlock-button-primary-hover-color);
+  background-color: var(--grimlock-button-primary-hover-background-color) !important;
+}
+
+#youzify .youzify .woocommerce-form-coupon-toggle .woocommerce-info {
+  position: relative;
+  padding: 0.75rem 0.75rem;
+  border-radius: var(--grimlock-archive-post-border-radius);
+  background-color: var(--grimlock-button-primary-background-color) !important;
+  color: var(--grimlock-button-primary-color) !important;
+  border: none !important;
+  display: flex;
+  align-items: center;
+  font-size: 0.95em;
+  line-height: var(--grimlock-text-line-height);
+}
+
+#youzify .youzify .woocommerce-form-coupon-toggle .woocommerce-info:before {
+  font-family: var(--grimlock-icon-wc-coupon-font-family) !important;
+  content: var(--grimlock-icon-wc-coupon);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  color: inherit;
+  position: static;
+  margin-left: 1em;
+}
+
+#youzify .youzify .woocommerce-form-coupon-toggle .woocommerce-info:last-child {
+  margin-bottom: 30px;
+}
+
+#youzify .youzify .woocommerce-form-coupon-toggle .woocommerce-info + * {
+  margin-top: .5rem;
+}
+
+#youzify .youzify .woocommerce-form-coupon-toggle .woocommerce-info a {
+  color: inherit !important;
+  font-weight: inherit;
+}
+
+@media (max-width: 991.98px) {
+  #youzify .youzify .woocommerce-form-coupon-toggle .woocommerce-info {
+    flex-direction: column;
+  }
+  #youzify .youzify .woocommerce-form-coupon-toggle .woocommerce-info a.showcoupon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    font-size: 0;
+  }
+}
+
+#youzify .youzify form.woocommerce-checkout h3 {
+  margin-bottom: 1.25rem;
+  font-size: var(--grimlock-heading3-font-size);
+  text-align: right;
+  line-height: var(--grimlock-heading3-line-height);
+  color: var(--grimlock-heading-color);
+  padding: 0;
+  background-color: transparent !important;
+}
+
+#youzify .youzify form.woocommerce-checkout #order_review {
+  color: var(--grimlock-archive-post-color);
+}
+
+#youzify .youzify form.woocommerce-checkout #order_review .shop_table {
+  margin: 0 0 6px;
+  font-size: .9em;
+  color: inherit;
+}
+
+#youzify .youzify form.woocommerce-checkout #order_review .shop_table tr {
+  background: none !important;
+  color: var(--grimlock-archive-post-color);
+}
+
+#youzify .youzify form.woocommerce-checkout #order_review .shop_table th, #youzify .youzify form.woocommerce-checkout #order_review .shop_table td {
+  text-align: right;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+#youzify .youzify form.woocommerce-checkout #order_review .shop_table .order-total {
+  font-weight: 600;
+}
+
+#youzify .youzify form.woocommerce-checkout #order_review .shop_table .order-total th {
+  color: inherit;
+}
+
+#youzify .youzify form.woocommerce-checkout #order_review .shop_table .order-total span {
+  color: inherit;
+}
+
+#youzify .youzify form.woocommerce-checkout #order_review .shop_table .order-total .amount {
+  font-weight: inherit;
+}
+
+#youzify .youzify form.woocommerce-checkout #order_review .shop_table tfoot th {
+  padding-right: 0;
+}
+
+#youzify .youzify form.woocommerce-checkout #order_review .shop_table tfoot td {
+  padding-left: 0;
+  text-align: left;
+}
+
+#youzify .youzify form.woocommerce-checkout #order_review .shop_table td.product-total {
+  text-align: left !important;
+  padding-left: 0;
+  color: inherit;
+}
+
+#youzify .youzify form.woocommerce-checkout .col2-set > div.col-1,
+#youzify .youzify form.woocommerce-checkout .col2-set > div.col-2 {
+  background-color: var(--grimlock-archive-post-background-color);
+  border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+  padding: 1.5rem;
+  color: var(--grimlock-archive-post-color);
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+#youzify .youzify form.woocommerce-checkout .col2-set .yzwc-box-title {
+  margin-bottom: 0;
+}
+
+#youzify .youzify form.woocommerce-checkout .col2-set i.fas {
+  display: none;
+}
+
+#youzify .youzify form.woocommerce-checkout .woocommerce-billing-fields__field-wrapper,
+#youzify .youzify form.woocommerce-checkout .woocommerce-additional-fields__field-wrapper,
+#youzify .youzify form.woocommerce-checkout .woocommerce-checkout-payment .wc_payment_methods {
+  padding: 0;
+}
+
+#youzify .youzify form.woocommerce-checkout #customer_details + .yzwc-box-title {
+  display: none;
+}
+
+#youzify .youzify .yzwc-main-content form .form-row {
+  flex-direction: column;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+#youzify .youzify .yzwc-main-content form .form-row:last-child {
+  margin-bottom: 0;
+}
+
+#youzify .youzify .yzwc-main-content form .form-row label {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  color: inherit;
+  font-size: var(--grimlock-text-font-size);
+  font-weight: 600;
+  line-height: var(--grimlock-text-line-height);
+}
+
+#youzify .youzify .yzwc-main-content form .form-row input.input-text,
+#youzify .youzify .yzwc-main-content form .form-row textarea {
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+  padding: 0.7rem 1rem;
+}
+
+#youzify .youzify #add_payment_method #payment,
+#youzify .youzify .woocommerce-cart #payment,
+#youzify .youzify .woocommerce-checkout #payment {
+  background-color: var(--grimlock-archive-post-background-color);
+  border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+  padding: 1.5rem;
+  color: var(--grimlock-archive-post-color);
+}
+
+#youzify .youzify #add_payment_method #payment ul.payment_methods,
+#youzify .youzify .woocommerce-cart #payment ul.payment_methods,
+#youzify .youzify .woocommerce-checkout #payment ul.payment_methods {
+  padding: 0;
+  border-bottom: none;
+}
+
+#youzify .youzify #add_payment_method #payment ul.payment_methods li,
+#youzify .youzify .woocommerce-cart #payment ul.payment_methods li,
+#youzify .youzify .woocommerce-checkout #payment ul.payment_methods li {
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+  line-height: var(--grimlock-text-line-height);
+  margin: 1em 0;
+}
+
+#youzify .youzify #add_payment_method #payment ul.payment_methods li.wc_payment_method input,
+#youzify .youzify .woocommerce-cart #payment ul.payment_methods li.wc_payment_method input,
+#youzify .youzify .woocommerce-checkout #payment ul.payment_methods li.wc_payment_method input {
+  margin-left: 0.5rem;
+}
+
+#youzify .youzify #add_payment_method #payment ul.payment_methods li label,
+#youzify .youzify .woocommerce-cart #payment ul.payment_methods li label,
+#youzify .youzify .woocommerce-checkout #payment ul.payment_methods li label {
+  font-size: var(--grimlock-text-font-size);
+}
+
+#youzify .youzify #add_payment_method #payment div.form-row,
+#youzify .youzify .woocommerce-cart #payment div.form-row,
+#youzify .youzify .woocommerce-checkout #payment div.form-row {
+  padding: 0;
+}
+
+#youzify .youzify #add_payment_method #payment div.payment_box,
+#youzify .youzify .woocommerce-cart #payment div.payment_box,
+#youzify .youzify .woocommerce-checkout #payment div.payment_box {
+  font-size: .92em;
+  font-weight: var(--grimlock-text-font-weight);
+  line-height: var(--grimlock-text-line-height);
+  color: inherit;
+  background-color: var(--grimlock-table-striped-background-color);
+}
+
+#youzify .youzify #add_payment_method #payment .woocommerce-terms-and-conditions-wrapper,
+#youzify .youzify .woocommerce-cart #payment .woocommerce-terms-and-conditions-wrapper,
+#youzify .youzify .woocommerce-checkout #payment .woocommerce-terms-and-conditions-wrapper {
+  padding: 1rem;
+  background-color: var(--grimlock-table-striped-background-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+}
+
+#youzify .youzify #add_payment_method #payment .woocommerce-terms-and-conditions-wrapper p,
+#youzify .youzify .woocommerce-cart #payment .woocommerce-terms-and-conditions-wrapper p,
+#youzify .youzify .woocommerce-checkout #payment .woocommerce-terms-and-conditions-wrapper p {
+  line-height: var(--grimlock-text-line-height);
+}
+
+#youzify .youzify #add_payment_method #payment #place_order,
+#youzify .youzify .woocommerce-cart #payment #place_order,
+#youzify .youzify .woocommerce-checkout #payment #place_order {
+  font-size: calc(var(--grimlock-button-font-size) * 1.05);
+  padding: calc(var(--grimlock-button-padding-y) * 1.25) calc(var(--grimlock-button-padding-y) * 1.25);
+  line-height: var(--grimlock-button-line-height);
+}
+
+#youzify .youzify .select2.select2-container {
+  line-height: 2em;
+}
+
+#youzify .youzify .select2.select2-container .select2-selection {
+  border-width: var(--grimlock-control-border-width);
+  border: var(--grimlock-control-border-width) solid var(--grimlock-control-border-color);
+  outline: 0 !important;
+  height: auto !important;
+  background-color: var(--grimlock-control-background-color);
+  border-radius: var(--grimlock-control-border-radius) !important;
+  color: var(--grimlock-control-color);
+  padding: 0;
+  line-height: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+#youzify .youzify .select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 28px;
+}
+
+#youzify .youzify .select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 1px;
+  left: 1px;
+}
+
+.select2-container--default .select2-results__option {
+  padding: 6px;
+  color: var(--grimlock-text-color);
+  font-size: .9em;
+  font-weight: var(--grimlock-text-font-weight);
+}
+
+#youzify .youzify .woocommerce-order p.woocommerce-thankyou-order-received {
+  font-weight: var(--grimlock-text-font-weight);
+  line-height: var(--grimlock-text-line-height);
+}
+
+#youzify .youzify .woocommerce-order p.woocommerce-thankyou-order-received:before {
+  content: none;
+}
+
+#youzify .youzify .woocommerce-order ul.woocommerce-thankyou-order-details + p {
+  padding: 0;
+  color: var(--grimlock-text-color);
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+  background: transparent;
+  border-radius: 0;
+  border-right: none;
+}
+
+#youzify .youzify .woocommerce-order h2.woocommerce-order-details__title {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: var(--grimlock-heading2-font-size);
+  line-height: var(--grimlock-heading2-line-height);
+}
+
+#youzify .youzify .woocommerce-order .shop_table {
+  margin: 0 0 6px;
+  font-size: .9em;
+}
+
+#youzify .youzify .woocommerce-order .shop_table .order-total {
+  font-weight: 600;
+}
+
+#youzify .youzify .woocommerce-order .shop_table th, #youzify .youzify .woocommerce-order .shop_table td {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: right;
+}
+
+#youzify .youzify .woocommerce-order .shop_table tr {
+  border-top: var(--grimlock-table-border-width) solid var(--grimlock-table-border-color);
+}
+
+#youzify .youzify .woocommerce-order .woocommerce-order-details {
+  margin-bottom: 2rem;
+}
+
+#youzify .youzify .woocommerce-order .woocommerce-customer-details .yzwc-box-title {
+  margin-bottom: 0;
+}
+
+#youzify .youzify .woocommerce-order .woocommerce-customer-details i.fas {
+  display: none;
+}
+
+#youzify .youzify .woocommerce-order .woocommerce-customer-details .woocommerce-column__title {
+  margin-bottom: 1.25rem;
+  font-size: var(--grimlock-heading2-font-size);
+  text-align: right;
+  line-height: var(--grimlock-heading2-line-height);
+  color: var(--grimlock-heading-color);
+  padding: 0;
+  background-color: transparent !important;
+}
+
+#youzify .youzify .woocommerce-order .woocommerce-customer-details address {
+  padding: 1rem;
+  background-color: transparent;
+}
+
+#youzify .youzify .woocommerce-order .woocommerce-customer-details address .yzwc-user-address {
+  border-right: none;
+}
+
+#youzify .youzify .woocommerce-order .woocommerce-customer-details address .yzwc-address-item {
+  margin-right: 0;
+}
+
+#youzify .youzify .woocommerce-order .woocommerce-customer-details address br,
+#youzify .youzify .woocommerce-order .woocommerce-customer-details address .youzify-bullet,
+#youzify .youzify .woocommerce-order .woocommerce-customer-details address .yzcw-item-head {
+  display: none;
+}
+
+#youzify .youzify .woocommerce-order .woocommerce-customer-details address .yzwc-address-value {
+  margin-top: 0;
+  margin-right: 0;
+  color: var(--grimlock-text-color);
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+  line-height: var(--grimlock-text-line-height);
+  letter-spacing: var(--grimlock-text-letter-spacing);
+}
+
+#youzify .youzify .woocommerce-order .woocommerce-billing-fields__field-wrapper,
+#youzify .youzify .woocommerce-order .woocommerce-additional-fields__field-wrapper,
+#youzify .youzify .woocommerce-order .woocommerce-checkout-payment .wc_payment_methods {
+  padding: 0;
+}
+
+#youzify .youzify .woocommerce-order #customer_details + .yzwc-box-title {
+  display: none;
+}
+
+#youzify .youzify .yzwc-main-content .woocommerce-order table.shop_table th,
+#youzify .youzify .yzwc-main-content .woocommerce-order table.shop_table td {
+  padding: 9px 12px;
+  font-size: var(--grimlock-text-font-size);
+}
+
+#youzify .youzify .woocommerce ul.order_details {
+  margin-bottom: 3em;
+  padding-left: 0;
+  padding-right: 0;
+  background: transparent;
+}
+
+#youzify .youzify .woocommerce ul.order_details:after, #youzify .youzify .woocommerce ul.order_details:before {
+  content: " ";
+  display: table;
+}
+
+#youzify .youzify .woocommerce ul.order_details li {
+  margin: 0 0 0 2em;
+  padding: 0 0 0 2em;
+  color: var(--grimlock-text-color);
+}
+
+#youzify .youzify .woocommerce ul.order_details li:last-child {
+  padding-bottom: 0;
+}
+
+#youzify .youzify .woocommerce ul.order_details li strong {
+  margin-top: 0;
+  font-size: 1.4em;
+  line-height: var(--grimlock-text-line-height);
+}
+
+.youzify_effect img.lazyloaded {
+  opacity: 1 !important;
+}
+
+.youzify_effect img.lazyload, .youzify_effect img.lazyloading {
+  opacity: 0 !important;
+}
+
+.youzify .activity-content .youzify-embed-avatar img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0;
+}
+
+.youzify-reset-options, .youzify-save-options {
+  padding: .8rem 1.5rem !important;
+}
+
+#youzify-directory-search-box form input[type="text"],
+.group-members #search-members-form label input {
+  border-color: var(--grimlock-control-border-color) !important;
+}
+
+#youzify-directory-search-box form input[type="text"]:focus,
+.group-members #search-members-form label input:focus {
+  border-color: var(--grimlock-control-focus-border-color) !important;
+}
+
+.manage-members #group-settings-form,
+.membership-requests #group-settings-form {
+  border: none;
+}
+
+#youzify .editfield label .bp-required-field-label,
+#youzify .editfield legend .bp-required-field-label {
+  color: inherit !important;
+  background-color: var(--grimlock-table-striped-background-color);
+  padding: .35em .7em;
+}
+
+div.youzify .editfield .field-visibility-settings-notoggle,
+div.youzify .editfield .field-visibility-settings-toggle {
+  background-color: var(--grimlock-table-striped-background-color);
+}
+
+[class*="grimlock--back-to-top"] .youzify-scrolltotop {
+  display: none !important;
+}
+
+/**
+ * Do not add your customizations here, this file will be overridden in future release of the plugin.
+ * Make your CSS changes in the Custom CSS panel of the WordPress Customizer or create a child theme : https://codex.wordpress.org/Child_Themes
+ */
+

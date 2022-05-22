@@ -1,0 +1,35 @@
+{
+	"name": "coblocks/events",
+	"category": "layout",
+	"attributes": {
+		"align": {
+			"type": "string"
+		},
+		"externalCalendarUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"eventsRange": {
+			"type": "string",
+			"default": "all"
+		},
+		"eventsToShow": {
+			"type": "number",
+			"default": 5
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"customTextColor": {
+			"type": "string"
+		},
+		"showCarousel": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"title": "Events",
+	"textdomain": "coblocks",
+	"editorScript": "blocks-2",
+	"description": "Add a list of events or display events from a public calendar."
+}

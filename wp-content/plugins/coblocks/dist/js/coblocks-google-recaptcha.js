@@ -1,0 +1,1 @@
+grecaptcha.ready((()=>{const e=Array.from(document.getElementsByClassName("g-recaptcha-token"));e.length&&e.forEach((e=>{grecaptcha.execute(coblocksFormBlockAtts.recaptchaSiteKey,{action:"coblocks"}).then((c=>{e.value=c}))}))}));

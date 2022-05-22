@@ -1,0 +1,87 @@
+{
+	"name": "coblocks/posts",
+	"category": "layout",
+	"attributes": {
+		"className": {
+			"type": "string"
+		},
+		"align": {
+			"type": "string"
+		},
+		"postFeedType": {
+			"type": "string",
+			"default": "internal"
+		},
+		"externalRssUrl": {
+			"type": "string",
+			"default": ""
+		},
+		"postsToShow": {
+			"type": "number",
+			"default": 2
+		},
+		"displayPostContent": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayPostDate": {
+			"type": "boolean",
+			"default": true
+		},
+		"displayPostLink": {
+			"type": "boolean",
+			"default": false
+		},
+		"postLink": {
+			"type": "string",
+			"default": "Read more"
+		},
+		"excerptLength": {
+			"type": "number",
+			"default": 12
+		},
+		"imageSize": {
+			"type": "string",
+			"default": "medium"
+		},
+		"imageStyle": {
+			"type": "string",
+			"default": "square"
+		},
+		"listPosition": {
+			"type": "string",
+			"default": "right"
+		},
+		"columns": {
+			"type": "number",
+			"default": 2
+		},
+		"order": {
+			"type": "string",
+			"default": "desc"
+		},
+		"orderBy": {
+			"type": "string",
+			"default": "date"
+		},
+		"categories": {
+			"type": "array",
+			"items": {
+				"type": "object"
+			}
+		},
+		"categoryRelation": {
+			"type": "string",
+			"default": "or"
+		}
+	},
+	"supports": {
+		"gutter": {
+			"default": "medium"
+		}
+	},
+	"title": "Posts",
+	"textdomain": "coblocks",
+	"editorScript": "blocks-11",
+	"description": "Display posts or an RSS feed as stacked or horizontal cards."
+}

@@ -1,0 +1,87 @@
+# Copyright (C) 2022 grimlock-echo-knowledge-base
+# This file is distributed under the same license as the grimlock-echo-knowledge-base package.
+msgid ""
+msgstr ""
+"Project-Id-Version: grimlock-echo-knowledge-base\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: undefined\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:32
+msgid "Knowledge Base Page"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:92, ../inc/customizer/class-grimlock-echo-knowledge-base-single-epkb-post-type-customizer.php:57
+msgid "General"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:104, ../inc/customizer/class-grimlock-echo-knowledge-base-single-epkb-post-type-customizer.php:65
+msgid "Layout"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:118, ../inc/customizer/class-grimlock-echo-knowledge-base-single-epkb-post-type-customizer.php:79
+msgid "Style"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:160
+msgid "Display"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:190
+msgid "Knowledge Base"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:212
+msgid "Title"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:213
+msgid "You can change the header title of the courses page by editing its title in the admin."
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:288
+msgid "Description"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:289
+msgid "You can change the header text of the courses page by editing its excerpt in the admin."
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:313
+msgid "Header Image"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:314
+msgid "You can change the header image of the courses page by editing its featured image in the admin."
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:443
+msgid ", <a href=\"#archive_epkb_post_type_custom_header_padding_y\" rel=\"tc-control\">Knowledge Base Page</a>"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:462
+msgid ", <a href=\"#archive_epkb_post_type_custom_header_layout\" rel=\"tc-control\">Knowledge Base Page</a>"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-archive-epkb-post-type-customizer.php:481
+msgid ", <a href=\"#archive_epkb_post_type_custom_header_container_layout\" rel=\"tc-control\">Knowledge Base Page</a>"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-single-epkb-post-type-customizer.php:27
+msgid "Knowledge Base Article"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-echo-knowledge-base-single-epkb-post-type-customizer.php:123
+msgid "Header Display"
+msgstr ""

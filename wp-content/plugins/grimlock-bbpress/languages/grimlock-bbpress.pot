@@ -1,0 +1,129 @@
+# Copyright (C) 2022 grimlock-bbpress
+# This file is distributed under the same license as the grimlock-bbpress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: grimlock-bbpress\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../grimlock-bbpress.php:40
+msgid "%1$sGrimlock for bbPress%2$s requires %1$sGrimlock %3$s%2$s to continue running properly. Please %4$supdate Grimlock.%5$s"
+msgstr ""
+
+#: ../inc/class-grimlock-bbpress.php:160
+msgid "bbPress Sidebar 1"
+msgstr ""
+
+#: ../inc/class-grimlock-bbpress.php:161
+msgid "The left hand area for bbPress pages."
+msgstr ""
+
+#: ../inc/class-grimlock-bbpress.php:170
+msgid "bbPress Sidebar 2"
+msgstr ""
+
+#: ../inc/class-grimlock-bbpress.php:171
+msgid "The right hand area for bbPress pages."
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: ../inc/grimlock-bbpress-template-functions.php:24
+msgid "Continue reading %1$s %2$s"
+msgstr ""
+
+#: ../inc/grimlock-bbpress-template-functions.php:75
+msgid "%s topic"
+msgid_plural "%s topics"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/grimlock-bbpress-template-functions.php:93, ../inc/grimlock-bbpress-template-functions.php:173
+msgid "%s post"
+msgid_plural "%s posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/grimlock-bbpress-template-functions.php:139
+msgid "Started by: %1$s"
+msgstr ""
+
+#: ../inc/grimlock-bbpress-template-functions.php:155
+msgid "%s voice"
+msgid_plural "%s voices"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../inc/grimlock-bbpress-template-functions.php:227
+msgid "In reply to: "
+msgstr ""
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: ../inc/component/class-grimlock-bbpress-forum-component.php:78, ../inc/component/class-grimlock-bbpress-reply-component.php:78, ../inc/component/class-grimlock-bbpress-topic-component.php:75
+msgid "Edit %s"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-bbpress-archive-topic-customizer.php:54
+msgid "Topics"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-bbpress-customizer.php:27
+msgid "bbPress"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-bbpress-customizer.php:89
+msgid "General"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-bbpress-customizer.php:100
+msgid "Layout"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-bbpress-customizer.php:114
+msgid "Style"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-bbpress-customizer.php:135
+msgid "Forums"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-bbpress-customizer.php:210
+msgid "Title"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-bbpress-customizer.php:233
+msgid "Description"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-bbpress-customizer.php:257
+msgid "Header Image"
+msgstr ""
+
+#: ../inc/customizer/class-grimlock-bbpress-search-customizer.php:52
+msgid "Search Results"
+msgstr ""
+
+#: ../templates/content-single-topic-lead.php:60, ../templates/content-single-topic-lead.php:120, ../templates/loop-search-reply.php:62, ../templates/loop-search-reply.php:118, ../templates/loop-single-reply.php:56, ../templates/loop-single-reply.php:118
+msgid "More actions"
+msgstr ""
+
+#: ../templates/content-single-topic-lead.php:62, ../templates/loop-search-reply.php:64, ../templates/loop-single-reply.php:58
+msgid "Post actions"
+msgstr ""
+
+#: ../templates/form-search.php:20
+msgid "Search for a topic"
+msgstr ""
+
+#: ../templates/loop-search-forum.php:56, ../templates/loop-single-forum.php:56
+msgid "Forums list"
+msgstr ""

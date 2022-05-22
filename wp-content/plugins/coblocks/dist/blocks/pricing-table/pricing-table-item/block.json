@@ -1,0 +1,46 @@
+{
+	"name": "coblocks/pricing-table-item",
+	"category": "layout",
+	"attributes": {
+		"title": {
+			"source": "children",
+			"selector": ".wp-block-coblocks-pricing-table-item__title"
+		},
+		"features": {
+			"source": "children",
+			"selector": ".wp-block-coblocks-pricing-table-item__features"
+		},
+		"currency": {
+			"type": "array",
+			"source": "children",
+			"selector": ".wp-block-coblocks-pricing-table-item__currency"
+		},
+		"amount": {
+			"type": "array",
+			"source": "children",
+			"selector": ".wp-block-coblocks-pricing-table-item__amount"
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"customBackgroundColor": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"customTextColor": {
+			"type": "string"
+		},
+		"placeholder": {
+			"type": "string"
+		}
+	},
+	"title": "Pricing Table Item",
+	"textdomain": "coblocks",
+	"editorScript": "blocks-6",
+	"description": "A pricing table to help visitors compare products and plans.",
+	"parent": [
+		"coblocks/pricing-table"
+	]
+}

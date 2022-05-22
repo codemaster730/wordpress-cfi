@@ -1,0 +1,47 @@
+{
+	"name": "coblocks/shape-divider",
+	"category": "layout",
+	"attributes": {
+		"shapeHeight": {
+			"type": "string",
+			"default": "100px"
+		},
+		"backgroundHeight": {
+			"type": "string",
+			"default": "50px"
+		},
+		"verticalFlip": {
+			"type": "boolean",
+			"default": false
+		},
+		"horizontalFlip": {
+			"type": "boolean",
+			"default": false
+		},
+		"color": {
+			"type": "string"
+		},
+		"customColor": {
+			"type": "string",
+			"default": "#111"
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"customBackgroundColor": {
+			"type": "string"
+		},
+		"noBottomMargin": {
+			"type": "boolean",
+			"default": true
+		},
+		"noTopMargin": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"title": "Shape Divider",
+	"textdomain": "coblocks",
+	"editorScript": "blocks-10",
+	"description": "Add a shape divider to visually distinquish page sections."
+}

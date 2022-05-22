@@ -1,0 +1,44 @@
+[26-Sep-2021 03:07:41 America/New_York] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[28-Sep-2021 18:02:45 America/New_York] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[17-Oct-2021 23:11:59 America/New_York] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[15-Nov-2021 03:35:32 America/New_York] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[28-Feb-2022 10:33:10 America/New_York] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[28-Feb-2022 22:20:36 America/New_York] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[24-Mar-2022 12:33:47 America/New_York] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[26-Mar-2022 03:00:55 America/New_York] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[29-Apr-2022 14:58:36 America/New_York] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[29-Apr-2022 22:40:24 America/New_York] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php on line 17
+[06-May-2022 00:58:02 America/New_York] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/widgets/class-wp-widget-block.php on line 17

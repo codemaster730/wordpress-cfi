@@ -1,0 +1,744 @@
+/**
+ * Login Styles
+ *
+ * Extend login styles for a better user experience.
+ * This stylesheet follow the basic principles of CSS Guidilines http://cssguidelin.es/
+ */
+/**
+ *
+ * SETTINGS
+ * Variables............Variables and config.
+ *
+ * TOOLS
+ * Mixins...............Mixins.
+ *
+ * COMPONENTS
+ * Widgets..............Widget styles.
+ *
+ */
+/*------------------------------------*\
+     #SETTINGS
+ \*------------------------------------*/
+/*------------------------------------*\
+    #COMPONENTS
+\*------------------------------------*/
+body.login {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body.login:after {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+}
+
+body.login:before {
+  content: '';
+  display: block;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  z-index: -1;
+  height: 100%;
+  background: inherit;
+}
+
+a,
+.button,
+.btn,
+input[type="submit"] {
+  transition: all .2s ease-in-out;
+}
+
+.wp-core-ui .button-group.button-large .button,
+.wp-core-ui .button.button-large {
+  height: auto;
+}
+
+.wp-core-ui .button-secondary {
+  color: inherit !important;
+}
+
+#login {
+  margin: 55px auto 15px auto !important;
+  transform: none !important;
+  width: 100% !important;
+  max-width: 400px;
+  position: relative;
+  padding: 15px 15px 0 15px !important;
+  overflow: hidden;
+  z-index: 2;
+}
+
+@media screen and (min-width: 500px) {
+  #login {
+    margin: 6% auto 40px auto !important;
+    padding: 30px 30px 0 30px !important;
+  }
+}
+
+#login a:focus {
+  box-shadow: none !important;
+}
+
+#login .button {
+  box-shadow: none !important;
+  text-shadow: none !important;
+  outline: 0 !important;
+}
+
+#login a.button:not(.button-primary) {
+  background: none !important;
+  border: 2px solid currentColor !important;
+  color: inherit !important;
+}
+
+#login a.button:not(.button-primary):hover {
+  opacity: .7;
+}
+
+#login .button.wp-hide-pw {
+  padding: 0 !important;
+}
+
+#login input[type="checkbox"],
+#login input[type="radio"] {
+  box-shadow: none !important;
+}
+
+#login input[type="checkbox"],
+#login input[type="radio"] {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+}
+
+#login input[type="radio"]:checked:before,
+#login input[type="checkbox"]:checked:before {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "\f147";
+  float: left;
+  vertical-align: middle;
+  font: normal 21px/1 dashicons;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 0;
+}
+
+#login:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#login #login_error,
+#login .message,
+#login .success,
+#login h1.admin-email__heading {
+  box-shadow: none;
+  padding: 15px;
+  border: 0 !important;
+  margin-bottom: 1.5rem;
+  line-height: 1.5em;
+  font-size: .95em;
+}
+
+#login #login_error a,
+#login .message a,
+#login .success a,
+#login h1.admin-email__heading a {
+  color: inherit !important;
+}
+
+#login #login_error a:hover, #login #login_error a:active, #login #login_error a:focus,
+#login .message a:hover,
+#login .message a:active,
+#login .message a:focus,
+#login .success a:hover,
+#login .success a:active,
+#login .success a:focus,
+#login h1.admin-email__heading a:hover,
+#login h1.admin-email__heading a:active,
+#login h1.admin-email__heading a:focus {
+  color: inherit !important;
+  opacity: .55;
+}
+
+#login .message {
+  word-break: break-word;
+  color: inherit;
+}
+
+#login .success {
+  color: #fff;
+  background-color: #46b450;
+}
+
+#login #login_error {
+  color: #fff;
+  background-color: #dc3232;
+}
+
+#login h1.admin-email__heading {
+  margin: 0;
+  color: inherit;
+}
+
+.login {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.login * {
+  box-sizing: border-box;
+}
+
+.login label,
+.login form .forgetmenot label {
+  font-size: .95em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.login #login > h1 {
+  padding: 0;
+  margin: -15px -15px 15px -15px !important;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  background: var(--grimlock-login-custom-logo-background-color);
+}
+
+@media screen and (min-width: 500px) {
+  .login #login > h1 {
+    margin: -30px -30px 15px -30px !important;
+  }
+}
+
+.login #login > h1 a {
+  width: 100%;
+  height: calc( ( var(--grimlock-login-custom-logo-size) / 2) + ( 30px * 2 ));
+  background-position: center;
+  background-size: auto;
+  margin-bottom: 0;
+  display: block;
+  padding: 15px;
+  background-image: none !important;
+}
+
+.login #login > h1 a:before, .login #login > h1 a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.login #login > h1 a:before {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  top: 30px;
+  left: calc(50% - ( var(--grimlock-login-custom-logo-size) / 2 ));
+  width: var(--grimlock-login-custom-logo-size);
+  height: calc(var(--grimlock-login-custom-logo-size) / 2);
+  z-index: 3;
+  background-image: var(--grimlock-login-custom-logo);
+}
+
+.login #login > h1 a:after {
+  background-color: inherit;
+}
+
+.login form {
+  padding: 0;
+  margin: 0;
+  box-shadow: none;
+  background: none;
+  border: none;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.login form > div {
+  margin-top: 10px;
+}
+
+.login form .input,
+.login form input[type="text"] {
+  margin-top: 7px;
+  height: 45px;
+  padding: 8px 15px;
+  box-shadow: none;
+}
+
+.login form p.submit {
+  width: 100%;
+  order: 100;
+  margin-top: 1rem !important;
+}
+
+.login form p.submit #wp-submit {
+  width: 100%;
+  outline: 0 !important;
+}
+
+.login form .forgetmenot {
+  float: none;
+  margin-bottom: 15px !important;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.login #nav {
+  margin: 15px -15px 0 -15px;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  font-size: 0;
+  color: transparent;
+  display: flex;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  flex-direction: row;
+}
+
+@media screen and (min-width: 500px) {
+  .login #nav {
+    margin: 30px -30px 0 -30px;
+  }
+}
+
+.login #nav a {
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 6px;
+}
+
+.login #nav a:hover, .login #nav a:focus, .login #nav a:active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.login #backtoblog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: none !important;
+}
+
+@media screen and (min-width: 500px) {
+  .login #backtoblog {
+    width: auto;
+  }
+}
+
+.login #backtoblog a {
+  display: block;
+  padding: 1rem;
+}
+
+.login #backtoblog a, .login #backtoblog a:hover, .login #backtoblog a:focus, .login #backtoblog a:active {
+  color: inherit !important;
+}
+
+.login #backtoblog:not(:hover):not(:focus):not(:active) a {
+  opacity: .5;
+}
+
+.login .privacy-policy-page-link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  z-index: 99;
+}
+
+.login .privacy-policy-page-link a {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none !important;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: inherit !important;
+}
+
+.login .privacy-policy-page-link a:hover {
+  opacity: .7;
+}
+
+.login #reg_passmail {
+  font-style: italic;
+  font-size: .9em;
+}
+
+.login .wp-social-login-provider-list {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.login #nsl-custom-login-form-main {
+  width: 100%;
+  float: left;
+}
+
+.login #nsl-custom-login-form-main .nsl-container {
+  max-width: 100%;
+  padding: 0;
+}
+
+.login .jetpack-sso-wrap .jetpack-sso.button {
+  height: auto;
+}
+
+.login .admin-email__actions-primary {
+  display: flex;
+  gap: 15px;
+}
+
+.login .admin-email__actions-primary .button {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.login .admin-email__actions-primary a.button {
+  border-color: transparent;
+}
+
+.login .admin-email__actions-secondary {
+  text-align: center;
+  padding: 1.5rem .25rem;
+}
+
+.login .wp-pwd {
+  margin-top: 7px !important;
+}
+
+.login .wp-pwd > input {
+  margin-top: 0 !important;
+}
+
+.login .wp-pwd .button {
+  height: 45px !important;
+  width: 45px !important;
+  outline: 0 !important;
+  border: 0 !important;
+}
+
+.login div:empty,
+.login p:empty {
+  display: none !important;
+}
+
+body.grimlock-login--fullscreen-left,
+body.grimlock-login--fullscreen-right {
+  background-size: 0 !important;
+}
+
+body.grimlock-login--fullscreen-left:before,
+body.grimlock-login--fullscreen-right:before {
+  content: '';
+  background: inherit;
+  background-size: cover !important;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: auto;
+  z-index: -2;
+  height: 100%;
+  pointer-events: none;
+  width: 100% !important;
+  max-width: 100% !important;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  body.grimlock-login--fullscreen-left:before,
+  body.grimlock-login--fullscreen-right:before {
+    width: 30% !important;
+    z-index: 99;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body.grimlock-login--fullscreen-left:before,
+  body.grimlock-login--fullscreen-right:before {
+    width: 58% !important;
+  }
+}
+
+body.grimlock-login--fullscreen-left:after,
+body.grimlock-login--fullscreen-right:after {
+  opacity: 1;
+}
+
+body.grimlock-login--fullscreen-left #login,
+body.grimlock-login--fullscreen-right #login {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  margin: 0 !important;
+  height: 100vh;
+  transform: none;
+  border-radius: 0 !important;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+  padding: calc( var(--grimlock-login-custom-logo-size) + 30px) 30px 30px 30px !important;
+  overflow: auto;
+}
+
+@media screen and (min-width: 768px) {
+  body.grimlock-login--fullscreen-left #login,
+  body.grimlock-login--fullscreen-right #login {
+    padding: calc( var(--grimlock-login-custom-logo-size) + 3vw) 6vw 30px 6vw !important;
+  }
+}
+
+body.grimlock-login--fullscreen-left #login > h1,
+body.grimlock-login--fullscreen-right #login > h1 {
+  margin: 0 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  border-radius: 0 !important;
+}
+
+body.grimlock-login--fullscreen-left #login > h1 a:before,
+body.grimlock-login--fullscreen-right #login > h1 a:before {
+  left: 30px;
+  width: var(--grimlock-login-custom-logo-size);
+  height: calc( var(--grimlock-login-custom-logo-size) / 2);
+  top: 50%;
+  transform: translate3d(0, -50%, 0);
+  background-position: left center;
+}
+
+@media screen and (min-width: 768px) {
+  body.grimlock-login--fullscreen-left #login > h1 a:before,
+  body.grimlock-login--fullscreen-right #login > h1 a:before {
+    left: 6vw;
+  }
+}
+
+body.grimlock-login--fullscreen-left #login > *:not(h1),
+body.grimlock-login--fullscreen-right #login > *:not(h1) {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  body.grimlock-login--fullscreen-left #login > *:not(h1),
+  body.grimlock-login--fullscreen-right #login > *:not(h1) {
+    max-width: 425px;
+  }
+}
+
+body.grimlock-login--fullscreen-left #login #nav,
+body.grimlock-login--fullscreen-right #login #nav {
+  margin: 30px 0 0 0;
+  border: 0;
+}
+
+body.grimlock-login--fullscreen-left #login,
+body.grimlock-login--fullscreen-left #login > h1,
+body.grimlock-login--fullscreen-right #login,
+body.grimlock-login--fullscreen-right #login > h1 {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+@media screen and (min-width: 768px) {
+  body.grimlock-login--fullscreen-left #login,
+  body.grimlock-login--fullscreen-left #login > h1,
+  body.grimlock-login--fullscreen-right #login,
+  body.grimlock-login--fullscreen-right #login > h1 {
+    width: 70% !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body.grimlock-login--fullscreen-left #login,
+  body.grimlock-login--fullscreen-left #login > h1,
+  body.grimlock-login--fullscreen-right #login,
+  body.grimlock-login--fullscreen-right #login > h1 {
+    width: 42% !important;
+  }
+}
+
+body.grimlock-login--fullscreen-left #backtoblog,
+body.grimlock-login--fullscreen-right #backtoblog {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 9999;
+  padding: 0;
+  margin: 0;
+  display: none !important;
+}
+
+body.grimlock-login--fullscreen-left #backtoblog a,
+body.grimlock-login--fullscreen-right #backtoblog a {
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 500px;
+  border: 2px solid currentColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0 !important;
+  overflow: hidden;
+  line-height: 0;
+  padding: 0;
+}
+
+body.grimlock-login--fullscreen-left #backtoblog a:before,
+body.grimlock-login--fullscreen-right #backtoblog a:before {
+  content: "\f171";
+  font: normal 16px/1 dashicons;
+}
+
+body.grimlock-login--fullscreen-left .language-switcher,
+body.grimlock-login--fullscreen-right .language-switcher {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 99999;
+}
+
+body.grimlock-login--fullscreen-right:before {
+  right: auto;
+  left: 0;
+}
+
+body.grimlock-login--fullscreen-right #login,
+body.grimlock-login--fullscreen-right #login > h1 {
+  left: auto;
+  right: 0;
+}
+
+body.grimlock-login--fullscreen-right .language-switcher {
+  right: auto;
+  left: 10px;
+}
+
+.login .language-switcher {
+  width: 100% !important;
+  max-width: 400px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  color: inherit;
+}
+
+.login .language-switcher #language-switcher {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login .language-switcher #language-switcher select {
+  width: 100%;
+  height: 40px;
+}
+
+.login .language-switcher #language-switcher label {
+  color: inherit;
+}
+
+.login .language-switcher #language-switcher .button {
+  font-size: .8em;
+  padding: .2em 1.2em;
+  height: 40px;
+  background: none !important;
+  color: inherit !important;
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.login .language-switcher #language-switcher .button:hover {
+  opacity: .7;
+}
+
+.login .language-switcher #language-switcher [for="language-switcher-locales"] {
+  margin: 0 0.5rem 0 0;
+}
+
+.login #wfls-prompt-overlay {
+  margin: 0 !important;
+  padding: 0;
+  align-items: normal;
+}
+
+.login a.wfls-2fa-code-help.wfls-tooltip-trigger {
+  pointer-events: none;
+}
+
+.login a.wfls-2fa-code-help.wfls-tooltip-trigger:after {
+  content: attr(title);
+  display: block;
+  font-size: .85em;
+  margin-top: 5px;
+  pointer-events: none;
+}
+
+.login label[for="wfls-token"] {
+  pointer-events: none;
+}
+
+.login .submit {
+  margin: 0 !important;
+}
+
+.login .submit input[type="submit"] {
+  float: none;
+  width: 100%;
+}
+
+.login .button + .button {
+  margin-top: 10px;
+}
+

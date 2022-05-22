@@ -1,0 +1,566 @@
+[INFO]-[2021/08/02 19:38:55] Cloning: 1627933136619's clone job's data is not in database, generating data
+[INFO]-[2021/08/02 19:38:55] DB Copy: Creating table wpstg0_bp_activity
+[INFO]-[2021/08/02 19:38:55] DB Copy: Table GRP_bp_activity contains 21 rows 
+[INFO]-[2021/08/02 19:38:55] DB Copy: GRP_bp_activity as wpstg0_bp_activity from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:55] DB Copy: Creating table wpstg0_bp_activity_meta
+[INFO]-[2021/08/02 19:38:55] DB Copy: Table GRP_bp_activity_meta contains 0 rows 
+[INFO]-[2021/08/02 19:38:56] DB Copy: Creating table wpstg0_bp_friends
+[INFO]-[2021/08/02 19:38:56] DB Copy: Table GRP_bp_friends contains 2 rows 
+[INFO]-[2021/08/02 19:38:56] DB Copy: GRP_bp_friends as wpstg0_bp_friends from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:56] DB Copy: Creating table wpstg0_bp_groups
+[INFO]-[2021/08/02 19:38:56] DB Copy: Table GRP_bp_groups contains 1 rows 
+[INFO]-[2021/08/02 19:38:56] DB Copy: GRP_bp_groups as wpstg0_bp_groups from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:56] DB Copy: Creating table wpstg0_bp_groups_groupmeta
+[INFO]-[2021/08/02 19:38:56] DB Copy: Table GRP_bp_groups_groupmeta contains 8 rows 
+[INFO]-[2021/08/02 19:38:56] DB Copy: GRP_bp_groups_groupmeta as wpstg0_bp_groups_groupmeta from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:56] DB Copy: Creating table wpstg0_bp_groups_members
+[INFO]-[2021/08/02 19:38:56] DB Copy: Table GRP_bp_groups_members contains 1 rows 
+[INFO]-[2021/08/02 19:38:56] DB Copy: GRP_bp_groups_members as wpstg0_bp_groups_members from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:56] DB Copy: Creating table wpstg0_bp_invitations
+[INFO]-[2021/08/02 19:38:56] DB Copy: Table GRP_bp_invitations contains 1 rows 
+[INFO]-[2021/08/02 19:38:56] DB Copy: GRP_bp_invitations as wpstg0_bp_invitations from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:56] DB Copy: Creating table wpstg0_bp_messages_messages
+[INFO]-[2021/08/02 19:38:56] DB Copy: Table GRP_bp_messages_messages contains 2 rows 
+[INFO]-[2021/08/02 19:38:56] DB Copy: GRP_bp_messages_messages as wpstg0_bp_messages_messages from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:56] DB Copy: Creating table wpstg0_bp_messages_meta
+[INFO]-[2021/08/02 19:38:56] DB Copy: Table GRP_bp_messages_meta contains 0 rows 
+[INFO]-[2021/08/02 19:38:56] DB Copy: Creating table wpstg0_bp_messages_notices
+[INFO]-[2021/08/02 19:38:56] DB Copy: Table GRP_bp_messages_notices contains 0 rows 
+[INFO]-[2021/08/02 19:38:56] DB Copy: Creating table wpstg0_bp_messages_recipients
+[INFO]-[2021/08/02 19:38:56] DB Copy: Table GRP_bp_messages_recipients contains 2 rows 
+[INFO]-[2021/08/02 19:38:56] DB Copy: GRP_bp_messages_recipients as wpstg0_bp_messages_recipients from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:56] DB Copy: Creating table wpstg0_bp_notifications
+[INFO]-[2021/08/02 19:38:56] DB Copy: Table GRP_bp_notifications contains 6 rows 
+[INFO]-[2021/08/02 19:38:56] DB Copy: GRP_bp_notifications as wpstg0_bp_notifications from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:57] DB Copy: Creating table wpstg0_bp_notifications_meta
+[INFO]-[2021/08/02 19:38:57] DB Copy: Table GRP_bp_notifications_meta contains 0 rows 
+[INFO]-[2021/08/02 19:38:57] DB Copy: Creating table wpstg0_bp_optouts
+[INFO]-[2021/08/02 19:38:57] DB Copy: Table GRP_bp_optouts contains 0 rows 
+[INFO]-[2021/08/02 19:38:57] DB Copy: Creating table wpstg0_bp_xprofile_data
+[INFO]-[2021/08/02 19:38:57] DB Copy: Table GRP_bp_xprofile_data contains 91 rows 
+[INFO]-[2021/08/02 19:38:57] DB Copy: GRP_bp_xprofile_data as wpstg0_bp_xprofile_data from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:57] DB Copy: Creating table wpstg0_bp_xprofile_fields
+[INFO]-[2021/08/02 19:38:57] DB Copy: Table GRP_bp_xprofile_fields contains 35 rows 
+[INFO]-[2021/08/02 19:38:57] DB Copy: GRP_bp_xprofile_fields as wpstg0_bp_xprofile_fields from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:57] DB Copy: Creating table wpstg0_bp_xprofile_groups
+[INFO]-[2021/08/02 19:38:57] DB Copy: Table GRP_bp_xprofile_groups contains 2 rows 
+[INFO]-[2021/08/02 19:38:57] DB Copy: GRP_bp_xprofile_groups as wpstg0_bp_xprofile_groups from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:57] DB Copy: Creating table wpstg0_bp_xprofile_meta
+[INFO]-[2021/08/02 19:38:57] DB Copy: Table GRP_bp_xprofile_meta contains 34 rows 
+[INFO]-[2021/08/02 19:38:57] DB Copy: GRP_bp_xprofile_meta as wpstg0_bp_xprofile_meta from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:57] DB Copy: Creating table wpstg0_bpbm_threadsmeta
+[INFO]-[2021/08/02 19:38:57] DB Copy: Table GRP_bpbm_threadsmeta contains 2 rows 
+[INFO]-[2021/08/02 19:38:57] DB Copy: GRP_bpbm_threadsmeta as wpstg0_bpbm_threadsmeta from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:57] DB Copy: Creating table wpstg0_commentmeta
+[INFO]-[2021/08/02 19:38:57] DB Copy: Table GRP_commentmeta contains 7 rows 
+[INFO]-[2021/08/02 19:38:57] DB Copy: GRP_commentmeta as wpstg0_commentmeta from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:57] DB Copy: Creating table wpstg0_comments
+[INFO]-[2021/08/02 19:38:57] DB Copy: Table GRP_comments contains 5 rows 
+[INFO]-[2021/08/02 19:38:57] DB Copy: GRP_comments as wpstg0_comments from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:58] DB Copy: Creating table wpstg0_links
+[INFO]-[2021/08/02 19:38:58] DB Copy: Table GRP_links contains 0 rows 
+[INFO]-[2021/08/02 19:38:58] DB Copy: Creating table wpstg0_loginizer_logs
+[INFO]-[2021/08/02 19:38:58] DB Copy: Table GRP_loginizer_logs contains 0 rows 
+[INFO]-[2021/08/02 19:38:58] DB Copy: Creating table wpstg0_options
+[INFO]-[2021/08/02 19:38:58] DB Copy: Table GRP_options contains 761 rows 
+[INFO]-[2021/08/02 19:38:58] DB Copy: GRP_options as wpstg0_options from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:58] DB Copy: Creating table wpstg0_pmpro_discount_codes
+[INFO]-[2021/08/02 19:38:58] DB Copy: Table GRP_pmpro_discount_codes contains 0 rows 
+[INFO]-[2021/08/02 19:38:58] DB Copy: Creating table wpstg0_pmpro_discount_codes_levels
+[INFO]-[2021/08/02 19:38:58] DB Copy: Table GRP_pmpro_discount_codes_levels contains 0 rows 
+[INFO]-[2021/08/02 19:38:58] DB Copy: Creating table wpstg0_pmpro_discount_codes_uses
+[INFO]-[2021/08/02 19:38:58] DB Copy: Table GRP_pmpro_discount_codes_uses contains 0 rows 
+[INFO]-[2021/08/02 19:38:58] DB Copy: Creating table wpstg0_pmpro_membership_levelmeta
+[INFO]-[2021/08/02 19:38:58] DB Copy: Table GRP_pmpro_membership_levelmeta contains 0 rows 
+[INFO]-[2021/08/02 19:38:58] DB Copy: Creating table wpstg0_pmpro_membership_levels
+[INFO]-[2021/08/02 19:38:58] DB Copy: Table GRP_pmpro_membership_levels contains 0 rows 
+[INFO]-[2021/08/02 19:38:58] DB Copy: Creating table wpstg0_pmpro_membership_ordermeta
+[INFO]-[2021/08/02 19:38:58] DB Copy: Table GRP_pmpro_membership_ordermeta contains 0 rows 
+[INFO]-[2021/08/02 19:38:59] DB Copy: Creating table wpstg0_pmpro_membership_orders
+[INFO]-[2021/08/02 19:38:59] DB Copy: Table GRP_pmpro_membership_orders contains 0 rows 
+[INFO]-[2021/08/02 19:38:59] DB Copy: Creating table wpstg0_pmpro_memberships_categories
+[INFO]-[2021/08/02 19:38:59] DB Copy: Table GRP_pmpro_memberships_categories contains 0 rows 
+[INFO]-[2021/08/02 19:38:59] DB Copy: Creating table wpstg0_pmpro_memberships_pages
+[INFO]-[2021/08/02 19:38:59] DB Copy: Table GRP_pmpro_memberships_pages contains 0 rows 
+[INFO]-[2021/08/02 19:38:59] DB Copy: Creating table wpstg0_pmpro_memberships_users
+[INFO]-[2021/08/02 19:38:59] DB Copy: Table GRP_pmpro_memberships_users contains 0 rows 
+[INFO]-[2021/08/02 19:38:59] DB Copy: Creating table wpstg0_popularpostsdata
+[INFO]-[2021/08/02 19:38:59] DB Copy: Table GRP_popularpostsdata contains 88 rows 
+[INFO]-[2021/08/02 19:38:59] DB Copy: GRP_popularpostsdata as wpstg0_popularpostsdata from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:59] DB Copy: Creating table wpstg0_popularpostssummary
+[INFO]-[2021/08/02 19:38:59] DB Copy: Table GRP_popularpostssummary contains 316 rows 
+[INFO]-[2021/08/02 19:38:59] DB Copy: GRP_popularpostssummary as wpstg0_popularpostssummary from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:59] DB Copy: Creating table wpstg0_postmeta
+[INFO]-[2021/08/02 19:38:59] DB Copy: Table GRP_postmeta contains 2175 rows 
+[INFO]-[2021/08/02 19:38:59] DB Copy: GRP_postmeta as wpstg0_postmeta from 0 to 10000 records
+[INFO]-[2021/08/02 19:38:59] DB Copy: Creating table wpstg0_posts
+[INFO]-[2021/08/02 19:38:59] DB Copy: Table GRP_posts contains 375 rows 
+[INFO]-[2021/08/02 19:38:59] DB Copy: GRP_posts as wpstg0_posts from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:00] DB Copy: Creating table wpstg0_rt_rtm_activity
+[INFO]-[2021/08/02 19:39:00] DB Copy: Table GRP_rt_rtm_activity contains 0 rows 
+[INFO]-[2021/08/02 19:39:00] DB Copy: Creating table wpstg0_rt_rtm_api
+[INFO]-[2021/08/02 19:39:00] DB Copy: Table GRP_rt_rtm_api contains 0 rows 
+[INFO]-[2021/08/02 19:39:00] DB Copy: Creating table wpstg0_rt_rtm_media
+[INFO]-[2021/08/02 19:39:00] DB Copy: Table GRP_rt_rtm_media contains 2 rows 
+[INFO]-[2021/08/02 19:39:00] DB Copy: GRP_rt_rtm_media as wpstg0_rt_rtm_media from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:00] DB Copy: Creating table wpstg0_rt_rtm_media_interaction
+[INFO]-[2021/08/02 19:39:00] DB Copy: Table GRP_rt_rtm_media_interaction contains 0 rows 
+[INFO]-[2021/08/02 19:39:00] DB Copy: Creating table wpstg0_rt_rtm_media_meta
+[INFO]-[2021/08/02 19:39:00] DB Copy: Table GRP_rt_rtm_media_meta contains 0 rows 
+[INFO]-[2021/08/02 19:39:00] DB Copy: Creating table wpstg0_signups
+[INFO]-[2021/08/02 19:39:00] DB Copy: Table GRP_signups contains 18 rows 
+[INFO]-[2021/08/02 19:39:00] DB Copy: GRP_signups as wpstg0_signups from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:00] DB Copy: Creating table wpstg0_term_relationships
+[INFO]-[2021/08/02 19:39:00] DB Copy: Table GRP_term_relationships contains 312 rows 
+[INFO]-[2021/08/02 19:39:00] DB Copy: GRP_term_relationships as wpstg0_term_relationships from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:00] DB Copy: Creating table wpstg0_term_taxonomy
+[INFO]-[2021/08/02 19:39:00] DB Copy: Table GRP_term_taxonomy contains 219 rows 
+[INFO]-[2021/08/02 19:39:00] DB Copy: GRP_term_taxonomy as wpstg0_term_taxonomy from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:01] DB Copy: Creating table wpstg0_termmeta
+[INFO]-[2021/08/02 19:39:01] DB Copy: Table GRP_termmeta contains 18 rows 
+[INFO]-[2021/08/02 19:39:01] DB Copy: GRP_termmeta as wpstg0_termmeta from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:01] DB Copy: Creating table wpstg0_terms
+[INFO]-[2021/08/02 19:39:01] DB Copy: Table GRP_terms contains 219 rows 
+[INFO]-[2021/08/02 19:39:01] DB Copy: GRP_terms as wpstg0_terms from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:01] DB Copy: Creating table wpstg0_usermeta
+[INFO]-[2021/08/02 19:39:01] DB Copy: Table GRP_usermeta contains 324 rows 
+[INFO]-[2021/08/02 19:39:01] DB Copy: GRP_usermeta as wpstg0_usermeta from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:01] DB Copy: Creating table wpstg0_users
+[INFO]-[2021/08/02 19:39:01] DB Copy: Table GRP_users contains 19 rows 
+[INFO]-[2021/08/02 19:39:01] DB Copy: GRP_users as wpstg0_users from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:02] DB Copy: Creating table wpstg0_yoast_indexable
+[INFO]-[2021/08/02 19:39:02] DB Copy: Table GRP_yoast_indexable contains 529 rows 
+[INFO]-[2021/08/02 19:39:02] DB Copy: GRP_yoast_indexable as wpstg0_yoast_indexable from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:02] DB Copy: Creating table wpstg0_yoast_indexable_hierarchy
+[INFO]-[2021/08/02 19:39:02] DB Copy: Table GRP_yoast_indexable_hierarchy contains 525 rows 
+[INFO]-[2021/08/02 19:39:02] DB Copy: GRP_yoast_indexable_hierarchy as wpstg0_yoast_indexable_hierarchy from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:02] DB Copy: Creating table wpstg0_yoast_migrations
+[INFO]-[2021/08/02 19:39:02] DB Copy: Table GRP_yoast_migrations contains 21 rows 
+[INFO]-[2021/08/02 19:39:02] DB Copy: GRP_yoast_migrations as wpstg0_yoast_migrations from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:02] DB Copy: Creating table wpstg0_yoast_primary_term
+[INFO]-[2021/08/02 19:39:02] DB Copy: Table GRP_yoast_primary_term contains 18 rows 
+[INFO]-[2021/08/02 19:39:02] DB Copy: GRP_yoast_primary_term as wpstg0_yoast_primary_term from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:02] DB Copy: Creating table wpstg0_yoast_seo_links
+[INFO]-[2021/08/02 19:39:02] DB Copy: Table GRP_yoast_seo_links contains 282 rows 
+[INFO]-[2021/08/02 19:39:02] DB Copy: GRP_yoast_seo_links as wpstg0_yoast_seo_links from 0 to 10000 records
+[INFO]-[2021/08/02 19:39:03] DB Search & Replace:  Table wpstg0_bp_activity 0 to 20000 records
+[INFO]-[2021/08/02 19:39:03] DB Search & Replace:  Table wpstg0_bp_friends 0 to 20000 records
+[INFO]-[2021/08/02 19:39:03] DB Search & Replace:  Table wpstg0_bp_groups 0 to 20000 records
+[INFO]-[2021/08/02 19:39:03] DB Search & Replace:  Table wpstg0_bp_groups_groupmeta 0 to 20000 records
+[INFO]-[2021/08/02 19:39:05] DB Search & Replace:  Table wpstg0_bp_groups_members 0 to 20000 records
+[INFO]-[2021/08/02 19:39:05] DB Search & Replace:  Table wpstg0_bp_invitations 0 to 20000 records
+[INFO]-[2021/08/02 19:39:05] DB Search & Replace:  Table wpstg0_bp_messages_messages 0 to 20000 records
+[INFO]-[2021/08/02 19:39:06] DB Search & Replace:  Table wpstg0_bp_messages_recipients 0 to 20000 records
+[INFO]-[2021/08/02 19:39:06] DB Search & Replace:  Table wpstg0_bp_notifications 0 to 20000 records
+[INFO]-[2021/08/02 19:39:06] DB Search & Replace:  Table wpstg0_bp_xprofile_data 0 to 20000 records
+[INFO]-[2021/08/02 19:39:06] DB Search & Replace:  Table wpstg0_bp_xprofile_fields 0 to 20000 records
+[INFO]-[2021/08/02 19:39:06] DB Search & Replace:  Table wpstg0_bp_xprofile_groups 0 to 20000 records
+[INFO]-[2021/08/02 19:39:06] DB Search & Replace:  Table wpstg0_bp_xprofile_meta 0 to 20000 records
+[INFO]-[2021/08/02 19:39:06] DB Search & Replace:  Table wpstg0_bpbm_threadsmeta 0 to 20000 records
+[INFO]-[2021/08/02 19:39:07] DB Search & Replace:  Table wpstg0_commentmeta 0 to 20000 records
+[INFO]-[2021/08/02 19:39:07] DB Search & Replace:  Table wpstg0_comments 0 to 20000 records
+[INFO]-[2021/08/02 19:39:07] DB Search & Replace:  Table wpstg0_options 0 to 20000 records
+[INFO]-[2021/08/02 19:39:09] DB Search & Replace:  Table wpstg0_popularpostsdata 0 to 20000 records
+[INFO]-[2021/08/02 19:39:09] DB Search & Replace:  Table wpstg0_popularpostssummary 0 to 20000 records
+[INFO]-[2021/08/02 19:39:09] DB Search & Replace:  Table wpstg0_postmeta 0 to 20000 records
+[INFO]-[2021/08/02 19:39:09] DB Search & Replace:  Table wpstg0_posts 0 to 20000 records
+[INFO]-[2021/08/02 19:39:10] DB Search & Replace:  Table wpstg0_rt_rtm_media 0 to 20000 records
+[INFO]-[2021/08/02 19:39:10] DB Search & Replace:  Table wpstg0_signups 0 to 20000 records
+[INFO]-[2021/08/02 19:39:11] DB Search & Replace:  Table wpstg0_term_relationships 0 to 20000 records
+[INFO]-[2021/08/02 19:39:11] DB Search & Replace:  Table wpstg0_term_taxonomy 0 to 20000 records
+[INFO]-[2021/08/02 19:39:11] DB Search & Replace:  Table wpstg0_termmeta 0 to 20000 records
+[INFO]-[2021/08/02 19:39:11] DB Search & Replace:  Table wpstg0_terms 0 to 20000 records
+[INFO]-[2021/08/02 19:39:11] DB Search & Replace:  Table wpstg0_usermeta 0 to 20000 records
+[INFO]-[2021/08/02 19:39:11] DB Search & Replace:  Table wpstg0_users 0 to 20000 records
+[INFO]-[2021/08/02 19:39:11] DB Search & Replace:  Table wpstg0_yoast_indexable 0 to 20000 records
+[INFO]-[2021/08/02 19:39:14] DB Search & Replace:  Table wpstg0_yoast_indexable_hierarchy 0 to 20000 records
+[INFO]-[2021/08/02 19:39:14] DB Search & Replace:  Table wpstg0_yoast_migrations 0 to 20000 records
+[INFO]-[2021/08/02 19:39:14] DB Search & Replace:  Table wpstg0_yoast_primary_term 0 to 20000 records
+[INFO]-[2021/08/02 19:39:14] DB Search & Replace:  Table wpstg0_yoast_seo_links 0 to 20000 records
+[INFO]-[2021/08/02 19:39:15] Scanning / for its files
+[INFO]-[2021/08/02 19:39:15] Scanning wp-content for its sub-directories and files
+[INFO]-[2021/08/02 19:39:18] Scanning wp-includes for its sub-directories and files
+[INFO]-[2021/08/02 19:39:18] Scanning wp-admin for its sub-directories and files
+[INFO]-[2021/08/02 19:39:19] Scanning .well-known for its sub-directories and files
+[INFO]-[2021/08/02 19:39:19] Scanning cgi-bin for its sub-directories and files
+[INFO]-[2021/08/02 19:39:19] Copying files...
+[INFO]-[2021/08/02 19:39:19] Skipping big file: /home/humajvue/groups.cficast.com/groupscficast.zip
+[INFO]-[2021/08/02 19:39:19] Total 50 files processed
+[INFO]-[2021/08/02 19:39:19] Total 100 files processed
+[INFO]-[2021/08/02 19:39:20] Total 150 files processed
+[INFO]-[2021/08/02 19:39:20] Total 200 files processed
+[INFO]-[2021/08/02 19:39:20] Total 250 files processed
+[INFO]-[2021/08/02 19:39:20] Total 300 files processed
+[INFO]-[2021/08/02 19:39:20] Total 350 files processed
+[INFO]-[2021/08/02 19:39:20] Total 400 files processed
+[INFO]-[2021/08/02 19:39:21] Total 450 files processed
+[INFO]-[2021/08/02 19:39:21] Total 500 files processed
+[INFO]-[2021/08/02 19:39:21] Total 550 files processed
+[INFO]-[2021/08/02 19:39:21] Total 600 files processed
+[INFO]-[2021/08/02 19:39:21] Total 650 files processed
+[INFO]-[2021/08/02 19:39:21] Total 700 files processed
+[INFO]-[2021/08/02 19:39:22] Total 750 files processed
+[INFO]-[2021/08/02 19:39:22] Total 800 files processed
+[INFO]-[2021/08/02 19:39:22] Total 850 files processed
+[INFO]-[2021/08/02 19:39:23] Total 900 files processed
+[INFO]-[2021/08/02 19:39:24] Total 950 files processed
+[INFO]-[2021/08/02 19:39:24] Total 1000 files processed
+[INFO]-[2021/08/02 19:39:24] Total 1050 files processed
+[INFO]-[2021/08/02 19:39:24] Total 1100 files processed
+[INFO]-[2021/08/02 19:39:24] Total 1150 files processed
+[INFO]-[2021/08/02 19:39:25] Total 1200 files processed
+[INFO]-[2021/08/02 19:39:25] Total 1250 files processed
+[INFO]-[2021/08/02 19:39:25] Total 1300 files processed
+[INFO]-[2021/08/02 19:39:25] Total 1350 files processed
+[INFO]-[2021/08/02 19:39:25] Total 1400 files processed
+[INFO]-[2021/08/02 19:39:26] Total 1450 files processed
+[INFO]-[2021/08/02 19:39:26] Total 1500 files processed
+[INFO]-[2021/08/02 19:39:26] Total 1550 files processed
+[INFO]-[2021/08/02 19:39:26] Total 1600 files processed
+[INFO]-[2021/08/02 19:39:26] Total 1650 files processed
+[INFO]-[2021/08/02 19:39:27] Total 1700 files processed
+[INFO]-[2021/08/02 19:39:27] Total 1750 files processed
+[INFO]-[2021/08/02 19:39:27] Total 1800 files processed
+[INFO]-[2021/08/02 19:39:27] Total 1850 files processed
+[INFO]-[2021/08/02 19:39:27] Total 1900 files processed
+[INFO]-[2021/08/02 19:39:27] Total 1950 files processed
+[INFO]-[2021/08/02 19:39:28] Total 2000 files processed
+[INFO]-[2021/08/02 19:39:28] Total 2050 files processed
+[INFO]-[2021/08/02 19:39:28] Total 2100 files processed
+[INFO]-[2021/08/02 19:39:28] Total 2150 files processed
+[INFO]-[2021/08/02 19:39:28] Total 2200 files processed
+[INFO]-[2021/08/02 19:39:29] Total 2250 files processed
+[INFO]-[2021/08/02 19:39:29] Total 2300 files processed
+[INFO]-[2021/08/02 19:39:29] Total 2350 files processed
+[INFO]-[2021/08/02 19:39:29] Total 2400 files processed
+[INFO]-[2021/08/02 19:39:29] Total 2450 files processed
+[INFO]-[2021/08/02 19:39:30] Total 2500 files processed
+[INFO]-[2021/08/02 19:39:30] Total 2550 files processed
+[INFO]-[2021/08/02 19:39:30] Total 2600 files processed
+[INFO]-[2021/08/02 19:39:31] Total 2650 files processed
+[INFO]-[2021/08/02 19:39:31] Total 2700 files processed
+[INFO]-[2021/08/02 19:39:31] Total 2750 files processed
+[INFO]-[2021/08/02 19:39:31] Total 2800 files processed
+[INFO]-[2021/08/02 19:39:32] Total 2850 files processed
+[INFO]-[2021/08/02 19:39:32] Total 2900 files processed
+[INFO]-[2021/08/02 19:39:32] Total 2950 files processed
+[INFO]-[2021/08/02 19:39:32] Total 3000 files processed
+[INFO]-[2021/08/02 19:39:33] Total 3050 files processed
+[INFO]-[2021/08/02 19:39:33] Total 3100 files processed
+[INFO]-[2021/08/02 19:39:33] Total 3150 files processed
+[INFO]-[2021/08/02 19:39:33] Total 3200 files processed
+[INFO]-[2021/08/02 19:39:33] Total 3250 files processed
+[INFO]-[2021/08/02 19:39:33] Total 3300 files processed
+[INFO]-[2021/08/02 19:39:34] Total 3350 files processed
+[INFO]-[2021/08/02 19:39:34] Total 3400 files processed
+[INFO]-[2021/08/02 19:39:34] Total 3450 files processed
+[INFO]-[2021/08/02 19:39:34] Total 3500 files processed
+[INFO]-[2021/08/02 19:39:35] Total 3550 files processed
+[INFO]-[2021/08/02 19:39:35] Total 3600 files processed
+[INFO]-[2021/08/02 19:39:35] Total 3650 files processed
+[INFO]-[2021/08/02 19:39:35] Total 3700 files processed
+[INFO]-[2021/08/02 19:39:35] Total 3750 files processed
+[INFO]-[2021/08/02 19:39:36] Total 3800 files processed
+[INFO]-[2021/08/02 19:39:36] Total 3850 files processed
+[INFO]-[2021/08/02 19:39:36] Total 3900 files processed
+[INFO]-[2021/08/02 19:39:36] Total 3950 files processed
+[INFO]-[2021/08/02 19:39:36] Total 4000 files processed
+[INFO]-[2021/08/02 19:39:37] Total 4050 files processed
+[INFO]-[2021/08/02 19:39:37] Total 4100 files processed
+[INFO]-[2021/08/02 19:39:37] Total 4150 files processed
+[INFO]-[2021/08/02 19:39:37] Total 4200 files processed
+[INFO]-[2021/08/02 19:39:37] Total 4250 files processed
+[INFO]-[2021/08/02 19:39:37] Total 4300 files processed
+[INFO]-[2021/08/02 19:39:38] Total 4350 files processed
+[INFO]-[2021/08/02 19:39:38] Total 4400 files processed
+[INFO]-[2021/08/02 19:39:38] Total 4450 files processed
+[INFO]-[2021/08/02 19:39:38] Total 4500 files processed
+[INFO]-[2021/08/02 19:39:38] Total 4550 files processed
+[INFO]-[2021/08/02 19:39:39] Total 4600 files processed
+[INFO]-[2021/08/02 19:39:39] Total 4650 files processed
+[INFO]-[2021/08/02 19:39:39] Total 4700 files processed
+[INFO]-[2021/08/02 19:39:39] Total 4750 files processed
+[INFO]-[2021/08/02 19:39:40] Total 4800 files processed
+[INFO]-[2021/08/02 19:39:40] Total 4850 files processed
+[INFO]-[2021/08/02 19:39:40] Total 4900 files processed
+[INFO]-[2021/08/02 19:39:40] Total 4950 files processed
+[INFO]-[2021/08/02 19:39:40] Total 5000 files processed
+[INFO]-[2021/08/02 19:39:41] Total 5050 files processed
+[INFO]-[2021/08/02 19:39:41] Total 5100 files processed
+[INFO]-[2021/08/02 19:39:41] Total 5150 files processed
+[INFO]-[2021/08/02 19:39:41] Total 5200 files processed
+[INFO]-[2021/08/02 19:39:41] Total 5250 files processed
+[INFO]-[2021/08/02 19:39:41] Total 5300 files processed
+[INFO]-[2021/08/02 19:39:42] Total 5350 files processed
+[INFO]-[2021/08/02 19:39:42] Total 5400 files processed
+[INFO]-[2021/08/02 19:39:42] Total 5450 files processed
+[INFO]-[2021/08/02 19:39:42] Total 5500 files processed
+[INFO]-[2021/08/02 19:39:42] Total 5550 files processed
+[INFO]-[2021/08/02 19:39:43] Total 5600 files processed
+[INFO]-[2021/08/02 19:39:43] Total 5650 files processed
+[INFO]-[2021/08/02 19:39:43] Total 5700 files processed
+[INFO]-[2021/08/02 19:39:43] Total 5750 files processed
+[INFO]-[2021/08/02 19:39:43] Total 5800 files processed
+[INFO]-[2021/08/02 19:39:43] Total 5850 files processed
+[INFO]-[2021/08/02 19:39:44] Total 5900 files processed
+[INFO]-[2021/08/02 19:39:44] Total 5950 files processed
+[INFO]-[2021/08/02 19:39:44] Total 6000 files processed
+[INFO]-[2021/08/02 19:39:44] Total 6050 files processed
+[INFO]-[2021/08/02 19:39:44] Total 6100 files processed
+[INFO]-[2021/08/02 19:39:47] Total 6150 files processed
+[INFO]-[2021/08/02 19:39:47] Total 6200 files processed
+[INFO]-[2021/08/02 19:39:47] Total 6250 files processed
+[INFO]-[2021/08/02 19:39:47] Total 6300 files processed
+[INFO]-[2021/08/02 19:39:48] Total 6350 files processed
+[INFO]-[2021/08/02 19:39:48] Total 6400 files processed
+[INFO]-[2021/08/02 19:39:48] Total 6450 files processed
+[INFO]-[2021/08/02 19:39:48] Total 6500 files processed
+[INFO]-[2021/08/02 19:39:48] Total 6550 files processed
+[INFO]-[2021/08/02 19:39:49] Total 6600 files processed
+[INFO]-[2021/08/02 19:39:49] Total 6650 files processed
+[INFO]-[2021/08/02 19:39:49] Total 6700 files processed
+[INFO]-[2021/08/02 19:39:49] Total 6750 files processed
+[INFO]-[2021/08/02 19:39:50] Total 6800 files processed
+[INFO]-[2021/08/02 19:39:50] Total 6850 files processed
+[INFO]-[2021/08/02 19:39:51] Total 6900 files processed
+[INFO]-[2021/08/02 19:39:51] Total 6950 files processed
+[INFO]-[2021/08/02 19:39:51] Total 7000 files processed
+[INFO]-[2021/08/02 19:39:52] Total 7050 files processed
+[INFO]-[2021/08/02 19:39:52] Total 7100 files processed
+[INFO]-[2021/08/02 19:39:52] Total 7150 files processed
+[INFO]-[2021/08/02 19:39:52] Total 7200 files processed
+[INFO]-[2021/08/02 19:39:52] Total 7250 files processed
+[INFO]-[2021/08/02 19:39:53] Total 7300 files processed
+[INFO]-[2021/08/02 19:39:53] Total 7350 files processed
+[INFO]-[2021/08/02 19:39:53] Total 7400 files processed
+[INFO]-[2021/08/02 19:39:53] Total 7450 files processed
+[INFO]-[2021/08/02 19:39:53] Total 7500 files processed
+[INFO]-[2021/08/02 19:39:54] Total 7550 files processed
+[INFO]-[2021/08/02 19:39:54] Total 7600 files processed
+[INFO]-[2021/08/02 19:39:54] Total 7650 files processed
+[INFO]-[2021/08/02 19:39:54] Total 7700 files processed
+[INFO]-[2021/08/02 19:39:54] Total 7750 files processed
+[INFO]-[2021/08/02 19:39:54] Total 7800 files processed
+[INFO]-[2021/08/02 19:39:55] Total 7850 files processed
+[INFO]-[2021/08/02 19:39:55] Total 7900 files processed
+[INFO]-[2021/08/02 19:39:55] Total 7950 files processed
+[INFO]-[2021/08/02 19:39:55] Total 8000 files processed
+[INFO]-[2021/08/02 19:39:55] Total 8050 files processed
+[INFO]-[2021/08/02 19:39:56] Total 8100 files processed
+[INFO]-[2021/08/02 19:39:56] Total 8150 files processed
+[INFO]-[2021/08/02 19:39:56] Total 8200 files processed
+[INFO]-[2021/08/02 19:39:56] Total 8250 files processed
+[INFO]-[2021/08/02 19:39:56] Total 8300 files processed
+[INFO]-[2021/08/02 19:39:56] Total 8350 files processed
+[INFO]-[2021/08/02 19:39:57] Total 8400 files processed
+[INFO]-[2021/08/02 19:39:57] Total 8450 files processed
+[INFO]-[2021/08/02 19:39:57] Total 8500 files processed
+[INFO]-[2021/08/02 19:39:57] Total 8550 files processed
+[INFO]-[2021/08/02 19:39:57] Total 8600 files processed
+[INFO]-[2021/08/02 19:39:57] Total 8650 files processed
+[INFO]-[2021/08/02 19:39:57] Total 8700 files processed
+[INFO]-[2021/08/02 19:39:58] Total 8750 files processed
+[INFO]-[2021/08/02 19:39:58] Total 8800 files processed
+[INFO]-[2021/08/02 19:39:58] Total 8850 files processed
+[INFO]-[2021/08/02 19:39:58] Total 8900 files processed
+[INFO]-[2021/08/02 19:39:59] Total 8950 files processed
+[INFO]-[2021/08/02 19:39:59] Total 9000 files processed
+[INFO]-[2021/08/02 19:39:59] Total 9050 files processed
+[INFO]-[2021/08/02 19:39:59] Total 9100 files processed
+[INFO]-[2021/08/02 19:39:59] Total 9150 files processed
+[INFO]-[2021/08/02 19:40:00] Total 9200 files processed
+[INFO]-[2021/08/02 19:40:00] Total 9250 files processed
+[INFO]-[2021/08/02 19:40:00] Total 9300 files processed
+[INFO]-[2021/08/02 19:40:00] Total 9350 files processed
+[INFO]-[2021/08/02 19:40:01] Total 9400 files processed
+[INFO]-[2021/08/02 19:40:01] Total 9450 files processed
+[INFO]-[2021/08/02 19:40:02] Total 9500 files processed
+[INFO]-[2021/08/02 19:40:02] Total 9550 files processed
+[INFO]-[2021/08/02 19:40:03] Total 9600 files processed
+[INFO]-[2021/08/02 19:40:03] Total 9650 files processed
+[INFO]-[2021/08/02 19:40:03] Total 9700 files processed
+[INFO]-[2021/08/02 19:40:03] Total 9750 files processed
+[INFO]-[2021/08/02 19:40:03] Total 9800 files processed
+[INFO]-[2021/08/02 19:40:05] Total 9850 files processed
+[INFO]-[2021/08/02 19:40:05] Total 9900 files processed
+[INFO]-[2021/08/02 19:40:05] Total 9950 files processed
+[INFO]-[2021/08/02 19:40:05] Total 10000 files processed
+[INFO]-[2021/08/02 19:40:06] Total 10050 files processed
+[INFO]-[2021/08/02 19:40:06] Total 10100 files processed
+[INFO]-[2021/08/02 19:40:06] Total 10150 files processed
+[INFO]-[2021/08/02 19:40:06] Total 10200 files processed
+[INFO]-[2021/08/02 19:40:07] Total 10250 files processed
+[INFO]-[2021/08/02 19:40:07] Total 10300 files processed
+[INFO]-[2021/08/02 19:40:07] Total 10350 files processed
+[INFO]-[2021/08/02 19:40:08] Total 10400 files processed
+[INFO]-[2021/08/02 19:40:08] Total 10450 files processed
+[INFO]-[2021/08/02 19:40:08] Total 10500 files processed
+[INFO]-[2021/08/02 19:40:09] Total 10550 files processed
+[INFO]-[2021/08/02 19:40:09] Total 10600 files processed
+[INFO]-[2021/08/02 19:40:10] Total 10650 files processed
+[INFO]-[2021/08/02 19:40:10] Total 10700 files processed
+[INFO]-[2021/08/02 19:40:10] Total 10750 files processed
+[INFO]-[2021/08/02 19:40:10] Total 10800 files processed
+[INFO]-[2021/08/02 19:40:11] Total 10850 files processed
+[INFO]-[2021/08/02 19:40:11] Total 10900 files processed
+[INFO]-[2021/08/02 19:40:11] Total 10950 files processed
+[INFO]-[2021/08/02 19:40:12] Total 11000 files processed
+[INFO]-[2021/08/02 19:40:13] Total 11050 files processed
+[INFO]-[2021/08/02 19:40:13] Total 11100 files processed
+[INFO]-[2021/08/02 19:40:13] Total 11150 files processed
+[INFO]-[2021/08/02 19:40:13] Total 11200 files processed
+[INFO]-[2021/08/02 19:40:14] Total 11250 files processed
+[INFO]-[2021/08/02 19:40:14] Total 11300 files processed
+[INFO]-[2021/08/02 19:40:14] Total 11350 files processed
+[INFO]-[2021/08/02 19:40:14] Total 11400 files processed
+[INFO]-[2021/08/02 19:40:15] Total 11450 files processed
+[INFO]-[2021/08/02 19:40:15] Total 11500 files processed
+[INFO]-[2021/08/02 19:40:16] Total 11550 files processed
+[INFO]-[2021/08/02 19:40:16] Total 11600 files processed
+[INFO]-[2021/08/02 19:40:16] Total 11650 files processed
+[INFO]-[2021/08/02 19:40:17] Total 11700 files processed
+[INFO]-[2021/08/02 19:40:17] Total 11750 files processed
+[INFO]-[2021/08/02 19:40:18] Total 11800 files processed
+[INFO]-[2021/08/02 19:40:18] Total 11850 files processed
+[INFO]-[2021/08/02 19:40:19] Total 11900 files processed
+[INFO]-[2021/08/02 19:40:19] Total 11950 files processed
+[INFO]-[2021/08/02 19:40:22] Total 12000 files processed
+[INFO]-[2021/08/02 19:40:22] Total 12050 files processed
+[INFO]-[2021/08/02 19:40:23] Total 12100 files processed
+[INFO]-[2021/08/02 19:40:24] Total 12150 files processed
+[INFO]-[2021/08/02 19:40:24] Total 12200 files processed
+[INFO]-[2021/08/02 19:40:25] Total 12250 files processed
+[INFO]-[2021/08/02 19:40:25] Total 12300 files processed
+[INFO]-[2021/08/02 19:40:25] Total 12350 files processed
+[INFO]-[2021/08/02 19:40:25] Total 12400 files processed
+[INFO]-[2021/08/02 19:40:26] Total 12450 files processed
+[INFO]-[2021/08/02 19:40:26] Total 12500 files processed
+[INFO]-[2021/08/02 19:40:26] Total 12550 files processed
+[INFO]-[2021/08/02 19:40:26] Total 12600 files processed
+[INFO]-[2021/08/02 19:40:27] Total 12650 files processed
+[INFO]-[2021/08/02 19:40:27] Total 12700 files processed
+[INFO]-[2021/08/02 19:40:27] Total 12750 files processed
+[INFO]-[2021/08/02 19:40:27] Total 12800 files processed
+[INFO]-[2021/08/02 19:40:28] Total 12850 files processed
+[INFO]-[2021/08/02 19:40:28] Total 12900 files processed
+[INFO]-[2021/08/02 19:40:28] Total 12950 files processed
+[INFO]-[2021/08/02 19:40:29] Total 13000 files processed
+[INFO]-[2021/08/02 19:40:29] Total 13050 files processed
+[INFO]-[2021/08/02 19:40:29] Total 13100 files processed
+[INFO]-[2021/08/02 19:40:29] Total 13150 files processed
+[INFO]-[2021/08/02 19:40:30] Total 13200 files processed
+[INFO]-[2021/08/02 19:40:30] Total 13250 files processed
+[INFO]-[2021/08/02 19:40:30] Total 13300 files processed
+[INFO]-[2021/08/02 19:40:30] Total 13350 files processed
+[INFO]-[2021/08/02 19:40:31] Total 13400 files processed
+[INFO]-[2021/08/02 19:40:31] Total 13450 files processed
+[INFO]-[2021/08/02 19:40:31] Total 13500 files processed
+[INFO]-[2021/08/02 19:40:31] Total 13550 files processed
+[INFO]-[2021/08/02 19:40:32] Total 13600 files processed
+[INFO]-[2021/08/02 19:40:32] Total 13650 files processed
+[INFO]-[2021/08/02 19:40:32] Total 13700 files processed
+[INFO]-[2021/08/02 19:40:32] Total 13750 files processed
+[INFO]-[2021/08/02 19:40:32] Total 13800 files processed
+[INFO]-[2021/08/02 19:40:33] Total 13850 files processed
+[INFO]-[2021/08/02 19:40:33] Total 13900 files processed
+[INFO]-[2021/08/02 19:40:33] Total 13950 files processed
+[INFO]-[2021/08/02 19:40:33] Total 14000 files processed
+[INFO]-[2021/08/02 19:40:33] Total 14050 files processed
+[INFO]-[2021/08/02 19:40:34] Total 14100 files processed
+[INFO]-[2021/08/02 19:40:34] Total 14150 files processed
+[INFO]-[2021/08/02 19:40:34] Total 14200 files processed
+[INFO]-[2021/08/02 19:40:34] Total 14250 files processed
+[INFO]-[2021/08/02 19:40:35] Total 14300 files processed
+[INFO]-[2021/08/02 19:40:35] Total 14350 files processed
+[INFO]-[2021/08/02 19:40:35] Total 14400 files processed
+[INFO]-[2021/08/02 19:40:35] Total 14450 files processed
+[INFO]-[2021/08/02 19:40:36] Total 14500 files processed
+[INFO]-[2021/08/02 19:40:36] Total 14550 files processed
+[INFO]-[2021/08/02 19:40:36] Total 14600 files processed
+[INFO]-[2021/08/02 19:40:36] Total 14650 files processed
+[INFO]-[2021/08/02 19:40:37] Total 14700 files processed
+[INFO]-[2021/08/02 19:40:37] Total 14750 files processed
+[INFO]-[2021/08/02 19:40:37] Total 14800 files processed
+[INFO]-[2021/08/02 19:40:37] Total 14850 files processed
+[INFO]-[2021/08/02 19:40:38] Total 14900 files processed
+[INFO]-[2021/08/02 19:40:38] Total 14950 files processed
+[INFO]-[2021/08/02 19:40:38] Total 15000 files processed
+[INFO]-[2021/08/02 19:40:38] Total 15050 files processed
+[INFO]-[2021/08/02 19:40:38] Total 15100 files processed
+[INFO]-[2021/08/02 19:40:39] Total 15150 files processed
+[INFO]-[2021/08/02 19:40:39] Total 15200 files processed
+[INFO]-[2021/08/02 19:40:39] Total 15250 files processed
+[INFO]-[2021/08/02 19:40:39] Total 15300 files processed
+[INFO]-[2021/08/02 19:40:39] Total 15350 files processed
+[INFO]-[2021/08/02 19:40:40] Total 15400 files processed
+[INFO]-[2021/08/02 19:40:40] Total 15450 files processed
+[INFO]-[2021/08/02 19:40:40] Total 15500 files processed
+[INFO]-[2021/08/02 19:40:40] Total 15550 files processed
+[INFO]-[2021/08/02 19:40:41] Total 15600 files processed
+[INFO]-[2021/08/02 19:40:41] Total 15650 files processed
+[INFO]-[2021/08/02 19:40:41] Total 15700 files processed
+[INFO]-[2021/08/02 19:40:41] Total 15750 files processed
+[INFO]-[2021/08/02 19:40:41] Total 15800 files processed
+[INFO]-[2021/08/02 19:40:42] Total 15850 files processed
+[INFO]-[2021/08/02 19:40:42] Total 15900 files processed
+[INFO]-[2021/08/02 19:40:42] Total 15950 files processed
+[INFO]-[2021/08/02 19:40:42] Total 16000 files processed
+[INFO]-[2021/08/02 19:40:43] Total 16050 files processed
+[INFO]-[2021/08/02 19:40:43] Total 16100 files processed
+[INFO]-[2021/08/02 19:40:43] Total 16150 files processed
+[INFO]-[2021/08/02 19:40:44] Total 16200 files processed
+[INFO]-[2021/08/02 19:40:44] Total 16250 files processed
+[INFO]-[2021/08/02 19:40:44] Total 16300 files processed
+[INFO]-[2021/08/02 19:40:44] Total 16350 files processed
+[INFO]-[2021/08/02 19:40:46] Total 16400 files processed
+[INFO]-[2021/08/02 19:40:47] Total 16450 files processed
+[INFO]-[2021/08/02 19:40:47] Total 16500 files processed
+[INFO]-[2021/08/02 19:40:47] Total 16550 files processed
+[INFO]-[2021/08/02 19:40:47] Total 16600 files processed
+[INFO]-[2021/08/02 19:40:48] Total 16650 files processed
+[INFO]-[2021/08/02 19:40:48] Total 16700 files processed
+[INFO]-[2021/08/02 19:40:48] Total 16750 files processed
+[INFO]-[2021/08/02 19:40:48] Total 16800 files processed
+[INFO]-[2021/08/02 19:40:48] Total 16850 files processed
+[INFO]-[2021/08/02 19:40:49] Total 16900 files processed
+[INFO]-[2021/08/02 19:40:49] Total 16950 files processed
+[INFO]-[2021/08/02 19:40:49] Total 17000 files processed
+[INFO]-[2021/08/02 19:40:49] Total 17050 files processed
+[INFO]-[2021/08/02 19:40:50] Total 17100 files processed
+[INFO]-[2021/08/02 19:40:50] Total 17150 files processed
+[INFO]-[2021/08/02 19:40:50] Total 17200 files processed
+[INFO]-[2021/08/02 19:40:50] Total 17250 files processed
+[INFO]-[2021/08/02 19:40:50] Total 17300 files processed
+[INFO]-[2021/08/02 19:40:51] Total 17350 files processed
+[INFO]-[2021/08/02 19:40:51] Total 17400 files processed
+[INFO]-[2021/08/02 19:40:51] Total 17450 files processed
+[INFO]-[2021/08/02 19:40:51] Total 17500 files processed
+[INFO]-[2021/08/02 19:40:51] Total 17550 files processed
+[INFO]-[2021/08/02 19:40:52] Total 17600 files processed
+[INFO]-[2021/08/02 19:40:52] Total 17650 files processed
+[INFO]-[2021/08/02 19:40:53] Total 17700 files processed
+[WARNING]-[2021/08/02 19:40:53] File doesn't exist /home/humajvue/groups.cficast.com/
+[INFO]-[2021/08/02 19:40:53] Skipped symlinking Wp Uploads Folder
+[INFO]-[2021/08/02 19:40:53] Copying files finished
+[INFO]-[2021/08/02 19:40:53] DB Data Step0: Copy wp-config.php file
+[INFO]-[2021/08/02 19:40:53] DB Data Step0: Skipping: wp-config.php already exists in /home/humajvue/groups.cficast.com/groups-test-1/wp-config.php
+[INFO]-[2021/08/02 19:40:54] DB Data Step1: Updating siteurl and homeurl in wpstg0_options to https://groups.cficast.com/groups-test-1
+[INFO]-[2021/08/02 19:40:54] DB Data Step2: Updating wpstg0_options 
+[INFO]-[2021/08/02 19:40:54] DB Data Step3: Updating db prefix in wpstg0_usermeta.
+[INFO]-[2021/08/02 19:40:54] DB Data Step4: Updating table_prefix in /home/humajvue/groups.cficast.com/groups-test-1/wp-config.php to wpstg0_
+[INFO]-[2021/08/02 19:40:54] DB Data Step5: WP installation is not in a subdirectory! Skipping this step
+[INFO]-[2021/08/02 19:40:54] DB Data Step6: Updating db prefix in wpstg0_options.
+[INFO]-[2021/08/02 19:40:55] DB Data Step7: Updating constants in wp-config.php
+[INFO]-[2021/08/02 19:40:55] DB Data Step7: Added:UPLOADS
+[INFO]-[2021/08/02 19:40:55] DB Data Step7: Added:WP_PLUGIN_DIR
+[INFO]-[2021/08/02 19:40:55] DB Data Step7: Added:WP_LANG_DIR
+[INFO]-[2021/08/02 19:40:55] DB Data Step7: Added:WP_HOME
+[INFO]-[2021/08/02 19:40:55] DB Data Step7: Added:WP_SITEURL
+[INFO]-[2021/08/02 19:40:55] DB Data Step7: Updated: WP_CACHE
+[INFO]-[2021/08/02 19:40:55] DB Data Step7: Added:WP_ENVIRONMENT_TYPE
+[INFO]-[2021/08/02 19:40:55] DB Data Step7: Skipping: WP_ALLOW_MULTISITE not defined in wp-config.php.
+[INFO]-[2021/08/02 19:40:55] DB Data Step7: Skipping: MULTISITE not defined in wp-config.php.
+[INFO]-[2021/08/02 19:40:55] Finish: Deleting clone job's cache files...
+[INFO]-[2021/08/02 19:40:55] Finish: Clone job's cache files have been deleted!
+[INFO]-[2021/08/02 19:40:55] Finish: Verifying existing clones...
+[INFO]-[2021/08/02 19:40:55] Finish: The job finished!

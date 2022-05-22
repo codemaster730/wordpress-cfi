@@ -1,0 +1,171 @@
+# Copyright (C) 2021 grimlock-animate
+# This file is distributed under the same license as the grimlock-animate package.
+msgid ""
+msgstr ""
+"Project-Id-Version: grimlock-animate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: grimlock-animate.php:41
+msgid "%1$sGrimlock Animate%2$s requires %1$sGrimlock %3$s%2$s to continue running properly. Please %4$supdate Grimlock.%5$s"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-nav-menu-section-block.php:49, inc/block/class-grimlock-animate-query-section-block.php:49, inc/block/class-grimlock-animate-section-block.php:54, inc/block/class-grimlock-animate-term-query-section-block.php:49, inc/author-avatars/block/class-grimlock-animate-author-avatars-section-block.php:49, inc/buddypress/block/class-grimlock-animate-buddypress-groups-section-block.php:49, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:50, inc/widget/fields/class-grimlock-animate-nav-menu-section-widget-fields.php:45, inc/widget/fields/class-grimlock-animate-query-section-widget-fields.php:45, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:50, inc/widget/fields/class-grimlock-animate-term-query-section-widget-fields.php:45, inc/author-avatars/widget/fields/class-grimlock-animate-author-avatars-section-widget-fields.php:45, inc/buddypress/widget/fields/class-grimlock-animate-buddypress-groups-section-widget-fields.php:45, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:46
+msgid "Animation"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-nav-menu-section-block.php:63
+msgid "Menu items reveal"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-nav-menu-section-block.php:65, inc/block/class-grimlock-animate-query-section-block.php:65, inc/block/class-grimlock-animate-section-block.php:70, inc/block/class-grimlock-animate-section-block.php:91, inc/block/class-grimlock-animate-section-block.php:112, inc/block/class-grimlock-animate-section-block.php:152, inc/block/class-grimlock-animate-section-block.php:176, inc/block/class-grimlock-animate-term-query-section-block.php:65, inc/customizer/class-grimlock-animate-custom-header-customizer.php:128, inc/customizer/class-grimlock-animate-custom-header-customizer.php:156, inc/customizer/class-grimlock-animate-custom-header-customizer.php:184, inc/customizer/class-grimlock-animate-custom-header-customizer.php:240, inc/customizer/class-grimlock-animate-custom-header-customizer.php:271, inc/author-avatars/block/class-grimlock-animate-author-avatars-section-block.php:65, inc/buddypress/block/class-grimlock-animate-buddypress-groups-section-block.php:65, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:66, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:90, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:127, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:155, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:183, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:239, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:270, inc/widget/fields/class-grimlock-animate-nav-menu-section-widget-fields.php:60, inc/widget/fields/class-grimlock-animate-query-section-widget-fields.php:60, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:65, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:85, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:105, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:143, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:166, inc/widget/fields/class-grimlock-animate-term-query-section-widget-fields.php:60, inc/author-avatars/widget/fields/class-grimlock-animate-author-avatars-section-widget-fields.php:60, inc/buddypress/widget/fields/class-grimlock-animate-buddypress-groups-section-widget-fields.php:60, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:61, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:84
+msgid "None"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-nav-menu-section-block.php:66, inc/block/class-grimlock-animate-query-section-block.php:66, inc/block/class-grimlock-animate-section-block.php:153, inc/block/class-grimlock-animate-section-block.php:177, inc/block/class-grimlock-animate-term-query-section-block.php:66, inc/customizer/class-grimlock-animate-custom-header-customizer.php:241, inc/customizer/class-grimlock-animate-custom-header-customizer.php:272, inc/author-avatars/block/class-grimlock-animate-author-avatars-section-block.php:66, inc/buddypress/block/class-grimlock-animate-buddypress-groups-section-block.php:66, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:67, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:91, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:240, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:271, inc/widget/fields/class-grimlock-animate-nav-menu-section-widget-fields.php:61, inc/widget/fields/class-grimlock-animate-query-section-widget-fields.php:61, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:144, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:167, inc/widget/fields/class-grimlock-animate-term-query-section-widget-fields.php:61, inc/author-avatars/widget/fields/class-grimlock-animate-author-avatars-section-widget-fields.php:61, inc/buddypress/widget/fields/class-grimlock-animate-buddypress-groups-section-widget-fields.php:61, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:62, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:85
+msgid "Bottom"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-nav-menu-section-block.php:67, inc/block/class-grimlock-animate-query-section-block.php:67, inc/block/class-grimlock-animate-section-block.php:154, inc/block/class-grimlock-animate-section-block.php:178, inc/block/class-grimlock-animate-term-query-section-block.php:67, inc/customizer/class-grimlock-animate-custom-header-customizer.php:242, inc/customizer/class-grimlock-animate-custom-header-customizer.php:273, inc/author-avatars/block/class-grimlock-animate-author-avatars-section-block.php:67, inc/buddypress/block/class-grimlock-animate-buddypress-groups-section-block.php:67, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:68, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:92, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:241, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:272, inc/widget/fields/class-grimlock-animate-nav-menu-section-widget-fields.php:62, inc/widget/fields/class-grimlock-animate-query-section-widget-fields.php:62, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:145, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:168, inc/widget/fields/class-grimlock-animate-term-query-section-widget-fields.php:62, inc/author-avatars/widget/fields/class-grimlock-animate-author-avatars-section-widget-fields.php:62, inc/buddypress/widget/fields/class-grimlock-animate-buddypress-groups-section-widget-fields.php:62, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:63, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:86
+msgid "Top"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-nav-menu-section-block.php:68, inc/block/class-grimlock-animate-query-section-block.php:68, inc/block/class-grimlock-animate-section-block.php:155, inc/block/class-grimlock-animate-section-block.php:179, inc/block/class-grimlock-animate-term-query-section-block.php:68, inc/customizer/class-grimlock-animate-custom-header-customizer.php:243, inc/customizer/class-grimlock-animate-custom-header-customizer.php:274, inc/author-avatars/block/class-grimlock-animate-author-avatars-section-block.php:68, inc/buddypress/block/class-grimlock-animate-buddypress-groups-section-block.php:68, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:69, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:93, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:242, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:273, inc/widget/fields/class-grimlock-animate-nav-menu-section-widget-fields.php:63, inc/widget/fields/class-grimlock-animate-query-section-widget-fields.php:63, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:146, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:169, inc/widget/fields/class-grimlock-animate-term-query-section-widget-fields.php:63, inc/author-avatars/widget/fields/class-grimlock-animate-author-avatars-section-widget-fields.php:63, inc/buddypress/widget/fields/class-grimlock-animate-buddypress-groups-section-widget-fields.php:63, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:64, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:87
+msgid "Left"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-nav-menu-section-block.php:69, inc/block/class-grimlock-animate-query-section-block.php:69, inc/block/class-grimlock-animate-section-block.php:156, inc/block/class-grimlock-animate-section-block.php:180, inc/block/class-grimlock-animate-term-query-section-block.php:69, inc/customizer/class-grimlock-animate-custom-header-customizer.php:244, inc/customizer/class-grimlock-animate-custom-header-customizer.php:275, inc/author-avatars/block/class-grimlock-animate-author-avatars-section-block.php:69, inc/buddypress/block/class-grimlock-animate-buddypress-groups-section-block.php:69, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:70, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:94, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:243, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:274, inc/widget/fields/class-grimlock-animate-nav-menu-section-widget-fields.php:64, inc/widget/fields/class-grimlock-animate-query-section-widget-fields.php:64, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:147, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:170, inc/widget/fields/class-grimlock-animate-term-query-section-widget-fields.php:64, inc/author-avatars/widget/fields/class-grimlock-animate-author-avatars-section-widget-fields.php:64, inc/buddypress/widget/fields/class-grimlock-animate-buddypress-groups-section-widget-fields.php:64, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:65, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:88
+msgid "Right"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-nav-menu-section-block.php:70, inc/block/class-grimlock-animate-query-section-block.php:70, inc/block/class-grimlock-animate-section-block.php:157, inc/block/class-grimlock-animate-section-block.php:181, inc/block/class-grimlock-animate-term-query-section-block.php:70, inc/customizer/class-grimlock-animate-custom-header-customizer.php:245, inc/customizer/class-grimlock-animate-custom-header-customizer.php:276, inc/author-avatars/block/class-grimlock-animate-author-avatars-section-block.php:70, inc/buddypress/block/class-grimlock-animate-buddypress-groups-section-block.php:70, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:71, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:95, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:244, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:275, inc/widget/fields/class-grimlock-animate-nav-menu-section-widget-fields.php:65, inc/widget/fields/class-grimlock-animate-query-section-widget-fields.php:65, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:148, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:171, inc/widget/fields/class-grimlock-animate-term-query-section-widget-fields.php:65, inc/author-avatars/widget/fields/class-grimlock-animate-author-avatars-section-widget-fields.php:65, inc/buddypress/widget/fields/class-grimlock-animate-buddypress-groups-section-widget-fields.php:65, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:66, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:89
+msgid "Fade"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-nav-menu-section-block.php:87, inc/block/class-grimlock-animate-query-section-block.php:87, inc/block/class-grimlock-animate-section-block.php:198, inc/block/class-grimlock-animate-term-query-section-block.php:87, inc/customizer/class-grimlock-animate-custom-header-customizer.php:297, inc/author-avatars/block/class-grimlock-animate-author-avatars-section-block.php:87, inc/buddypress/block/class-grimlock-animate-buddypress-groups-section-block.php:87, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:112, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:296, inc/widget/fields/class-grimlock-animate-nav-menu-section-widget-fields.php:80, inc/widget/fields/class-grimlock-animate-query-section-widget-fields.php:80, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:186, inc/widget/fields/class-grimlock-animate-term-query-section-widget-fields.php:80, inc/author-avatars/widget/fields/class-grimlock-animate-author-avatars-section-widget-fields.php:80, inc/buddypress/widget/fields/class-grimlock-animate-buddypress-groups-section-widget-fields.php:80, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:104
+msgid "Play reveal animations every time the element becomes visible"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-nav-menu-section-block.php:103, inc/block/class-grimlock-animate-query-section-block.php:103, inc/block/class-grimlock-animate-section-block.php:214, inc/block/class-grimlock-animate-term-query-section-block.php:103, inc/customizer/class-grimlock-animate-custom-header-customizer.php:318, inc/author-avatars/block/class-grimlock-animate-author-avatars-section-block.php:103, inc/buddypress/block/class-grimlock-animate-buddypress-groups-section-block.php:103, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:128, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:317, inc/widget/fields/class-grimlock-animate-nav-menu-section-widget-fields.php:95, inc/widget/fields/class-grimlock-animate-query-section-widget-fields.php:95, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:201, inc/widget/fields/class-grimlock-animate-term-query-section-widget-fields.php:95, inc/author-avatars/widget/fields/class-grimlock-animate-author-avatars-section-widget-fields.php:95, inc/buddypress/widget/fields/class-grimlock-animate-buddypress-groups-section-widget-fields.php:95, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:119
+msgid "Play reveal animations on mobile"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-query-section-block.php:63
+msgid "Posts reveal"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-section-block.php:68
+msgid "Background parallax"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-section-block.php:71, inc/block/class-grimlock-animate-section-block.php:92, inc/block/class-grimlock-animate-section-block.php:113, inc/customizer/class-grimlock-animate-custom-header-customizer.php:129, inc/customizer/class-grimlock-animate-custom-header-customizer.php:157, inc/customizer/class-grimlock-animate-custom-header-customizer.php:185, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:128, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:156, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:184, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:66, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:86, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:106
+msgid "Natural"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-section-block.php:72, inc/block/class-grimlock-animate-section-block.php:93, inc/block/class-grimlock-animate-section-block.php:114, inc/customizer/class-grimlock-animate-custom-header-customizer.php:130, inc/customizer/class-grimlock-animate-custom-header-customizer.php:158, inc/customizer/class-grimlock-animate-custom-header-customizer.php:186, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:129, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:157, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:185, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:67, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:87, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:107
+msgid "Inverted"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-section-block.php:89
+msgid "Thumbnail parallax"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-section-block.php:110, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:102
+msgid "Content parallax:"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-section-block.php:134, inc/customizer/class-grimlock-animate-custom-header-customizer.php:208, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:207
+msgid "Parallax Speed"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-section-block.php:150, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:139
+msgid "Thumbnail reveal:"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-section-block.php:174, inc/widget/fields/class-grimlock-animate-section-widget-fields.php:162, inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:81
+msgid "Content reveal:"
+msgstr ""
+
+#: inc/block/class-grimlock-animate-term-query-section-block.php:63
+msgid "Terms reveal"
+msgstr ""
+
+#: inc/customizer/class-grimlock-animate-custom-header-customizer.php:67, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:66
+msgid "Animations"
+msgstr ""
+
+#: inc/customizer/class-grimlock-animate-custom-header-customizer.php:124, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:123
+msgid "Background Parallax"
+msgstr ""
+
+#: inc/customizer/class-grimlock-animate-custom-header-customizer.php:152, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:151
+msgid "Thumbnail Parallax"
+msgstr ""
+
+#: inc/customizer/class-grimlock-animate-custom-header-customizer.php:180, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:179
+msgid "Content Parallax"
+msgstr ""
+
+#: inc/customizer/class-grimlock-animate-custom-header-customizer.php:236, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:235
+msgid "Thumbnail reveal"
+msgstr ""
+
+#: inc/customizer/class-grimlock-animate-custom-header-customizer.php:267, inc/gallery/block/class-grimlock-animate-gallery-section-block.php:88, inc/hero/customizer/class-grimlock-animate-hero-customizer.php:266
+msgid "Content reveal"
+msgstr ""
+
+#: inc/author-avatars/block/class-grimlock-animate-author-avatars-section-block.php:63
+msgid "Members reveal"
+msgstr ""
+
+#: inc/buddypress/block/class-grimlock-animate-buddypress-groups-section-block.php:63
+msgid "Groups reveal"
+msgstr ""
+
+#: inc/gallery/block/class-grimlock-animate-gallery-section-block.php:64
+msgid "Gallery items reveal"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-animate-nav-menu-section-widget-fields.php:57
+msgid "Menu Items Reveal:"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-animate-query-section-widget-fields.php:57
+msgid "Posts reveal:"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-animate-section-widget-fields.php:62
+msgid "Background parallax:"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-animate-section-widget-fields.php:82
+msgid "Thumbnail parallax:"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-animate-section-widget-fields.php:125
+msgid "Parallax Speed:"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-animate-term-query-section-widget-fields.php:57
+msgid "Terms reveal:"
+msgstr ""
+
+#: inc/author-avatars/widget/fields/class-grimlock-animate-author-avatars-section-widget-fields.php:57
+msgid "Members Reveal:"
+msgstr ""
+
+#: inc/buddypress/widget/fields/class-grimlock-animate-buddypress-groups-section-widget-fields.php:57
+msgid "Groups Reveal:"
+msgstr ""
+
+#: inc/gallery/widget/fields/class-grimlock-animate-gallery-section-widget-fields.php:58
+msgid "Gallery Items Reveal:"
+msgstr ""

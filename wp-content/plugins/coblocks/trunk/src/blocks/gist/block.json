@@ -1,0 +1,19 @@
+{
+	"name": "coblocks/gist",
+	"category": "embed",
+	"attributes": {
+		"url": {
+			"type": "string"
+		},
+		"file": {
+			"type": "string"
+		},
+		"meta": {
+			"type": "boolean",
+			"default": true
+		},
+		"caption": {
+			"type": "string"
+		}
+	}
+}

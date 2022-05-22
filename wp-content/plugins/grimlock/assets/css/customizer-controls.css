@@ -1,0 +1,1129 @@
+/**
+ * Customizer Controls
+ *
+ * Customize controls for the WP Customizer & Kirki fields
+ */
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Variables............Variables and config.
+ *
+ * TOOLS
+ * Mixins...............Mixins.
+ *
+ * COMPONENTS
+ * Widgets..............Widget styles.
+ *
+ * STYLES
+ *
+ */
+/*------------------------------------*\
+     #SETTINGS
+ \*------------------------------------*/
+/**
+ * Customizer Controls variables
+ */
+/*------------------------------------*\
+    #TOOLS
+\*------------------------------------*/
+/**
+ * Customizer Controls Mixins
+ */
+/*------------------------------------*\
+    #COMPONENTS
+\*------------------------------------*/
+/**
+ * Components
+ */
+/**
+ * Radio image component
+ */
+.radio-img-component, .customize-control-kirki-radio-image .image > label {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  padding: 3px;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.radio-img-component .ui-button-text, .customize-control-kirki-radio-image .image > label .ui-button-text {
+  padding: 0;
+}
+
+.radio-img-component .ui-button__tooltip, .customize-control-kirki-radio-image .image > label .ui-button__tooltip {
+  background-color: transparent;
+  border-radius: 500px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  font-size: .8em;
+  padding: 0;
+  font-weight: 600;
+  font-style: italic;
+  pointer-events: none;
+  color: #888;
+  display: none !important;
+}
+
+@media screen and (max-width: 640px) {
+  .radio-img-component, .customize-control-kirki-radio-image .image > label {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .radio-img-component, .customize-control-kirki-radio-image .image > label {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
+
+.radio-img-component img, .customize-control-kirki-radio-image .image > label img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: 2px solid #dddddd;
+  border-width: 2px !important;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: rgba(221, 211, 211, 0.75);
+  background-clip: padding-box;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  transform: translate3d(0, 0, 0);
+  -webkit-user-drag: none;
+}
+
+html[dir="rtl"] .radio-img-component img, html[dir="rtl"] .customize-control-kirki-radio-image .image > label img, .customize-control-kirki-radio-image html[dir="rtl"] .image > label img {
+  transform: scaleX(-1);
+}
+
+.radio-img-component img::-moz-selection, .customize-control-kirki-radio-image .image > label img::-moz-selection {
+  background: none !important;
+}
+
+.radio-img-component img::-moz-selection, .customize-control-kirki-radio-image .image > label img::-moz-selection, .radio-img-component img::selection, .customize-control-kirki-radio-image .image > label img::selection {
+  background: none !important;
+}
+
+.radio-img-component:hover, .customize-control-kirki-radio-image .image > label:hover {
+  background: none !important;
+}
+
+.radio-img-component:hover .customize-control-title, .customize-control-kirki-radio-image .image > label:hover .customize-control-title {
+  color: #0085ba;
+}
+
+.radio-img-component:hover img, .customize-control-kirki-radio-image .image > label:hover img {
+  border-color: #0085ba;
+}
+
+.radio-img-component:active, .customize-control-kirki-radio-image .image > label:active, .radio-img-component:focus, .customize-control-kirki-radio-image .image > label:focus, .radio-img-component.ui-state-active, .customize-control-kirki-radio-image .image > label.ui-state-active {
+  border: 0;
+  box-shadow: none;
+  background: none;
+}
+
+.radio-img-component:active img, .customize-control-kirki-radio-image .image > label:active img, .radio-img-component:focus img, .customize-control-kirki-radio-image .image > label:focus img, .radio-img-component.ui-state-active img, .customize-control-kirki-radio-image .image > label.ui-state-active img {
+  border-color: #0085ba;
+  opacity: .85;
+}
+
+.radio-img-component.ui-state-active .ui-button__tooltip, .customize-control-kirki-radio-image .image > label.ui-state-active .ui-button__tooltip {
+  opacity: 1;
+}
+
+.radio-img-component::-moz-selection, .customize-control-kirki-radio-image .image > label::-moz-selection {
+  background: none !important;
+}
+
+.radio-img-component::-moz-selection, .customize-control-kirki-radio-image .image > label::-moz-selection, .radio-img-component::selection, .customize-control-kirki-radio-image .image > label::selection {
+  background: none !important;
+}
+
+/* // Smaller buttons
+    &[id*="_alignment_control"] {
+        .ui-button-col {
+            padding-right: $ui-col-width / 2;
+            padding-left: $ui-col-width / 2;
+            width: 33%;
+            text-align: center;
+            &:first-child {
+                text-align: left;
+                padding-left: 0;
+                padding-right: $ui-col-width;
+            }
+            &:last-child {
+                padding-right: 0;
+                padding-left: $ui-col-width;
+                text-align: right;
+            }
+        }
+    }*/
+/**
+ * Divider control component
+ */
+.customize-control-divider {
+  padding: 12px 0;
+  width: 100%;
+}
+
+.customize-control-divider hr {
+  width: auto;
+  margin: 0 -12px !important;
+  border-top: 2px solid #e2e4e7;
+  border-bottom: none;
+}
+
+/**
+ * Color Picker
+ */
+.color-picker, #customize-theme-controls .customize-control-color .wp-picker-container,
+#customize-theme-controls .customize-control-kirki-color .wp-picker-container {
+  display: block;
+  position: relative;
+}
+
+.color-picker .wp-color-result-text, #customize-theme-controls .customize-control-color .wp-picker-container .wp-color-result-text, #customize-theme-controls .customize-control-kirki-color .wp-picker-container .wp-color-result-text {
+  display: none !important;
+}
+
+.color-picker .wp-color-result.button, #customize-theme-controls .customize-control-color .wp-picker-container .wp-color-result.button, #customize-theme-controls .customize-control-kirki-color .wp-picker-container .wp-color-result.button {
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  min-height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 500px !important;
+  overflow: hidden;
+  position: absolute !important;
+  top: -24px;
+  right: 2px;
+  margin: 0;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+  transition: box-shadow .2s ease-in-out;
+  outline: 0 !important;
+}
+
+.rtl .color-picker .wp-color-result.button, .rtl #customize-theme-controls .customize-control-color .wp-picker-container .wp-color-result.button, #customize-theme-controls .customize-control-color .rtl .wp-picker-container .wp-color-result.button, .rtl #customize-theme-controls .customize-control-kirki-color .wp-picker-container .wp-color-result.button, #customize-theme-controls .customize-control-kirki-color .rtl .wp-picker-container .wp-color-result.button {
+  right: auto;
+  left: 2px;
+}
+
+.color-picker .wp-color-result.button:hover, #customize-theme-controls .customize-control-color .wp-picker-container .wp-color-result.button:hover, #customize-theme-controls .customize-control-kirki-color .wp-picker-container .wp-color-result.button:hover {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.color-picker .wp-color-result.button .color-alpha, #customize-theme-controls .customize-control-color .wp-picker-container .wp-color-result.button .color-alpha, #customize-theme-controls .customize-control-kirki-color .wp-picker-container .wp-color-result.button .color-alpha {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.color-picker .wp-picker-input-wrap, #customize-theme-controls .customize-control-color .wp-picker-container .wp-picker-input-wrap, #customize-theme-controls .customize-control-kirki-color .wp-picker-container .wp-picker-input-wrap {
+  width: 100%;
+  padding-top: 1.3rem;
+}
+
+.color-picker .wp-picker-input-wrap > label, #customize-theme-controls .customize-control-color .wp-picker-container .wp-picker-input-wrap > label, #customize-theme-controls .customize-control-kirki-color .wp-picker-container .wp-picker-input-wrap > label {
+  width: 100% !important;
+}
+
+.color-picker .wp-picker-input-wrap input[type="text"].wp-color-picker, #customize-theme-controls .customize-control-color .wp-picker-container .wp-picker-input-wrap input[type="text"].wp-color-picker, #customize-theme-controls .customize-control-kirki-color .wp-picker-container .wp-picker-input-wrap input[type="text"].wp-color-picker {
+  width: 100% !important;
+}
+
+.color-picker .wp-picker-input-wrap .button.button-small, #customize-theme-controls .customize-control-color .wp-picker-container .wp-picker-input-wrap .button.button-small, #customize-theme-controls .customize-control-kirki-color .wp-picker-container .wp-picker-input-wrap .button.button-small {
+  min-height: 28px;
+  margin-left: 6px;
+}
+
+.color-picker.wp-picker-active .wp-picker-input-wrap, #customize-theme-controls .customize-control-color .wp-picker-active.wp-picker-container .wp-picker-input-wrap, #customize-theme-controls .customize-control-kirki-color .wp-picker-active.wp-picker-container .wp-picker-input-wrap {
+  display: flex !important;
+}
+
+/**
+ * Input range
+ */
+.input-range, #customize-theme-controls .customize-control input[type=range] {
+  -webkit-appearance: none;
+  margin: 8px 0;
+  width: 100%;
+  background: none;
+}
+
+.input-range:focus, #customize-theme-controls .customize-control input:focus[type=range] {
+  outline: none;
+}
+
+.input-range::-webkit-slider-runnable-track, #customize-theme-controls .customize-control input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 0 transparent, 0 0 0 rgba(13, 13, 13, 0);
+  background: #d0d0d0;
+  border: 0 solid transparent;
+  border-radius: 500px;
+}
+
+.input-range::-webkit-slider-thumb, #customize-theme-controls .customize-control input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(13, 13, 13, 0.3);
+  border: 1px solid #0085ba;
+  height: 16px;
+  width: 16px;
+  border-radius: 500px;
+  background: #0085ba;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: ew-resize !important;
+  -webkit-appearance: none;
+  margin-top: -5.5px;
+}
+
+.input-range::-webkit-slider-thumb:hover, #customize-theme-controls .customize-control input::-webkit-slider-thumb:hover[type=range] {
+  border-color: #5b9dd9;
+}
+
+.input-range::-webkit-slider-thumb:focus, #customize-theme-controls .customize-control input::-webkit-slider-thumb:focus[type=range], .input-range::-webkit-slider-thumb:active, #customize-theme-controls .customize-control input::-webkit-slider-thumb:active[type=range] {
+  box-shadow: none;
+}
+
+.input-range::-webkit-slider-thumb:active, #customize-theme-controls .customize-control input::-webkit-slider-thumb:active[type=range] {
+  background: #5b9dd9;
+}
+
+.input-range:focus::-webkit-slider-runnable-track, #customize-theme-controls .customize-control input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #dddddd;
+}
+
+.input-range::-moz-range-track, #customize-theme-controls .customize-control input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 0 transparent, 0 0 0 rgba(13, 13, 13, 0);
+  background: #d0d0d0;
+  border: 0 solid transparent;
+  border-radius: 500px;
+}
+
+.input-range::-moz-range-thumb, #customize-theme-controls .customize-control input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(13, 13, 13, 0.3);
+  border: 1px solid #0085ba;
+  height: 16px;
+  width: 16px;
+  border-radius: 500px;
+  background: #0085ba;
+  cursor: pointer;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.input-range::-moz-range-thumb:hover, #customize-theme-controls .customize-control input::-moz-range-thumb:hover[type=range] {
+  border-color: #5b9dd9;
+}
+
+.input-range::-moz-range-thumb:focus, #customize-theme-controls .customize-control input::-moz-range-thumb:focus[type=range], .input-range::-moz-range-thumb:active, #customize-theme-controls .customize-control input::-moz-range-thumb:active[type=range] {
+  box-shadow: none;
+}
+
+.input-range::-ms-track, #customize-theme-controls .customize-control input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+
+.input-range::-ms-fill-lower, #customize-theme-controls .customize-control input[type=range]::-ms-fill-lower {
+  box-shadow: 0 0 0 transparent, 0 0 0 rgba(13, 13, 13, 0);
+  background: #c3c3c3;
+  border: 0 solid transparent;
+  border-radius: 1000px;
+}
+
+.input-range::-ms-fill-upper, #customize-theme-controls .customize-control input[type=range]::-ms-fill-upper {
+  box-shadow: 0 0 0 transparent, 0 0 0 rgba(13, 13, 13, 0);
+  background: #d0d0d0;
+  border: 0 solid transparent;
+  border-radius: 1000px;
+}
+
+.input-range::-ms-thumb, #customize-theme-controls .customize-control input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(13, 13, 13, 0.3);
+  border: 1px solid #0085ba;
+  height: 16px;
+  width: 16px;
+  border-radius: 500px;
+  background: #0085ba;
+  cursor: pointer;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.input-range::-ms-thumb:hover, #customize-theme-controls .customize-control input::-ms-thumb:hover[type=range] {
+  border-color: #5b9dd9;
+}
+
+.input-range::-ms-thumb:focus, #customize-theme-controls .customize-control input::-ms-thumb:focus[type=range], .input-range::-ms-thumb:active, #customize-theme-controls .customize-control input::-ms-thumb:active[type=range] {
+  box-shadow: none;
+}
+
+.input-range:focus::-ms-fill-lower, #customize-theme-controls .customize-control input[type=range]:focus::-ms-fill-lower {
+  background: #d0d0d0;
+}
+
+.input-range:focus::-ms-fill-upper, #customize-theme-controls .customize-control input[type=range]:focus::-ms-fill-upper {
+  background: #dddddd;
+}
+
+.grimlock_input-range-value-indicator {
+  position: absolute;
+  top: 3px;
+  z-index: 2;
+  right: 0;
+  pointer-events: none;
+  opacity: .7;
+}
+
+.rtl .grimlock_input-range-value-indicator {
+  left: 0;
+  right: auto;
+}
+
+.rtl .code, .rtl
+code {
+  direction: ltr;
+}
+
+/**
+ * Button
+ */
+.rtl .wp-core-ui .button-link {
+  float: right;
+}
+
+.rtl .reorder-toggle {
+  float: right;
+}
+
+/*------------------------------------*\
+    #STYLES
+\*------------------------------------*/
+#customize-theme-controls .customize-control {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#customize-theme-controls .customize-control .wrapper {
+  border: 0 !important;
+}
+
+#customize-theme-controls .customize-control label {
+  cursor: default;
+}
+
+#customize-theme-controls .customize-control label textarea {
+  width: 100%;
+}
+
+#customize-theme-controls .customize-control select {
+  width: 100%;
+}
+
+#customize-theme-controls .customize-control select:not([multiple]) {
+  font-size: 13px;
+  line-height: 1.38461538;
+  color: inherit;
+  border-color: #7e8993;
+  box-shadow: none;
+  border-radius: 3px;
+  padding: 3px 24px 3px 8px;
+  min-height: 28px;
+  max-width: 25rem;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  background: #fff url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E") no-repeat right 5px top 55%;
+  background-size: 16px 16px;
+  cursor: pointer;
+}
+
+#customize-theme-controls .customize-control img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  user-drag: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#customize-theme-controls .customize-control.customize-control--disabled {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#customize-theme-controls .customize-control.customize-control--disabled .wrapper,
+#customize-theme-controls .customize-control.customize-control--disabled .image,
+#customize-theme-controls .customize-control.customize-control--disabled .image-wrapper,
+#customize-theme-controls .customize-control.customize-control--disabled > label .customize-control-content {
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: not-allowed;
+  width: 100%;
+}
+
+#customize-theme-controls .customize-control.customize-control--disabled .wrapper:before,
+#customize-theme-controls .customize-control.customize-control--disabled .image:before,
+#customize-theme-controls .customize-control.customize-control--disabled .image-wrapper:before,
+#customize-theme-controls .customize-control.customize-control--disabled > label .customize-control-content:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: not-allowed;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#customize-theme-controls .customize-control.customize-control--disabled .wrapper > div,
+#customize-theme-controls .customize-control.customize-control--disabled .wrapper > input,
+#customize-theme-controls .customize-control.customize-control--disabled .wrapper > label,
+#customize-theme-controls .customize-control.customize-control--disabled .wrapper > span,
+#customize-theme-controls .customize-control.customize-control--disabled .wrapper > textarea,
+#customize-theme-controls .customize-control.customize-control--disabled .image > div,
+#customize-theme-controls .customize-control.customize-control--disabled .image > input,
+#customize-theme-controls .customize-control.customize-control--disabled .image > label,
+#customize-theme-controls .customize-control.customize-control--disabled .image > span,
+#customize-theme-controls .customize-control.customize-control--disabled .image > textarea,
+#customize-theme-controls .customize-control.customize-control--disabled .image-wrapper > div,
+#customize-theme-controls .customize-control.customize-control--disabled .image-wrapper > input,
+#customize-theme-controls .customize-control.customize-control--disabled .image-wrapper > label,
+#customize-theme-controls .customize-control.customize-control--disabled .image-wrapper > span,
+#customize-theme-controls .customize-control.customize-control--disabled .image-wrapper > textarea,
+#customize-theme-controls .customize-control.customize-control--disabled > label .customize-control-content > div,
+#customize-theme-controls .customize-control.customize-control--disabled > label .customize-control-content > input,
+#customize-theme-controls .customize-control.customize-control--disabled > label .customize-control-content > label,
+#customize-theme-controls .customize-control.customize-control--disabled > label .customize-control-content > span,
+#customize-theme-controls .customize-control.customize-control--disabled > label .customize-control-content > textarea {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none !important;
+  cursor: not-allowed;
+}
+
+#customize-theme-controls .customize-control.customize-control--disabled .wrapper,
+#customize-theme-controls .customize-control.customize-control--disabled .image,
+#customize-theme-controls .customize-control.customize-control--disabled .image-wrapper {
+  opacity: 0.5;
+}
+
+#customize-theme-controls .customize-control-color,
+#customize-theme-controls .customize-control-kirki-color {
+  min-height: 35px;
+}
+
+#customize-theme-controls .customize-control-color .kirki-input-container > label,
+#customize-theme-controls .customize-control-kirki-color .kirki-input-container > label {
+  position: relative;
+  top: 6px;
+}
+
+#customize-theme-controls .customize-control-color .kirki-input-container > label .customize-control-title,
+#customize-theme-controls .customize-control-kirki-color .kirki-input-container > label .customize-control-title {
+  max-width: 220px;
+  line-height: 1.1em;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+}
+
+#customize-theme-controls .customize-control-color .wp-picker-container .wp-color-result.button,
+#customize-theme-controls .customize-control-kirki-color .wp-picker-container .wp-color-result.button {
+  top: -26px !important;
+}
+
+#customize-theme-controls .customize-control-color[id*="navigation_stick_to_top_background_color"] .wp-picker-container .wp-color-result.button, #customize-theme-controls .customize-control-color[id*="navigation_mobile_background_color"] .wp-picker-container .wp-color-result.button,
+#customize-theme-controls .customize-control-kirki-color[id*="navigation_stick_to_top_background_color"] .wp-picker-container .wp-color-result.button,
+#customize-theme-controls .customize-control-kirki-color[id*="navigation_mobile_background_color"] .wp-picker-container .wp-color-result.button {
+  position: relative !important;
+  top: 0 !important;
+  margin-top: 1rem !important;
+}
+
+#customize-theme-controls .customize-control-kirki-image {
+  position: relative;
+}
+
+#customize-theme-controls .customize-control-kirki-image .actions .button.image-upload-button:after {
+  content: "";
+  height: calc(100% - 62px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  transition: opacity .2s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 28px;
+  left: 0;
+  z-index: 9;
+  opacity: 0;
+  background-color: #fff;
+}
+
+#customize-theme-controls .customize-control-kirki-image .actions .button.image-upload-button:hover:after {
+  opacity: .35;
+}
+
+#customize-theme-controls .customize-control-kirki-image .thumbnail + .actions .button.image-upload-button:after {
+  content: "\f464";
+  font-family: "dashicons";
+  background-color: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#customize-theme-controls .customize-control-kirki-image .thumbnail + .actions .button.image-upload-button:hover:after {
+  opacity: .8;
+}
+
+#customize-theme-controls .customize-control-header .actions,
+#customize-theme-controls .customize-control-background .actions,
+#customize-theme-controls .customize-control-kirki-image .actions {
+  margin-top: 6px !important;
+  display: flex;
+}
+
+#customize-theme-controls .customize-control-header .actions .button,
+#customize-theme-controls .customize-control-background .actions .button,
+#customize-theme-controls .customize-control-kirki-image .actions .button {
+  margin: 0 !important;
+  white-space: nowrap;
+}
+
+#customize-theme-controls .customize-control-header .actions .button.image-upload-button, #customize-theme-controls .customize-control-header .actions .button.new,
+#customize-theme-controls .customize-control-header .actions .button .upload-button,
+#customize-theme-controls .customize-control-background .actions .button.image-upload-button,
+#customize-theme-controls .customize-control-background .actions .button.new,
+#customize-theme-controls .customize-control-background .actions .button .upload-button,
+#customize-theme-controls .customize-control-kirki-image .actions .button.image-upload-button,
+#customize-theme-controls .customize-control-kirki-image .actions .button.new,
+#customize-theme-controls .customize-control-kirki-image .actions .button .upload-button {
+  width: 100%;
+}
+
+#customize-theme-controls .customize-control-header .actions .button:not(:last-child),
+#customize-theme-controls .customize-control-background .actions .button:not(:last-child),
+#customize-theme-controls .customize-control-kirki-image .actions .button:not(:last-child) {
+  margin-right: 6px !important;
+}
+
+#customize-theme-controls .customize-control-header .actions.remove-actions,
+#customize-theme-controls .customize-control-background .actions.remove-actions,
+#customize-theme-controls .customize-control-kirki-image .actions.remove-actions {
+  width: 100%;
+}
+
+#customize-theme-controls .customize-control-header .actions.remove-actions:not(.hidden),
+#customize-theme-controls .customize-control-background .actions.remove-actions:not(.hidden),
+#customize-theme-controls .customize-control-kirki-image .actions.remove-actions:not(.hidden) {
+  display: flex;
+}
+
+#customize-theme-controls .customize-control-header .actions br.clear,
+#customize-theme-controls .customize-control-background .actions br.clear,
+#customize-theme-controls .customize-control-kirki-image .actions br.clear {
+  display: none !important;
+}
+
+#customize-theme-controls .customize-control-header .thumbnail,
+#customize-theme-controls .customize-control-background .thumbnail,
+#customize-theme-controls .customize-control-kirki-image .thumbnail {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+#customize-theme-controls .customize-control-header .thumbnail img,
+#customize-theme-controls .customize-control-background .thumbnail img,
+#customize-theme-controls .customize-control-kirki-image .thumbnail img {
+  width: 100%;
+}
+
+#customize-theme-controls .customize-control-header .container img {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+#customize-theme-controls .customize-control-kirki-slider .wrapper .slider-reset {
+  cursor: pointer;
+  top: 21px;
+  font-size: 15px;
+}
+
+.rtl #customize-theme-controls .customize-control-kirki-slider .wrapper .slider-reset {
+  right: auto;
+  left: 0;
+}
+
+#customize-theme-controls .customize-control-kirki-slider .wrapper .slider-reset:hover, #customize-theme-controls .customize-control-kirki-slider .wrapper .slider-reset:active {
+  color: #7e8993;
+}
+
+#customize-theme-controls .customize-control-kirki-slider .wrapper input[type="range"] {
+  width: calc(100% - 80px);
+}
+
+.rtl #customize-theme-controls .customize-control-kirki-slider .wrapper input[type="text"] {
+  text-align: left;
+}
+
+#customize-theme-controls .customize-control-kirki-slider .wrapper .value {
+  pointer-events: none;
+}
+
+#customize-theme-controls .customize-control-kirki-slider .kirki-control-right-col {
+  width: 15%;
+  text-align: right;
+  font-size: .9em;
+  font-weight: 600;
+}
+
+#customize-theme-controls .customize-control-kirki-typography .wrapper {
+  padding: 0;
+  box-shadow: none;
+}
+
+#customize-theme-controls .customize-control-kirki-typography .wrapper input[type=text] {
+  width: 98%;
+}
+
+#customize-theme-controls .customize-control-kirki-typography .wrapper .text-align {
+  width: 48%;
+  float: left;
+}
+
+#customize-theme-controls .customize-control-kirki-typography .wrapper .text-align label {
+  cursor: pointer;
+  width: auto !important;
+  margin-right: 2px;
+  padding: 0 !important;
+}
+
+#customize-theme-controls .customize-control-kirki-typography .wrapper .text-align .dashicons {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  color: #aaaaaa;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#customize-theme-controls .customize-control-kirki-typography .wrapper .text-align .dashicons:hover {
+  border-color: #5b9dd9;
+}
+
+#customize-theme-controls .customize-control-kirki-typography .wrapper .text-align input:checked + label .dashicons {
+  border-color: #5b9dd9;
+  color: #7e8993;
+}
+
+#customize-theme-controls .customize-control-kirki-typography .wrapper .text-align > h5 {
+  margin-bottom: 3px;
+}
+
+#customize-theme-controls .customize-control-kirki-typography .wrapper .text-transform {
+  width: 100%;
+}
+
+#customize-theme-controls .customize-control-kirki-typography .kirki-host-font-locally {
+  margin-top: 8px;
+}
+
+#customize-theme-controls .customize-control-kirki-checkbox input[type="checkbox"],
+#customize-theme-controls .customize-control-kirki-multicheck input[type="checkbox"],
+#customize-theme-controls .customize-control-repeater input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+  border-radius: 0 !important;
+}
+
+#customize-theme-controls .customize-control-kirki-checkbox input[type="checkbox"]:after,
+#customize-theme-controls .customize-control-kirki-multicheck input[type="checkbox"]:after,
+#customize-theme-controls .customize-control-repeater input[type="checkbox"]:after {
+  content: none !important;
+}
+
+#customize-theme-controls .customize-control-checkbox label input[type="checkbox"] {
+  height: 22px;
+  width: 22px;
+  border-radius: 0 !important;
+}
+
+#customize-theme-controls .customize-control-checkbox label input[type="checkbox"]:before {
+  position: relative;
+  font-size: 25px;
+  left: 0;
+  top: 2px;
+}
+
+#customize-theme-controls input[type="checkbox"] + label[for],
+#customize-theme-controls input[type="radio"] + label[for] {
+  cursor: pointer;
+}
+
+#customize-theme-controls .tooltip-wrapper {
+  top: 1px;
+}
+
+#customize-theme-controls .tooltip-wrapper .tooltip-trigger {
+  cursor: pointer;
+}
+
+#customize-theme-controls .tooltip-wrapper .tooltip-trigger:hover {
+  opacity: 0.8;
+}
+
+#customize-theme-controls .tooltip-wrapper .tooltip-content {
+  background: #555e66;
+  color: #fff;
+}
+
+#customize-theme-controls .tooltip-wrapper .tooltip-content:after {
+  color: #555e66;
+}
+
+.rtl #customize-theme-controls .add-new-widget, .rtl
+#customize-theme-controls .add-new-menu-item {
+  float: right;
+}
+
+.customize-control-kirki-radio-image .image {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -6px;
+  margin-right: -6px;
+}
+
+.customize-control-kirki-radio-image .image > label {
+  max-width: 33.333333%;
+  flex: 0 0 33.333333%;
+}
+
+.customize-control[id*="background_gradient_direction"] .image {
+  max-width: 50%;
+}
+
+.customize-control[id*="background_gradient_direction"] .image > label {
+  width: 50px;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+}
+
+.customize-control[id*="background_gradient_direction"] .image > label:hover {
+  z-index: 9;
+}
+
+.customize-control[id*="background_gradient_direction"] input:checked + label {
+  z-index: 9;
+}
+
+.customize-control[id*="background_gradient_direction"] label[class*="direction270deg"],
+.customize-control[id*="background_gradient_direction"] label[class*="direction225deg"] {
+  clear: left;
+}
+
+.customize-control[id*="background_gradient_direction"] label[class*="direction270deg"],
+.customize-control[id*="background_gradient_direction"] label[class*="direction360deg"],
+.customize-control[id*="background_gradient_direction"] label[class*="direction90deg"] {
+  top: -2px;
+}
+
+.customize-control[id*="background_gradient_direction"] label[class*="direction225deg"],
+.customize-control[id*="background_gradient_direction"] label[class*="direction180deg"],
+.customize-control[id*="background_gradient_direction"] label[class*="direction135deg"] {
+  top: -4px;
+}
+
+.customize-control[id*="background_gradient_direction"] label[class*="direction0deg"],
+.customize-control[id*="background_gradient_direction"] label[class*="direction360deg"],
+.customize-control[id*="background_gradient_direction"] label[class*="direction180deg"] {
+  left: -2px;
+}
+
+.customize-control[id*="background_gradient_direction"] label[class*="direction45deg"],
+.customize-control[id*="background_gradient_direction"] label[class*="direction90deg"],
+.customize-control[id*="background_gradient_direction"] label[class*="direction135deg"] {
+  left: -4px;
+}
+
+.customize-control[id*="background_gradient_direction"] label[class*="direction360deg"] {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+.background-position-control .button-group .button {
+  background: #fff;
+  color: inherit !important;
+}
+
+.customize-control-kirki-radio-buttonset .buttonset .switch-label {
+  cursor: pointer;
+}
+
+.customize-control-kirki-radio-buttonset .buttonset .switch-label:hover {
+  opacity: 0.8;
+}
+
+.customize-control-kirki-radio-buttonset .buttonset .switch-input:checked + .switch-label {
+  background-color: #0085ba;
+}
+
+.select2-container--default .select2-selection--multiple, .select2-container--default .select2-selection--single {
+  border-color: #7e8993 !important;
+  border-radius: 4px;
+  height: 32px;
+  outline: 0 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  background: #fff url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E") no-repeat center;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 16px;
+  border: none !important;
+  left: 0;
+  top: 41%;
+}
+
+.rtl .select2-container--default .select2-selection--single .select2-selection__arrow b {
+  right: 0;
+  left: auto;
+  margin-right: -4px;
+  margin-left: unset;
+}
+
+.select2-container--default .select2-results__option--highlighted[data-selected] {
+  background-color: #0085ba;
+}
+
+.select2-search--dropdown .select2-search__field {
+  min-width: 100% !important;
+}
+
+.select2-selection__rendered .select2-search.select2-search--inline {
+  width: auto !important;
+}
+
+.grimlock-customizer-tabs {
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  left: 0;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  border: 0;
+  box-shadow: 0 1px 0 #e2e4e7;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: auto;
+}
+
+.grimlock-customizer-tabs > div {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  text-align: center;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.grimlock-customizer-tabs > div:hover, .grimlock-customizer-tabs > div:active, .grimlock-customizer-tabs > div:focus, .grimlock-customizer-tabs > div.grimlock-customizer-tab-active {
+  border-bottom-color: #0085ba;
+}
+
+.grimlock-customizer-tabs > div.grimlock-customizer-tab-active > a {
+  color: #0085ba;
+}
+
+.grimlock-customizer-tabs > div > a {
+  font-weight: 500;
+  color: inherit;
+  padding: 10px 1px;
+  display: block;
+  cursor: pointer;
+  height: 100%;
+  word-break: break-all;
+  font-size: 0.9em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transition: all .2s ease-in-out;
+}
+
+.grimlock-customizer-tabs-inside {
+  padding-top: 40px;
+}
+
+.grimlock-customizer-tabs-inside .customize-section-description-container {
+  margin-bottom: 55px;
+}
+
+.grimlock-customizer-tabs-inside .grimlock-customizer-tab-control--hidden {
+  display: none !important;
+}
+
+#zoom-reset {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  left: 60px;
+}
+
+.rtl #zoom-reset {
+  right: 60px;
+  left: auto;
+}
+
+.kirki-customizer-loading-wrapper {
+  background-image: none !important;
+}
+
+.kirki-customizer-loading-wrapper .kirki-customizer-loading {
+  background-image: none !important;
+  display: none !important;
+}
+
+.customize-control-widget_form [id*="grimlock"] .widget-title h3:before {
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+  margin-left: -5px;
+  font-size: 1.15em;
+  font-family: "dashicons";
+  opacity: .8;
+}
+
+.customize-control-widget_form [id*="grimlock"] .widget-title h3:before,
+#available-widgets [id*="grimlock"] .widget-title:before {
+  content: "\f164";
+}
+
+.customize-control-widget_form [id*="grimlock_query_section"] .widget-title h3:before,
+#available-widgets [id*="grimlock_query_section"] .widget-title:before {
+  content: "\f475";
+}
+
+.customize-control-widget_form [id*="grimlock_buddypress_groups"] .widget-title h3:before,
+#available-widgets [id*="grimlock_buddypress_groups"] .widget-title:before {
+  content: "\f456";
+}
+
+.customize-control-widget_form [id*="grimlock_posts_section"] .widget-title h3:before,
+#available-widgets [id*="grimlock_posts_section"] .widget-title:before {
+  content: "\f509";
+}
+
+.customize-control-widget_form [id*="grimlock_term_query"] .widget-title h3:before,
+#available-widgets [id*="grimlock_term_query"] .widget-title:before {
+  content: "\f163";
+}
+
+.customize-control-widget_form [id*="grimlock_author_avatars"] .widget-title h3:before,
+#available-widgets [id*="grimlock_author_avatars"] .widget-title:before {
+  content: "\f307";
+}
+
+.customize-control-widget_form [id*="grimlock_nav_menu"] .widget-title h3:before,
+#available-widgets [id*="grimlock_nav_menu"] .widget-title:before {
+  content: "\f333";
+}
+
+.customize-control-widget_form [id*="grimlock_the_events"] .widget-title h3:before,
+#available-widgets [id*="grimlock_the_events"] .widget-title:before {
+  content: "\f145";
+}
+
+.customize-control-widget_form [id*="grimlock_gallery"] .widget-title h3:before,
+#available-widgets [id*="grimlock_gallery"] .widget-title:before {
+  content: "\f161";
+}
+
+.customize-control-widget_form [id*="grimlock_odometer"] .widget-title h3:before,
+#available-widgets [id*="grimlock_odometer"] .widget-title:before {
+  content: "\f226";
+}
+
+.customize-control-widget_form [id*="grimlock_testimonial"] .widget-title h3:before,
+#available-widgets [id*="grimlock_testimonial"] .widget-title:before {
+  content: "\f101";
+}
+
+.customize-control-widget_form [id*="grimlock_woocommerce"] .widget-title h3:before,
+#available-widgets [id*="grimlock_woocommerce"] .widget-title:before {
+  content: "\f174";
+}
+
+@media (min-width: 782px) {
+  .customize-widgets-header {
+    margin-bottom: 0;
+  }
+}
+
+.block-editor-block-list__layout .block-editor-block-list__block {
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.block-editor-block-list__block .grimlock-widget .grimlock-widget {
+  padding: 0;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -20px;
+}
+

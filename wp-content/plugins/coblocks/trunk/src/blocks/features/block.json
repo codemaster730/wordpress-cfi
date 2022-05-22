@@ -1,0 +1,18 @@
+{
+	"name": "coblocks/features",
+	"category": "layout",
+	"attributes": {
+		"headingLevel": {
+			"type": "integer",
+			"default": 4
+		},
+		"columns": {
+			"type": "number",
+			"default": 2
+		},
+		"contentAlign": {
+			"type": "string",
+			"default": "center"
+		}
+	}
+}

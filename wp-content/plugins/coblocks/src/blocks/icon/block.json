@@ -1,0 +1,62 @@
+{
+	"name": "coblocks/icon",
+	"category": "design",
+	"attributes": {
+		"icon": {
+			"type": "string",
+			"default": ""
+		},
+		"iconSize": {
+			"type": "string",
+			"default": "medium"
+		},
+		"contentAlign": {
+			"type": "string"
+		},
+		"hasContentAlign": {
+			"type": "boolean",
+			"default": true
+		},
+		"backgroundColor": {
+			"type": "string"
+		},
+		"customBackgroundColor": {
+			"type": "string"
+		},
+		"iconColor": {
+			"type": "string"
+		},
+		"customIconColor": {
+			"type": "string"
+		},
+		"height": {
+			"type": "number",
+			"default": 60
+		},
+		"width": {
+			"type": "number",
+			"default": 60
+		},
+		"borderRadius": {
+			"type": "number",
+			"default": 0
+		},
+		"padding": {
+			"type": "number",
+			"default": 0
+		},
+		"href": {
+			"type": "string"
+		},
+		"rel": {
+			"type": "string"
+		},
+		"linkTarget": {
+			"type": "string"
+		}
+	},
+	"title": "Icon",
+	"textdomain": "coblocks",
+	"editorScript": "blocks-8",
+	"description": "Add a stylized graphic symbol to communicate something more."
+}

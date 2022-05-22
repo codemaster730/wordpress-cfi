@@ -1,0 +1,84 @@
+[26-Sep-2021 03:05:26 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[27-Sep-2021 13:33:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[28-Sep-2021 18:00:55 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[17-Oct-2021 18:01:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[17-Oct-2021 23:02:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[24-Oct-2021 01:50:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[15-Nov-2021 03:34:53 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[28-Feb-2022 10:27:00 America/New_York] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[28-Feb-2022 10:27:00 America/New_York] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[28-Feb-2022 10:27:00 America/New_York] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[28-Feb-2022 10:27:00 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-requests.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[28-Feb-2022 10:28:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[28-Feb-2022 22:14:37 America/New_York] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[28-Feb-2022 22:14:37 America/New_York] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[28-Feb-2022 22:14:37 America/New_York] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[28-Feb-2022 22:14:37 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-requests.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[28-Feb-2022 22:16:02 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[24-Mar-2022 12:32:15 America/New_York] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2022 12:32:15 America/New_York] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2022 12:32:15 America/New_York] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2022 12:32:15 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-requests.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[24-Mar-2022 12:32:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[26-Mar-2022 02:58:50 America/New_York] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2022 02:58:50 America/New_York] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2022 02:58:50 America/New_York] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2022 02:58:50 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-requests.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[26-Mar-2022 02:59:25 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[29-Apr-2022 14:55:53 America/New_York] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[29-Apr-2022 14:55:53 America/New_York] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[29-Apr-2022 14:55:53 America/New_York] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[29-Apr-2022 14:55:53 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-requests.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[29-Apr-2022 14:56:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[29-Apr-2022 22:37:59 America/New_York] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[29-Apr-2022 22:37:59 America/New_York] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[29-Apr-2022 22:37:59 America/New_York] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[29-Apr-2022 22:37:59 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-requests.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[29-Apr-2022 22:38:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12
+[06-May-2022 00:55:42 America/New_York] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[06-May-2022 00:55:42 America/New_York] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[06-May-2022 00:55:42 America/New_York] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[06-May-2022 00:55:42 America/New_York] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-requests.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/humajvue/groups.cficast.com/wp-includes/class-wp-http.php on line 11
+[06-May-2022 00:56:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/humajvue/groups.cficast.com/wp-includes/template-canvas.php on line 12

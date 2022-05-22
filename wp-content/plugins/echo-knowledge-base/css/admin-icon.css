@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'ep_icons';
+  src: url("fonts/ep_icons.eot?9ohdyt");
+  src: url("fonts/ep_icons.eot?9ohdyt#iefix") format("embedded-opentype"), url("fonts/ep_icons.ttf?9ohdyt") format("truetype"), url("fonts/ep_icons.woff?9ohdyt") format("woff"), url("fonts/ep_icons.svg?9ohdyt#ep_icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+#toplevel_page_epkb-help-dialog .dashicons-admin-generic:before {
+  font-family: "ep_icons" !important;
+  content: "";
+  font-size: 15px;
+  line-height: 1.4; }
+
+#wpadminbar #wp-admin-bar-epkb-edit-mode-button-help > .ab-item:before {
+  content: "";
+  font-family: "ep_icons" !important;
+  font-size: 120% !important;
+  line-height: 1.6;
+  top: 5px;
+  float: left;
+  font: normal 20px/1 dashicons;
+  speak: none;
+  padding: 4px 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: none !important;
+  margin-right: 6px;
+  color: #9ba1a5; }
+#wpadminbar #wp-admin-bar-epkb-edit-mode-button-help > .ab-item:hover:before {
+  color: #4391F3; }

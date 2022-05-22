@@ -1,0 +1,3732 @@
+/**
+ * Styles for Youzer
+ *
+ * The best wordpress community & user profile wordpress plugin
+ * https://youzer.kainelabs.com/
+ *
+ */
+#youzer #message > p :is(.btn, .button) {
+  background-color: var(--grimlock-alert-color) !important;
+  color: var(--grimlock-alert-background-color) !important;
+  border: none !important;
+  text-decoration: none !important;
+  padding: .75em 1.35em;
+  font-size: 1em;
+}
+
+#youzer #message > p :hover:is(.btn, .button), #youzer #message > p :active:is(.btn, .button), #youzer #message > p :focus:is(.btn, .button) {
+  opacity: .75 !important;
+}
+
+#youzer #message > p,
+#youzer div#message > p {
+  position: relative;
+  padding: var(--grimlock-alert-padding);
+  margin-bottom: var(--grimlock-alert-margin-bottom);
+  border: 0 !important;
+  border-radius: var(--grimlock-alert-border-radius);
+  background-color: var(--grimlock-alert-background-color) !important;
+  color: var(--grimlock-alert-color) !important;
+  font-size: var(--grimlock-alert-font-size);
+}
+
+#youzer #message > p a:not([class*="button"]) {
+  color: inherit !important;
+  text-decoration: underline;
+}
+
+#youzer #message > p a:not([class*="button"]):hover, #youzer #message > p a:not([class*="button"]):active, #youzer #message > p a:not([class*="button"]):focus {
+  opacity: .75 !important;
+  text-decoration: none !important;
+}
+
+#youzer #message > p.success, #youzer #message > p.updated,
+#youzer div#message > p.success,
+#youzer div#message > p.updated, #youzer #message.updated > p, #youzer #message.success > p,
+#youzer div#message.updated > p,
+#youzer div#message.success > p {
+  --grimlock-alert-color: var(--grimlock-alert-success-color);
+  --grimlock-alert-background-color: var(--grimlock-alert-success-background-color);
+}
+
+#youzer #message.error > p,
+#youzer div#message.error > p {
+  --grimlock-alert-color: var(--grimlock-alert-danger-color);
+  --grimlock-alert-background-color: var(--grimlock-alert-danger-background-color);
+}
+
+#youzer #message.warning > p,
+#youzer div#message.warning > p {
+  --grimlock-alert-color: var(--grimlock-alert-warning-color);
+  --grimlock-alert-background-color: var(--grimlock-alert-warning-background-color);
+}
+
+/*------------------------------------*\
+    #STYLES
+\*------------------------------------*/
+/* Grid */
+.yz-forum .yz-page-main-content .yz-main-column {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .yz-forum .yz-page-main-content .yz-main-column {
+    width: 75%;
+  }
+}
+
+.yz-forum .yz-page-main-content .yz-main-column #bbpress-forums {
+  margin-right: 0;
+}
+
+.yz-forum .yz-sidebar-column {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .yz-forum .yz-sidebar-column {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  #youzer .youzer.yz-directory .yz-page-main-content {
+    padding: 25px 0 0;
+  }
+}
+
+#youzer .youzer.yz-profile .yz-page-main-content, #youzer .youzer.yz-group .yz-page-main-content {
+  padding: 2rem 30px;
+}
+
+#youzer .youzer.yz-profile .yz-page-main-content .yz-right-sidebar-layout, #youzer .youzer.yz-group .yz-page-main-content .yz-right-sidebar-layout {
+  grid-template-columns: calc(75% - 30px) 25%;
+  grid-gap: 30px;
+}
+
+@media (min-width: 992px) {
+  #yz-profile-navmenu .yz-inner-content,
+  .youzer .wild-content,
+  .youzer .yz-boxed-navbar,
+  .yz-cover-content,
+  .yz-header-content,
+  .yz-page-main-content,
+  .yz-vertical-layout .yz-content {
+    width: 100%;
+    max-width: 1400px;
+  }
+}
+
+.page-template-template-classic-12-cols-left #yz-profile-navmenu .yz-inner-content, .page-template-template-classic-12-cols-left
+.youzer .wild-content, .page-template-template-classic-12-cols-left
+.youzer .yz-boxed-navbar, .page-template-template-classic-12-cols-left
+.yz-cover-content, .page-template-template-classic-12-cols-left
+.yz-header-content, .page-template-template-classic-12-cols-left
+.yz-page-main-content, .page-template-template-classic-12-cols-left
+.yz-vertical-layout .yz-content {
+  max-width: 100% !important;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#yz-profile-navmenu .yz-inner-content {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#yz-members-directory,
+#yz-groups-directory {
+  position: relative;
+  max-width: 100% !important;
+}
+
+#youzer {
+  width: 100%;
+}
+
+.youzer #sitewide-notice,
+.youzer .widget.buddypress,
+.youzer .widget_bp_core_members_widget .item-options a,
+.youzer .widget_bp_core_sitewide_messages .bp-site-wide-message button,
+.youzer .widget_bp_groups_widget .item-options a,
+.youzer a,
+.youzer a.button,
+.youzer input,
+.youzer p,
+.youzer select,
+.youzer textarea,
+.youzer .yz-items-list-widget,
+.youzer .yz-my-account-widget,
+.youzer .yz-tool-btn .yz-tool-name,
+.youzer .yz-tooltip:after,
+.youzer [data-yztooltip]:after,
+.youzer #yz-directory-search-box form input[type=submit],
+.youzer #yz-directory-search-box form input[type=text],
+.youzer #yz-groups-list .item .item-meta span,
+.youzer #yz-groups-list .item .item-title a,
+.youzer #yz-members-list .yz-name,
+.youzer .yz-name h2,
+.youzer .yz-user-statistics li h3,
+.youzer .yz-usermeta li span,
+.youzer .yzb-account-menu a,
+.youzer .yzb-author-infos p,
+.youzer .yzb-head-content .yzb-head-meta,
+.youzer .yzb-head-content h2,
+.youzer .yzb-head-content h3,
+.youzer .yz-recent-posts .yz-post-head .yz-post-title a,
+.youzer .yz-wg-networks.yz-icons-full-width li a,
+.youzer .yz-tab-comment .yz-comment-excerpt p,
+.youzer .yz-profile-navmenu .yz-navbar-item a,
+.youzer .yz-project-content .yz-project-title,
+.youzer .yz-tab-comment .yz-comment-fullname,
+.youzer .yz-post-plus4imgs .yz-post-imgs-nbr,
+.youzer .yz-recent-posts .yz-post-meta ul li,
+.youzer .yz-post-content .yz-post-title a,
+.youzer .yz-tab-comment .yz-comment-title,
+.youzer .yz-tab-post .yz-post-meta ul li,
+.youzer .yz-form .youzer-form-message p,
+.youzer .yz-infos-content ul li strong,
+.youzer .yz-video-head .yz-video-title,
+.youzer .yz-video-head .yz-video-desc,
+.youzer .yz-tab-post .yz-post-title a,
+.youzer .yz-quote-content blockquote,
+.youzer .yz-tab-post .yz-post-text p,
+.youzer .yz-widget .yz-widget-title,
+.youzer .yz-box-head .yz-box-title,
+.youzer .yz-link-content p,
+.youzer .pagination .page-numbers,
+.youzer .yz-infos-content ul li p,
+.youzer .yz-info-msg p strong,
+.youzer .lb-data .lb-caption,
+.youzer .lb-data .lb-number,
+.youzer .yz-profile-login,
+.youzer .youzer_msg span,
+.youzer .yz-aboutme-name,
+.youzer .yz-project-type,
+.youzer .yz-quote-owner,
+.youzer .yz-box-404 h2,
+.youzer .yz-info-msg p,
+.youzer .yz-post-type,
+.youzer .yz-box-404 p,
+.youzer .yz-item-title,
+.youzer .yz-user-statistics .yz-snumber,
+.youzer .settings-inner-content .options-section-title h2,
+.youzer .settings-sidebar .account-menus h2,
+.youzer .settings-sidebar .account-menus ul li a,
+.youzer .uk-option-item .option-desc,
+.youzer .uk-option-item label,
+.youzer .youzer .action-button,
+.youzer .youzer .option-content input:not([type=radio]),
+.youzer .youzer .option-content select,
+.youzer .youzer .option-content textarea,
+.youzer .yz-account-head h2,
+.youzer .yz-account-head span, .youzer .yz-account-header ul li a,
+.youzer .yz-cphoto-options .yz-upload-photo,
+.youzer .yz-no-content,
+.youzer .yza-item-button,
+.youzer #send-reply #send_reply_button, .youzer #sitewide-notice #message button,
+.youzer .item-list-tabs #search-message-form #messages_search,
+.youzer .item-list-tabs #search-message-form #messages_search_submit,
+.youzer .yzmsg-form-item .emojionearea .emojionearea-editor,
+.youzer .yz-skill-bar-percent, .youzer .yz-skillbar-title,
+.youzer .yzmsg-form-item input[type=text]:not(.search) {
+  font-family: inherit;
+}
+
+#yz-profile-navmenu,
+.youzer #subnav,
+.yz-widget:not(.yz-no-bg),
+.youzer .activity-list > li,
+#yz-wall-form {
+  border-style: solid;
+}
+
+.yz-box-head .yz-box-icon i {
+  border-radius: 500px !important;
+}
+
+.logy_checkbox_field .logy_field_indication:after {
+  width: 6px;
+  height: 10px;
+}
+
+.yz-quote-content:before {
+  content: none !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.yz-quote-content blockquote:before {
+  content: none !important;
+}
+
+.yz-link-cover {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.youzer textarea::-moz-placeholder {
+  font-family: inherit !important;
+}
+
+.youzer textarea:-ms-input-placeholder {
+  font-family: inherit !important;
+}
+
+#sitewide-notice,
+.yz-modal,
+.youzer-dialog,
+.youzer-dialog-desc,
+.youzer textarea::placeholder,
+#group-settings-form .yz-group-field-item input[type=text],
+#group-settings-form input[type=submit],
+#group-settings-form textarea,
+#send-invite-form .submit input,
+.group-members #search-members-form #members_search_submit,
+.group-members #search-members-form label input,
+.yz-group-manage-members-search #members_search_submit,
+.yz-group-manage-members-search #search-members-form #members_search,
+#yz-directory-search-box form input[type=submit],
+#yz-directory-search-box form input[type=text],
+#yz-groups-list .action a,
+#yz-groups-list .item .item-meta span,
+#yz-groups-list .item .item-title a,
+#yz-members-list .yz-name,
+#yz-members-list .yzm-user-actions a,
+.logy,
+.logy-forgot-password,
+.logy-form .form-title h2,
+.logy-form .logy-form-cover .form-cover-title,
+.logy-form .logy-form-desc,
+.logy-form .logy-form-message p,
+.logy-form-actions button,
+.logy-form-item .logy-item-content input,
+.logy-form-item .logy-item-content label,
+.logy-form-note,
+.logy-link-button,
+.logy-social-buttons .logy-social-title,
+.logy-social-buttons li a,
+.yzmsg-form-item textarea,
+.lb-data .lb-number {
+  font-family: inherit !important;
+}
+
+::-moz-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+:-ms-input-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+::placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+:-moz-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+::-moz-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+:-ms-input-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+::-webkit-input-placeholder {
+  font-family: inherit !important;
+  letter-spacing: 0 !important;
+}
+
+.yz-forums-topic-item .yz-forums-topic-meta .bbp-author-name,
+.yz-forums-topic-item .yz-forums-topic-meta .yz-forums-topic-author,
+.yz-forums-topic-item .yz-forums-topic-meta .yz-forums-topic-forum a,
+.yz-forums-topic-item .yz-forums-topic-forum i,
+#bbpress-forums li.bbp-forum-reply-count i,
+#bbpress-forums li.bbp-forum-topic-count i,
+#bbpress-forums li.bbp-topic-reply-count i,
+#bbpress-forums li.bbp-topic-voice-count i,
+.yz-infos-content .yz-info-data,
+.yz-infos-content .yz-info-data a,
+.yz-infos-content .yz-info-label,
+.yz-widget .yz-user-tags .yz-utag-name,
+.yz-custom-widget-box a, .yz-custom-widget-box p,
+.yz-widget .yz-user-tags .yz-utag-description,
+.yz-widget .yz-widget-main-content,
+.yz-recent-posts .yz-post-meta ul li,
+.yz-widget .yz-user-tags .yz-utag-name i,
+.yz-widget-title i,
+.yz-items-list-widget .yz-item-meta .yz-meta-item,
+.yz-notifications-widget .yz-notif-item .yz-notif-content .yz-notif-time,
+.yz-user-statistics .yz-sdescription,
+.yz-user-statistics li,
+.yz-tab-comment .view-comment-button,
+.yz-tab-comment .yz-comment-excerpt p,
+.yz-nav-settings .yz-settings-icon,
+.yz-profile-navmenu > .yz-navbar-item a,
+.yz-profile-navmenu > li a,
+.youzer .activity-header p,
+.youzer #activity-stream .ac-reply-content a,
+.yz-tab-title-box .yz-tab-title-icon i,
+.yz-account-head span,
+.settings-sidebar .account-menus ul li i,
+.account-menus .yz-menu-head i,
+.youzer .editfield .field-visibility-settings-notoggle,
+.youzer .editfield .field-visibility-settings-toggle,
+.nice-select .current,
+#yz-export-data .youzer-section-content p,
+.uk-option-item .option-desc,
+.mycred-history #buddypress.youzer .mycred-table tfoot th,
+.mycred-history #buddypress.youzer .mycred-table thead th,
+#buddypress.youzer .mycred-table tbody td,
+.yz-review-item .yz-item-content .yz-item-desc,
+.yz-review-item .yz-head-meta .yz-item-date,
+.yz-wall-new-post .yz-post-meta .yz-meta-item,
+.youzer .activity-meta .yz-post-liked-by .yz-liked-this,
+.yz-quick-buttons .yz-button-item i,
+.yz-quick-buttons .yz-button-item span,
+#whats-new-post-in-box label,
+#yz-members-list .yz-name,
+#yz-members-list .yz-name i,
+.yz-my-account-widget .yz-widget-header .yz-widget-head .yz-hello,
+.youzer .thread-sender .thread-from .activity,
+.youzer .thread-info .thread-excerpt,
+.yz-my-account-widget .yz-menu-links .yz-section-title,
+.yz-my-account-widget .yz-menu-links .yz-link-item .yz-link-title,
+.yz-items-list-widget .yz-list-item .yz-item-meta .yz-meta-item,
+#whats-new-post-in-box,
+.yz-wall-options .yz-wall-opts-item label,
+.youzer .yz-wall-embed .yz-embed-meta,
+.youzer .activity-inner p,
+.youzer .activity-inner,
+.youzer .group-members-list .item .item-meta,
+.youzer .yz-wall-embed .yz-embed-meta .yz-embed-meta-item span,
+.youzer .activity-list li.load-more a,
+.youzer .activity-list li.load-newest a,
+.yz-tab-post .yz-post-meta ul li a,
+.yz-tab-comment .yz-comment-meta ul li,
+.yz-tab-comment .yz-comment-date span,
+.yz-bbp-freshness-data .yz-bbp-freshness-time,
+.yz-bbp-freshness-data .yz-bbp-freshness-time a,
+.yz-bbp-freshness-content .yz-bbp-freshness-author,
+.yz-bbp-freshness-content .yz-bbp-freshness-author a,
+#bbpress-forums li.bbp-forum-reply-count i,
+#bbpress-forums li.bbp-forum-topic-count i,
+#bbpress-forums li.bbp-topic-reply-count i,
+#bbpress-forums li.bbp-topic-voice-count i,
+#bbpress-forums .bbp-body li.bbp-forum-reply-count,
+#bbpress-forums .bbp-body li.bbp-forum-topic-count,
+#bbpress-forums .bbp-body li.bbp-topic-reply-count,
+#bbpress-forums .bbp-body li.bbp-topic-voice-count,
+div.bbp-template-notice p,
+.yz-forums-forum-item .yz-forums-forum-desc,
+.yz-bbp-topic-head-meta .yz-bbp-topic-head-meta-item,
+.yz-wall-link-data .yz-wall-link-desc,
+.youzer .acomment-content p,
+#yz-wall-form .yz-file-preview .yz-attachment-details .yz-file-icon,
+#yz-wall-form .yz-file-preview .yz-attachment-details .yz-file-name,
+#yz-wall-form .yz-file-preview .yz-attachment-details .yz-delete-attachment,
+.youzer .activity-comments .acomment-meta a .time-since,
+.youzer .activity-meta .yz-post-liked-by .yz-view-all,
+.youzer .activity-comments .acomment-meta a.activity-time-since i,
+.youzer .group-members-list .item .item-meta span,
+.group_members #yz-members-list .item .item-meta span,
+.follows .youzer #yz-members-list .item .item-meta span,
+.my-friends .youzer #yz-members-list .item .item-meta span,
+.yz-responsive-menu span,
+.youzer .bp-avatar-nav li.current a,
+.notifications tbody td.notification-since,
+.youzer .bp-avatar-nav li a,
+#group-settings-form .main-column p,
+.yz-group-settings-tab .main-column p,
+#yz-groups-list .item .item-meta .group-status,
+#group-settings-form .yz-group-submit-form #group-creation-previous,
+.item-list-tabs li label,
+.yz-group-settings-tab .yz-group-submit-form #group-creation-previous,
+.youzer .group-request-list .item .item-meta,
+#buddypress .messages-notices thead th,
+#buddypress .notifications thead th,
+.yz-group-infos-widget .yz-group-widget-content,
+.yz-header-networks li a,
+#invite-list ul li label,
+.widget.widget_display_topics li,
+.widget_display_topics li,
+.yzb-head-content .yzb-head-meta,
+.yzb-head-content .yzb-head-meta a,
+.yzb-head-content .yzb-head-meta a:hover,
+.yzb-author .yz-user-ratings-details .yz-separator,
+.yzb-author .yz-user-ratings-details .yz-star-rating i.star-empty,
+.yzb-author .yz-user-ratings-details .yz-star-rating i.star-half,
+.yzb-author .yz-user-ratings-details .yz-user-ratings-rate,
+.yzb-author .yz-user-ratings-details .yz-user-ratings-total,
+.yzb-author .yz-user-statistics .yz-snumber,
+.yzb-author .yz-user-statistics .yz-sdescription,
+#message-thread .message-metadata .activity,
+#message-thread .message-content,
+.yz-widget .yz-widget-head .yz-edit-widget,
+#message-recipients .highlight .highlight-meta,
+#group-settings-form fieldset,
+fieldset p,
+#youzer .uk-option-item .option-infos label,
+.yz-group-settings-tab fieldset p,
+.yzmsg-form-item label,
+.sitewide-notices .yz-notice-head .yz-notice-sent,
+.messages-notices .thread-options a span,
+.sitewide-notices .yz-notice-msg p,
+#yz-not-friend-message i,
+#yz-not-friend-message strong,
+#yz-not-friend-message p,
+.my-groups .youzer #yz-groups-list .item .item-meta span,
+span.bbp-author-ip,
+.bbp-reply-header .bbp-reply-post-date,
+#yz-groups-list .action .yz-manage-group,
+.yz-group-settings-tab p,
+#group-settings-form h3,
+#yz-group-body h3,
+#group-settings-form fieldset p,
+#group-settings-form p,
+.yz-group-settings-tab fieldset p,
+#bbpress-forums div.bbp-forum-author,
+#bbpress-forums div.bbp-reply-author,
+#bbpress-forums div.bbp-topic-author,
+#yz-group-buttons a.leave-group, #yz-group-buttons a.membership-requested,
+.notifications .notification-actions a span,
+.youzer #bp-delete-avatar:before, .youzer #bp-delete-cover-image:before,
+.yz-settings-sidebar .yz-account-menus ul li a,
+.yz-settings-sidebar .yz-account-menus ul li i,
+.youzer .editfield .description,
+.yz-project-title,
+.yz-project-meta ul li,
+.yz-project-content .yz-project-text p,
+.youzer .yz-link-content p,
+.yz-skill-bar-percent,
+.yz-aboutme-bio,
+.yz-media-filter .yz-filter-item .yz-filter-content,
+.yz-media-filter .yz-filter-item .yz-filter-content:not(.yz-current-filter):hover i,
+.yz-account-settings-menu .yz-menu-head .yz-menu-description,
+.youzer .activity-header .time-since,
+.youzer .activity-header a.activity-time-since span,
+.youzer .activity-header .yz-timestamp-area span.yz-separator-point,
+.youzer .activity-header .yz-timestamp-area i,
+.yz-services .yz-item-title,
+.yz-item-content p,
+.yz-form-tool i,
+.yz-video-head .yz-video-title,
+.yz-video-head .yz-video-desc,
+.logy-form-note,
+.yz-service-icon i {
+  color: inherit;
+}
+
+#buddypress.youzer div.bp-avatar-status p.warning,
+#buddypress.youzer div.bp-cover-image-status p.warning,
+.youzer div.bp-avatar-status p.warning,
+.youzer div.bp-cover-image-status p.warning,
+body.youzer div.bp-avatar-status p.warning,
+.youzer .bp-avatar p,
+.drag-drop .drag-drop-inside p,
+.yz-wall-options .yz-wall-opts-item label i,
+#bbpress-forums .bbp-forums-list a,
+.youzer .unread .thread-sender .thread-from .from a,
+.youzer .unread .thread-sender .thread-from .from .thread-count,
+.youzer .unread .thread-sender .thread-from .from,
+.youzer .unread .thread-info a,
+.youzer .unread .thread-options .delete,
+.youzer .unread .thread-options .delete > span,
+.youzer div.item-list-tabs .yz-bar-select,
+.yzb-head-content .yzb-head-username,
+.yz-widget .yz-widget-head a,
+span.bbp-admin-links a:not(:hover),
+span.bbp-admin-links,
+.thread-options .unread,
+.thread-options .unread > span,
+.logy-form-item label,
+#logy_signup_form fieldset legend, #logy_signup_form label,
+.youzer .yz-wall-embed .yz-embed-action .message-button .yz-send-message,
+#buddypress.youzer div.generic-button a:not(.friendship-button),
+.buddypress .youzer div.generic-button a:not(.friendship-button),
+.yzm-user-actions a:not(.friendship-button),
+.activity-time-since {
+  color: inherit !important;
+}
+
+.settings-inner-content .options-section-title h2 {
+  font-weight: 600;
+}
+
+.youzer-dialog > div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yz-video-content .jetpack-video-wrapper {
+  margin-bottom: 0 !important;
+}
+
+.time-since {
+  margin-left: 0 !important;
+}
+
+.youzer table.doctable thead tr {
+  background-color: var(--grimlock-button-primary-background-color);
+}
+
+.youzer table.doctable thead tr a:not([class*="btn"]) {
+  color: var(--grimlock-button-primary-color) !important;
+}
+
+.youzer table.doctable thead tr a:not([class*="btn"]):hover {
+  color: var(--grimlock-button-primary-hover-color) !important;
+}
+
+.youzer table .yz_cs_checkbox_field .yz_field_indication:after {
+  border-color: currentColor !important;
+}
+
+.notifications-options-nav {
+  display: inline-flex;
+}
+
+.youzer .yz-wall-embed .yz-embed-action .group-button a.leave-group,
+.youzer .yz-wall-embed .yz-embed-action .message-button .yz-send-message,
+#yz-group-buttons a.leave-group, #yz-group-buttons a.membership-requested {
+  border: 0 !important;
+}
+
+.logy-form .form-cover-title {
+  font-weight: 600;
+}
+
+#yz-group-body form input[type="submit"] {
+  height: auto;
+}
+
+.yz-link-inner-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff !important;
+}
+
+.yz-link-inner-content .yz-link-url {
+  color: #fff !important;
+}
+
+.youzer .checkbox,
+.youzer .radio {
+  margin-top: 1rem;
+}
+
+.youzer .checkbox input[type="checkbox"],
+.youzer .checkbox input[type="radio"],
+.youzer .radio input[type="checkbox"],
+.youzer .radio input[type="radio"] {
+  margin-right: 5px;
+}
+
+.yz-copyright {
+  display: none !important;
+}
+
+#content > .region__container > .region__row > .youzer {
+  width: 100%;
+  margin: 0;
+}
+
+.yz-page,
+#buddypress.yz-page {
+  background: none !important;
+  margin-top: 0;
+}
+
+.yz-page-main-content {
+  padding: 2rem 15px;
+  z-index: auto;
+}
+
+[class*="yz-"][class*="-scheme"].buddypress.directory.members:not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content, [class*="yz-"][class*="-scheme"].buddypress.directory.groups:not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content, [class*="yz-"][class*="-scheme"].buddypress.directory.activity:not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content, [class*="yz-"][class*="-scheme"].buddypress.groups.single-item:not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content, [class*="yz-"][class*="-scheme"].buddypress.bp-user:not(.activity-permalink):not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content, [class*="yz-"][class*="-scheme"].buddypress.groups.group-create:not(.page-template-template-minimal):not([class*="grimlock--navigation-fixed-"]) .site-content {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#buddypress.youzer .yz-wall-embed .yz-embed-action .group-button a.leave-group {
+  color: #fff !important;
+}
+
+.youzer blockquote:before {
+  font-family: FontAwesome !important;
+}
+
+#yz-wall-form #whats-new-post-in-box label {
+  display: none;
+}
+
+.item-list-tabs.activity-type-tabs > ul > li + li {
+  margin-left: 1rem;
+}
+
+.youzer #subnav div.item-list-tabs {
+  margin: 0;
+}
+
+/****
+# Options
+ ****/
+.avatar {
+  opacity: 1 !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.yz-member-avatar,
+.yz-profile-img,
+.yz-settings-img,
+.youzer .avatar {
+  overflow: hidden;
+}
+
+.yz-member-avatar img,
+.yz-profile-img img,
+.yz-settings-img img,
+.youzer .avatar img {
+  opacity: 1 !important;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.yz-profile-photo-effect .yz-profile-img {
+  display: flex;
+}
+
+.yz-items-list-widget .yz-list-item .yz-item-avatar img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.yz-card-show-avatar-border .item-avatar,
+.yz-card-show-avatar-border .yz-item-avatar,
+.yz-photo-border {
+  border-width: 7px;
+  background-color: #fff;
+}
+
+#buddypress.youzer .acomment-options a,
+#buddypress.youzer .activity-meta a {
+  background: none !important;
+  color: inherit !important;
+  font-weight: 500 !important;
+  font-size: .85em !important;
+  padding: 5px !important;
+}
+
+.youzer .activity-meta .yzpr-yes-reaction {
+  top: 0;
+  margin-right: 15px;
+}
+
+#buddypress a.button.bp-primary-action.acomment-reply > span {
+  background: none;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.yz-card-action-buttons-border-oval .hmk-get-percent,
+.yz-card-action-buttons-border-oval .yzm-user-statistics .yz-data-item span,
+.yz-card-action-buttons-border-oval .yzg-user-statistics .yz-data-item span {
+  border-radius: 500px;
+}
+
+.yz-tools-only-icons .yz-tool-btn {
+  border-radius: 500px;
+}
+
+/****
+# Directories
+ ****/
+#yz-groups-list .action .group-button {
+  color: #fff !important;
+  border: 0 !important;
+}
+
+#yz-groups-list .action .group-button:before,
+#yz-groups-list .action .group-button i {
+  color: inherit !important;
+}
+
+#yz-groups-list .action .group-button a.leave-group {
+  color: #fff !important;
+  background: #e74c3c !important;
+}
+
+#yz-members-list,
+#yz-groups-list {
+  margin-left: -15px;
+  margin-right: -15px;
+  width: auto;
+  max-width: none;
+  position: relative;
+}
+
+.page-template-template-classic-12-cols-left #yz-members-list, .page-template-template-classic-12-cols-left
+#yz-groups-list {
+  max-width: none !important;
+}
+
+@media (min-width: 992px) {
+  .page-template-template-classic-12-cols-left #yz-members-list li, .page-template-template-classic-12-cols-left
+  #yz-groups-list li {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-template-template-classic-12-cols-left #yz-members-list li, .page-template-template-classic-12-cols-left
+  #yz-groups-list li {
+    width: 20%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #yz-members-list,
+  #yz-groups-list {
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+#yz-members-list > li,
+#yz-groups-list > li {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+#yz-members-list > li .yzm-user-cover,
+#yz-groups-list > li .yzm-user-cover {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+#yz-members-list > li .yz-fullname,
+#yz-groups-list > li .yz-fullname {
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+#yz-members-list > li .yzm-user-data,
+#yz-members-list > li .yz-group-data,
+#yz-groups-list > li .yzm-user-data,
+#yz-groups-list > li .yz-group-data {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
+  position: relative;
+  border-style: solid;
+}
+
+#yz-members-list > li .yzm-user-data:hover,
+#yz-members-list > li .yz-group-data:hover,
+#yz-groups-list > li .yzm-user-data:hover,
+#yz-groups-list > li .yz-group-data:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  z-index: 12;
+}
+
+#yz-members-list > li .hmk-trigger-match,
+#yz-groups-list > li .hmk-trigger-match {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 9;
+}
+
+#yz-members-list > li .hmk-trigger-match .hmk-get-percent,
+#yz-groups-list > li .hmk-trigger-match .hmk-get-percent {
+  margin-top: 0;
+  border-radius: 3px;
+  font-weight: 600;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  #yz-members-list > li .hmk-trigger-match .hmk-get-percent,
+  #yz-groups-list > li .hmk-trigger-match .hmk-get-percent {
+    transition: none;
+  }
+}
+
+#yz-members-list > li .hmk-trigger-match .hmk-get-percent[class*="value-"],
+#yz-groups-list > li .hmk-trigger-match .hmk-get-percent[class*="value-"] {
+  opacity: 1 !important;
+}
+
+#yz-members-list > li .hmk-trigger-match .hmk-get-percent.loading, #yz-members-list > li .hmk-trigger-match .hmk-get-percent[class*="value-"],
+#yz-groups-list > li .hmk-trigger-match .hmk-get-percent.loading,
+#yz-groups-list > li .hmk-trigger-match .hmk-get-percent[class*="value-"] {
+  pointer-events: none;
+}
+
+#yz-members-list > li:hover .hmk-trigger-match .hmk-get-percent,
+#yz-groups-list > li:hover .hmk-trigger-match .hmk-get-percent {
+  opacity: 1;
+}
+
+#yz-members-list > li .action,
+#yz-members-list > li .yzm-user-actions,
+#yz-members-list > li .yzg-user-actions,
+#yz-groups-list > li .action,
+#yz-groups-list > li .yzm-user-actions,
+#yz-groups-list > li .yzg-user-actions {
+  margin-top: 0;
+}
+
+#yz-members-list > li .action:empty,
+#yz-members-list > li .yzm-user-actions:empty,
+#yz-members-list > li .yzg-user-actions:empty,
+#yz-groups-list > li .action:empty,
+#yz-groups-list > li .yzm-user-actions:empty,
+#yz-groups-list > li .yzg-user-actions:empty {
+  display: none;
+}
+
+#yz-members-list > li .action a,
+#yz-members-list > li .yzm-user-actions a,
+#yz-members-list > li .yzg-user-actions a,
+#yz-groups-list > li .action a,
+#yz-groups-list > li .yzm-user-actions a,
+#yz-groups-list > li .yzg-user-actions a {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  color: inherit;
+}
+
+#yz-members-list .yz-user-ratings-details,
+#yz-groups-list .yz-user-ratings-details {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#yz-members-list .yz-user-ratings-details .yz-user-rating-stars,
+#yz-groups-list .yz-user-ratings-details .yz-user-rating-stars {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#yz-members-list.yz-card-action-buttons-inline-block .action .generic-button,
+#yz-members-list.yz-card-action-buttons-inline-block .yzm-user-actions .generic-button,
+#yz-members-list.yz-card-action-buttons-inline-block .yzg-user-actions .generic-button,
+#yz-groups-list.yz-card-action-buttons-inline-block .action .generic-button,
+#yz-groups-list.yz-card-action-buttons-inline-block .yzm-user-actions .generic-button,
+#yz-groups-list.yz-card-action-buttons-inline-block .yzg-user-actions .generic-button {
+  display: inline-block;
+}
+
+/****
+# Activity
+ ****/
+#send_message_form .yz_cs_checkbox_field .yz_field_indication:after {
+  width: 6px;
+  height: 9px;
+}
+
+#message-thread .message-box {
+  margin-bottom: 10px;
+}
+
+#yz-wall-nav,
+.yz-directory-filter {
+  border-style: solid;
+}
+
+#yz-wall-nav #subnav,
+.yz-directory-filter #subnav {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+#yz-members-list .yz-show-cover .yz-item-avatar {
+  margin-bottom: 10px;
+}
+
+#yz-members-list .yz-name {
+  margin-top: 5px;
+}
+
+#yz-members-list .item-meta {
+  margin-bottom: 10px;
+  padding-top: 5px;
+  font-weight: 600;
+  opacity: .8;
+}
+
+#yz-members-list .item-meta i {
+  position: relative;
+  top: 1px;
+}
+
+.yz-wall-options .yz-wall-opts-item label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .6rem 1rem;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.activity-list .activity-content {
+  width: 100%;
+}
+
+.activity-list .activity-head span {
+  margin-left: .5rem;
+}
+
+.activity-list .activity-head span i {
+  margin-right: 3px;
+}
+
+.activity-list .activity-head > p a:last-child > span {
+  margin-left: 0;
+}
+
+.youzer .editfield .description {
+  margin-left: 0 !important;
+}
+
+.youzer .activity-meta .button {
+  border: 0 !important;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  color: inherit !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  font-size: 0.9em !important;
+  padding: .5rem !important;
+  display: inline-flex;
+  align-items: center;
+}
+
+.youzer .activity-meta .button span {
+  order: 9;
+}
+
+.youzer .activity-meta .button span:empty {
+  display: none !important;
+}
+
+.youzer .activity-meta .button:before {
+  color: inherit !important;
+}
+
+.yza-form-actions > a,
+.yza-form-actions > button {
+  padding: .2rem .7rem !important;
+  height: 40px !important;
+  border: 0 !important;
+  text-transform: capitalize !important;
+  font-size: 0.9em !important;
+  line-height: 0 !important;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yz-reset-options:before, .yz-save-options:before, .yza-item-button:before {
+  content: none !important;
+}
+
+.wp-editor-tabs button {
+  border-radius: 0 !important;
+}
+
+.yz-project-type {
+  pointer-events: none;
+}
+
+.yz-cphoto-content {
+  border-top-width: 4px;
+}
+
+.wp-picker-container .wp-picker-input-wrap .button {
+  padding: 5px !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1em;
+}
+
+.youzer .wp-color-result-text, .youzer-main-content .wp-color-result-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yz-group-manage-members-search #members-dir-search #search-members-form {
+  display: flex;
+}
+
+@media (max-width: 991.98px) {
+  .yz-group-manage-members-search #members-dir-search #search-members-form {
+    flex-direction: column;
+  }
+}
+
+.yz-group-manage-members-search #members-dir-search #search-members-form label {
+  width: 100%;
+  height: 50px;
+}
+
+.yz-group-manage-members-search #members-dir-search #search-members-form label input {
+  width: 100%;
+  height: 100%;
+}
+
+.yz-group-manage-members-search #members-dir-search #search-members-form > input {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0 0 0;
+}
+
+@media (min-width: 992px) {
+  .yz-group-manage-members-search #members-dir-search #search-members-form > input {
+    margin: 0 0 0 10px;
+    width: 20%;
+  }
+}
+
+.activity-list .activity .acomment-options a {
+  color: inherit;
+  display: inline-flex;
+}
+
+.activity-list .activity .acomment-options a span {
+  order: 9;
+  min-width: 18px;
+  min-height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3px;
+}
+
+.activity-list .activity .acomment-options a span:empty {
+  display: none !important;
+}
+
+.activity-list .activity .acomment-options a i {
+  color: inherit;
+}
+
+.youzer #activity-stream .ac-form {
+  background-color: transparent;
+}
+
+/****
+# Profiles
+ ****/
+.yz-column-content #yz-members-list > li .hmk-trigger-match,
+.yz-column-content #yz-groups-list > li .hmk-trigger-match {
+  position: static;
+  margin-top: .2rem;
+}
+
+.yz-column-content #yz-members-list > li .hmk-trigger-match .hmk-get-percent,
+.yz-column-content #yz-groups-list > li .hmk-trigger-match .hmk-get-percent {
+  opacity: 1 !important;
+  font-size: .7em;
+  padding: .3em .7em;
+}
+
+#buddypress .yz-main-column table.profile-fields tbody tr td {
+  background: none;
+}
+
+.yz-name .yz-user-status,
+.yzb-user-status .yz-user-status {
+  border-radius: 500px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  line-height: 0;
+  height: 20px;
+  color: #fff;
+  background-color: #454748;
+  margin-left: 9px !important;
+}
+
+.yz-name .yz-user-status.yz-user-offline,
+.yzb-user-status .yz-user-status.yz-user-offline {
+  background-color: #e74c3c;
+}
+
+.yz-name .yz-user-status.yz-user-online,
+.yzb-user-status .yz-user-status.yz-user-online {
+  background-color: #3DBDB6;
+}
+
+.youzer .group-members-list,
+.group_members #yz-members-list,
+.follows .youzer #yz-members-list,
+.my-friends .youzer #yz-members-dir-searchlist,
+.youzer .friends #yz-members-list {
+  margin: 0;
+}
+
+.youzer .group-members-list li,
+.group_members #yz-members-list li,
+.follows .youzer #yz-members-list li,
+.my-friends .youzer #yz-members-dir-searchlist li,
+.youzer .friends #yz-members-list li {
+  padding: 0;
+}
+
+.youzer .group-members-list li .yzm-user-data,
+.group_members #yz-members-list li .yzm-user-data,
+.follows .youzer #yz-members-list li .yzm-user-data,
+.my-friends .youzer #yz-members-dir-searchlist li .yzm-user-data,
+.youzer .friends #yz-members-list li .yzm-user-data {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .youzer .group-members-list li .yzm-user-data,
+  .group_members #yz-members-list li .yzm-user-data,
+  .follows .youzer #yz-members-list li .yzm-user-data,
+  .my-friends .youzer #yz-members-dir-searchlist li .yzm-user-data,
+  .youzer .friends #yz-members-list li .yzm-user-data {
+    justify-content: normal;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .youzer .group-members-list li .yzm-user-data .item,
+  .group_members #yz-members-list li .yzm-user-data .item,
+  .follows .youzer #yz-members-list li .yzm-user-data .item,
+  .my-friends .youzer #yz-members-dir-searchlist li .yzm-user-data .item,
+  .youzer .friends #yz-members-list li .yzm-user-data .item {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.youzer .group-members-list li .yz-item-avatar,
+.group_members #yz-members-list li .yz-item-avatar,
+.follows .youzer #yz-members-list li .yz-item-avatar,
+.my-friends .youzer #yz-members-dir-searchlist li .yz-item-avatar,
+.youzer .friends #yz-members-list li .yz-item-avatar {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .youzer .group-members-list li .yz-item-avatar,
+  .group_members #yz-members-list li .yz-item-avatar,
+  .follows .youzer #yz-members-list li .yz-item-avatar,
+  .my-friends .youzer #yz-members-dir-searchlist li .yz-item-avatar,
+  .youzer .friends #yz-members-list li .yz-item-avatar {
+    margin-right: 8px;
+    align-self: flex-start;
+    width: auto;
+  }
+}
+
+.youzer .group-members-list li .yz-item-avatar img,
+.group_members #yz-members-list li .yz-item-avatar img,
+.follows .youzer #yz-members-list li .yz-item-avatar img,
+.my-friends .youzer #yz-members-dir-searchlist li .yz-item-avatar img,
+.youzer .friends #yz-members-list li .yz-item-avatar img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.youzer .group-members-list li .yzm-user-actions,
+.group_members #yz-members-list li .yzm-user-actions,
+.follows .youzer #yz-members-list li .yzm-user-actions,
+.my-friends .youzer #yz-members-dir-searchlist li .yzm-user-actions,
+.youzer .friends #yz-members-list li .yzm-user-actions {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .youzer .group-members-list li .yzm-user-actions,
+  .group_members #yz-members-list li .yzm-user-actions,
+  .follows .youzer #yz-members-list li .yzm-user-actions,
+  .my-friends .youzer #yz-members-dir-searchlist li .yzm-user-actions,
+  .youzer .friends #yz-members-list li .yzm-user-actions {
+    margin-left: auto;
+    margin-top: 0;
+    width: auto;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .youzer .group-members-list li .yzm-user-actions > div,
+  .group_members #yz-members-list li .yzm-user-actions > div,
+  .follows .youzer #yz-members-list li .yzm-user-actions > div,
+  .my-friends .youzer #yz-members-dir-searchlist li .yzm-user-actions > div,
+  .youzer .friends #yz-members-list li .yzm-user-actions > div {
+    display: block;
+    margin: 0 0 10px 0;
+  }
+}
+
+.youzer .group-members-list li .yzm-user-actions a,
+.group_members #yz-members-list li .yzm-user-actions a,
+.follows .youzer #yz-members-list li .yzm-user-actions a,
+.my-friends .youzer #yz-members-dir-searchlist li .yzm-user-actions a,
+.youzer .friends #yz-members-list li .yzm-user-actions a {
+  padding: .4rem 0.8rem !important;
+  font-size: 0.8em;
+  letter-spacing: 0;
+}
+
+@media (max-width: 991.98px) {
+  .youzer .group-members-list li .yzm-user-actions a,
+  .group_members #yz-members-list li .yzm-user-actions a,
+  .follows .youzer #yz-members-list li .yzm-user-actions a,
+  .my-friends .youzer #yz-members-dir-searchlist li .yzm-user-actions a,
+  .youzer .friends #yz-members-list li .yzm-user-actions a {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.yz-card-action-buttons-block .yzm-user-actions .follow-button a {
+  transition: all 0.2s ease-in-out;
+}
+
+.bp-widget.mycred h4 {
+  margin-bottom: 1rem;
+}
+
+.bp-widget.mycred table td {
+  padding: 20px 15px !important;
+}
+
+/****
+# Messages + Notifications
+ ****/
+#message-threads.messages-notices.sitewide-notices .thread-options {
+  border-radius: 0 !important;
+}
+
+#message-threads.messages-notices.sitewide-notices .thread-options a.button {
+  background: none !important;
+  padding: 0 !important;
+  border: 0 !important;
+  letter-spacing: 0 !important;
+  border-radius: 0 !important;
+}
+
+#message-recipients .button.confirm {
+  padding: 0.5rem 0.9rem !important;
+}
+
+/****
+# Navs + Subnavs
+ ****/
+.yz-horizontal-layout .yz-group-navmenu li a {
+  min-width: 0;
+}
+
+.yz-directory-filter {
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  position: relative;
+  z-index: 15;
+}
+
+@media (min-width: 768px) {
+  .yz-directory-filter {
+    display: flex;
+    align-items: center;
+  }
+  .yz-directory-filter .item-list-tabs {
+    margin-right: auto;
+    width: inherit;
+  }
+}
+
+.yz-directory-filter #subnav {
+  background: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+label[for="members-order-by"],
+label[for="groups-order-by"],
+label[for="activity-filter-by"],
+.filter label[for] {
+  display: none !important;
+}
+
+#members-order-select.ml-md-auto,
+#groups-order-select.ml-md-auto {
+  padding: 1rem;
+}
+
+#yz-wall-nav .item-list-tabs li a,
+.yz-directory-filter .item-list-tabs li a {
+  display: flex;
+  align-items: center;
+}
+
+#yz-wall-nav .item-list-tabs li a span,
+.yz-directory-filter .item-list-tabs li a span {
+  min-width: 25px;
+  min-height: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 500px !important;
+  line-height: 0;
+  text-align: center;
+  font-size: 0.85em;
+  padding: 0 5px;
+  line-height: 0;
+  letter-spacing: 0;
+}
+
+@media (min-width: 768px) {
+  .yz-page-main-content > .item-list-tabs > ul,
+  .item-list-tabs.yz-default-subnav > ul,
+  #subnav .item-list-tabs,
+  .yz-directory-filter > .item-list-tabs > ul,
+  #yz-group-body .item-list-tabs > ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.yz-page-main-content > .item-list-tabs > ul li,
+.item-list-tabs.yz-default-subnav > ul li,
+#subnav .item-list-tabs li,
+.yz-directory-filter > .item-list-tabs > ul li,
+#yz-group-body .item-list-tabs > ul li {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .yz-page-main-content > .item-list-tabs > ul li,
+  .item-list-tabs.yz-default-subnav > ul li,
+  #subnav .item-list-tabs li,
+  .yz-directory-filter > .item-list-tabs > ul li,
+  #yz-group-body .item-list-tabs > ul li {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .yz-page-main-content > .item-list-tabs > ul li + li,
+  .item-list-tabs.yz-default-subnav > ul li + li,
+  #subnav .item-list-tabs li + li,
+  .yz-directory-filter > .item-list-tabs > ul li + li,
+  #yz-group-body .item-list-tabs > ul li + li {
+    margin-left: 1rem;
+  }
+}
+
+.yz-page-main-content > .item-list-tabs > ul .last,
+.item-list-tabs.yz-default-subnav > ul .last,
+#subnav .item-list-tabs .last,
+.yz-directory-filter > .item-list-tabs > ul .last,
+#yz-group-body .item-list-tabs > ul .last {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .yz-page-main-content > .item-list-tabs > ul .last,
+  .item-list-tabs.yz-default-subnav > ul .last,
+  #subnav .item-list-tabs .last,
+  .yz-directory-filter > .item-list-tabs > ul .last,
+  #yz-group-body .item-list-tabs > ul .last {
+    margin-left: auto;
+  }
+}
+
+textarea.wp-editor-area {
+  border-radius: 0 !important;
+}
+
+@media (min-width: 768px) {
+  #yz-wall-actions {
+    display: flex;
+    align-items: center;
+  }
+  #yz-wall-actions .yz-posting-form-actions {
+    margin-left: auto;
+  }
+}
+
+.yz-profile-navmenu .yz-nav-view-more-menu {
+  border: 0;
+}
+
+@media (min-width: 768px) {
+  .yz-profile-navmenu .yz-nav-view-more-menu {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.yz-profile-navmenu .yz-nav-view-more-menu li a span.count,
+.yz-profile-navmenu .yz-navbar-item a span,
+.yz-profile-navmenu .yz-navbar-item a span.count,
+.yz-my-account-widget .yz-menu-links .yz-link-item .yz-link-title .yz-link-count,
+.yz-group-navmenu #membership-requests-groups-li a span,
+.yz-group-navmenu a#members span,
+.yz-group-navmenu a#media span {
+  border-radius: 500px;
+  text-align: center;
+  min-width: 23px;
+  min-height: 23px;
+  line-height: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  float: right;
+}
+
+.yz-profile-navmenu > li > a {
+  display: inline-flex;
+  align-items: center;
+}
+
+#yz-profile-navmenu {
+  border-radius: 0 !important;
+}
+
+#yz-profile-navmenu .yz-settings-area,
+#yz-profile-navmenu .yz-social-buttons {
+  text-align: right;
+}
+
+#yz-wall-form #whats-new-content,
+#yz-wall-form .yz-wall-textarea {
+  color: inherit !important;
+  border-radius: 0 !important;
+}
+
+.emojionearea .emojionearea-editor {
+  color: inherit !important;
+}
+
+.youzer .yz-boxed-navbar .yz-profile-navmenu {
+  margin-left: 0;
+}
+
+#buddypress div.item-list-tabs#subnav.yz-default-subnav {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#buddypress #subnav .item-list-tabs.primary-list-tabs {
+  margin-bottom: 0;
+}
+
+#buddypress #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul {
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+#buddypress #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul > li > a {
+  border-radius: 0;
+  margin: 0;
+}
+
+#buddypress #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul > li > a:before {
+  content: none;
+}
+
+#buddypress #subnav .filter,
+#buddypress #subnav .last {
+  display: flex;
+  align-items: center;
+}
+
+#buddypress #subnav .filter label[for],
+#buddypress #subnav .last label[for] {
+  display: none !important;
+  margin-bottom: 0;
+}
+
+#buddypress #subnav div.item-list-tabs,
+#buddypress.youzer div.item-list-tabs {
+  background: none;
+}
+
+/****
+# Ratings + Votes
+ ****/
+.yz-user-ratings-details .yz-user-ratings-rate,
+.yz-user-ratings-details .yz-user-ratings-total {
+  color: inherit;
+  opacity: .8;
+}
+
+.yz-user-ratings-details .yz-separator {
+  color: inherit;
+  opacity: .5;
+}
+
+.yz-user-ratings-details .yz-star-rating .star-empty {
+  opacity: .25;
+}
+
+.yz-rate-user > label {
+  cursor: pointer;
+}
+
+.yz-modal-close-icon {
+  border: 0;
+  font-size: 1rem !important;
+}
+
+/****
+# Pagination
+ ****/
+.yz-page-main-content .pagination {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.yz-page-main-content .pagination .pagination-inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 1rem 0 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .yz-page-main-content .pagination .pagination-inner {
+    flex-direction: row;
+    justify-content: normal;
+  }
+}
+
+.yz-page-main-content .pagination .pag-count {
+  margin-bottom: 1rem;
+  color: inherit !important;
+  font-style: inherit !important;
+  margin-left: 0 !important;
+  opacity: .5;
+}
+
+@media (min-width: 768px) {
+  .yz-page-main-content .pagination .pag-count {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+}
+
+.yz-page-main-content .pagination .page-numbers {
+  margin-top: 0;
+  width: 35px;
+  height: 35px;
+  font-weight: 600;
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+  line-height: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.yz-page-main-content .pagination .pagination-links {
+  margin: 0;
+}
+
+.emojionearea .emojionearea-button {
+  background: #fff;
+  border-radius: 500px;
+  z-index: 0;
+}
+
+/****
+# Widgets
+ ****/
+.youzer-sidebar .widget-content,
+.youzer-sidebar .yz-my-account-widget {
+  border-style: solid;
+}
+
+.youzer-sidebar .yzb-head-content .yzb-head-username {
+  color: var(--grimlock-heading-color) !important;
+}
+
+.youzer-sidebar .yzb-author .yz-user-statistics {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.yz-widget {
+  margin-bottom: 2rem;
+}
+
+.yz-profile-sidebar .yz-user-img {
+  margin: 0 auto 1rem auto;
+  width: 100px;
+  height: 100px;
+}
+
+a.yz-profile-login {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.yz-wg-networks a {
+  color: #fff !important;
+}
+
+.yz-aboutme-description {
+  color: inherit;
+  opacity: .75;
+  font-style: italic;
+  line-height: 1.4em;
+  font-size: 0.85em;
+}
+
+.yz-user_balance .yz-widget-head {
+  border: 0;
+}
+
+.yz-user_balance .yz-widget-head + .yz-widget-content .yz-user-balance-box {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.sidebar .widget #groups-list-options,
+.sidebar .widget #members-list-options,
+.sidebar .widget #friends-list-options,
+.sidebar .widget #bp-group-rating-list-options,
+.yz-sidebar-column .widget #groups-list-options,
+.yz-sidebar-column .widget #members-list-options,
+.yz-sidebar-column .widget #friends-list-options,
+.yz-sidebar-column .widget #bp-group-rating-list-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem .5rem 1rem .5rem !important;
+}
+
+.sidebar .widget #groups-list-options a,
+.sidebar .widget #members-list-options a,
+.sidebar .widget #friends-list-options a,
+.sidebar .widget #bp-group-rating-list-options a,
+.yz-sidebar-column .widget #groups-list-options a,
+.yz-sidebar-column .widget #members-list-options a,
+.yz-sidebar-column .widget #friends-list-options a,
+.yz-sidebar-column .widget #bp-group-rating-list-options a {
+  border: 0;
+  font-size: .75rem;
+  letter-spacing: 0;
+  font-weight: bold;
+  opacity: 1 !important;
+}
+
+.sidebar .widget #groups-list-options a:hover,
+.sidebar .widget #members-list-options a:hover,
+.sidebar .widget #friends-list-options a:hover,
+.sidebar .widget #bp-group-rating-list-options a:hover,
+.yz-sidebar-column .widget #groups-list-options a:hover,
+.yz-sidebar-column .widget #members-list-options a:hover,
+.yz-sidebar-column .widget #friends-list-options a:hover,
+.yz-sidebar-column .widget #bp-group-rating-list-options a:hover {
+  opacity: .7 !important;
+}
+
+.sidebar .widget_bp_core_members_widget #members-list .vcard,
+.sidebar .widget_bp_group_review_tab #bp-group-rating .vcard,
+.sidebar .widget_bp_groups_widget #groups-list li,
+.yz-sidebar-column .widget_bp_core_members_widget #members-list .vcard,
+.yz-sidebar-column .widget_bp_group_review_tab #bp-group-rating .vcard,
+.yz-sidebar-column .widget_bp_groups_widget #groups-list li {
+  padding: .5rem;
+  display: flex;
+  align-items: center !important;
+  margin: 15px 0 0 0;
+}
+
+.sidebar .widget_bp_core_members_widget #members-list .vcard div.item-avatar,
+.sidebar .widget_bp_group_review_tab #bp-group-rating .vcard div.item-avatar,
+.sidebar .widget_bp_groups_widget #groups-list li div.item-avatar,
+.yz-sidebar-column .widget_bp_core_members_widget #members-list .vcard div.item-avatar,
+.yz-sidebar-column .widget_bp_group_review_tab #bp-group-rating .vcard div.item-avatar,
+.yz-sidebar-column .widget_bp_groups_widget #groups-list li div.item-avatar {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.sidebar .widget_bp_core_members_widget #members-list .vcard div.item-avatar > a,
+.sidebar .widget_bp_group_review_tab #bp-group-rating .vcard div.item-avatar > a,
+.sidebar .widget_bp_groups_widget #groups-list li div.item-avatar > a,
+.yz-sidebar-column .widget_bp_core_members_widget #members-list .vcard div.item-avatar > a,
+.yz-sidebar-column .widget_bp_group_review_tab #bp-group-rating .vcard div.item-avatar > a,
+.yz-sidebar-column .widget_bp_groups_widget #groups-list li div.item-avatar > a {
+  width: auto !important;
+  height: auto !important;
+}
+
+.sidebar .widget_bp_core_whos_online_widget .item-avatar img.avatar,
+.sidebar .widget_bp_core_recently_active_widget .item-avatar img.avatar,
+.yz-sidebar-column .widget_bp_core_whos_online_widget .item-avatar img.avatar,
+.yz-sidebar-column .widget_bp_core_recently_active_widget .item-avatar img.avatar {
+  width: 50px !important;
+  height: 50px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.sidebar .widget ul#groups-list.item-list > li div.item-avatar img.avatar,
+.sidebar .widget ul#members-list.item-list > li div.item-avatar img.avatar,
+.sidebar .widget ul#friends-list.item-list > li div.item-avatar img.avatar,
+.sidebar .widget ul#bp-group-rating.item-list > li div.item-avatar img.avatar,
+.yz-sidebar-column .widget ul#groups-list.item-list > li div.item-avatar img.avatar,
+.yz-sidebar-column .widget ul#members-list.item-list > li div.item-avatar img.avatar,
+.yz-sidebar-column .widget ul#friends-list.item-list > li div.item-avatar img.avatar,
+.yz-sidebar-column .widget ul#bp-group-rating.item-list > li div.item-avatar img.avatar {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.sidebar .widget_bp_core_recently_active_widget .avatar-block img,
+.yz-sidebar-column .widget_bp_core_recently_active_widget .avatar-block img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.sidebar .widget_bp_core_members_widget #members-list .vcard .item-meta .activity,
+.sidebar .widget_bp_groups_widget #groups-list li .item-meta .activity,
+.yz-sidebar-column .widget_bp_core_members_widget #members-list .vcard .item-meta .activity,
+.yz-sidebar-column .widget_bp_groups_widget #groups-list li .item-meta .activity {
+  font-size: .7em !important;
+}
+
+.sidebar .widget:not(.widget-content) ul#groups-list.item-list > li,
+.yz-sidebar-column .widget:not(.widget-content) ul#groups-list.item-list > li {
+  margin-bottom: 0;
+}
+
+/****
+# ProfileHeader
+ ****/
+.yz-cover-content {
+  color: #fff;
+}
+
+#yz-profile-header .yz-cover-content {
+  z-index: 98;
+}
+
+#yz-profile-header .yz-tools {
+  z-index: 999;
+}
+
+.yz-header-cover {
+  color: #fff !important;
+}
+
+.yz-header-networks a {
+  color: inherit !important;
+}
+
+.yz-header-networks a i {
+  color: inherit;
+}
+
+.yz-header-head .yz-usermeta li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.yz-header-head .yz-usermeta li,
+.yz-header-head .yz-usermeta li i,
+.yz-header-head .yz-usermeta li span {
+  color: inherit;
+}
+
+.yzb-head-content .yzb-head-username {
+  color: #fff;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+}
+
+.youzer .yz-boxed-navbar .yz-settings-area,
+.youzer .yz-boxed-navbar .yz-social-buttons {
+  padding-right: 25px;
+}
+
+.yz-profile-header .yz-cover-content .yz-inner-content {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (min-width: 992px) {
+  .yz-profile-header .yz-cover-content .yz-inner-content {
+    width: 100%;
+    max-width: 1400px;
+  }
+}
+
+.yz-hdr-v1 .yz-cover-content .yz-inner-content {
+  width: 100%;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+}
+
+.yz-hdr-v1 .yz-user-statistics {
+  right: 30px;
+}
+
+@media (min-width: 768px) {
+  .yz-hdr-v1.yz-hdr-v8 .yz-cover-content .yz-inner-content {
+    transform: translate3d(-50%, -20%, 0);
+  }
+}
+
+@media (min-width: 992px) {
+  .yz-hdr-v2 .yz-cover-content,
+  .yz-hdr-v7 .yz-cover-content {
+    width: 100%;
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .yz-hdr-v2 .yz-cover-content .yz-inner-content {
+    padding-left: 185px;
+  }
+}
+
+@media (min-width: 768px) {
+  .yz-hdr-v3 .yz-cover-content .yz-inner-content {
+    max-width: 380px;
+  }
+}
+
+.yz-hdr-v3 .yz-name h2 {
+  font-weight: 600;
+}
+
+#yz-profile-navmenu .yz-settings-menu {
+  top: 100%;
+  border: 0;
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.12);
+}
+
+#yz-profile-navmenu .yz-settings-menu a i {
+  color: inherit !important;
+}
+
+#yz-profile-navmenu .yz-settings-menu a span {
+  color: inherit !important;
+}
+
+.yz-account-settings-menu .yz-arrow-bottom {
+  border-color: currentColor !important;
+}
+
+/****
+# Members Swap fixes
+ ****/
+#buddypress.buddypress-members-index-swap {
+  margin: 2rem auto;
+  width: 100%;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .card-body {
+  padding-bottom: 1rem !important;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .entry-title a {
+  display: inline-flex;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .action a:before {
+  margin: 0;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .action .yz-profile-settings {
+  display: none;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .yz-user-ratings-details {
+  text-align: center;
+  padding: 0 1rem 2rem 1rem;
+  margin: 0;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .yz-user-ratings-details > div:not(.yz-user-rating-stars),
+#buddypress.buddypress-members-index-swap .bp-card-list__item .yz-user-ratings-details span {
+  display: none;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item .yz-user-ratings-details .yz-user-rating-stars {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#buddypress.buddypress-members-index-swap .bp-card-list__item.is-current-user .action {
+  display: none !important;
+}
+
+#yz-profile-navmenu .yz-settings-menu {
+  width: 225px;
+}
+
+/****
+# BP Search Profile fixes
+ ****/
+.youzer .bps_form .bps-custom-select {
+  background: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+.youzer .bps_form .editfield {
+  border: 0 !important;
+}
+
+.youzer .bps_form .editfield input[type="search"],
+.youzer .bps_form .editfield input[type="text"],
+.youzer .bps_form .editfield input[type="date"] {
+  min-height: 54px;
+}
+
+#yz-members-directory a.bps-toggle-modal {
+  top: 18px !important;
+  right: calc(1rem + 5px) !important;
+  z-index: 50 !important;
+  background-color: var(--grimlock-table-striped-background-color);
+}
+
+@media (min-width: 768px) {
+  #yz-members-directory a.bps-toggle-modal {
+    right: 1rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #yz-members-directory a.bps-toggle-modal ~ .yz-directory-filter {
+    padding-right: calc(50px + 1rem);
+    width: 100%;
+  }
+}
+
+#yz-members-directory .bps_filters {
+  position: fixed !important;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 !important;
+  border: 0;
+  z-index: 99;
+}
+
+.bps_form .editfield input, .bps_form .editfield select {
+  margin-bottom: .5rem;
+}
+
+.bps_form .editfield .nice-select {
+  width: 100%;
+  margin-bottom: .5rem;
+  border-style: solid;
+}
+
+.bps_form .editfield .nice-select .current {
+  height: 50px;
+  line-height: 50px;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-align: left;
+}
+
+.bps_form .editfield .nice-select .option {
+  color: inherit;
+}
+
+.bps_form .editfield .nice-select .option.focus, .bps_form .editfield .nice-select .option.selected, .bps_form .editfield .nice-select .option.selected.focus, .bps_form .editfield .nice-select .option:hover {
+  font-weight: inherit;
+}
+
+.bps_form .description {
+  opacity: 0.7;
+  font-size: .8em;
+}
+
+.bps_form .submit {
+  margin-top: 1.5rem;
+}
+
+.yz-group-infos-widget .yz-group-widget-title {
+  font-weight: 600;
+}
+
+.yz-widget .yz-recent-posts .yz-post-meta ul li {
+  font-size: 10px;
+  margin-top: 8px;
+  font-weight: 600;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.yz-widget .yz-recent-posts .yz-post-head .yz-post-title a:hover {
+  color: var(--grimlock-archive-post-title-color) !important;
+}
+
+/****
+# Site notices & warnings
+ ****/
+#sitewide-notice #message {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+#youzer #message,
+#youzer div#message {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: none !important;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#youzer #message > p,
+#youzer div#message > p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#youzer #message > p:before,
+#youzer div#message > p:before {
+  font-family: FontAwesome !important;
+  margin-right: 8px;
+}
+
+#youzer #message a,
+#youzer div#message a {
+  color: inherit !important;
+}
+
+#youzer #message a:hover,
+#youzer div#message a:hover {
+  opacity: 0.7;
+}
+
+#youzer #message.updated > p:before, #youzer #message.success > p:before,
+#youzer div#message.updated > p:before,
+#youzer div#message.success > p:before {
+  font-family: var(--grimlock-icon-alert-circle-font-family) !important;
+  content: var(--grimlock-icon-alert-circle);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#youzer #message img.avatar,
+#youzer div#message img.avatar {
+  margin: 0;
+  width: 14px;
+}
+
+#youzer #message {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+#youzer #message.bp-template-notice {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  overflow: auto;
+}
+
+/****
+# Uploads
+ ****/
+.yz-tab-post {
+  border-style: solid;
+}
+
+.yz-tab-post .yz-post-meta ul li {
+  font-size: 0.8em;
+  color: inherit;
+}
+
+.yz-tab-post .yz-post-text p {
+  font-size: 0.9em;
+  color: inherit;
+}
+
+.yz-tab-comment {
+  border-style: solid;
+}
+
+.yz-tab-comment .yz-comment-date span {
+  opacity: .5;
+}
+
+/****
+# Loading state
+ ****/
+.yz-loading .youzer_msg {
+  color: inherit;
+}
+
+.yz-loading .youzer_msg span,
+.yz-loading .youzer_msg .youzer-msg-icon i {
+  color: inherit;
+}
+
+.yz-loading .youzer_msg span {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/****
+# Forums
+ ****/
+.yz-forums-topic-title {
+  font-size: 1.2em;
+  color: var(--grimlock-archive-post-title-color);
+}
+
+.yz-forums-topic-author .bbp-author-avatar {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.yz-forums-topic-author .bbp-author-avatar .avatar {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.yz-bbp-box-content > div:not([class]) {
+  background: none !important;
+}
+
+.mygroups #yz-groups-list .action .button.remove,
+.mygroups #yz-groups-list .action .button.leave-group,
+#friend-list .action .button.remove,
+#friend-list .action .button.leave-group {
+  padding: .5rem 1rem;
+  font-size: 0.8em;
+  letter-spacing: 0;
+  background: #e74c3c !important;
+  color: #fff !important;
+}
+
+.mygroups #yz-groups-list .action .button.remove:before,
+.mygroups #yz-groups-list .action .button.leave-group:before,
+#friend-list .action .button.remove:before,
+#friend-list .action .button.leave-group:before {
+  color: inherit !important;
+}
+
+.mygroups #yz-groups-list {
+  margin: 0;
+}
+
+.mygroups #yz-groups-list > li {
+  padding: 0;
+}
+
+#item-header .friendship-button a,
+#item-header .follow-button a {
+  font-size: .85em;
+  letter-spacing: 0;
+  padding: .5rem 1rem;
+}
+
+#item-header .friendship-button a:before,
+#item-header .follow-button a:before {
+  font-size: .95em;
+}
+
+#item-header .yz-follow-message-button {
+  display: inline-flex;
+  align-items: center;
+}
+
+#item-header .yz-send-message {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-size: .85em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 0 1rem;
+}
+
+.yz-horizontal-layout .yz-navbar-inline-icons .yz-navbar-item a,
+.yz-vertical-layout .yz-navbar-inline-icons .yz-navbar-item a {
+  min-width: 110px;
+}
+
+.yz-bbp-freshness-author-img .bbp-author-avatar {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.yz-bbp-freshness-author-img .bbp-author-avatar img.avatar {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.yz-forums-topic-author {
+  display: inline-flex;
+  align-items: center;
+}
+
+.settings-inner-content .options-section-title h2 i {
+  color: inherit;
+  border-radius: 500px;
+}
+
+.yza-change-photo:hover {
+  transform: scale(1.1);
+}
+
+.yza-change-photo:hover i {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.youzer .bp-avatar-nav ul.avatar-nav-items {
+  border: none;
+}
+
+.youzer .bp-avatar-nav ul.avatar-nav-items li {
+  margin-right: 5px;
+}
+
+.youzer .bp-avatar-nav ul.avatar-nav-items li.current {
+  border: 0;
+  border-radius: 500px;
+}
+
+#yz-export-data .youzer-section-content,
+.youzer-section-content > .uk-option-item {
+  background: none;
+}
+
+.yza-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.youzer.yz-account-page .yz-settings-sidebar .yz-account-header > ul a {
+  color: #fff !important;
+}
+
+.youzer.yz-account-page .yz-settings-sidebar .yz-head-buttons {
+  border: 0;
+  background: none;
+}
+
+.youzer.yz-account-page .yz-settings-sidebar .yz-account-settings-menu {
+  background: none;
+}
+
+.youzer.yz-account-page .yz-settings-sidebar .yz-account-settings-menu .yz-account-menu {
+  border-bottom-width: 2px;
+  background: none !important;
+}
+
+.youzer.yz-account-page .yz-settings-sidebar .yz-account-settings-menu .yz-account-menus {
+  background: none;
+}
+
+.youzer.yz-account-page .yz-settings-sidebar .yz-account-settings-menu .yz-account-menus ul {
+  background: none;
+  padding: 1rem;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+.youzer.yz-account-page .yz-settings-sidebar .yz-account-settings-menu .yz-account-menus ul li a {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.youzer.yz-account-page .nice-select {
+  min-width: 250px;
+}
+
+.youzer .editfield label .bp-required-field-label,
+.youzer .editfield legend .bp-required-field-label {
+  background-color: #e74c3c;
+  color: #fff;
+  border-radius: 500px;
+}
+
+.datebox-selects .nice-select {
+  min-width: 85px !important;
+  max-width: 120px;
+}
+
+.youzer .bp-avatar-status p.success,
+.youzer .bp-cover-image-status p.success {
+  background-color: #3DBDB6;
+  color: #fff !important;
+}
+
+@media screen and (min-width: 1025px) {
+  .settings-main-content > #template-notices {
+    margin-left: 35px;
+  }
+}
+
+.yz-show-item-tools i.loaded i, .yz-show-item-tools i.loading i {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.yz-show-item-tools i, .yz-show-item-tools i:hover {
+  color: inherit;
+}
+
+.yz-item-tools {
+  border: none;
+  text-align: center;
+}
+
+.yz-item-tools .yz-tool-name {
+  color: inherit;
+}
+
+.yz-item-tools .yz-item-tool {
+  margin-right: 15px;
+}
+
+.yz-item-tools .yz-item-tool .yz-tool-icon {
+  margin-right: 2px;
+  pointer-events: none;
+}
+
+.yz-item-tools i, .yz-item-tools i:hover {
+  color: inherit;
+}
+
+.yz-post-more-button:hover,
+.yz-read-more:hover {
+  color: #fff !important;
+}
+
+.yz-post-more-button .yz-btn-icon,
+.yz-post-more-button .yz-rm-icon,
+.yz-read-more .yz-btn-icon,
+.yz-read-more .yz-rm-icon {
+  float: right;
+}
+
+.yz-post-more-button .yz-btn-icon .fa-angle-double-right:before,
+.yz-post-more-button .yz-rm-icon .fa-angle-double-right:before,
+.yz-read-more .yz-btn-icon .fa-angle-double-right:before,
+.yz-read-more .yz-rm-icon .fa-angle-double-right:before {
+  content: "\f105";
+}
+
+.yz-items-list-widget .yz-list-item .yz-item-action .yz-icon-button i {
+  border-radius: 500px;
+}
+
+i.yz-big-verified-icon {
+  font-size: 14px;
+}
+
+#yz-profile-navmenu .friendship-button a {
+  color: #fff !important;
+}
+
+.yz-bbp-freshness-time {
+  margin-top: 0;
+}
+
+.yz-bbp-topic-head {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.yz-bbp-topic-head .yz-bbp-topic-head-meta {
+  margin-top: 0 !important;
+}
+
+.yz-bbp-topic-head .yz-bbp-topic-head-meta .bbp-author-avatar {
+  display: none;
+}
+
+.yzw-quote-post .yzw-quote-icon {
+  border-radius: 500px;
+}
+
+.yzw-quote-post blockquote {
+  margin: 0 !important;
+  background: none !important;
+  padding: 0;
+  width: 100%;
+  border: 0;
+  color: #fff !important;
+}
+
+.yzw-quote-post blockquote:before {
+  content: none !important;
+}
+
+.yzw-quote-post .yzw-quote-owner {
+  float: left;
+  margin-top: 0.7rem;
+}
+
+.yz-bookmark-tool .yz-tool-icon i {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+  .yz-horizontal-layout .yz-page-main-content {
+    padding: 15px 20px 0 !important;
+  }
+  .youzer .yz-boxed-navbar {
+    margin: 0 20px !important;
+    width: auto !important;
+  }
+}
+
+fieldset + fieldset {
+  margin-top: 2rem;
+}
+
+.yz-group-submit-form {
+  margin-top: 2rem;
+}
+
+#invite-list ul li label img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.yz-user-statistics .yz-snumber {
+  font-weight: 600;
+}
+
+.yz-user-statistics .yz-sdescription {
+  text-transform: capitalize;
+}
+
+#invite-list li {
+  padding: 0 !important;
+}
+
+#invite-list li label {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#invite-list li label .yz_field_indication {
+  top: 1.4rem !important;
+  left: 5px;
+}
+
+#invite-list li label .yz_field_indication:after {
+  top: 4px;
+  left: 8px;
+}
+
+#buddypress div.item-list-tabs.primary-list-tabs > ul > li,
+#buddypress.youzer div.item-list-tabs li {
+  background: none !important;
+  color: inherit !important;
+}
+
+@media (max-width: 991.98px) {
+  #buddypress div.item-list-tabs.primary-list-tabs > ul > li,
+  #buddypress.youzer div.item-list-tabs li {
+    margin-bottom: 1rem;
+  }
+}
+
+#buddypress div.item-list-tabs.primary-list-tabs > ul > li a,
+#buddypress.youzer div.item-list-tabs li a {
+  background: none !important;
+  margin: 0 !important;
+  color: inherit !important;
+  text-transform: capitalize;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+@media (min-width: 576px) {
+  #buddypress div.item-list-tabs.primary-list-tabs > ul > li a,
+  #buddypress.youzer div.item-list-tabs li a {
+    padding: 0 .5rem;
+  }
+}
+
+#buddypress div.item-list-tabs.primary-list-tabs > ul > li label,
+#buddypress.youzer div.item-list-tabs li label {
+  display: none;
+}
+
+@media (max-width: 991.98px) {
+  #directory-show-filter {
+    display: none !important;
+  }
+  #members-order-select {
+    margin-bottom: 0 !important;
+  }
+}
+
+#search-members-form input[type="submit"],
+#members-dir-search input[type="submit"],
+.yz-directory-filter input[type="submit"],
+.messages-options-nav input[type="submit"],
+.notifications-options-nav input[type="submit"] {
+  padding: .4rem 1.15rem !important;
+  letter-spacing: 0 !important;
+  line-height: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.youzer #group-settings-form .group-members-list li {
+  display: flex !important;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.youzer #group-settings-form .group-members-list li .item {
+  width: auto;
+}
+
+.youzer #group-settings-form .group-members-list li .action a.button {
+  border: 0 !important;
+  margin: 0 !important;
+  padding-right: 0 !important;
+  letter-spacing: 0 !important;
+  background: none !important;
+  border-radius: 0 !important;
+  color: inherit !important;
+  padding: 0;
+}
+
+.youzer #group-settings-form .group-members-list li .action a.button i {
+  opacity: .7;
+  color: inherit !important;
+}
+
+.youzer #group-settings-form p {
+  font-size: .75em;
+}
+
+.group-members-list .section-header {
+  margin-top: 2.5rem;
+}
+
+.group-members-list .section-header i,
+.main-column .section-header i {
+  border-radius: 500px !important;
+}
+
+#buddypress table.messages-notices,
+#buddypress table.notifications {
+  margin-bottom: 1rem;
+}
+
+#buddypress table.messages-notices thead,
+#buddypress table.notifications thead {
+  background: none !important;
+}
+
+#buddypress table.messages-notices td,
+#buddypress table.messages-notices th,
+#buddypress table.notifications td,
+#buddypress table.notifications th {
+  vertical-align: middle;
+}
+
+#buddypress table.messages-notices .thread-options a span,
+#buddypress table.messages-notices .notification-actions a span,
+#buddypress table.notifications .thread-options a span,
+#buddypress table.notifications .notification-actions a span {
+  border-radius: 500px !important;
+}
+
+#buddypress table.messages-notices .thread-options .delete span,
+#buddypress table.messages-notices .notification-actions .delete span,
+#buddypress table.notifications .thread-options .delete span,
+#buddypress table.notifications .notification-actions .delete span {
+  color: #e74c3c;
+}
+
+.select-style {
+  opacity: 1 !important;
+}
+
+.select-style:before, .select-style:after {
+  content: none !important;
+}
+
+.yz-settings-area .yz-quick-buttons .yz-button-count {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none !important;
+}
+
+.wp-core-ui .quicktags-toolbar input.button.button-small {
+  padding: 5px !important;
+  line-height: 1rem !important;
+}
+
+.yz-bbp-form-item .nice-select {
+  width: 100%;
+}
+
+.nice-select {
+  width: 100%;
+}
+
+.nice-select .list {
+  max-height: 250px !important;
+}
+
+@media (min-width: 768px) {
+  .nice-select .list {
+    min-width: calc(100% + 15px);
+  }
+}
+
+.nice-select .list .option {
+  color: inherit !important;
+  line-height: 1.4em;
+  align-items: center;
+  display: flex;
+  padding: 5px 10px;
+}
+
+.nice-select.current {
+  text-align: left;
+}
+
+.nice-select:after {
+  margin-top: -2px;
+}
+
+.nice-select:after,
+.youzer div.item-list-tabs .yz-bar-select:after {
+  border-color: currentColor;
+}
+
+.nice-select.open, .nice-select:active,
+.nice-select:focus {
+  border-color: transparent;
+}
+
+#group-settings-form #bbp_group_forum_id + .nice-select {
+  min-width: 250px;
+}
+
+.manage-members #group-settings-form,
+.membership-requests #group-settings-form {
+  box-shadow: none;
+}
+
+/* Modal search */
+.modal .bps-custom-select {
+  border: 0 !important;
+}
+
+.modal .bps-custom-select:after {
+  content: none !important;
+}
+
+.yz-account-header ul li a .yza-link-item {
+  color: #fff !important;
+}
+
+.yz-media-box,
+.yz-media-filter {
+  background: none !important;
+}
+
+.yz-media .yz-media-group-icon i {
+  border-radius: 500px;
+}
+
+.yz-media-group-head .yz-media-group-view-all {
+  color: #fff !important;
+}
+
+.yz-media-group-head .yz-media-group-view-all:hover {
+  opacity: .7;
+}
+
+#grimlock-login-form-modal .modal-content,
+#grimlock-login-form-modal .modal-body {
+  padding: 0 !important;
+}
+
+#grimlock-login-form-modal .logy-form {
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+  box-shadow: none;
+}
+
+#grimlock-login-form-modal .modal-body > #loginform {
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.dir-filter label[for] {
+  display: none !important;
+}
+
+#bbp-search-form {
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+}
+
+@media only screen and (min-width: 425px) {
+  #bbp-search-form > div {
+    display: flex;
+  }
+}
+
+#bbp-search-form button[type="submit"] {
+  position: static !important;
+  opacity: 1 !important;
+}
+
+.activity.bp-user.activity-permalink.wall #content {
+  margin: 0;
+  padding: 0;
+}
+
+.activity.bp-user.activity-permalink.wall #content > .region__container {
+  max-width: 100%;
+}
+
+.youzer .activity-comments {
+  background: var(--grimlock-table-striped-background-color) !important;
+}
+
+.bbp-reply-header .bbp-meta {
+  padding: 1rem;
+}
+
+.yz-no-items-found {
+  padding: 2rem;
+}
+
+.page-template-template-dashboard .widget.buddypress .item-options a {
+  color: inherit !important;
+}
+
+.yz-forums-statistics-content .yz-forums-statistics-nbr {
+  font-weight: 600;
+  color: inherit !important;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+/* bbPress */
+.widget.widget_display_topics ul.bbp-replies-widget li,
+.widget.widget_display_topics ul.bbp-topics-widget li,
+.widget_display_topics ul.bbp-replies-widget li,
+.widget_display_topics ul.bbp-topics-widget li {
+  padding: .5rem 25px .5rem 70px;
+  margin-bottom: .5rem;
+}
+
+.widget.widget_display_topics ul.bbp-replies-widget li:not(:hover),
+.widget.widget_display_topics ul.bbp-topics-widget li:not(:hover),
+.widget_display_topics ul.bbp-replies-widget li:not(:hover),
+.widget_display_topics ul.bbp-topics-widget li:not(:hover) {
+  background: none;
+}
+
+.widget_bp_core_members_widget #members-list .vcard, .widget_bp_groups_widget #groups-list li {
+  margin: .5rem 0 0 0;
+}
+
+#bbpress-forums div.bbp-forum-author img.avatar,
+#bbpress-forums div.bbp-reply-author img.avatar,
+#bbpress-forums div.bbp-topic-author img.avatar {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+#bbpress-forums div.even, #bbpress-forums ul.even {
+  padding: 1rem;
+}
+
+#bbpress-forums ul.bbp-forums li.bbp-header,
+#bbpress-forums ul.bbp-topics li.bbp-header,
+#bbpress-forums ul.bbp-search-results li.bbp-header {
+  margin-bottom: .5rem;
+}
+
+#bbpress-forums ul.bbp-forums li.bbp-header ul li,
+#bbpress-forums ul.bbp-topics li.bbp-header ul li,
+#bbpress-forums ul.bbp-search-results li.bbp-header ul li {
+  background: none !important;
+  color: #fff !important;
+}
+
+#bbpress-forums li.bbp-body ul.forum,
+#bbpress-forums li.bbp-body ul.topic {
+  padding: 1.2rem;
+  border-radius: 0 !important;
+}
+
+#bbpress-forums li.bbp-forum-freshness, #bbpress-forums li.bbp-topic-freshness {
+  text-align: center;
+}
+
+.yz-forums-topic-meta,
+.yz-forums-topic-author {
+  display: flex;
+  align-items: center;
+}
+
+.yz-bbp-freshness-data {
+  display: flex;
+  word-break: break-word;
+}
+
+#bbpress-forums ul.bbp-forums li.bbp-header,
+#bbpress-forums ul.bbp-topics li.bbp-header,
+#bbpress-forums ul.bbp-search-results li.bbp-header {
+  padding: 1rem;
+  text-transform: none;
+  opacity: 1;
+}
+
+#bbpress-forums ul.bbp-forums li.bbp-body ul.forum,
+#bbpress-forums ul.bbp-forums li.bbp-body ul.topic,
+#bbpress-forums ul.bbp-topics li.bbp-body ul.forum,
+#bbpress-forums ul.bbp-topics li.bbp-body ul.topic,
+#bbpress-forums ul.bbp-search-results li.bbp-body ul.forum,
+#bbpress-forums ul.bbp-search-results li.bbp-body ul.topic {
+  display: flex;
+  align-items: center;
+}
+
+#bbpress-forums .bbp-forums-list {
+  margin-top: 1rem !important;
+}
+
+.youzer #bbpress-forums select {
+  width: 100%;
+}
+
+.youzer #bbpress-forums #bbp-search-form #bbp_search,
+.youzer #bbpress-forums .bbp-search-form #rs,
+.youzer #bbpress-forums .bbp-search-form #ts {
+  color: var(--grimlock-control-color);
+  border: var(--grimlock-control-border-width) solid var(--grimlock-control-border-color);
+  border-radius: var(--grimlock-control-border-radius);
+  background-color: var(--grimlock-control-background-color);
+}
+
+.youzer #bbpress-forums #bbp-search-form #bbp_search:focus,
+.youzer #bbpress-forums .bbp-search-form #rs:focus,
+.youzer #bbpress-forums .bbp-search-form #ts:focus {
+  color: var(--grimlock-control-focus-color);
+  border-color: var(--grimlock-control-focus-border-color);
+  background-color: var(--grimlock-control-focus-background-color);
+}
+
+.youzer #bbpress-forums li.bbp-body,
+.youzer #bbpress-forums li.bbp-footer,
+.youzer #bbpress-forums li.bbp-header {
+  border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+}
+
+.youzer #bbpress-forums div.bbp-search-form {
+  border-style: solid;
+}
+
+.youzer #bbpress-forums div.bbp-search-form:after {
+  content: none;
+}
+
+.youzer #bbpress-forums div.bbp-search-form form#bbp-search-form {
+  box-shadow: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.youzer #bbpress-forums div.bbp-search-form form#bbp-search-form:after {
+  content: none;
+}
+
+.youzer #bbpress-forums div.bbp-search-form form#bbp-search-form input[type="submit"]#bbp_search_submit {
+  opacity: 1;
+  margin: 0;
+  color: #fff;
+  border: none;
+  padding: 0 15px;
+  font-size: 12px !important;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+#buddypress .bboss_search_results_wrapper #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul > li.axctive, #buddypress .bboss_search_results_wrapper #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul > li.current {
+  color: var(--grimlock-button-primary-background-color) !important;
+}
+
+#buddypress .bboss_search_results_wrapper #subnav .item-list-tabs.primary-list-tabs .item-list-tabs-ul > li > a {
+  padding: .8rem 1.1rem !important;
+}
+
+/* WooCommerce */
+#youzer .youzer .yzwc-main-content table.shop_table {
+  width: 100%;
+  margin: 0 -1px 24px 0;
+  padding-left: 0;
+  text-align: left;
+  background-color: transparent;
+  border: var(--grimlock-table-border-width) solid var(--grimlock-table-border-color) !important;
+  border-collapse: collapse !important;
+  overflow: visible;
+}
+
+#youzer .youzer .yzwc-main-content table.shop_table th, #youzer .youzer .yzwc-main-content table.shop_table td {
+  color: var(--grimlock-text-color);
+  line-height: 1.5em;
+}
+
+#youzer .youzer .yzwc-main-content table.shop_table th {
+  padding: 9px 12px;
+  font-weight: 700;
+  border-top: var(--grimlock-table-border-width) solid var(--grimlock-table-border-color);
+}
+
+#youzer .youzer .yzwc-main-content table.shop_table td {
+  padding: 20px 12px;
+  border-top: var(--grimlock-table-border-width) solid var(--grimlock-table-border-color);
+  vertical-align: middle;
+}
+
+#youzer .youzer .yzwc-main-content table.shop_table tfoot tr {
+  background-color: transparent !important;
+}
+
+.youzer .yzwc-main-content .woocommerce-checkout-review-order table.shop_table tfoot .order-total,
+.youzer .yzwc-main-content .woocommerce-checkout-review-order table.shop_table thead,
+.youzer .yzwc-main-content table.shop_table td a.woocommerce-MyAccount-downloads-file:before,
+.youzer .yzwc-main-content table.shop_table td a.view:before,
+.youzer table.shop_table.order_details tfoot tr:last-child,
+.youzer .yzwc-main-content table.shop_table td.actions .coupon button,
+.youzer .yzwc-main-content table.shop_table td.woocommerce-orders-table__cell-order-number a,
+.youzer .yzwc-main-content table.shop_table thead,
+.youzer .yzwc-main-content table.shop_table thead tr {
+  background-color: transparent !important;
+}
+
+.youzer .yzwc-main-content table.shop_table tbody td,
+.youzer .yzwc-main-content table.shop_table thead th {
+  text-align: left;
+}
+
+#youzer .youzer .yzwc-main-content .woocommerce table.shop_table td a {
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+}
+
+#youzer .youzer .yzwc-main-content .woocommerce table.shop_table td a.remove {
+  position: relative;
+  top: auto;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  font-weight: normal !important;
+  color: inherit !important;
+  text-indent: -9999px;
+  padding: 0;
+  clear: none;
+  background: none;
+  z-index: 2;
+  font-size: 1em;
+  opacity: .5;
+}
+
+#youzer .youzer .yzwc-main-content .woocommerce table.shop_table td a.remove:before {
+  font-family: var(--grimlock-icon-times-circle-font-family) !important;
+  content: var(--grimlock-icon-times-circle);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  text-indent: 0;
+}
+
+#youzer .youzer .yzwc-main-content .woocommerce table.shop_table td a.remove:hover, #youzer .youzer .yzwc-main-content .woocommerce table.shop_table td a.remove:active, #youzer .youzer .yzwc-main-content .woocommerce table.shop_table td a.remove:focus {
+  background: none !important;
+  color: var(--grimlock-color-danger) !important;
+  opacity: 1;
+}
+
+#youzer .youzer .yzwc-main-content .woocommerce table.shop_table td .amount {
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+}
+
+#youzer .youzer .yzwc-main-content .woocommerce table.shop_table td td input {
+  border: 2px solid var(--grimlock-table-striped-background-color);
+  background: var(--grimlock-table-striped-background-color);
+  border-radius: var(--grimlock-button-border-radius);
+}
+
+#youzer .youzer .yzwc-main-content .woocommerce table.shop_table td.actions > button {
+  height: 45px;
+  color: var(--grimlock-button-primary-color);
+  background-color: var(--grimlock-button-primary-background-color) !important;
+}
+
+#youzer .youzer .yzwc-main-content .woocommerce table.shop_table td.actions > button:hover, #youzer .youzer .yzwc-main-content .woocommerce table.shop_table td.actions > button:active, #youzer .youzer .yzwc-main-content .woocommerce table.shop_table td.actions > button:focus {
+  color: var(--grimlock-button-primary-hover-color);
+  background-color: var(--grimlock-button-primary-hover-background-color) !important;
+}
+
+.youzer .yzwc-main-content table.shop_table a:not(:hover) {
+  color: inherit;
+}
+
+#youzer .youzer table.cart td.actions .coupon .input-text {
+  border: var(--grimlock-control-border-width) solid var(--grimlock-control-border-color);
+  background: var(--grimlock-control-background-color);
+  padding: .3rem 1rem;
+  width: 100% !important;
+  margin-right: .75rem;
+  height: 45px;
+}
+
+#youzer .youzer table.cart td.actions .coupon .button {
+  line-height: normal;
+  height: 45px;
+  padding: .3rem 1.2rem;
+  color: var(--grimlock-button-primary-color);
+  background-color: var(--grimlock-button-primary-background-color) !important;
+  border: var(--grimlock-button-border-width) solid var(--grimlock-button-primary-background-color);
+}
+
+#youzer .youzer table.cart td.actions .coupon .button:hover, #youzer .youzer table.cart td.actions .coupon .button:active, #youzer .youzer table.cart td.actions .coupon .button:focus {
+  color: var(--grimlock-button-primary-hover-color);
+  background-color: var(--grimlock-button-primary-hover-background-color) !important;
+  border-color: var(--grimlock-button-primary-hover-background-color);
+}
+
+#youzer .youzer .woocommerce .cart-collaterals .cart_totals {
+  background-color: var(--grimlock-archive-post-background-color);
+  border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+  padding: 1.5rem;
+  color: var(--grimlock-archive-post-color);
+  position: relative;
+  width: 100%;
+}
+
+#youzer .youzer .woocommerce .cart-collaterals .cart_totals h2 {
+  display: block;
+}
+
+#youzer .youzer .woocommerce .cart-collaterals .cart_totals .shop_table {
+  margin: 0 0 6px;
+  font-size: .9em;
+}
+
+#youzer .youzer .woocommerce .cart-collaterals .cart_totals .shop_table .order-total {
+  font-weight: 600;
+}
+
+#youzer .youzer .woocommerce .cart-collaterals .cart_totals .shop_table th, #youzer .youzer .woocommerce .cart-collaterals .cart_totals .shop_table td {
+  text-align: left;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+#youzer .youzer .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.checkout-button {
+  margin-bottom: 0;
+  white-space: normal;
+  padding: 1.2rem 1rem;
+  font-size: 1em;
+}
+
+#youzer .youzer .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.checkout-button:before {
+  content: none;
+}
+
+#youzer .youzer .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.checkout-button:hover, #youzer .youzer .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.checkout-button:active, #youzer .youzer .woocommerce .cart-collaterals .cart_totals .wc-proceed-to-checkout a.checkout-button:focus {
+  color: var(--grimlock-button-primary-hover-color);
+  background-color: var(--grimlock-button-primary-hover-background-color) !important;
+}
+
+#youzer .youzer .woocommerce-form-coupon-toggle .woocommerce-info {
+  position: relative;
+  padding: 0.75rem 0.75rem;
+  border-radius: var(--grimlock-archive-post-border-radius);
+  background-color: var(--grimlock-button-primary-background-color) !important;
+  color: var(--grimlock-button-primary-color) !important;
+  border: none !important;
+  display: flex;
+  align-items: center;
+  font-size: 0.95em;
+  line-height: var(--grimlock-text-line-height);
+}
+
+#youzer .youzer .woocommerce-form-coupon-toggle .woocommerce-info:before {
+  font-family: var(--grimlock-icon-wc-coupon-font-family) !important;
+  content: var(--grimlock-icon-wc-coupon);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  color: inherit;
+  position: static;
+  margin-right: 1em;
+}
+
+#youzer .youzer .woocommerce-form-coupon-toggle .woocommerce-info:last-child {
+  margin-bottom: 30px;
+}
+
+#youzer .youzer .woocommerce-form-coupon-toggle .woocommerce-info + * {
+  margin-top: .5rem;
+}
+
+#youzer .youzer .woocommerce-form-coupon-toggle .woocommerce-info a {
+  color: inherit !important;
+  font-weight: inherit;
+}
+
+@media (max-width: 991.98px) {
+  #youzer .youzer .woocommerce-form-coupon-toggle .woocommerce-info {
+    flex-direction: column;
+  }
+  #youzer .youzer .woocommerce-form-coupon-toggle .woocommerce-info a.showcoupon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    font-size: 0;
+  }
+}
+
+#youzer .youzer form.woocommerce-checkout h3 {
+  margin-bottom: 1.25rem;
+  font-size: var(--grimlock-heading3-font-size);
+  text-align: left;
+  line-height: var(--grimlock-heading3-line-height);
+  color: var(--grimlock-heading-color);
+  padding: 0;
+  background-color: transparent !important;
+}
+
+#youzer .youzer form.woocommerce-checkout #order_review {
+  color: var(--grimlock-archive-post-color);
+}
+
+#youzer .youzer form.woocommerce-checkout #order_review .shop_table {
+  margin: 0 0 6px;
+  font-size: .9em;
+  color: inherit;
+}
+
+#youzer .youzer form.woocommerce-checkout #order_review .shop_table tr {
+  background: none !important;
+  color: var(--grimlock-archive-post-color);
+}
+
+#youzer .youzer form.woocommerce-checkout #order_review .shop_table th, #youzer .youzer form.woocommerce-checkout #order_review .shop_table td {
+  text-align: left;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+#youzer .youzer form.woocommerce-checkout #order_review .shop_table .order-total {
+  font-weight: 600;
+}
+
+#youzer .youzer form.woocommerce-checkout #order_review .shop_table .order-total th {
+  color: inherit;
+}
+
+#youzer .youzer form.woocommerce-checkout #order_review .shop_table .order-total span {
+  color: inherit;
+}
+
+#youzer .youzer form.woocommerce-checkout #order_review .shop_table .order-total .amount {
+  font-weight: inherit;
+}
+
+#youzer .youzer form.woocommerce-checkout #order_review .shop_table tfoot th {
+  padding-left: 0;
+}
+
+#youzer .youzer form.woocommerce-checkout #order_review .shop_table tfoot td {
+  padding-right: 0;
+  text-align: right;
+}
+
+#youzer .youzer form.woocommerce-checkout #order_review .shop_table td.product-total {
+  text-align: right !important;
+  padding-right: 0;
+  color: inherit;
+}
+
+#youzer .youzer form.woocommerce-checkout .col2-set > div.col-1,
+#youzer .youzer form.woocommerce-checkout .col2-set > div.col-2 {
+  background-color: var(--grimlock-archive-post-background-color);
+  border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+  padding: 1.5rem;
+  color: var(--grimlock-archive-post-color);
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+#youzer .youzer form.woocommerce-checkout .col2-set .yzwc-box-title {
+  margin-bottom: 0;
+}
+
+#youzer .youzer form.woocommerce-checkout .col2-set i.fas {
+  display: none;
+}
+
+#youzer .youzer form.woocommerce-checkout .woocommerce-billing-fields__field-wrapper,
+#youzer .youzer form.woocommerce-checkout .woocommerce-additional-fields__field-wrapper,
+#youzer .youzer form.woocommerce-checkout .woocommerce-checkout-payment .wc_payment_methods {
+  padding: 0;
+}
+
+#youzer .youzer form.woocommerce-checkout #customer_details + .yzwc-box-title {
+  display: none;
+}
+
+#youzer .youzer .yzwc-main-content form .form-row {
+  flex-direction: column;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+#youzer .youzer .yzwc-main-content form .form-row:last-child {
+  margin-bottom: 0;
+}
+
+#youzer .youzer .yzwc-main-content form .form-row label {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  color: inherit;
+  font-size: var(--grimlock-text-font-size);
+  font-weight: 600;
+  line-height: var(--grimlock-text-line-height);
+}
+
+#youzer .youzer .yzwc-main-content form .form-row input.input-text,
+#youzer .youzer .yzwc-main-content form .form-row textarea {
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+  padding: 0.7rem 1rem;
+}
+
+#youzer .youzer #add_payment_method #payment,
+#youzer .youzer .woocommerce-cart #payment,
+#youzer .youzer .woocommerce-checkout #payment {
+  background-color: var(--grimlock-archive-post-background-color);
+  border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+  padding: 1.5rem;
+  color: var(--grimlock-archive-post-color);
+}
+
+#youzer .youzer #add_payment_method #payment ul.payment_methods,
+#youzer .youzer .woocommerce-cart #payment ul.payment_methods,
+#youzer .youzer .woocommerce-checkout #payment ul.payment_methods {
+  padding: 0;
+  border-bottom: none;
+}
+
+#youzer .youzer #add_payment_method #payment ul.payment_methods li,
+#youzer .youzer .woocommerce-cart #payment ul.payment_methods li,
+#youzer .youzer .woocommerce-checkout #payment ul.payment_methods li {
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+  line-height: var(--grimlock-text-line-height);
+  margin: 1em 0;
+}
+
+#youzer .youzer #add_payment_method #payment ul.payment_methods li.wc_payment_method input,
+#youzer .youzer .woocommerce-cart #payment ul.payment_methods li.wc_payment_method input,
+#youzer .youzer .woocommerce-checkout #payment ul.payment_methods li.wc_payment_method input {
+  margin-right: 0.5rem;
+}
+
+#youzer .youzer #add_payment_method #payment ul.payment_methods li label,
+#youzer .youzer .woocommerce-cart #payment ul.payment_methods li label,
+#youzer .youzer .woocommerce-checkout #payment ul.payment_methods li label {
+  font-size: var(--grimlock-text-font-size);
+}
+
+#youzer .youzer #add_payment_method #payment div.form-row,
+#youzer .youzer .woocommerce-cart #payment div.form-row,
+#youzer .youzer .woocommerce-checkout #payment div.form-row {
+  padding: 0;
+}
+
+#youzer .youzer #add_payment_method #payment div.payment_box,
+#youzer .youzer .woocommerce-cart #payment div.payment_box,
+#youzer .youzer .woocommerce-checkout #payment div.payment_box {
+  font-size: .92em;
+  font-weight: var(--grimlock-text-font-weight);
+  line-height: var(--grimlock-text-line-height);
+  color: inherit;
+  background-color: var(--grimlock-table-striped-background-color);
+}
+
+#youzer .youzer #add_payment_method #payment .woocommerce-terms-and-conditions-wrapper,
+#youzer .youzer .woocommerce-cart #payment .woocommerce-terms-and-conditions-wrapper,
+#youzer .youzer .woocommerce-checkout #payment .woocommerce-terms-and-conditions-wrapper {
+  padding: 1rem;
+  background-color: var(--grimlock-table-striped-background-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+}
+
+#youzer .youzer #add_payment_method #payment .woocommerce-terms-and-conditions-wrapper p,
+#youzer .youzer .woocommerce-cart #payment .woocommerce-terms-and-conditions-wrapper p,
+#youzer .youzer .woocommerce-checkout #payment .woocommerce-terms-and-conditions-wrapper p {
+  line-height: var(--grimlock-text-line-height);
+}
+
+#youzer .youzer #add_payment_method #payment #place_order,
+#youzer .youzer .woocommerce-cart #payment #place_order,
+#youzer .youzer .woocommerce-checkout #payment #place_order {
+  font-size: calc(var(--grimlock-button-font-size) * 1.05);
+  padding: calc(var(--grimlock-button-padding-y) * 1.25) calc(var(--grimlock-button-padding-y) * 1.25);
+  line-height: var(--grimlock-button-line-height);
+}
+
+#youzer .youzer .select2.select2-container {
+  line-height: 2em;
+}
+
+#youzer .youzer .select2.select2-container .select2-selection {
+  border-width: var(--grimlock-control-border-width);
+  border: var(--grimlock-control-border-width) solid var(--grimlock-control-border-color);
+  outline: 0 !important;
+  height: auto !important;
+  background-color: var(--grimlock-control-background-color);
+  border-radius: var(--grimlock-control-border-radius) !important;
+  color: var(--grimlock-control-color);
+  padding: 0;
+  line-height: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+#youzer .youzer .select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 28px;
+}
+
+#youzer .youzer .select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 1px;
+  right: 1px;
+}
+
+.select2-container--default .select2-results__option {
+  padding: 6px;
+  color: var(--grimlock-text-color);
+  font-size: .9em;
+  font-weight: var(--grimlock-text-font-weight);
+}
+
+#youzer .youzer .woocommerce-order p.woocommerce-thankyou-order-received {
+  font-weight: var(--grimlock-text-font-weight);
+  line-height: var(--grimlock-text-line-height);
+}
+
+#youzer .youzer .woocommerce-order p.woocommerce-thankyou-order-received:before {
+  content: none;
+}
+
+#youzer .youzer .woocommerce-order ul.woocommerce-thankyou-order-details + p {
+  padding: 0;
+  color: var(--grimlock-text-color);
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+  background: transparent;
+  border-radius: 0;
+  border-left: none;
+}
+
+#youzer .youzer .woocommerce-order h2.woocommerce-order-details__title {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: var(--grimlock-heading2-font-size);
+  line-height: var(--grimlock-heading2-line-height);
+}
+
+#youzer .youzer .woocommerce-order .shop_table {
+  margin: 0 0 6px;
+  font-size: .9em;
+}
+
+#youzer .youzer .woocommerce-order .shop_table .order-total {
+  font-weight: 600;
+}
+
+#youzer .youzer .woocommerce-order .shop_table th, #youzer .youzer .woocommerce-order .shop_table td {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: left;
+}
+
+#youzer .youzer .woocommerce-order .shop_table tr {
+  border-top: var(--grimlock-table-border-width) solid var(--grimlock-table-border-color);
+}
+
+#youzer .youzer .woocommerce-order .woocommerce-order-details {
+  margin-bottom: 2rem;
+}
+
+#youzer .youzer .woocommerce-order .woocommerce-customer-details .yzwc-box-title {
+  margin-bottom: 0;
+}
+
+#youzer .youzer .woocommerce-order .woocommerce-customer-details i.fas {
+  display: none;
+}
+
+#youzer .youzer .woocommerce-order .woocommerce-customer-details .woocommerce-column__title {
+  margin-bottom: 1.25rem;
+  font-size: var(--grimlock-heading2-font-size);
+  text-align: left;
+  line-height: var(--grimlock-heading2-line-height);
+  color: var(--grimlock-heading-color);
+  padding: 0;
+  background-color: transparent !important;
+}
+
+#youzer .youzer .woocommerce-order .woocommerce-customer-details address {
+  padding: 1rem;
+  background-color: transparent;
+}
+
+#youzer .youzer .woocommerce-order .woocommerce-customer-details address .yzwc-user-address {
+  border-left: none;
+}
+
+#youzer .youzer .woocommerce-order .woocommerce-customer-details address .yzwc-address-item {
+  margin-left: 0;
+}
+
+#youzer .youzer .woocommerce-order .woocommerce-customer-details address br,
+#youzer .youzer .woocommerce-order .woocommerce-customer-details address .yz-bullet,
+#youzer .youzer .woocommerce-order .woocommerce-customer-details address .yzcw-item-head {
+  display: none;
+}
+
+#youzer .youzer .woocommerce-order .woocommerce-customer-details address .yzwc-address-value {
+  margin-top: 0;
+  margin-left: 0;
+  color: var(--grimlock-text-color);
+  font-size: var(--grimlock-text-font-size);
+  font-weight: var(--grimlock-text-font-weight);
+  line-height: var(--grimlock-text-line-height);
+  letter-spacing: var(--grimlock-text-letter-spacing);
+}
+
+#youzer .youzer .woocommerce-order .woocommerce-billing-fields__field-wrapper,
+#youzer .youzer .woocommerce-order .woocommerce-additional-fields__field-wrapper,
+#youzer .youzer .woocommerce-order .woocommerce-checkout-payment .wc_payment_methods {
+  padding: 0;
+}
+
+#youzer .youzer .woocommerce-order #customer_details + .yzwc-box-title {
+  display: none;
+}
+
+#youzer .youzer .yzwc-main-content .woocommerce-order table.shop_table th,
+#youzer .youzer .yzwc-main-content .woocommerce-order table.shop_table td {
+  padding: 9px 12px;
+  font-size: var(--grimlock-text-font-size);
+}
+
+#youzer .youzer .woocommerce ul.order_details {
+  margin-bottom: 3em;
+  padding-right: 0;
+  padding-left: 0;
+  background: transparent;
+}
+
+#youzer .youzer .woocommerce ul.order_details:after, #youzer .youzer .woocommerce ul.order_details:before {
+  content: " ";
+  display: table;
+}
+
+#youzer .youzer .woocommerce ul.order_details li {
+  margin: 0 2em 0 0;
+  padding: 0 2em 0 0;
+  color: var(--grimlock-text-color);
+}
+
+#youzer .youzer .woocommerce ul.order_details li:last-child {
+  padding-bottom: 0;
+}
+
+#youzer .youzer .woocommerce ul.order_details li strong {
+  margin-top: 0;
+  font-size: 1.4em;
+  line-height: var(--grimlock-text-line-height);
+}
+
+.yz_effect img.lazyloaded {
+  opacity: 1 !important;
+}
+
+.yz_effect img.lazyload, .yz_effect img.lazyloading {
+  opacity: 0 !important;
+}
+
+/**
+ * Do not add your customizations here, this file will be overridden in future release of the plugin.
+ * Make your CSS changes in the Custom CSS panel of the WordPress Customizer or create a child theme : https://codex.wordpress.org/Child_Themes
+ */
+

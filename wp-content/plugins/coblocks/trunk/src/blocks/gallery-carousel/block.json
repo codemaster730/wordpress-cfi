@@ -1,0 +1,114 @@
+{
+	"name": "coblocks/gallery-carousel",
+	"category": "media",
+	"attributes": {
+		"gutter": {
+			"type": "number",
+			"default": 5
+		},
+		"gutterMobile": {
+			"type": "number",
+			"default": 5
+		},
+		"gridSize": {
+			"type": "string",
+			"default": "lrg"
+		},
+		"height": {
+			"type": "number",
+			"default": 400
+		},
+		"pageDots": {
+			"type": "boolean",
+			"default": false
+		},
+		"prevNextButtons": {
+			"type": "boolean",
+			"default": true
+		},
+		"loop": {
+			"type": "boolean",
+			"default": false
+		},
+		"autoPlay": {
+			"type": "boolean",
+			"default": false
+		},
+		"autoPlaySpeed": {
+			"type": "string",
+			"default": 3000
+		},
+		"draggable": {
+			"type": "boolean",
+			"default": true
+		},
+		"alignCells": {
+			"type": "boolean",
+			"default": false
+		},
+		"pauseHover": {
+			"type": "boolean",
+			"default": false
+		},
+		"freeScroll": {
+			"type": "boolean",
+			"default": false
+		},
+		"thumbnails": {
+			"type": "boolean",
+			"default": false
+		},
+		"navForClass": {
+			"type": "string",
+			"default": ""
+		},
+		"responsiveHeight": {
+			"type": "boolean",
+			"default": false
+		},
+		"images": {
+			"type": "array",
+			"default": [],
+			"source": "query",
+			"selector": ".coblocks-gallery--item",
+			"query": {
+				"url": {
+					"source": "attribute",
+					"selector": "img",
+					"attribute": "src"
+				},
+				"link": {
+					"source": "attribute",
+					"selector": "img",
+					"attribute": "data-link"
+				},
+				"imgLink": {
+					"source": "attribute",
+					"selector": "img",
+					"attribute": "data-imglink"
+				},
+				"alt": {
+					"source": "attribute",
+					"selector": "img",
+					"attribute": "alt",
+					"default": ""
+				},
+				"id": {
+					"source": "attribute",
+					"selector": "img",
+					"attribute": "data-id"
+				},
+				"index": {
+					"source": "attribute",
+					"selector": "img",
+					"attribute": "data-index"
+				},
+				"caption": {
+					"type": "string",
+					"source": "html",
+					"selector": "figcaption"
+				}
+			}
+		}
+	}
+}

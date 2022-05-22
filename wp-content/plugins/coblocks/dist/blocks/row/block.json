@@ -1,0 +1,28 @@
+{
+	"name": "coblocks/row",
+	"category": "layout",
+	"attributes": {
+		"id": {
+			"type": "number"
+		},
+		"columns": {
+			"type": "number"
+		},
+		"layout": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"customTextColor": {
+			"type": "string"
+		},
+		"verticalAlignment": {
+			"type": "string"
+		}
+	},
+	"title": "Row",
+	"textdomain": "coblocks",
+	"editorScript": "blocks-6",
+	"description": "Add a structured wrapper for column blocks, then add content blocks you’d like to the columns."
+}

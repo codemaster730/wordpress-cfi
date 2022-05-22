@@ -1,0 +1,24 @@
+{
+	"name": "coblocks/row",
+	"category": "layout",
+	"attributes": {
+		"id": {
+			"type": "number"
+		},
+		"columns": {
+			"type": "number"
+		},
+		"layout": {
+			"type": "string"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"customTextColor": {
+			"type": "string"
+		},
+		"verticalAlignment": {
+			"type": "string"
+		}
+	}
+}
