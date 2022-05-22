@@ -2,8 +2,8 @@
 define( 'WP_CACHE', false ); // Added by WP Rocket
  // Added by WP Rocket
 
-define('JWT_AUTH_SECRET_KEY', '?`;6$K~QM.+YT~U*% r<Gg2}IlWZwlO}*l~@73$pgbn{0,~c<Phi)r8)|+8j)9.%');
-define('JWT_AUTH_CORS_ENABLE', true);
+//define('JWT_AUTH_SECRET_KEY', '?`;6$K~QM.+YT~U*% r<Gg2}IlWZwlO}*l~@73$pgbn{0,~c<Phi)r8)|+8j)9.%');
+//define('JWT_AUTH_CORS_ENABLE', true);
 
 //Begin Really Simple SSL session cookie settings
 @ini_set('session.cookie_httponly', true);
