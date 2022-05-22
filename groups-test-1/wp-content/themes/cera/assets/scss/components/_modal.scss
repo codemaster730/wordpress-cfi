@@ -1,0 +1,32 @@
+
+/**
+ * Modal
+ *
+ * Bootstrap modal.
+ */
+
+.modal {
+	padding-top: 0;
+	background-color: rgba(0,0,0,0.5);
+	.modal-content {
+		overflow: visible;
+	}
+}
+
+.modal-backdrop {
+	display: none !important;
+}
+
+.modal-header {
+	background: none;
+	color: inherit;
+	.close {
+		color: inherit !important;
+		&,
+		span {
+			&:hover {
+				color: inherit;
+			}
+		}
+	}
+}

@@ -1,0 +1,151 @@
+
+/**
+ * Copy
+ * Text and typography components
+ */
+
+a {
+
+	@include transition($transition-base);
+
+	h1, h2, h3, h4, h5 ,h6,
+	h1 &, h2 &, h3 &, h4 &, h5 &, h6 & {
+		color: inherit;
+	}
+
+	&.full-link {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+	}
+
+	img {
+		transform: translate3d(0,0,0);
+		@include transition($transition-base);
+	}
+
+	&:hover {
+		img {
+			opacity: .85;
+		}
+	}
+
+}
+
+strong,
+b {
+	font-weight: 600;
+}
+
+.lead {
+	-webkit-font-smoothing: antialiased;
+}
+
+hr {
+	opacity: 0.15;
+	border-top-width: $hr-border-width;
+
+	&[class*="border-"] {
+		opacity: 1;
+	}
+}
+
+blockquote:not(.card-blockquote),
+.blockquote {
+	@extend .blockquote;
+	position: relative;
+	margin: $blockquote-font-size * 1.5 0;
+	padding: $spacer * 2;
+	border-bottom: 2px solid $primary;
+	font-style: normal;
+	&:before {
+		@include cera-icon();
+		content: $cera-quote;
+		position: absolute;
+		top: -0.5em;
+    	left: $spacer;
+		display: inline-block;
+		font-size: 2rem;
+		color: $primary;
+		pointer-events: none;
+	}
+	p {
+		font-size: 1em;
+		color: inherit;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+	caption,
+	.blockquote-footer {
+		font-size: 80%;
+		color: inherit;
+		opacity: .65;
+	}
+}
+
+dfn, cite, em, i {
+    font-style: italic;
+}
+
+abbr, acronym {
+    border-bottom: 1px dotted $gray-700;
+    cursor: help;
+}
+
+pre {
+	color: inherit;
+}
+
+
+/* Horizontal description */
+.dl-horizontal {
+	margin-left: - ($grid-gutter-width / 2);
+	margin-right: 0;
+}
+
+/* Maps */
+.gmpInfoWindowtitle {
+	color: inherit !important;
+}
+
+/* No results */
+section.no-results.not-found {
+	margin: 6% auto;
+	max-width: 550px;
+	text-align: center;
+}
+
+
+/* Audio */
+.mejs-container, .mejs-embed,
+.mejs-embed body,
+.mejs-container .mejs-controls {
+	background-color: $headings-color !important;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+	background-color: $primary !important;
+}
+
+.mejs-time-float {
+	color: #fff !important;
+}
+
+.mejs-time-buffering,
+.mejs-time-current,
+.mejs-time-float, .mejs-time-float-corner,
+.mejs-time-float-current, .mejs-time-hovered,
+.mejs-time-loaded, .mejs-time-marker,
+.mejs-time-total {
+	height: 5px !important;
+}
+.mejs-time-total {
+	margin-top: 8px;
+}
+.mejs-horizontal-volume-slider {
+	display: none !important;
+}

@@ -1,0 +1,8 @@
+:root{--wp-admin-theme-color: #007cba;--wp-admin-theme-color-darker-10: #006ba1;--wp-admin-theme-color-darker-20: #005a87}.coblocks-settings-modal .components-base-control__help{color:#757575;display:block;font-style:normal;padding-left:36px;padding-top:2px}@media (min-width: 600px){.coblocks-settings-modal .components-base-control__help{padding-left:32px}}
+
+.coblocks-info-popover.components-popover:not(.is-without-arrow)[data-y-axis="top"]::before,.coblocks-info-popover.components-popover:not(.is-without-arrow)[data-y-axis="top"]::after{border-top-color:#1e1e1e !important}.coblocks-info-popover .components-popover__content{background-color:#1e1e1e;border-color:#1e1e1e;border-radius:7px;color:#fff;padding:16px}.coblocks-info-popover__trigger.components-button.has-text svg{margin-right:0}.coblocks-info-popover__title{font-size:1rem;margin:0 0 8px 0}
+
+.coblocks-block-patterns__modal .components-modal__header-heading{align-items:center;display:flex}.coblocks-block-patterns__modal .components-base-control__field{margin-bottom:16px}.coblocks-block-patterns__preview{border:1px solid #1e1e1e;border-radius:2px;margin-bottom:24px;padding:9px}
+
+.uppercase{text-transform:uppercase}
+

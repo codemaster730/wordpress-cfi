@@ -1,0 +1,72 @@
+/**
+ * Loader styles
+ *
+ */
+/*------------------------------------*\
+	#SETTINGS
+\*------------------------------------*/
+/**
+ * Customizer Controls variables
+ */
+/*------------------------------------*\
+	#STYLES
+\*------------------------------------*/
+@-webkit-keyframes loader-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+@keyframes loader-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+}
+
+.grimlock-loader-wrapper {
+  position: fixed;
+  z-index: 9999999;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #0275d8;
+  cursor: wait;
+}
+
+.grimlock--loader-hidden .grimlock-loader-wrapper {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.3s 0.8s ease-in-out;
+}
+
+.grimlock-loader {
+  display: block;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  z-index: 10000000;
+  width: 50px;
+  height: 50px;
+  margin: -25px -25px 0 0;
+  border: 3px solid transparent;
+  border-top-color: #fff;
+  border-radius: 50%;
+  -webkit-animation: loader-spin .5s ease-in-out infinite;
+          animation: loader-spin .5s ease-in-out infinite;
+}
+
+.grimlock--loader-hidden .grimlock-loader {
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}

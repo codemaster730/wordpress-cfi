@@ -1,0 +1,84 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: August 21, 2021 3:39 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.2
+WORDPRESS:	5.8
+PHP INFO:	7.4.22 | SAPI: litespeed
+SERVER:		LiteSpeed 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1024M default) 
+MEMORY STACK: 16MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20210821_cfigroups_95d44743135021596933_20210821033744_database.sql
+SQL FILE SIZE: 31.34MB (32861353)
+SQL FILE TIME: 2021-08-21 03:39:46
+SQL RUNTIME: 1.38 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/humajvue/groups.cficast.com
+ARCHIVE FILE: 20210821_cfigroups_95d44743135021596933_20210821033744_archive.zip
+FILTERS: *ON*
+DIRS:
+	/home/humajvue/groups.cficast.com/groups-test-1
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	489.53MB
+STATS:	Dirs 3,175 | Files 19,612
+SQL ADDED: 20210821_cfigroups_95d44743135021596933_20210821033744_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 22787
+    [filename] => /home/humajvue/groups.cficast.com/wp-content/backups-dup-lite/tmp/20210821_cfigroups_95d44743135021596933_20210821033744_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 22786
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 302.6MB
+ARCHIVE RUNTIME: 71.08 sec.
+MEMORY STACK: 22.84MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /home/humajvue/groups.cficast.com/wp-content/backups-dup-lite/tmp/20210821_cfigroups_95d44743135021596933_20210821033744_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 31.34MB
+INSTALLER FILE: 64.26KB
+ARCHIVE FILE: 304.09MB 
+EXPECTED FILE/DIRECTORY COUNT: 22,787
+ACTUAL FILE/DIRECTORY COUNT: 22,786
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 79.85 sec.
+PEAK PHP MEMORY USED: 28.84MB
+DONE PROCESSING => 20210821_cfigroups August 21, 2021 3:41 am
+

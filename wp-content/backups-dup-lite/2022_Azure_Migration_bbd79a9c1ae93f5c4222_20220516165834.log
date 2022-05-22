@@ -1,0 +1,84 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: May 16, 2022 4:59 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.5
+WORDPRESS:	5.9.3
+PHP INFO:	7.4.29 | SAPI: litespeed
+SERVER:		LiteSpeed 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1024M default) 
+MEMORY STACK: 22MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 2022_Azure_Migration_bbd79a9c1ae93f5c4222_20220516165834_database.sql
+SQL FILE SIZE: 61.41MB (64394463)
+SQL FILE TIME: 2022-05-16 16:59:22
+SQL RUNTIME: 1.89 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/humajvue/groups.cficast.com
+ARCHIVE FILE: 2022_Azure_Migration_bbd79a9c1ae93f5c4222_20220516165834_archive.zip
+FILTERS: *ON*
+DIRS:
+	/home/humajvue/groups.cficast.com/groups-test-1
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	548.77MB
+STATS:	Dirs 5,424 | Files 30,356
+SQL ADDED: 2022_Azure_Migration_bbd79a9c1ae93f5c4222_20220516165834_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 35780
+    [filename] => /home/humajvue/groups.cficast.com/wp-content/backups-dup-lite/tmp/2022_Azure_Migration_bbd79a9c1ae93f5c4222_20220516165834_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 35779
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 288.72MB
+ARCHIVE RUNTIME: 87.02 sec.
+MEMORY STACK: 32.77MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /home/humajvue/groups.cficast.com/wp-content/backups-dup-lite/tmp/2022_Azure_Migration_bbd79a9c1ae93f5c4222_20220516165834_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 61.41MB
+INSTALLER FILE: 64.6KB
+ARCHIVE FILE: 290.45MB 
+EXPECTED FILE/DIRECTORY COUNT: 35,780
+ACTUAL FILE/DIRECTORY COUNT: 35,779
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[5]
+TOTAL PROCESS RUNTIME: 96.59 sec.
+PEAK PHP MEMORY USED: 38.77MB
+DONE PROCESSING => 2022_Azure_Migration May 16, 2022 5:00 pm
+

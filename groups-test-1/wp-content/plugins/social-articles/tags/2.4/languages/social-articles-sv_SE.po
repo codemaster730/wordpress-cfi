@@ -1,0 +1,612 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Articles\n"
+"POT-Creation-Date: 2017-01-02 09:26-0300\n"
+"PO-Revision-Date: 2017-01-02 09:27-0300\n"
+"Last-Translator: Johan Lundin <contact@johanlundin.com>\n"
+"Language-Team: Johan Lundin <contact@johanlundin.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: social-articles.php:196
+msgid "Settings"
+msgstr "Inställningar"
+
+#: social-articles.php:208
+msgid "Donate"
+msgstr "Donera"
+
+#: social-articles.php:233
+msgid ""
+"<strong>Social Articles</strong></a> requires the BuddyPress plugin to work. "
+"Please <a href=\"http://buddypress.org\">install BuddyPress</a> first, or <a "
+"href=\"plugins.php\">deactivate Social Articles</a>."
+msgstr ""
+"<strong>Sosiala Artikler</strong> kräver BuddyPress plugin för att fungerea. "
+"\"\r\"Vänligen <a href=\"http://buddypress.org\">installera BuddyPress</a> "
+"först \"\r\"eller <a href=\"plugins.php\">deaktivera Sosiala Artikler</a>."
+
+#: includes/social-articles-functions.php:102
+msgid "One of your articles was approved"
+msgstr "En av dina artiklar godkändes"
+
+#: includes/social-articles-functions.php:102
+#: includes/social-articles-functions.php:111
+msgid "check it out!"
+msgstr " kolla upp den!"
+
+#: includes/social-articles-functions.php:110
+msgid "There is a new article by "
+msgstr "Det finns en ny artikel av"
+
+#: includes/social-articles-load.php:11 includes/social-articles-load.php:139
+msgid "Social Articles"
+msgstr "Sociala Artiklar"
+
+#: includes/social-articles-load.php:40
+msgid "Search articles..."
+msgstr "Sök efter artiklar..."
+
+#: includes/social-articles-load.php:54 includes/social-articles-load.php:56
+msgid "Articles"
+msgstr "Artiklar"
+
+#: includes/social-articles-load.php:80 includes/sa-form/sa-form-class.php:130
+#: includes/templates/members/single/articles/new.php:6
+msgid "Published"
+msgstr "Publiserade"
+
+#: includes/social-articles-load.php:89
+msgid "Under Review"
+msgstr "Under granskning"
+
+#: includes/social-articles-load.php:99 includes/sa-form/sa-form-class.php:131
+#: includes/templates/members/single/articles/new.php:7
+msgid "Draft"
+msgstr "Utkast"
+
+#: includes/social-articles-load.php:108
+#: includes/templates/members/single/articles/new.php:36
+msgid "New article"
+msgstr "Ny artikel"
+
+#: includes/social-articles-load.php:146
+#, php-format
+msgid "Articles <span class=\"count\">%s</span>"
+msgstr "Artiklar <span class=\"count\">%s</span>"
+
+#: includes/social-articles-load.php:152
+msgid "New Article"
+msgstr "Ny artikel"
+
+#: includes/social-articles-manage-functions.php:95
+msgid "edit article"
+msgstr "redigera artikel"
+
+#: includes/social-articles-manage-functions.php:98
+msgid "delete article"
+msgstr "ta bort artikel"
+
+#: includes/social-articles-manage-functions.php:128
+msgid "Archived"
+msgstr "Arkiverad"
+
+#: includes/social-articles-manage-functions.php:135
+msgid "comments"
+msgstr "Kommentarer"
+
+#: includes/admin/social-articles-options.php:34
+msgid "Settings Saved"
+msgstr "Inställningar Sparade"
+
+#: includes/admin/social-articles-options.php:45
+msgid "Social Articles Settings"
+msgstr "Sociala Artiklar Inställningar"
+
+#: includes/admin/social-articles-options.php:53
+#: includes/admin/tabs/social-articles-general-settings.php:52
+msgid "General"
+msgstr "Generellt"
+
+#: includes/admin/social-articles-options.php:54
+#: includes/admin/tabs/social-articles-view-settings.php:28
+msgid "View"
+msgstr ""
+
+#: includes/admin/social-articles-options.php:55
+msgid "Form"
+msgstr ""
+
+#: includes/admin/social-articles-options.php:56
+msgid "Get Premium"
+msgstr ""
+
+#: includes/admin/social-articles-options.php:57
+msgid "There are unsaved changes"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:8
+msgid "Available Fields"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:10
+msgid ""
+"Drag and drop the fields you need from this column to the Form Layout column"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:27
+msgid "Form Layout"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:47
+msgid "Field Configuration"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:49
+#, php-format
+msgid "Click on %s to edit the field configuration"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:58
+#: includes/admin/tabs/social-articles-general-settings.php:51
+#: includes/admin/tabs/social-articles-view-settings.php:27
+msgid "Update Social Articles Settings"
+msgstr "Uppdatera Sociala Artiklars inställningar"
+
+#: includes/admin/tabs/social-articles-general-settings.php:7
+msgid "Select workflow type"
+msgstr "Välj arbetsflöde"
+
+#: includes/admin/tabs/social-articles-general-settings.php:9
+msgid "Direct Publish"
+msgstr "Direkt publicering"
+
+#: includes/admin/tabs/social-articles-general-settings.php:10
+msgid "With Approval "
+msgstr "Genom godkännande"
+
+#: includes/admin/tabs/social-articles-general-settings.php:19
+msgid "To use this feature, you need to activate bb Friend Connections module."
+msgstr "För att använda denna tjänst behöver du aktivera bb Friend Connections"
+
+#: includes/admin/tabs/social-articles-general-settings.php:24
+msgid "Send buddyPress notifications?"
+msgstr "Skicka buddyPress notiser?"
+
+#: includes/admin/tabs/social-articles-general-settings.php:26
+#: includes/admin/tabs/social-articles-general-settings.php:36
+#: includes/admin/tabs/social-articles-general-settings.php:46
+#: includes/admin/tabs/social-articles-view-settings.php:9
+msgid "False"
+msgstr "Falskt"
+
+#: includes/admin/tabs/social-articles-general-settings.php:27
+#: includes/admin/tabs/social-articles-general-settings.php:37
+#: includes/admin/tabs/social-articles-general-settings.php:47
+#: includes/admin/tabs/social-articles-view-settings.php:10
+msgid "True"
+msgstr "Sant"
+
+#: includes/admin/tabs/social-articles-general-settings.php:34
+msgid "Can users edit their articles?"
+msgstr "Kan användare redigera sina artiklar?"
+
+#: includes/admin/tabs/social-articles-general-settings.php:44
+msgid "Can users delete their articles?"
+msgstr "Kan användare ta bort sina artiklar?"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:7
+msgid "Coming Soon!!!"
+msgstr "Kommer snart!"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:11
+msgid "Mail Notifications"
+msgstr "E-postnotiser"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:12
+msgid ""
+"Mail Notification sends mail to your mailboxes. When new notification "
+"arrives, Mail Notification sends a new email."
+msgstr ""
+"E-postnotiser skickar e-post till din e-postinbox. När nya notiser kommer så "
+"skickar E-postnotiser ett nytt e-post."
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:14
+msgid "Html Template Customization"
+msgstr "Html-Mall Anpassningar"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:15
+msgid "Customize your email with HTML Template Customizations!"
+msgstr "Redigera ditt e-post med Html-Mall Anpassningar"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:17
+msgid "Custom Post Type definition"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:18
+msgid "Custom taxonomies"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:19
+#, fuzzy
+msgid "Taxonomies Black/White List"
+msgstr "Taggar Svart Lista"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:20
+msgid "Hierarchical taxonomies"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:21
+msgid "Ability to add terms from the front end"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:22
+#, fuzzy
+msgid "Required Fields definition"
+msgstr "Obligatoriska Fält Definition"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:23
+#, fuzzy
+msgid "Required Fields Messages definition"
+msgstr "Obligatoriska Fält Definition"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:24
+msgid "More Editor Functions"
+msgstr "Fler redigeringsfunktioner"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:25
+#, fuzzy
+msgid "Premium features for each field"
+msgstr "Premiumfunktioner"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:26
+msgid "Ability to change labels"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:27
+msgid "More!"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:34
+msgid "Premium Features"
+msgstr "Premiumfunktioner"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:40
+msgid ""
+"Want to help make this plugin even better? All donations are used to improve "
+"this plugin, so donate $20, $50 or $100 now!"
+msgstr ""
+"Vill du hjälpa till att göra denna plugin ännu bättre? Alla donationer "
+"använda för att förbättra denna plugin, så donera $20, $50 eller $100 nu!"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:45
+msgid "Or you could:"
+msgstr "Eller så kan du:"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:47
+msgid "Rate the plugin 5★ on WordPress.org"
+msgstr "Rösta 5★ för denna plugin på WordPress.org"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:48
+msgid "Help out other users in the forums"
+msgstr "Hjälp andra användare i forumen."
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:49
+#, php-format
+msgid "Blog about it & link to the %1$splugin page%2$s"
+msgstr "Blogga om den & länka till %1$splugin sidan%2$s"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:53
+msgid "Help Spread the Word!"
+msgstr "Sprid ordet!"
+
+#: includes/admin/tabs/social-articles-view-settings.php:7
+msgid "Show published articles counter"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-view-settings.php:17
+msgid "Post per page#"
+msgstr "Inlägg per sida#"
+
+#: includes/admin/tabs/social-articles-view-settings.php:23
+msgid "Excerpt length#"
+msgstr "Utdragslängd#"
+
+#: includes/sa-form/sa-form-class.php:132
+#: includes/templates/members/single/articles/new.php:8
+msgid "Under review"
+msgstr "Under granskning."
+
+#: includes/sa-form/sa-form-class.php:133
+#: includes/templates/members/single/articles/new.php:9
+msgid "New"
+msgstr "Ny"
+
+#: includes/sa-form/sa-form-class.php:142
+msgid ""
+"Your article is under review. When the editors approve it you will get a "
+"notification."
+msgstr ""
+"Din artikel är under godkännande. När redaktörerna godkänt den får du en "
+"notifikation."
+
+#: includes/sa-form/sa-form-class.php:146
+msgid "Your article is in draft form."
+msgstr "Din artikel är i utkast."
+
+#: includes/sa-form/sa-form-class.php:150
+msgid "Your article has been published."
+msgstr "Din artikel har publicerats."
+
+#: includes/sa-form/sa-helper-class.php:57
+#: includes/sa-form/fields/classes/sa-title-class.php:10
+msgid "Title"
+msgstr "Rubrik"
+
+#: includes/sa-form/sa-helper-class.php:78
+msgid "Content"
+msgstr ""
+
+#: includes/sa-form/sa-helper-class.php:84
+msgid "Featured image"
+msgstr ""
+
+#: includes/sa-form/fields/classes/sa-content-class.php:11
+#, fuzzy
+msgid "Article content"
+msgstr "Artikelns innehåll..."
+
+#: includes/sa-form/fields/classes/sa-featured-image-class.php:10
+msgid "Featured Image"
+msgstr "Lady pup bald"
+
+#: includes/sa-form/fields/classes/sa-title-class.php:11
+#, fuzzy
+msgid "Insert the title"
+msgstr "Infoga ordnad lista"
+
+#: includes/sa-form/fields/classes/sa-title-class.php:12
+msgid "Title is required"
+msgstr "Rubrik måste anges"
+
+#: includes/sa-form/fields/commons/uploader.php:138
+msgid "Server error. Upload directory isn't writable."
+msgstr ""
+
+#: includes/sa-form/fields/commons/uploader.php:142
+msgid "No files were uploaded."
+msgstr ""
+
+#: includes/sa-form/fields/commons/uploader.php:148
+msgid "File is empty"
+msgstr ""
+
+#: includes/sa-form/fields/commons/uploader.php:152
+msgid "File is too large"
+msgstr ""
+
+#: includes/sa-form/fields/commons/uploader.php:162
+#, php-format
+msgid "File has an invalid extension, it should be one of %s."
+msgstr ""
+
+#: includes/sa-form/fields/commons/uploader.php:175
+msgid ""
+"Could not save uploaded file. The upload was cancelled, or server error "
+"encountered"
+msgstr ""
+
+#: includes/sa-form/fields/templates/commons/article-status-tpart.php:4
+msgid "Status"
+msgstr "Status"
+
+#: includes/sa-form/fields/templates/commons/publish-actions-tpart.php:4
+msgid "Save and move it under review"
+msgstr "Spara och flytta till förhandsgranska"
+
+#: includes/sa-form/fields/templates/commons/publish-actions-tpart.php:8
+msgid "Save and publish"
+msgstr "Spara och publicera"
+
+#: includes/sa-form/fields/templates/content/backend-part.php:4
+#: includes/sa-form/fields/templates/featured-image/backend-part.php:6
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:4
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:4
+#: includes/sa-form/fields/templates/title/backend-part.php:6
+#, php-format
+msgid "Field: %s "
+msgstr ""
+
+#: includes/sa-form/fields/templates/content/backend-part.php:7
+#: includes/sa-form/fields/templates/featured-image/backend-part.php:9
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:7
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:7
+#: includes/sa-form/fields/templates/title/backend-part.php:9
+msgid "Label"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/backend-part.php:13
+#, php-format
+msgid "Maximum upload file size: %s (PHP limit)"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:14
+msgid "Delete"
+msgstr "Ta bort."
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:36
+#, fuzzy
+msgid "Generating preview"
+msgstr "Under granskning."
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:60
+msgid "Choose image"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:61
+msgid "or"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:62
+msgid "Drag your file here to upload"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:63
+msgid "Drop your file"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:64
+#, php-format
+msgid "Maximum upload file size: %s."
+msgstr ""
+
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:11
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:11
+#: includes/sa-form/fields/templates/title/backend-part.php:13
+msgid "Placeholder"
+msgstr ""
+
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:16
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:16
+msgid "Type"
+msgstr ""
+
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:18
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:18
+msgid "Multiple"
+msgstr "Multipel"
+
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:19
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:19
+msgid "Single"
+msgstr "Singel"
+
+#: includes/sa-form/fields/templates/title/backend-part.php:19
+msgid "Required"
+msgstr ""
+
+#: includes/sa-form/fields/templates/title/backend-part.php:21
+msgid "Upgrade to premium to change this setting"
+msgstr ""
+
+#: includes/sa-form/fields/templates/title/backend-part.php:24
+msgid "Messages"
+msgstr ""
+
+#: includes/sa-form/fields/templates/title/backend-part.php:26
+msgid "Empty"
+msgstr ""
+
+#: includes/templates/members/single/articles/loop.php:19
+msgid "Load more articles"
+msgstr "Ladda fler artiklar"
+
+#: includes/templates/members/single/articles/loop.php:28
+msgid "This user doesn't have any article."
+msgstr "Användaren har inte skrivit några artiklar."
+
+#: includes/templates/members/single/articles/new.php:34
+msgid "Edit article"
+msgstr "Redigera artikel"
+
+#: includes/templates/members/single/articles/new.php:35
+msgid "View article"
+msgstr "Granska artikel"
+
+#: includes/templates/members/single/articles/new.php:40
+msgid "Saving your article. Please wait."
+msgstr "Din artikel sparas. Vänligen vänta."
+
+#: includes/templates/members/single/articles/new.php:50
+msgid "Save"
+msgstr "Spara"
+
+#: includes/templates/members/single/articles/new.php:51
+msgid "Cancel"
+msgstr "Avbryt"
+
+#~ msgid "My articles <span>%d</span>"
+#~ msgstr "Mina artiklar <span>%d</span>"
+
+#~ msgid "Error creating the article. Try again please."
+#~ msgstr "Fel vid skapande av artikeln. Försök igen tack."
+
+#~ msgid "done"
+#~ msgstr "klar"
+
+#~ msgid "Select category type"
+#~ msgstr "Välj kategori"
+
+#~ msgid "Number of categories people can select"
+#~ msgstr "Antal kategorier som kan väljas av användaren"
+
+#~ msgid "Category Black List"
+#~ msgstr "Kategori Svart Lista"
+
+#~ msgid "Post type"
+#~ msgstr "Typ av inlägg"
+
+#~ msgid "Selection of areas to display"
+#~ msgstr "Val av områden som visas"
+
+#~ msgid "Galleries"
+#~ msgstr "Gallerier"
+
+#~ msgid "Why not do any or all of the following:"
+#~ msgstr "Varför inte göra något eller allt av följande:"
+
+#~ msgid "Link to it so other folks can find out about it."
+#~ msgstr "Länka till den så att andra kan få upp ögonen för den."
+
+#~ msgid "Give it a 5 star rating on WordPress.org."
+#~ msgstr "Ge den 5 stjärnor på omröstningen på WordPress.org."
+
+#~ msgid "Let other people know that it works with your WordPress setup."
+#~ msgstr "Låt andra få veta att den fungerar med din WordPress kofiguration."
+
+#~ msgid "Like this plugin?"
+#~ msgstr "Gillar du denna plugin?"
+
+#~ msgid "Found a bug?"
+#~ msgstr "Hittat en bugg?"
+
+#~ msgid "You cannot perform this action"
+#~ msgstr "Du kan inte utföra den här åtgärden"
+
+#~ msgid "Categories"
+#~ msgstr "Kategorier"
+
+#~ msgid "Select your category"
+#~ msgstr "Välj kategori"
+
+#~ msgid "Tags"
+#~ msgstr "Etiketter"
+
+#~ msgid "Select your tags"
+#~ msgstr "Välj etiketter"
+
+#~ msgid "Article title..."
+#~ msgstr "Artikelns rubrik..."
+
+#~ msgid "Insert unordered list"
+#~ msgstr "Infoga oordnad lista"
+
+#~ msgid "Insert link"
+#~ msgstr "Infoga länk"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Max size allowed is 2 MB"
+#~ msgstr "Största tillåtna storlek är 2 MB."
+
+#~ msgid "Uploading your image. Please wait."
+#~ msgstr "Din bild laddas upp. Vänligen vänta."

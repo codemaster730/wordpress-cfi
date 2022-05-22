@@ -1,0 +1,100 @@
+/**
+ * Customizer preview Styles
+ *
+ * Custom style for customizer preview
+ */
+/**
+ *
+ * SETTINGS
+ * Variables............Variables and config.
+ *
+ * TOOLS
+ * Mixins...............Mixins.
+ *
+ * STYLES
+ *
+ */
+/*------------------------------------*\
+	#SETTINGS
+\*------------------------------------*/
+/**
+ * Customizer Controls variables
+ */
+/*------------------------------------*\
+    #TOOLS
+\*------------------------------------*/
+/**
+ * Customizer Controls Mixins
+ */
+/*------------------------------------*\
+    #STYLES
+\*------------------------------------*/
+.widget[data-customize-partial-type="widget"]:hover {
+  outline: rgba(0, 133, 186, 0.3) dashed 2px;
+  outline-offset: 10px;
+}
+
+#after_content .widget[data-customize-partial-type="widget"]:hover,
+#before_content .widget[data-customize-partial-type="widget"]:hover,
+#primary .widget[data-customize-partial-type="widget"]:hover {
+  outline-offset: 0;
+}
+
+.widget[data-customize-partial-type="widget"] .customize-partial-edit-shortcut button {
+  top: 15px !important;
+  left: 15px !important;
+  cursor: pointer;
+}
+
+#after_content .widget[data-customize-partial-type="widget"] .customize-partial-edit-shortcut button,
+#before_content .widget[data-customize-partial-type="widget"] .customize-partial-edit-shortcut button,
+#primary .widget[data-customize-partial-type="widget"] .customize-partial-edit-shortcut button {
+  top: 75px !important;
+}
+
+.customize-partial-edit-shortcut button {
+  border-width: 2px !important;
+}
+
+.customize-partial-edit-shortcut button:before {
+  content: attr(title);
+  display: none;
+  position: absolute;
+  top: 2px;
+  left: 30px;
+  padding: 2px 6px;
+  font-size: 12px;
+  text-shadow: none;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 500px;
+  opacity: 0;
+  z-index: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  pointer-events: none;
+  letter-spacing: 0;
+  text-transform: none;
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+.customize-partial-edit-shortcut button:hover:before {
+  display: block;
+  opacity: 1;
+}
+
+.navbar-nav .customize-partial-edit-shortcut button {
+  top: 15px;
+}
+
+.custom-logo-link:not([rel="home"]) {
+  display: block !important;
+  min-width: 115px;
+  min-height: 25px;
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 500px;
+}
+
+.custom-logo-link:not([rel="home"]) .customize-partial-edit-shortcut button {
+  left: -5px !important;
+  top: -15px !important;
+}

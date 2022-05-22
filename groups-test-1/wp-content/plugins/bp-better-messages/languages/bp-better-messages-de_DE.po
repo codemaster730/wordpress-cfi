@@ -1,0 +1,1776 @@
+# Translation of Plugins - BP Better Messages - Development (trunk) in German
+# This file is distributed under the same license as the Plugins - BP Better Messages - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - BP Better Messages - Development (trunk)\n"
+"POT-Creation-Date: 2021-04-21 11:42+0300\n"
+"PO-Revision-Date: 2021-04-23 00:49+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: addons/calls.php:133 addons/calls.php:197 addons/calls.php:557
+#: bp-better-messages.php:349 inc/strings.php:6
+msgid "Audio Call"
+msgstr "Sprachnachricht"
+
+#: addons/calls.php:149 addons/calls.php:215 addons/calls.php:547
+#: bp-better-messages.php:348 inc/strings.php:7
+msgid "Video Call"
+msgstr "Video Anruf"
+
+#: addons/calls.php:297 addons/calls.php:359 inc/strings.php:8
+#, php-format
+msgid "Audio call accepted <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr ""
+
+#: addons/calls.php:316 addons/calls.php:357 inc/strings.php:9
+#, php-format
+msgid "Video call accepted <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr ""
+
+#: addons/calls.php:421 inc/strings.php:10
+#| msgid "Allow users to make audio calls between each other"
+msgid "I tried to make audio call, but you were offline"
+msgstr ""
+
+#: addons/calls.php:440 inc/strings.php:11
+#| msgid "Allow users to make video calls between each other"
+msgid "I tried to make video call, but you were offline"
+msgstr ""
+
+#: addons/calls.php:482 inc/strings.php:12
+#, php-format
+#| msgctxt "Messages list sub nav"
+#| msgid "Messages <span class=\"%s bp-better-messages-unread\">%s</span>"
+msgid "Missed audio call <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr ""
+
+#: addons/calls.php:501 inc/strings.php:13
+#, php-format
+#| msgctxt "Messages list sub nav"
+#| msgid "Messages <span class=\"%s bp-better-messages-unread\">%s</span>"
+msgid "Missed video call <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr ""
+
+#: addons/calls.php:592 addons/calls.php:644 bp-better-messages.php:333
+#: inc/strings.php:14 inc/strings.php:25
+msgid "Incoming Call"
+msgstr "Eingehender Anruf"
+
+#: addons/calls.php:593 addons/calls.php:645 inc/strings.php:15
+#: inc/strings.php:26
+msgid "Calling..."
+msgstr "Anruf..."
+
+#: addons/calls.php:598 addons/calls.php:610 addons/calls.php:620
+#: inc/strings.php:16
+msgid "Switch Camera"
+msgstr ""
+
+#: addons/calls.php:600 addons/calls.php:611 addons/calls.php:622
+#: inc/strings.php:17
+msgid "Disable Video"
+msgstr "Verbiete Video"
+
+#: addons/calls.php:601 addons/calls.php:612 addons/calls.php:623
+#: inc/strings.php:18
+msgid "Enable Video"
+msgstr "Erlaube Video"
+
+#: addons/calls.php:603 addons/calls.php:614 addons/calls.php:625
+#: addons/calls.php:651 addons/calls.php:658 addons/calls.php:664
+#: inc/strings.php:19
+msgid "Disable Microphone"
+msgstr "Verbiete das Mikrofon"
+
+#: addons/calls.php:604 addons/calls.php:615 addons/calls.php:626
+#: addons/calls.php:652 addons/calls.php:659 addons/calls.php:665
+#: inc/strings.php:20
+msgid "Enable Microphone"
+msgstr ""
+
+#: addons/calls.php:605 addons/calls.php:653 inc/strings.php:21
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: addons/calls.php:608 addons/calls.php:656 bp-better-messages.php:337
+#: inc/strings.php:22
+msgid "Answer"
+msgstr "Antwort"
+
+#: addons/calls.php:617 addons/calls.php:661 bp-better-messages.php:338
+#: inc/strings.php:23
+msgid "Reject"
+msgstr "Ablehnen"
+
+#: addons/calls.php:628 addons/calls.php:667 inc/strings.php:24
+msgid "End call"
+msgstr ""
+
+#: addons/files.php:146
+msgid "attachments"
+msgstr "Anhänge"
+
+#: addons/files.php:366
+#| msgid "attachments"
+msgid "Add attachment"
+msgstr "Anhang hinzufügen"
+
+#: addons/files.php:397
+msgid "You can only upload %{smart_count} file"
+msgstr "Du kannst nur  %{smart_count} Datei hochladen"
+
+#: addons/files.php:398
+msgid "You can only upload %{smart_count} files"
+msgstr "Du kannst nur  %{smart_count} Dateien hochladen"
+
+#: addons/files.php:401
+msgid "You have to select at least %{smart_count} file"
+msgstr "Du musst mindestens %{smart_count} Datei auswählen"
+
+#: addons/files.php:402
+msgid "You have to select at least %{smart_count} files"
+msgstr "Du musst mindestens %{smart_count} Dateien auswählen"
+
+#: addons/files.php:404
+msgid "This file exceeds maximum allowed size of"
+msgstr "Diese Datei überschreitet die zulässige Größe"
+
+#: addons/files.php:405
+msgid "You can only upload"
+msgstr "Du kannst nur hochladen"
+
+#: addons/files.php:406
+msgid "Connection with Uppy Server failed"
+msgstr "Verbindung mit Uppy Server gescheitert"
+
+#: addons/files.php:430
+msgid "Uploading"
+msgstr "Hochladen"
+
+#: addons/files.php:431
+msgid "Upload complete"
+msgstr "Hochladen komplett"
+
+#: addons/files.php:432
+msgid "Upload failed"
+msgstr "Hochladen fehlgeschlagen"
+
+#: addons/files.php:433
+msgid "Please press Retry to upload again"
+msgstr "Bitte drücken Sie Wiederholen um das Hochladen neu zu starten"
+
+#: addons/files.php:434
+msgid "Paused"
+msgstr "Angehalten"
+
+#: addons/files.php:435
+msgid "Error"
+msgstr "Fehler"
+
+#: addons/files.php:436
+msgid "Retry"
+msgstr "Wiederholen"
+
+#: addons/files.php:437
+msgid "Press to retry"
+msgstr "Drücken Sie, um es erneut zu versuchen"
+
+#: addons/files.php:438
+msgid "Retry upload"
+msgstr "Hochladen wiederholen"
+
+#: addons/files.php:439
+msgid "Resume upload"
+msgstr "Hochladen weitermachen"
+
+#: addons/files.php:440
+msgid "Cancel upload"
+msgstr "Hochladen abbrechen"
+
+#: addons/files.php:441
+msgid "Pause upload"
+msgstr "Hochladen Pause"
+
+#: addons/files.php:443
+msgid "Upload %{smart_count} file"
+msgstr "Hochladen % {smart_count} Datei"
+
+#: addons/files.php:444
+msgid "Upload %{smart_count} files"
+msgstr "Hochladen % {smart_count} Dateien"
+
+#: addons/files.php:447
+msgid "Upload +%{smart_count} file"
+msgstr "Hochladen +% {smart_count} Datei"
+
+#: addons/files.php:448
+msgid "Upload +%{smart_count} files"
+msgstr "Hochladen +% {smart_count} Dateien"
+
+#: addons/files.php:450
+msgid "Select files to upload"
+msgstr "Dateien zum Hochladen auswählen"
+
+#: addons/files.php:451
+msgid "Close Modal"
+msgstr "Fenster schliessen"
+
+#: addons/files.php:452
+msgid "Upload"
+msgstr "Hochladen"
+
+#: addons/files.php:453
+msgid "Import files from"
+msgstr "Importiere Dateien von"
+
+#: addons/files.php:454
+msgid "Uppy Dashboard Window (Press escape to close)"
+msgstr "Dashboard Fenster öffnen (esc zum schließen drücken)"
+
+#: addons/files.php:455
+msgid "Uppy Dashboard"
+msgstr "Dashboard öffnen"
+
+#: addons/files.php:456
+msgid "Link copied to clipboard."
+msgstr ""
+
+#: addons/files.php:457
+msgid "Copy the URL below"
+msgstr "Untenstehende Url kopieren"
+
+#: addons/files.php:458
+msgid "Done"
+msgstr "Fertig"
+
+#: addons/files.php:459
+msgid "Drop files here, paste, import from one of the locations above or"
+msgstr ""
+"Dateien hierher ziehen, einfügen oder von einem der Orte oben importieren "
+"oder"
+
+#: addons/files.php:460
+msgid "Drop files here, paste or"
+msgstr "Dateien zum Hochladen hierher ziehen"
+
+#: addons/files.php:461
+msgid "browse"
+msgstr ""
+
+#: addons/files.php:462
+msgid "File progress: upload speed and ETA"
+msgstr "Dateifortschritt: Hochladegeschwindigkeit und ETA"
+
+#: addons/files.php:463
+msgid "Number of selected files"
+msgstr ""
+
+#: addons/files.php:464
+msgid "Upload all new files"
+msgstr "Lade alle neue Dateien hoch"
+
+#: addons/files.php:465
+msgid "No files were added from empty folder"
+msgstr "Keine Datei angefügt, aus dem leeren Verzeichnis"
+
+#: addons/files.php:467
+msgid "Added %{smart_count} file from %{folder}"
+msgstr "% {smart_count} -Dateie von %{folder}"
+
+#: addons/files.php:468
+msgid "Added %{smart_count} files from %{folder}"
+msgstr "% {smart_count} -Dateien von %{folder}"
+
+#: addons/files.php:470
+msgid "Remove file"
+msgstr "Datei entfernen"
+
+#: addons/files.php:735
+msgid "You can`t upload files."
+msgstr ""
+
+#: addons/files.php:750
+#| msgid "This file type are not allowed to be uploaded: "
+msgid "This file type are not allowed to be uploaded:"
+msgstr ""
+
+#: addons/files.php:761
+#, php-format
+msgid "%s is too large! Please upload file up to %d MB."
+msgstr "%s ist zu groß! Bitte nicht mehr als %d MB hochladen."
+
+#: addons/files.php:798
+msgid "Your request is empty."
+msgstr ""
+
+#: addons/stickers.php:65 inc/ajax.php:759
+msgid "Security error while sending message"
+msgstr "Sicherheit Fehler beim Senden einer Nachricht"
+
+#: addons/stickers.php:80 inc/ajax.php:775
+msgid "You can`t reply to this thread."
+msgstr "Du kannst auf dieses Thema nicht antworten."
+
+#: addons/stickers.php:132 views/layout-index.php:25 views/layout-index.php:28
+#: views/layout-search.php:13 views/layout-search.php:16
+msgid "Search"
+msgstr "Suche"
+
+#: addons/stickers.php:135
+msgid "Search results will display here"
+msgstr ""
+
+#: addons/stickers.php:147 views/layout-settings.php:215
+msgid "Stickers"
+msgstr "Aufkleber"
+
+#: addons/stickers.php:186
+msgid "You have not used any stickers yet"
+msgstr ""
+
+#: addons/stickers.php:188
+#| msgid "Nothing found"
+msgid "No stickers found"
+msgstr ""
+
+#: addons/stickers.php:214 inc/notifications.php:225
+msgid "Sticker"
+msgstr "Sticker"
+
+#: bp-better-messages.php:326
+msgid "typing..."
+msgstr "tippen..."
+
+#: bp-better-messages.php:327 views/layout-bulk.php:26
+msgid "Sent"
+msgstr "Gesendet"
+
+#: bp-better-messages.php:328
+msgid "Delivered"
+msgstr "Zugestellt"
+
+#: bp-better-messages.php:329 inc/functions.php:560
+msgid "Seen"
+msgstr "Gesehen"
+
+#: bp-better-messages.php:330
+#, php-format
+msgid "You have %s new messages"
+msgstr "Du hast %s neue Nachrichten"
+
+#: bp-better-messages.php:331
+#, php-format
+msgid "Are you sure you want to delete %s messages"
+msgstr ""
+
+#: bp-better-messages.php:332
+msgid "Connection dropped! Most likely the user closed the browser"
+msgstr ""
+"Verbindung unterbrochen! Höchstwahrscheinlich hat der Teilnehmer den Browser "
+"geschlossen"
+
+#: bp-better-messages.php:334
+msgid "User rejected your call"
+msgstr ""
+
+#: bp-better-messages.php:335
+msgid "User is offline at the moment. Try later."
+msgstr "Der Teilnehmer ist gerade offline. Bitte probier es später nochmal."
+
+#: bp-better-messages.php:336
+msgid "Webcam not available"
+msgstr "Webcam nicht verfügbar"
+
+#: bp-better-messages.php:339
+msgid "You are currently in call, are you sure you want to leave this page?"
+msgstr ""
+"Es gibt ungespeicherte Änderungen. Bist du sicher, dass du diese Seite "
+"verlassen möchtest?"
+
+#: bp-better-messages.php:340
+msgid ""
+"This browser not support video calls feature yet. Please use another "
+"browser. iOS only support safari web browser at the moment."
+msgstr ""
+"Dieser Browser unterstützt keine Video Anrufe. Bitte nutze einen anderen "
+"Browser. Von iOS wird aktuell nur der safari Browser unterstützt."
+
+#: bp-better-messages.php:341
+msgid ""
+"Enable browser push notifications to receive private messages when you are "
+"offline?"
+msgstr ""
+"Erlaube Browser-Benachrichtigungen, um private Nachrichten zu erhalten, auch "
+"wenn Du offline bist?"
+
+#: bp-better-messages.php:342 views/layout-user-settings.php:43
+msgid "Enable"
+msgstr "Erlauben"
+
+#: bp-better-messages.php:343
+msgid "Dismiss"
+msgstr "Ablehnen"
+
+#: bp-better-messages.php:344
+#| msgid "Are you sure you want to delete %s messages"
+msgid "Are you sure you want to mute this thread?"
+msgstr ""
+
+#: bp-better-messages.php:345
+#| msgid "Are you sure you want to delete %s messages"
+msgid "Are you sure you want to unmute this thread?"
+msgstr ""
+
+#: bp-better-messages.php:346
+#, php-format
+#| msgid "Exclude user from thread"
+msgid "Exclude %s from this thread?"
+msgstr ""
+
+#: bp-better-messages.php:347
+msgid ""
+"Realtime connection not established. Please wait until you will be connected "
+"to realtime server and try again"
+msgstr ""
+
+#: bp-better-messages.php:350
+msgid "Maximize"
+msgstr "Maximieren"
+
+#: bp-better-messages.php:351 views/layout-new.php:3
+msgid "Close"
+msgstr "Schließen"
+
+#: bp-better-messages.php:402
+msgid "Use the TAB key to insert emoji faster"
+msgstr "Verwende die TAB Taste um ein Emoji schneller hinzuzufügen"
+
+#: bp-better-messages.php:403
+msgid "SEARCH"
+msgstr "SUCHEN"
+
+#: bp-better-messages.php:404
+msgid "Diversity"
+msgstr "Verschiedenes"
+
+#: bp-better-messages.php:405
+msgid "Recent"
+msgstr "Letzte"
+
+#: bp-better-messages.php:406
+msgid "Smileys & People"
+msgstr "Smileys & Personen"
+
+#: bp-better-messages.php:407
+msgid "Animals & Nature"
+msgstr "Tiere & Natur"
+
+#: bp-better-messages.php:408
+msgid "Food & Drink"
+msgstr "Essen & Trinken"
+
+#: bp-better-messages.php:409
+msgid "Activity"
+msgstr "Aktivität"
+
+#: bp-better-messages.php:410
+msgid "Travel & Places"
+msgstr "Reisen & Orte"
+
+#: bp-better-messages.php:411
+msgid "Objects"
+msgstr "Objekte"
+
+#: bp-better-messages.php:412
+msgid "Symbols"
+msgstr "Symbole"
+
+#: bp-better-messages.php:413
+msgid "Flags"
+msgstr "Flaggen"
+
+#: inc/ajax.php:151
+msgid "Security error while deleting messages"
+msgstr "Sicherheit Fehler beim Löschen von Nachrichten"
+
+#: inc/ajax.php:212
+msgid "Deleted successfully"
+msgstr ""
+
+#: inc/ajax.php:227
+msgid "Security error while changing user option"
+msgstr "Sicherheits Fehler beim Ändern der Teilnehmer Option"
+
+#: inc/ajax.php:237
+msgid "You can`t change options for this user"
+msgstr "Du kannst für diesen Telnehmer die Option nicht ändern"
+
+#: inc/ajax.php:248
+msgid "Saved successfully"
+msgstr "Erfolgreich gespeichert"
+
+#: inc/ajax.php:304
+msgid "You can`t add members to this thread"
+msgstr "Du kannst keine Mitglieder zu dieser Konversation hinzufügen"
+
+#: inc/ajax.php:343
+msgid "You can`t exclude members from this thread"
+msgstr "Du kannst keine Mitglieder von dieser Konversation ausschließen"
+
+#: inc/ajax.php:349
+msgid "Not found member in this thread"
+msgstr "Mitglied in dieser Konversation nicht gefunden"
+
+#: inc/ajax.php:434 inc/ajax.php:778
+msgid "Your message was empty."
+msgstr ""
+
+#: inc/ajax.php:458
+msgid "Message not found"
+msgstr "Nachricht nicht gefunden"
+
+#: inc/ajax.php:824
+msgid "Security error while starting new thread"
+msgstr "Sicherheit Fehler beim Starten eines neuen Themas"
+
+#: inc/ajax.php:957
+msgid "Security error while deleting thread"
+msgstr "Sicherheit Fehler beim Löschen des Themas"
+
+#: inc/ajax.php:968
+msgid "You can`t delete this thread"
+msgstr ""
+
+#: inc/ajax.php:1094
+msgid "Security error while recovering thread"
+msgstr "Sicherheit Fehler beim Wiederherstellen des Themas"
+
+#: inc/bulk.php:257
+msgid "Message is empty"
+msgstr "Nachricht ist leer"
+
+#: inc/bulk.php:261
+msgid "No users was selected"
+msgstr "Kein Teilnehmer ausgewählt"
+
+#: inc/component.php:37 inc/mini-list.php:47 views/layout-settings.php:211
+msgid "Messages"
+msgstr "Nachrichten"
+
+#: inc/component.php:113
+#, php-format
+#| msgctxt "Messages list sub nav"
+#| msgid "Messages <span class=\"%s bp-better-messages-unread\">%s</span>"
+msgctxt "Messages list sub nav"
+msgid "Messages <span class=\"%s bp-better-messages-unread count\">%s</span>"
+msgstr ""
+
+#: inc/component.php:125
+msgid "Threads"
+msgstr "Themen"
+
+#: inc/component.php:134 views/layout-index.php:19
+msgid "Starred"
+msgstr "Markiert"
+
+#: inc/component.php:143 inc/mini-list.php:81 views/layout-bulk.php:3
+#: views/layout-index.php:14
+msgid "New Thread"
+msgstr "Neues Thema"
+
+#: inc/component.php:163
+#, php-format
+#| msgctxt "Messages list sub nav"
+#| msgid "Messages <span class=\"%s bp-better-messages-unread\">%s</span>"
+msgctxt "Messages list sub nav"
+msgid "Messages <span class=\"%s\">%s</span>"
+msgstr "Nachrichten <span class=\"%s\">%s</span>"
+
+#: inc/component.php:165
+#| msgid "Messages"
+msgctxt "Messages list sub nav"
+msgid "Messages"
+msgstr "Nachrichten"
+
+#: inc/functions.php:536 inc/functions.php:838 views/layout-thread.php:30
+msgid "Deleted User"
+msgstr "Gelöschter Benutzer"
+
+#: inc/functions.php:680
+#, php-format
+msgid "Profile picture of %s"
+msgstr "Profilbild von %s"
+
+#: inc/functions.php:853 views/layout-bulk.php:56 views/layout-thread.php:61
+msgid "Delete"
+msgstr "Löschen"
+
+#: inc/functions.php:862
+msgid "Thread was deleted."
+msgstr "Thema wurde gelöscht."
+
+#: inc/functions.php:863
+msgid "Recover?"
+msgstr "Genesen?"
+
+#: inc/functions.php:1035
+msgid "Access restricted"
+msgstr "Zugriffsbeschränkungen"
+
+#: inc/functions.php:1253
+msgid "Get WebSocket License"
+msgstr ""
+
+#: inc/functions.php:1257
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Download</a> and install Premium version of "
+"plugin to use this feature"
+msgstr ""
+
+#: inc/hooks.php:218
+msgid "Your message was not sent. User muted this thread."
+msgstr ""
+
+#: inc/hooks.php:231
+#| msgid "Browser push notifications"
+msgid "Unmute thread notifications"
+msgstr ""
+
+#: inc/hooks.php:233
+#| msgid "Browser push notifications"
+msgid "Mute thread notifications"
+msgstr ""
+
+#: inc/hooks.php:238
+msgid "Leave thread"
+msgstr "Nachricht verlassen"
+
+#: inc/hooks.php:282
+#| msgid "You don't have sufficient balance to reply"
+msgid "You don't have sufficient balance to start new thread"
+msgstr ""
+
+#: inc/hooks.php:307
+msgid "You don't have sufficient balance to reply"
+msgstr "Sie haben nicht genügend Guthaben, um zu antworten"
+
+#: inc/hooks.php:344
+#, php-format
+msgid "Left \"%s\""
+msgstr "Verlasse \"%s\""
+
+#: inc/hooks.php:346
+#, php-format
+msgid "Joined \"%s\""
+msgstr ""
+
+#: inc/hooks.php:351
+msgid "This message was deleted."
+msgstr "Diese Nachricht wurde gelöscht."
+
+#: inc/hooks.php:376 inc/hooks.php:450
+#, php-format
+msgctxt "Messages list sub nav"
+msgid "Messages <span class=\"%s bp-better-messages-unread\">%s</span>"
+msgstr "Nachricht <span class=\"%s bp-better-messages-unread\">%s</span>"
+
+#: inc/hooks.php:391 inc/hooks.php:401 inc/hooks.php:445 inc/hooks.php:1084
+msgid "Private Message"
+msgstr "Private Nachricht"
+
+#: inc/hooks.php:420
+msgid "You need to login to have access to profiles."
+msgstr "Du musst angemeldet sein, um Zugriff auf die Profile zu haben."
+
+#: inc/hooks.php:430
+msgid "This user does not exist."
+msgstr "Der Teilnehmer ist nicht vorhanden."
+
+#: inc/hooks.php:489 inc/hooks.php:497
+msgid "Your membership does not allow to use messages"
+msgstr "Deine Mitgliedschaft erlaubt keine Verwendung von Nachrichten"
+
+#: inc/hooks.php:806
+msgid "You can start conversation only with 1 user per thread"
+msgstr "Du kannst eine Konversationen nur mit 1 User pro Thread führen"
+
+#: inc/hooks.php:826
+msgid "You was blocked by recipient"
+msgstr "Du wurdest vom Empfänger blockiert"
+
+#: inc/hooks.php:893
+#| msgid "Allow only friends to send messages each other"
+msgid "You must become friends to send messages"
+msgstr ""
+
+#: inc/hooks.php:930
+#, php-format
+msgid "You already have threads with %s"
+msgstr "Du hast bereits Diskussionen mit %s"
+
+#: inc/hooks.php:951
+#, php-format
+msgid "%s not on your friends list"
+msgstr "%s nicht auf Deiner Freunde Liste"
+
+#: inc/hooks.php:1057
+msgid "Every Fifteen Minutes"
+msgstr "Alle fünf Minuten"
+
+#: inc/hooks.php:1062
+msgid "Every Minute"
+msgstr "Jede Minute"
+
+#. translators: do not remove {} brackets or translate its contents.
+#: inc/install.php:17 inc/notifications.php:88
+msgid "[{{{site.name}}}] You have unread messages: {{subject}}"
+msgstr "[{{{site.name}}}] Du hast ungelesene Nachrichten: {{subject}}"
+
+#. translators: do not remove {} brackets or translate its contents.
+#: inc/install.php:19 inc/notifications.php:90
+msgid ""
+"You have unread messages: &quot;{{subject}}&quot;\n"
+"\n"
+"{{{messages.html}}}\n"
+"\n"
+"<a href=\"{{{thread.url}}}\">Go to the discussion</a> to reply or catch up "
+"on the conversation."
+msgstr ""
+"Du hast ungelesene Nachrichten: &quot;{{subject}}&quot;\n"
+"\n"
+" <a href=\"{{{thread.url}}}\">Gehe zur Diskussion</a> um zu antworten oder "
+"das Gespräch nachzuholen."
+
+#. translators: do not remove {} brackets or translate its contents.
+#: inc/install.php:21 inc/notifications.php:92
+msgid ""
+"You have unread messages: \"{{subject}}\"\n"
+"\n"
+"{{messages.raw}}\n"
+"\n"
+"Go to the discussion to reply or catch up on the conversation: {{{thread."
+"url}}}"
+msgstr ""
+"Du hast ungelesene Nachrichten: \"{{subject}}\"\n"
+"\n"
+"{{messages.raw}}\n"
+"\n"
+"Gehe zur Diskussion {{{thread.url}}} um zu antworten oder das Gespräch "
+"nachzuholen."
+
+#: inc/install.php:25 inc/notifications.php:96
+msgid "A member has unread private messages."
+msgstr "Ein Mitglied hat ungelesene private Nachrichten."
+
+#: inc/mini-list.php:50
+msgid "Friends"
+msgstr "Freunde"
+
+#: inc/mini-list.php:75
+msgid "Nothing found"
+msgstr "Nichts gefunden"
+
+#: inc/mini.php:33 inc/strings.php:27
+msgid "Minimize thread"
+msgstr "Thema minimieren"
+
+#: inc/notifications.php:256
+#, php-format
+msgid "%s wrote:"
+msgstr "%s schrieb:"
+
+#: inc/notifications.php:302
+#, php-format
+msgctxt "Email notification header for non BuddyPress websites"
+msgid "You have unread messages: \"%s\""
+msgstr "Du hast \"%s\" ungelesene Nachrichten"
+
+#: inc/notifications.php:420
+#, php-format
+msgid "Hi %s,"
+msgstr "Hallo %s,"
+
+#: inc/notifications.php:423
+#, php-format
+#| msgid ""
+#| "You have unread messages: \"{{subject}}\"\n"
+#| "\n"
+#| "{{messages.raw}}\n"
+#| "\n"
+#| "Go to the discussion to reply or catch up on the conversation: {{{thread."
+#| "url}}}"
+msgid ""
+"<a href=\"%s\">Go to the discussion</a> to reply or catch up on the "
+"conversation."
+msgstr ""
+
+#: inc/options.php:58
+msgid "You are not allowed to start new threads"
+msgstr "Du darfst kein Thema starten"
+
+#: inc/options.php:60
+msgid "You are not allowed to reply"
+msgstr "Du darfst nicht antworten"
+
+#. Plugin Name of the plugin/theme
+#: inc/options.php:121 views/layout-settings.php:208
+msgid "BP Better Messages"
+msgstr "BP Better Messages"
+
+#: inc/options.php:122
+msgid "Better Messages"
+msgstr "Better Messages"
+
+#: inc/premium.php:461 inc/strings.php:3
+#, php-format
+msgid "New message from %s"
+msgstr ""
+
+#: inc/premium.php:462 inc/strings.php:4
+#, php-format
+#| msgid "You have %s new messages"
+msgid "You have new message from %s"
+msgstr ""
+
+#: views/layout-bulk.php:9
+msgid "Reports"
+msgstr "Berichte"
+
+#: views/layout-bulk.php:24 views/layout-bulk.php:135 views/layout-new.php:24
+msgid "Subject"
+msgstr "Betreff"
+
+#: views/layout-bulk.php:25
+msgid "Sender"
+msgstr "Absender"
+
+#: views/layout-bulk.php:27
+msgid "Read"
+msgstr "Lesen"
+
+#: views/layout-bulk.php:28
+msgid "Date"
+msgstr "Datum"
+
+#: views/layout-bulk.php:29
+msgid "Disable Reply"
+msgstr "Antworten deaktivieren"
+
+#: views/layout-bulk.php:61
+msgid "No reports yet."
+msgstr "Keine Berichte gefunden."
+
+#: views/layout-bulk.php:71
+msgid "Send To:"
+msgstr "Senden an:"
+
+#: views/layout-bulk.php:76
+msgid "All Users"
+msgstr "Alle Teilnehmer"
+
+#: views/layout-bulk.php:80
+msgid "Users with Role"
+msgstr "Teilnehmer mit Rolle"
+
+#: views/layout-bulk.php:97
+msgid "Group"
+msgstr "Gruppe"
+
+#: views/layout-bulk.php:109
+msgid "Users selected"
+msgstr "Teilnehmer ausgewählt"
+
+#: views/layout-bulk.php:113
+msgid "Options"
+msgstr "Einstellungen"
+
+#: views/layout-bulk.php:118
+msgid "Disallow reply to this message"
+msgstr "Antwort auf diese Nachricht verbieten"
+
+#: views/layout-bulk.php:122
+msgid "Hide this thread from your thread list"
+msgstr "Verstecke das Thema in der Themenliste"
+
+#: views/layout-bulk.php:123
+msgid ""
+"If you are messaging to many users better to hide new threads from your "
+"thread list."
+msgstr ""
+"Du unterhältst dich mit zu vielen Benutzern. Es wäre besser, neue "
+"Unterhaltungen in der Liste der Unterhaltungen zu verbergen."
+
+#: views/layout-bulk.php:127
+msgid "Add all recipients to one thread"
+msgstr "Füge alle Empfänger einer Konversation hinzu"
+
+#: views/layout-bulk.php:142 views/layout-new.php:36
+msgid "Message"
+msgstr "Nachricht"
+
+#: views/layout-bulk.php:144 views/layout-new.php:39
+#: views/layout-thread.php:160
+msgid "Write your message"
+msgstr "Schreibe deine Nachricht"
+
+#: views/layout-bulk.php:153
+msgid "Start Messaging"
+msgstr "Nachrichten Start"
+
+#: views/layout-bulk.php:279
+msgid "Security error"
+msgstr "Sicherheitsfehler"
+
+#: views/layout-bulk.php:282
+msgid "Users can`t reply to this message anymore."
+msgstr "Teilnehmer können jetzt nicht mehr auf diese Nachricht antworten."
+
+#: views/layout-bulk.php:284
+msgid "Users can reply to this message now."
+msgstr "Teilnehmer können jetzt auf diese Nachricht antworten."
+
+#: views/layout-bulk.php:297
+#, php-format
+msgid "Are you sure you want to delete %d thread(s) and report?"
+msgstr "Bist Du sicher, das Du %d Themen und Berichte löschen möchtest?"
+
+#: views/layout-bulk.php:409 views/layout-index.php:64 views/layout-new.php:79
+#: views/layout-room.php:48 views/layout-search.php:39
+#: views/layout-starred.php:29 views/layout-thread.php:198
+#: views/layout-user-settings.php:100
+msgid "Tap to open messages"
+msgstr ""
+
+#: views/layout-index.php:33
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: views/layout-index.php:53
+#| msgid "Your message was empty."
+msgid "No messages yet!"
+msgstr ""
+
+#: views/layout-index.php:55
+msgid "Start new conversation"
+msgstr "Starten Sie ein neues Unterhaltung"
+
+#: views/layout-new.php:6
+msgid "Mass Message"
+msgstr "Gruppen Nachricht"
+
+#: views/layout-new.php:13
+msgid "Send To (Username or Friend's Name)"
+msgstr "Senden an (Teilnehmername oder Name des Freundes)"
+
+#: views/layout-new.php:48 views/layout-thread.php:165
+msgid "Send Message"
+msgstr "Nachricht senden"
+
+#: views/layout-search.php:9 views/layout-starred.php:8
+#: views/layout-thread.php:22 views/layout-user-settings.php:13
+msgid "Back"
+msgstr "Zurück"
+
+#: views/layout-search.php:33
+#| msgid "Message not found"
+msgid "No messages found"
+msgstr "Keine Nachrichten gefunden"
+
+#: views/layout-settings.php:210
+msgid "General"
+msgstr "Allgemein"
+
+#: views/layout-settings.php:212
+msgid "Mobile"
+msgstr "Mobilgerät"
+
+#: views/layout-settings.php:213
+msgid "Attachments"
+msgstr "Anhänge"
+
+#: views/layout-settings.php:214 views/layout-user-settings.php:20
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+#: views/layout-settings.php:216
+msgid "Rules"
+msgstr "Regeln"
+
+#: views/layout-settings.php:217
+msgid "Calls"
+msgstr "Anrufe"
+
+#: views/layout-settings.php:218
+msgid "Customization"
+msgstr "Anpassung"
+
+#: views/layout-settings.php:219
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: views/layout-settings.php:220
+msgid "Export/Import"
+msgstr "Exportieren / Importieren"
+
+#: views/layout-settings.php:231 views/layout-settings.php:237
+msgid "Refresh mechanism"
+msgstr "Aktualisierungsmechanismus"
+
+#: views/layout-settings.php:238
+msgid "AJAX"
+msgstr "AJAX"
+
+#: views/layout-settings.php:242
+msgid "WebSocket"
+msgstr "WebSocket"
+
+#: views/layout-settings.php:253 views/layout-settings.php:259
+#: views/layout-settings.php:274 views/layout-settings.php:300
+msgid "Thread Refresh Interval"
+msgstr "Themen Aktualisierungsintervall"
+
+#: views/layout-settings.php:254
+msgid "Ajax check interval on open thread"
+msgstr "Ajax-Prüfintervall bei offenem Thema"
+
+#: views/layout-settings.php:268
+msgid "Site Refresh Interval"
+msgstr "Seiten Aktualisierungsintervall"
+
+#: views/layout-settings.php:269
+msgid "Ajax check interval on other sites pages"
+msgstr "Ajax-Prüfintervall auf anderen Websites Seiten"
+
+#: views/layout-settings.php:282
+msgid "Enable Encryption"
+msgstr "Verschlüsselung aktivieren"
+
+#: views/layout-settings.php:283
+msgid ""
+"Encrypts all sensitive content before transfer to websocket server and "
+"decrypt on client site with special secret keys not known by our side."
+msgstr ""
+
+#: views/layout-settings.php:294
+msgid "Number of Messages"
+msgstr "Anzahl der Nachrichten"
+
+#: views/layout-settings.php:295
+msgid ""
+"Number of Messages per request on user open thread or loading old messages "
+"through ajax"
+msgstr ""
+"Anzahl der Nachrichten pro Anfrage auf den offenen Unterhaltungen des "
+"Benutzers oder das Laden alter Nachrichten durch Ajax"
+
+#: views/layout-settings.php:307
+msgid "Better Messages Location"
+msgstr "Better Messager Ort"
+
+#: views/layout-settings.php:308
+msgid "Choose the page where Better Messages will be located"
+msgstr "Wähle die Seite wo sich Better Messages befindet"
+
+#: views/layout-settings.php:327
+msgid "Show in BuddyPress profile"
+msgstr "Im BuddyPress Profil zeigen"
+
+#: views/layout-settings.php:356
+msgid "Show in Asgaros Forum Profile"
+msgstr "Im Profil des Asgaros-Forums anzeigen"
+
+#: views/layout-settings.php:368
+#, php-format
+msgid ""
+"You can use <code>%s</code> shortcode to place chat in specific place of "
+"your selected page, if you not used this shortcode all page content will be "
+"replaced."
+msgstr ""
+
+#: views/layout-settings.php:373
+msgid "Combined View"
+msgstr "Kombinierte Ansicht"
+
+#: views/layout-settings.php:374
+msgid "Always show threads list on left side of thread"
+msgstr "Zeige die Themeliste links neben dem Thread"
+
+#: views/layout-settings.php:382
+msgid "Block Scroll on Hover"
+msgstr ""
+
+#: views/layout-settings.php:383
+msgid ""
+"When hovering messages container scroll of the site will be disabled to "
+"improve user experience while using messages"
+msgstr ""
+
+#: views/layout-settings.php:391
+msgid "Show Private Message Link at Members List"
+msgstr "Private Nachricht in der Mitgliederliste verlinken"
+
+#: views/layout-settings.php:411
+msgid ""
+"This website using WebSocket plugin version, but has no activate license "
+"attached."
+msgstr ""
+
+#: views/layout-settings.php:412
+#, php-format
+msgid ""
+"If you have license and it must be attached to this website, try to press "
+"sync button in <a href=\"%s\">your account</a>."
+msgstr ""
+
+#: views/layout-settings.php:417
+#, php-format
+msgid ""
+"Seems like this website has active WebSocket License, but you are still "
+"using free version of plugin. Try to download and install plugin from <a "
+"href=\"%s\">your account</a> page."
+msgstr ""
+
+#: views/layout-settings.php:422
+#, php-format
+msgid "This website has domain name <b>%s</b>"
+msgstr ""
+
+#: views/layout-settings.php:423
+msgid ""
+"Double-checking if WebSocket server know about this domain and sync is fine"
+msgstr ""
+
+#: views/layout-settings.php:434
+msgid ""
+"All good, WebSocket server know about this domain, all should be working "
+"good."
+msgstr ""
+
+#: views/layout-settings.php:437
+msgid ""
+"Oh no, WebSocket server dont know about this domain, realtime functionality "
+"will not work. If you just activated the license at this website wait 5-15 "
+"mins and check it again."
+msgstr ""
+
+#: views/layout-settings.php:447
+msgid ""
+"For the best performance disable WP Cron and schedule it with your server "
+"scheduler."
+msgstr ""
+
+#: views/layout-settings.php:448
+msgid "How to Disable WP-Cron for Faster Performance"
+msgstr ""
+
+#: views/layout-settings.php:449
+msgid "This message will disappear when WP Cron is disabled."
+msgstr ""
+
+#: views/layout-settings.php:461
+msgid "Easy Start Thread"
+msgstr "Einfacher Themen Start"
+
+#: views/layout-settings.php:462
+msgid ""
+"When clicking the Private Message button user will be immediately redirected "
+"to new thread instead of new message screen"
+msgstr ""
+
+#: views/layout-settings.php:470
+msgid "Disable Group Threads"
+msgstr "Deaktiviere Gruppendiskussionen"
+
+#: views/layout-settings.php:471
+msgid "Don`t allow to create threads with multiple recipients"
+msgstr "Deaktiviere das Erstellen von Konversationen mit mehreren Empfängern"
+
+#: views/layout-settings.php:479
+msgid "Disable Multiple Threads"
+msgstr "Deaktiviere mehrere Konversationen"
+
+#: views/layout-settings.php:480
+msgid "This will prevent users from starting few threads with same user"
+msgstr ""
+"Dies hindert Nutzer daran, mehrere Diskussionen mit demselben User zu starten"
+
+#: views/layout-settings.php:488
+msgid "Auto Redirect to Existing Thread"
+msgstr "Automatische Weiterleitung zu vorhandener Konversation"
+
+#: views/layout-settings.php:489
+msgid ""
+"This will redirect user to existing thread with another user if they already "
+"have thread and Disable Multiple Threads is enabled"
+msgstr ""
+"Dadurch wird der Benutzer zu einem anderen Benutzer mit einer vorhandenen "
+"Unterhaltung umgeleitet, wenn er bereits über eine Unterhaltung verfügt und "
+"\"Mehrfachunterhaltungen deaktivieren\" aktiviert ist"
+
+#: views/layout-settings.php:498 views/layout-settings.php:503
+msgid "Mini Friends"
+msgstr "Kleine Freunde"
+
+#: views/layout-settings.php:499
+msgid "Enables mini friends list widget fixed to the bottom of browser window"
+msgstr "Aktiviere eine Mini-Freundesliste am unteren Rand des Browsers"
+
+#: views/layout-settings.php:512
+msgid "Mini Threads"
+msgstr "Kurz Themen"
+
+#: views/layout-settings.php:513
+#| msgid ""
+#| "Enables mini friends list widget fixed to the bottom of browser window"
+msgid "Enables mini threads list widget fixed to the bottom of browser window"
+msgstr ""
+"Aktiviert das Mini-Unterhaltungslisten-Widget am unteren Rand des "
+"Browserfensters"
+
+#: views/layout-settings.php:517 views/layout-settings.php:532
+msgid "Small Chats"
+msgstr "Kleine Chats"
+
+#: views/layout-settings.php:527
+msgid "Mini Chats"
+msgstr "Kleine Chats"
+
+#: views/layout-settings.php:528
+msgid "Enables mini chats fixed to the bottom of browser window"
+msgstr "Aktiviert kleine Chats am unteren Rand des Browsers"
+
+#: views/layout-settings.php:542
+msgid "Messages Status"
+msgstr "Nachrichten Status"
+
+#: views/layout-settings.php:543
+msgid "Enable messages status functionality"
+msgstr "Aktivieren Sie die Nachrichtenstatusfunktion"
+
+#: views/layout-settings.php:556
+msgid "Allow users to delete messages"
+msgstr "Erlaube den Teilnehmern das Löschen von Nachrichten"
+
+#: views/layout-settings.php:557
+msgid "Allow users to delete their messages only"
+msgstr "Erlaube den Teilnehmern das Löschen der eigenen Nachrichten"
+
+#: views/layout-settings.php:566
+msgid "Disable additional security check when deleting thread"
+msgstr "Beim Löschen von Themen die Sicherheitsüberprüfung deaktivieren"
+
+#: views/layout-settings.php:567
+msgid "Check this if you have issue with thread deleting"
+msgstr "Überprüfen das, wenn Du Probleme beim Löschen von Themen hast"
+
+#: views/layout-settings.php:575
+#| msgid "Disable Subject"
+msgid "Disable users search"
+msgstr ""
+
+#: views/layout-settings.php:576
+#| msgid "Disable Subject when starting new thread"
+msgid "Disables suggestions when starting new thread"
+msgstr ""
+
+#: views/layout-settings.php:584
+msgid "Search all users"
+msgstr "Benutzer suchen"
+
+#: views/layout-settings.php:585
+#| msgid "Disable Subject when starting new thread"
+msgid "Enable search among all users when starting new thread"
+msgstr ""
+"Aktivieren Sie die Suche unter allen Mitgliedern, wenn Sie eine neue "
+"Unterhaltung beginnen wollen"
+
+#: views/layout-settings.php:593
+msgid "Enable oEmbed for popular services"
+msgstr "Aktivieren oEmbed für beliebt Dienstleistungen"
+
+#: views/layout-settings.php:594
+msgid ""
+"oEmbed YouTube, Vimeo, VideoPress, Flickr, DailyMotion, Kickstarter, Meetup."
+"com, Mixcloud, SoundCloud and more"
+msgstr ""
+
+#: views/layout-settings.php:602
+msgid "Disable Subject"
+msgstr "Betreff deaktivieren"
+
+#: views/layout-settings.php:603
+msgid "Disable Subject when starting new thread"
+msgstr "Betreff bein Starten eines neuen Thema deaktivieren"
+
+#: views/layout-settings.php:612
+#| msgid "Disable Send on Enter for Touch Screens"
+msgid "Disable Send on Enter for Desktop devices"
+msgstr ""
+
+#: views/layout-settings.php:627
+msgid "Enable Mobile Chat at Any Page"
+msgstr ""
+
+#: views/layout-settings.php:628
+msgid ""
+"Adds button fixed to the right corner on mobile devices, on click fully "
+"featured messaging will appear in full screen mode"
+msgstr ""
+
+#: views/layout-settings.php:637
+#| msgid "Disable Send on Enter for Touch Screens"
+msgid "Enable Full Screen on Tap for Touch Screens"
+msgstr ""
+
+#: views/layout-settings.php:641 views/layout-settings.php:660
+#: views/layout-settings.php:671
+#| msgid "Not recommended!"
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: views/layout-settings.php:647
+msgid "Disable Send on Enter for Touch Screens"
+msgstr "Deaktiviere das Senden oder Bestätigen bei Touch Screens"
+
+#: views/layout-settings.php:656
+#| msgid "Disable Send on Enter for Touch Screens"
+msgid "Disable Tap to Open for Touch Screens"
+msgstr ""
+
+#: views/layout-settings.php:667
+msgid "Auto open full screen mode when opening messages page"
+msgstr "Vollbildschirm beim Öffnen der Nachrichten Seite"
+
+#: views/layout-settings.php:677
+msgid "Enable Emoji Selector in mobile view"
+msgstr ""
+
+#: views/layout-settings.php:681
+msgid "Not recommended!"
+msgstr "Nicht empfohlen!"
+
+#: views/layout-settings.php:695
+msgid "Enable files"
+msgstr "Erlaube Dateien"
+
+#: views/layout-settings.php:696
+msgid "Enable file sharing between users"
+msgstr "Erlaube Dateiaustausch zwischen Teilnehmern"
+
+#: views/layout-settings.php:704
+msgid "Hide Attachments"
+msgstr "Verberge Anhänge"
+
+#: views/layout-settings.php:705
+msgid "Hides attachments from media gallery"
+msgstr "Verberge den Anhang in der Mediengalerie"
+
+#: views/layout-settings.php:713
+msgid "Random file names"
+msgstr "Zufällige Dateinamen"
+
+#: views/layout-settings.php:714
+msgid "Changes file names to random to improve users privacy"
+msgstr ""
+"Ändert die Dateinamen dem Zufallsprinzip nach, um die Privatsphäre der "
+"Nutzer besser zu schützen"
+
+#: views/layout-settings.php:722
+msgid "Delete attachment after"
+msgstr "Lösche Anhang nach"
+
+#: views/layout-settings.php:730
+msgid "Max attachment size"
+msgstr "Maximale Dateigröße"
+
+#: views/layout-settings.php:738 views/layout-settings.php:743
+msgid "Allowed formats"
+msgstr "Zulässige Formate"
+
+#: views/layout-settings.php:770
+msgid "Mute Threads"
+msgstr "Thema stumm schalten"
+
+#: views/layout-settings.php:771
+#| msgid "Selected roles will not be allowed to start new threads"
+msgid "When enabled users will be able to mute threads"
+msgstr ""
+
+#: views/layout-settings.php:779
+msgid "Replace Standard BuddyPress Email Notifications"
+msgstr "Ersetze die Standard BuddyPress E-Mail Benachrichtigung"
+
+#: views/layout-settings.php:780
+msgid ""
+"When enabled instead of standard notification on each new message, plugin "
+"will group messages by thread and send it every 15 minutes with cron job."
+msgstr ""
+
+#: views/layout-settings.php:788
+msgid ""
+"Stop messages notifications to be added to BuddyPress Notifications Bell"
+msgstr ""
+
+#: views/layout-settings.php:789
+msgid "This will work only with setting above"
+msgstr ""
+
+#: views/layout-settings.php:797
+msgid "Enable Browser Push Notifications"
+msgstr "Aktivieren Browser Mitteilungen"
+
+#: views/layout-settings.php:798
+msgid ""
+"Allow users to enable web push notifications, so they can receive messages "
+"even with closed browser"
+msgstr ""
+"Erlaube Benutzer Web-Push-Benachrichtigungen zu aktivieren, damit sie auch "
+"bei geschlossenem Browser Nachrichten empfangen können"
+
+#: views/layout-settings.php:799
+msgid ""
+"Supported in all major browsers like: Chrome, Opera, Firefox, IE, Edge and "
+"others"
+msgstr ""
+"Unterstützt in allen wichtigen Browser wie: Chrome, Opera, Firefox, IE, Edge "
+"und andere"
+
+#: views/layout-settings.php:817
+msgid "Only Friends Mode"
+msgstr "Nur Freunde-Modus"
+
+#: views/layout-settings.php:818
+msgid "Allow only friends to send messages each other"
+msgstr "Nur Freunden erlauben, sich gegenseitig Nachrichten zu senden"
+
+#: views/layout-settings.php:828
+#| msgid "Security error while deleting thread"
+msgid "Restrict users from deleting threads"
+msgstr ""
+
+#: views/layout-settings.php:829
+msgid ""
+"Disable users from being able to delete thread (admin always can delete)"
+msgstr ""
+
+#: views/layout-settings.php:837
+msgid "Restrict the creation of a new thread"
+msgstr "Beschränke das erstellen neuer Nachrichten"
+
+#: views/layout-settings.php:838
+msgid "Selected roles will not be allowed to start new threads"
+msgstr "Ausgewählte Rollen können keine neuen Nachrichten Themen starten"
+
+#: views/layout-settings.php:850
+msgid "Restrict the creation of a new thread message"
+msgstr "Beschränke die Erstellung von neuen Nachrichten Themen"
+
+#: views/layout-settings.php:858
+msgid "Restrict new replies"
+msgstr "Beschränke neue Nachrichten"
+
+#: views/layout-settings.php:859
+msgid "Selected roles will not be allowed to reply"
+msgstr "Ausgewählte Rollen dürfen nicht antworten"
+
+#: views/layout-settings.php:871
+msgid "Restrict new replies message"
+msgstr "Neue Nachrichten beschränken"
+
+#: views/layout-settings.php:884
+msgid ""
+"<strong>Website must to have SSL certificate</strong> in order to audio and "
+"video calls work."
+msgstr ""
+
+#: views/layout-settings.php:885
+msgid ""
+"This is security requirements by browsers. Contact your hosting company to "
+"enable SSL certificate at your website."
+msgstr ""
+
+#: views/layout-settings.php:886
+msgid "This notice will be hidden when website will work via HTTPS"
+msgstr ""
+
+#: views/layout-settings.php:894
+msgid "Enable Video Calls"
+msgstr "Erlaube Video Anrufe"
+
+#: views/layout-settings.php:895
+msgid "Allow users to make video calls between each other"
+msgstr ""
+
+#: views/layout-settings.php:896
+msgid ""
+"Video calls are possible only with websocket version, its using most secure "
+"and modern WebRTC technology to empower video chats."
+msgstr ""
+"Video Anrufe sind nur mit der Websocket-Version möglich, bei der die "
+"sicherste und modernste WebRTC-Technologie für Video Chats verwendet wird."
+
+#: views/layout-settings.php:905
+msgid "Enable Audio Calls"
+msgstr "Erlaube Audio Anrufe"
+
+#: views/layout-settings.php:906
+msgid "Allow users to make audio calls between each other"
+msgstr ""
+
+#: views/layout-settings.php:907
+msgid ""
+"Audio calls are possible only with websocket version, its using most secure "
+"and modern WebRTC technology to empower audio calls."
+msgstr ""
+"Audio Anrufe sind nur mit der Websocket-Version möglich, bei der die "
+"sicherste und modernste WebRTC-Technologie für Audio- Anrufe verwendet wird."
+
+#: views/layout-settings.php:916
+msgid "Revert Mute Voice & Hide Video icons"
+msgstr ""
+
+#: views/layout-settings.php:917
+msgid "Makes mute and hide video icons to appear in reverse way"
+msgstr ""
+
+#: views/layout-settings.php:926
+msgid "Call time limit before call marked as missed (seconds)"
+msgstr ""
+
+#: views/layout-settings.php:931
+msgid "Call Request Time Limit"
+msgstr ""
+
+#: views/layout-settings.php:941
+msgid "Missed call message when user was offline"
+msgstr ""
+
+#: views/layout-settings.php:942
+msgid ""
+"Leaving message about missed call for user if user was offline at that "
+"moment."
+msgstr ""
+
+#: views/layout-settings.php:952
+msgid "Limit calls only to the friends"
+msgstr ""
+
+#: views/layout-settings.php:953
+#| msgid "Allow users to make audio calls between each other"
+msgid ""
+"Allow only friends to make calls between each other (admins always can call)"
+msgstr ""
+
+#: views/layout-settings.php:963
+msgid "Audio Call button in user profile"
+msgstr ""
+
+#: views/layout-settings.php:964
+msgid "Add audio call button to user profile"
+msgstr ""
+
+#: views/layout-settings.php:974
+msgid "Video Call button in user profile"
+msgstr ""
+
+#: views/layout-settings.php:975
+msgid "Add video call button to user profile"
+msgstr ""
+
+#: views/layout-settings.php:985
+msgid "Audio Call button in mini chats"
+msgstr ""
+
+#: views/layout-settings.php:986
+msgid "Add audio call button to the mini chat"
+msgstr ""
+
+#: views/layout-settings.php:996
+msgid "Video Call button in mini chats"
+msgstr ""
+
+#: views/layout-settings.php:997
+msgid "Add video call button to the mini chat"
+msgstr ""
+
+#: views/layout-settings.php:1033
+msgid "Stipop.io API Key"
+msgstr ""
+
+#: views/layout-settings.php:1034
+msgid "Leave this field empty to disable stickers"
+msgstr ""
+
+#: views/layout-settings.php:1042
+msgid "Language"
+msgstr "Sprache"
+
+#: views/layout-settings.php:1043
+msgid ""
+"Two letter language code for showing stickers which best fits this language"
+msgstr ""
+
+#: views/layout-settings.php:1044
+msgid "For example (en, ko, es)"
+msgstr ""
+
+#: views/layout-settings.php:1059
+msgid "General Color"
+msgstr "Allgemeine Farbe"
+
+#: views/layout-settings.php:1068
+msgid "Fixed Header Height"
+msgstr "Feste Kopfbereich Höhe"
+
+#: views/layout-settings.php:1069
+msgid "If your website has fixed header specify its height in PX."
+msgstr ""
+
+#: views/layout-settings.php:1070
+msgid "This needed for correct scrolling in some cases."
+msgstr ""
+
+#: views/layout-settings.php:1079
+#| msgid "Disable Subject"
+msgid "Disable Search"
+msgstr "Suche deaktivieren"
+
+#: views/layout-settings.php:1080
+msgid "Disables search functionality"
+msgstr ""
+
+#: views/layout-settings.php:1089
+#| msgid "Number of Messages"
+msgid "Disable Favorite Messages"
+msgstr ""
+
+#: views/layout-settings.php:1090
+msgid "Disables favorite messages functionality"
+msgstr ""
+
+#: views/layout-settings.php:1099
+msgid "Disable User Settings"
+msgstr ""
+
+#: views/layout-settings.php:1100
+msgid "Disables settings button in the messages header"
+msgstr ""
+
+#: views/layout-settings.php:1109
+#| msgid "Disable Group Threads"
+msgid "Disable New Threads Screen"
+msgstr ""
+
+#: views/layout-settings.php:1110
+msgid "Disables new thread button and screen (admin will always see it)"
+msgstr ""
+
+#: views/layout-settings.php:1125
+#| msgid "Settings"
+msgid "Export Settings"
+msgstr "Export Einstellungen"
+
+#: views/layout-settings.php:1126
+msgid "Copy settings, so you can import them later to another website"
+msgstr ""
+
+#: views/layout-settings.php:1135
+#| msgid "Settings"
+msgid "Import Settings"
+msgstr "Einstellungen importieren"
+
+#: views/layout-settings.php:1136
+msgid "Paste settings copied before"
+msgstr ""
+
+#: views/layout-settings.php:1184
+msgid "Unread messages counter"
+msgstr ""
+
+#: views/layout-settings.php:1185
+msgid "Show uread messages counter anywhere in your website"
+msgstr ""
+
+#: views/layout-settings.php:1186
+msgid ""
+"To add this shortcode to your menu item you can use <a href=\"https://"
+"wordpress.org/plugins/shortcode-in-menus/\" target=\"_blank\">Shortcode in "
+"Menus</a> plugin."
+msgstr ""
+
+#: views/layout-settings.php:1197
+msgid "Save Changes"
+msgstr ""
+
+#: views/layout-starred.php:23
+msgid "No starred messages yet!"
+msgstr ""
+
+#: views/layout-thread.php:47
+msgid "participants"
+msgstr "Teilnehmer"
+
+#: views/layout-thread.php:113
+msgid "Exclude user from thread"
+msgstr "Benutzer von Konversation ausschließen"
+
+#: views/layout-thread.php:123
+msgid "Add new participants"
+msgstr "Neue Teilnehmer hinzufügen"
+
+#: views/layout-thread.php:125
+msgid "Add participants"
+msgstr "Teilnehmer hinzufügen"
+
+#: views/layout-thread.php:141
+msgid "Write the message to start conversation"
+msgstr "Schreibe eine Nachricht um eine Konversation zu starten"
+
+#: views/layout-user-settings.php:28
+msgid "Enable notifications via email"
+msgstr "Aktiviere Benachrichtigungen per Email"
+
+#: views/layout-user-settings.php:31
+msgid ""
+"When enabled, you will receive notifications about new messages via email "
+"when you are offline."
+msgstr ""
+"Wenn aktiviert, erhältst Du eine Mitteilung über neue Nachrichten per Email, "
+"wenn Du offline bist."
+
+#: views/layout-user-settings.php:38
+msgid "Browser push notifications"
+msgstr "Browserbenachrichtigungen"
+
+#: views/layout-user-settings.php:41
+msgid ""
+"When enabled, you will receive messages notifications even if browser is "
+"closed."
+msgstr ""
+"Wenn diese Option aktiviert ist, erhalten Sie Benachrichtigungen, auch wenn "
+"der Browser geschlossen ist."
+
+#: views/layout-user-settings.php:44
+msgid "Disable"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.wordplus.org"
+msgstr "https://www.wordplus.org"
+
+#. Description of the plugin/theme
+msgid "Enhanced Private Messages System for BuddyPress and WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WordPlus"
+msgstr "WordPlus"

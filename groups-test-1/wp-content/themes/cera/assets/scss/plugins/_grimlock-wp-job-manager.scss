@@ -1,0 +1,30 @@
+
+/**
+ * Grimlock for WP Job Manager
+ *
+ * Grimlock addons for WP Job Manager plugin.
+ * https://themosaurus.com
+ */
+
+form.job-manager-form {
+
+	.page-template-template-classic-12-cols-left &,
+	.page-template-template-narrow-12-cols-left &,
+	.page-template-template-narrower-12-cols-left & {
+		@include remove-grimlock-archive-post();
+	}
+
+	#wp-job_description-wrap {
+		border: 1px solid var(--grimlock-control-background-color);
+		border-radius: var(--grimlock-control-border-radius);
+	}
+
+}
+
+#job-manager-job-dashboard {
+	.page-template-template-classic-12-cols-left &,
+	.page-template-template-narrow-12-cols-left &,
+	.page-template-template-narrower-12-cols-left & {
+		@include remove-grimlock-archive-post();
+	}
+}

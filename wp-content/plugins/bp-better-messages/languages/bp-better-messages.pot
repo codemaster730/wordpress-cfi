@@ -1,0 +1,3572 @@
+# Copyright (C) 2022 Better Messages
+# This file is distributed under the same license as the Better Messages package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Better Messages\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"MIME-Version: 1.0\n"
+"Project-Id-Version: Better Messages\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../bp-better-messages.php:389
+msgid "Me"
+msgstr ""
+
+#: ../bp-better-messages.php:390
+msgid "typing..."
+msgstr ""
+
+#: ../bp-better-messages.php:391, ../views/layout-bulk.php:32
+msgid "Sent"
+msgstr ""
+
+#: ../bp-better-messages.php:392
+msgid "Delivered"
+msgstr ""
+
+#: ../bp-better-messages.php:393, ../inc/functions.php:1003
+msgid "Seen"
+msgstr ""
+
+#: ../bp-better-messages.php:394
+msgid "You have %s new messages"
+msgstr ""
+
+#: ../bp-better-messages.php:395
+msgid "Are you sure you want to delete this message?"
+msgstr ""
+
+#: ../bp-better-messages.php:396
+msgid "Connection dropped! Most likely the user closed the browser"
+msgstr ""
+
+#: ../bp-better-messages.php:397, ../inc/strings.php:14, ../inc/strings.php:25
+msgid "Incoming Call"
+msgstr ""
+
+#: ../bp-better-messages.php:398, ../inc/strings.php:15, ../inc/strings.php:26
+msgid "Calling..."
+msgstr ""
+
+#: ../bp-better-messages.php:399, ../inc/chats.php:491, ../inc/chats.php:508
+msgid "Default"
+msgstr ""
+
+#: ../bp-better-messages.php:400
+msgid "User rejected your call"
+msgstr ""
+
+#: ../bp-better-messages.php:401
+msgctxt "bp-better-messages"
+msgid "User you are trying to call is already in call. Please try later."
+msgstr ""
+
+#: ../bp-better-messages.php:402
+msgid "User is offline at the moment. Try later."
+msgstr ""
+
+#: ../bp-better-messages.php:403
+msgid "Webcam not available"
+msgstr ""
+
+#: ../bp-better-messages.php:404
+msgid "Microphone not available"
+msgstr ""
+
+#: ../bp-better-messages.php:405
+msgid "Please check if you gave all associated permissions and try again."
+msgstr ""
+
+#: ../bp-better-messages.php:406, ../inc/strings.php:22
+msgid "Answer"
+msgstr ""
+
+#: ../bp-better-messages.php:407, ../inc/strings.php:23
+msgid "Reject"
+msgstr ""
+
+#: ../bp-better-messages.php:408
+msgid "You are currently in call, are you sure you want to leave this page?"
+msgstr ""
+
+#: ../bp-better-messages.php:409
+msgid "This browser not support video calls feature yet. Please use another browser."
+msgstr ""
+
+#: ../bp-better-messages.php:410
+msgid "Enable browser push notifications to receive private messages when you are offline?"
+msgstr ""
+
+#: ../bp-better-messages.php:411, ../views/layout-user-settings.php:87
+msgid "Enable"
+msgstr ""
+
+#: ../bp-better-messages.php:412
+msgid "Dismiss"
+msgstr ""
+
+#: ../bp-better-messages.php:413
+msgid "Are you sure you want to mute this thread?"
+msgstr ""
+
+#: ../bp-better-messages.php:414
+msgid "Are you sure you want to leave this thread?"
+msgstr ""
+
+#: ../bp-better-messages.php:415
+msgid "Are you sure you want to unmute this thread?"
+msgstr ""
+
+#: ../bp-better-messages.php:416
+msgid "Are you sure you want to delete this thread and all its messages forever? (This action is irreversible)"
+msgstr ""
+
+#: ../bp-better-messages.php:417
+msgctxt "Block user alert confirmation"
+msgid "Are you sure you want to block user from sending you messages?"
+msgstr ""
+
+#: ../bp-better-messages.php:418
+msgctxt "Unblock user alert confirmation"
+msgid "Are you sure you want to unblock user from sending you messages?"
+msgstr ""
+
+#: ../bp-better-messages.php:419
+msgid "Are you sure you want to delete all messages in this chat? (This action is irreversible)"
+msgstr ""
+
+#: ../bp-better-messages.php:420
+msgid "Exclude %s from this thread?"
+msgstr ""
+
+#: ../bp-better-messages.php:421
+msgid "Exclude %s from this chat room?"
+msgstr ""
+
+#: ../bp-better-messages.php:422
+msgid "Realtime connection not established. Please wait until you will be connected to realtime server and try again"
+msgstr ""
+
+#: ../bp-better-messages.php:423, ../addons/calls.php:106, ../addons/calls.php:154, ../addons/calls.php:205, ../addons/calls.php:312, ../addons/calls.php:396, ../addons/calls.php:938, ../inc/functions.php:2914, ../inc/shortcodes.php:146, ../inc/strings.php:7
+msgid "Video Call"
+msgstr ""
+
+#: ../bp-better-messages.php:424, ../addons/calls.php:105, ../addons/calls.php:143, ../addons/calls.php:194, ../addons/calls.php:291, ../addons/calls.php:372, ../addons/calls.php:948, ../inc/functions.php:2917, ../inc/shortcodes.php:197, ../inc/strings.php:6
+msgid "Audio Call"
+msgstr ""
+
+#: ../bp-better-messages.php:425, ../inc/hooks.php:469
+msgid "Maximize"
+msgstr ""
+
+#: ../bp-better-messages.php:426, ../addons/giphy.php:286, ../addons/stickers.php:166, ../views/layout-mini-list.php:31, ../views/layout-new.php:9, ../views/layout-thread.php:230
+msgid "Close"
+msgstr ""
+
+#: ../bp-better-messages.php:427
+msgid "Edit message"
+msgstr ""
+
+#: ../bp-better-messages.php:428, ../inc/functions.php:1016
+msgid "Reply"
+msgstr ""
+
+#: ../bp-better-messages.php:429
+msgid "Edit"
+msgstr ""
+
+#: ../bp-better-messages.php:430
+msgid "Copy text"
+msgstr ""
+
+#: ../bp-better-messages.php:431, ../inc/functions.php:1511, ../views/layout-bulk.php:70
+msgid "Delete"
+msgstr ""
+
+#: ../bp-better-messages.php:432
+msgid "Open"
+msgstr ""
+
+#: ../bp-better-messages.php:433
+msgctxt "Frontend Scripts"
+msgid "Video"
+msgstr ""
+
+#: ../bp-better-messages.php:434
+msgctxt "Frontend Scripts"
+msgid "Audio"
+msgstr ""
+
+#: ../bp-better-messages.php:435
+msgctxt "Frontend Scripts"
+msgid "Chat Online"
+msgstr ""
+
+#: ../bp-better-messages.php:436
+msgctxt "Frontend Scripts"
+msgid "Kick User"
+msgstr ""
+
+#: ../bp-better-messages.php:437
+msgctxt "Frontend Scripts"
+msgid "Microphone Enabled"
+msgstr ""
+
+#: ../bp-better-messages.php:438
+msgctxt "Frontend Scripts"
+msgid "Microphone Disabled"
+msgstr ""
+
+#: ../bp-better-messages.php:439
+msgctxt "Frontend Scripts"
+msgid "Camera Enabled"
+msgstr ""
+
+#: ../bp-better-messages.php:440
+msgctxt "Frontend Scripts"
+msgid "Camera Disabled"
+msgstr ""
+
+#: ../bp-better-messages.php:441
+msgctxt "Calling Features - Device Selector"
+msgid "Same as system"
+msgstr ""
+
+#: ../bp-better-messages.php:442
+msgctxt "Calling Features - Device Selector"
+msgid "Communications"
+msgstr ""
+
+#: ../bp-better-messages.php:443
+msgctxt "Calling Features - Device Name when error triggered"
+msgid "Camera or Microphone"
+msgstr ""
+
+#: ../bp-better-messages.php:444
+msgctxt "Calling Features - Device not found error"
+msgid "%s not found"
+msgstr ""
+
+#: ../bp-better-messages.php:445
+msgctxt "Calling Features - Device no permission error"
+msgid "No permission to access %s. Please ensure access to %s is allowed in your browser settings."
+msgstr ""
+
+#: ../bp-better-messages.php:446
+msgctxt "Calling Features - Device already in use error"
+msgid "%s is already in use. Ensure that its not used by other application or select other %s if available."
+msgstr ""
+
+#: ../bp-better-messages.php:447
+msgctxt "Calling Features - Device unknown error"
+msgid "Unknown error while trying to access %s"
+msgstr ""
+
+#: ../bp-better-messages.php:448
+msgctxt "Calling Features - Cancel Call"
+msgid "Cancel"
+msgstr ""
+
+#: ../bp-better-messages.php:449, ../addons/calls.php:1060
+msgctxt "Calling Features - Toggle Chat Screen"
+msgid "Toggle Chat Screen"
+msgstr ""
+
+#: ../bp-better-messages.php:450
+msgctxt "Calling Features - Call Answer"
+msgid "Answer"
+msgstr ""
+
+#: ../bp-better-messages.php:451
+msgctxt "Calling Features"
+msgid "End Call"
+msgstr ""
+
+#: ../bp-better-messages.php:452
+msgctxt "Calling Features - Call Configure"
+msgid "Configure"
+msgstr ""
+
+#: ../bp-better-messages.php:453
+msgctxt "Calling Features - Device Control"
+msgid "Disable Camera"
+msgstr ""
+
+#: ../bp-better-messages.php:454
+msgctxt "Calling Features - Device Control"
+msgid "Enable Camera"
+msgstr ""
+
+#: ../bp-better-messages.php:455
+msgctxt "Calling Features - Device Control"
+msgid "Disable Microphone"
+msgstr ""
+
+#: ../bp-better-messages.php:456
+msgctxt "Calling Features - Device Control"
+msgid "Enable Microphone"
+msgstr ""
+
+#: ../bp-better-messages.php:457
+msgctxt "Calling Features - Device Control"
+msgid "Picture In Picture"
+msgstr ""
+
+#: ../bp-better-messages.php:458
+msgctxt "Calling Features - Device Control"
+msgid "Stop Screen Sharing"
+msgstr ""
+
+#: ../bp-better-messages.php:459
+msgctxt "Calling Features - Device Control"
+msgid "Share Screen"
+msgstr ""
+
+#: ../bp-better-messages.php:460
+msgctxt "Calling Features"
+msgid "Switch to Full Screen Mode"
+msgstr ""
+
+#: ../bp-better-messages.php:461
+msgctxt "Calling Features - Device Control"
+msgid "Exit Full Screen Mode"
+msgstr ""
+
+#: ../bp-better-messages.php:462
+msgctxt "Calling Features - Device Label"
+msgid "Camera"
+msgstr ""
+
+#: ../bp-better-messages.php:463
+msgctxt "Calling Features - Device Label"
+msgid "Microphone"
+msgstr ""
+
+#: ../bp-better-messages.php:464
+msgctxt "Calling Features - Device Label"
+msgid "Speaker"
+msgstr ""
+
+#: ../bp-better-messages.php:465
+msgctxt "Calling Features - Exit from chat room"
+msgid "Exit Chat"
+msgstr ""
+
+#: ../bp-better-messages.php:466
+msgctxt "Group Chats Connection Quality"
+msgid "Connection Status (Quality)"
+msgstr ""
+
+#: ../bp-better-messages.php:467
+msgctxt "Video Chats Controls"
+msgid "Admin Tools"
+msgstr ""
+
+#: ../bp-better-messages.php:468
+msgctxt "Video Chats Controls"
+msgid "Block Broadcast"
+msgstr ""
+
+#: ../bp-better-messages.php:469
+msgctxt "Video Chats Controls"
+msgid "Allow Broadcast"
+msgstr ""
+
+#: ../bp-better-messages.php:470
+msgctxt "Frontend Scripts"
+msgid "Loading"
+msgstr ""
+
+#: ../bp-better-messages.php:565
+msgid "Use the TAB key to insert emoji faster"
+msgstr ""
+
+#: ../bp-better-messages.php:566
+msgid "SEARCH"
+msgstr ""
+
+#: ../bp-better-messages.php:567
+msgid "Diversity"
+msgstr ""
+
+#: ../bp-better-messages.php:568
+msgid "Recent"
+msgstr ""
+
+#: ../bp-better-messages.php:569
+msgid "Smileys & People"
+msgstr ""
+
+#: ../bp-better-messages.php:570
+msgid "Animals & Nature"
+msgstr ""
+
+#: ../bp-better-messages.php:571
+msgid "Food & Drink"
+msgstr ""
+
+#: ../bp-better-messages.php:572
+msgid "Activity"
+msgstr ""
+
+#: ../bp-better-messages.php:573
+msgid "Travel & Places"
+msgstr ""
+
+#: ../bp-better-messages.php:574
+msgid "Objects"
+msgstr ""
+
+#: ../bp-better-messages.php:575
+msgid "Symbols"
+msgstr ""
+
+#: ../bp-better-messages.php:576
+msgid "Flags"
+msgstr ""
+
+#: ../addons/calls.php:477, ../addons/calls.php:563, ../inc/strings.php:8
+msgid "Audio call accepted <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr ""
+
+#: ../addons/calls.php:508, ../addons/calls.php:561, ../inc/strings.php:9
+msgid "Video call accepted <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr ""
+
+#: ../addons/calls.php:607, ../inc/strings.php:10
+msgctxt "Missed call message"
+msgid "I tried to make an audio call, but you were offline"
+msgstr ""
+
+#: ../addons/calls.php:626, ../inc/strings.php:11
+msgctxt "Missed call message"
+msgid "I tried to make a video call, but you were offline"
+msgstr ""
+
+#: ../addons/calls.php:690
+msgctxt "Private Call"
+msgid "Audio Call"
+msgstr ""
+
+#: ../addons/calls.php:693
+msgctxt "Private Call - Web Push"
+msgid "Incoming audio call from %s"
+msgstr ""
+
+#: ../addons/calls.php:694
+msgctxt "Private Call - Web Push"
+msgid "You have incoming audio call from %s"
+msgstr ""
+
+#: ../addons/calls.php:678
+msgctxt "Private Call"
+msgid "Video Call"
+msgstr ""
+
+#: ../addons/calls.php:681
+msgctxt "Private Call - Web Push"
+msgid "Incoming video call from %s"
+msgstr ""
+
+#: ../addons/calls.php:682
+msgctxt "Private Call - Web Push"
+msgid "You have incoming video call from %s"
+msgstr ""
+
+#: ../addons/calls.php:788, ../inc/strings.php:12
+msgid "Missed audio call <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr ""
+
+#: ../addons/calls.php:791
+msgctxt "Private Call - Web Push"
+msgid "Missed audio call from %s"
+msgstr ""
+
+#: ../addons/calls.php:792
+msgctxt "Private Call - Web Push"
+msgid "You have missed audio call from %s"
+msgstr ""
+
+#: ../addons/calls.php:822, ../inc/strings.php:13
+msgid "Missed video call <span class=\"bpbm-call-duration\">(%s)</span>"
+msgstr ""
+
+#: ../addons/calls.php:825
+msgctxt "Private Call - Web Push"
+msgid "Missed video call from %s"
+msgstr ""
+
+#: ../addons/calls.php:826
+msgctxt "Private Call - Web Push"
+msgid "You have missed video call from %s"
+msgstr ""
+
+#: ../addons/calls.php:953
+msgid "Video Chat"
+msgstr ""
+
+#: ../addons/calls.php:957
+msgid "Audio Chat"
+msgstr ""
+
+#: ../addons/calls.php:974
+msgctxt "Group Video Chat"
+msgid "participants are in group video chat"
+msgstr ""
+
+#: ../addons/calls.php:977
+msgctxt "Group Video Chat"
+msgid "Join Video Chat"
+msgstr ""
+
+#: ../addons/calls.php:984
+msgctxt "Group Audio Chat"
+msgid "participants are in group audio chat"
+msgstr ""
+
+#: ../addons/calls.php:987
+msgctxt "Group Audio Chat"
+msgid "Join Audio Chat"
+msgstr ""
+
+#: ../addons/calls.php:1026
+msgctxt "Group Audio Chat"
+msgid "Microphone"
+msgstr ""
+
+#: ../addons/calls.php:1029, ../addons/calls.php:1037
+msgctxt "Group Audio Chat"
+msgid "Default"
+msgstr ""
+
+#: ../addons/calls.php:1034
+msgctxt "Group Audio Chat"
+msgid "Speaker"
+msgstr ""
+
+#: ../addons/calls.php:1044
+msgctxt "Group Audio Chat"
+msgid "Connection Status (Quality)"
+msgstr ""
+
+#: ../addons/calls.php:1047, ../inc/strings.php:19
+msgid "Disable Microphone"
+msgstr ""
+
+#: ../addons/calls.php:1048, ../inc/strings.php:20
+msgid "Enable Microphone"
+msgstr ""
+
+#: ../addons/calls.php:1049
+msgctxt "Group Audio Chat"
+msgid "Leave chat"
+msgstr ""
+
+#: ../addons/calls.php:1168, ../views/layout-bulk.php:295
+msgid "Security error"
+msgstr ""
+
+#: ../addons/files.php:143, ../inc/strings.php:33
+msgid "Voice Message"
+msgstr ""
+
+#: ../addons/files.php:153
+msgid "attachments"
+msgstr ""
+
+#: ../addons/files.php:402
+msgid "Add attachment"
+msgstr ""
+
+#: ../addons/files.php:440
+msgid "You can only upload %{smart_count} file"
+msgstr ""
+
+#: ../addons/files.php:441
+msgid "You can only upload %{smart_count} files"
+msgstr ""
+
+#: ../addons/files.php:444
+msgid "You have to select at least %{smart_count} file"
+msgstr ""
+
+#: ../addons/files.php:445
+msgid "You have to select at least %{smart_count} files"
+msgstr ""
+
+#: ../addons/files.php:447
+msgid "This file exceeds maximum allowed size of"
+msgstr ""
+
+#: ../addons/files.php:448
+msgid "You can only upload"
+msgstr ""
+
+#: ../addons/files.php:449
+msgid "Connection with Uppy Server failed"
+msgstr ""
+
+#: ../addons/files.php:474
+msgid "Send Now"
+msgstr ""
+
+#: ../addons/files.php:475
+msgid "Uploading"
+msgstr ""
+
+#: ../addons/files.php:476
+msgid "Upload complete"
+msgstr ""
+
+#: ../addons/files.php:477
+msgid "Upload failed"
+msgstr ""
+
+#: ../addons/files.php:478
+msgid "Please press Retry to upload again"
+msgstr ""
+
+#: ../addons/files.php:479
+msgid "Paused"
+msgstr ""
+
+#: ../addons/files.php:480
+msgid "Error"
+msgstr ""
+
+#: ../addons/files.php:481
+msgid "Retry"
+msgstr ""
+
+#: ../addons/files.php:482
+msgid "Press to retry"
+msgstr ""
+
+#: ../addons/files.php:483
+msgid "Retry upload"
+msgstr ""
+
+#: ../addons/files.php:484
+msgid "Resume upload"
+msgstr ""
+
+#: ../addons/files.php:485
+msgid "Cancel upload"
+msgstr ""
+
+#: ../addons/files.php:486
+msgid "Pause upload"
+msgstr ""
+
+#: ../addons/files.php:488
+msgid "Upload %{smart_count} file"
+msgstr ""
+
+#: ../addons/files.php:489
+msgid "Upload %{smart_count} files"
+msgstr ""
+
+#: ../addons/files.php:492
+msgid "Upload +%{smart_count} file"
+msgstr ""
+
+#: ../addons/files.php:493
+msgid "Upload +%{smart_count} files"
+msgstr ""
+
+#: ../addons/files.php:495
+msgid "Select files to upload"
+msgstr ""
+
+#: ../addons/files.php:496
+msgid "Close Modal"
+msgstr ""
+
+#: ../addons/files.php:497
+msgid "Upload"
+msgstr ""
+
+#: ../addons/files.php:498
+msgid "Import files from"
+msgstr ""
+
+#: ../addons/files.php:499
+msgid "Uppy Dashboard Window (Press escape to close)"
+msgstr ""
+
+#: ../addons/files.php:500
+msgid "Uppy Dashboard"
+msgstr ""
+
+#: ../addons/files.php:501
+msgid "Link copied to clipboard."
+msgstr ""
+
+#: ../addons/files.php:502
+msgid "Copy the URL below"
+msgstr ""
+
+#: ../addons/files.php:503
+msgid "Done"
+msgstr ""
+
+#: ../addons/files.php:504
+msgid "Drop files here, paste, import from one of the locations above or"
+msgstr ""
+
+#: ../addons/files.php:505
+msgid "Drop files here, paste or"
+msgstr ""
+
+#: ../addons/files.php:506
+msgid "browse"
+msgstr ""
+
+#: ../addons/files.php:507
+msgid "File progress: upload speed and ETA"
+msgstr ""
+
+#: ../addons/files.php:508
+msgid "Number of selected files"
+msgstr ""
+
+#: ../addons/files.php:509
+msgid "Upload all new files"
+msgstr ""
+
+#: ../addons/files.php:510
+msgid "No files were added from empty folder"
+msgstr ""
+
+#: ../addons/files.php:512
+msgid "Added %{smart_count} file from %{folder}"
+msgstr ""
+
+#: ../addons/files.php:513
+msgid "Added %{smart_count} files from %{folder}"
+msgstr ""
+
+#: ../addons/files.php:515
+msgid "Remove file"
+msgstr ""
+
+#: ../addons/files.php:864
+msgid "Your request is empty."
+msgstr ""
+
+#: ../addons/files.php:805
+msgid "You can`t upload files."
+msgstr ""
+
+#: ../addons/files.php:831
+msgid "%s is too large! Please upload file up to %d MB."
+msgstr ""
+
+#: ../addons/giphy.php:77, ../addons/stickers.php:84, ../inc/ajax.php:1908, ../inc/ajax.php:1890, ../inc/ajax.php:1902
+msgid "You can`t reply to this thread."
+msgstr ""
+
+#: ../addons/giphy.php:52, ../addons/stickers.php:65, ../inc/ajax.php:1836
+msgid "Security error while sending message"
+msgstr ""
+
+#: ../addons/giphy.php:265, ../addons/giphy.php:342, ../addons/stickers.php:139
+msgid "Search results will display here"
+msgstr ""
+
+#: ../addons/giphy.php:275
+msgid "GIFs"
+msgstr ""
+
+#: ../addons/giphy.php:283
+msgid "Trending"
+msgstr ""
+
+#: ../addons/giphy.php:284, ../addons/stickers.php:136, ../addons/stickers.php:160, ../inc/functions.php:2467, ../views/layout-chat-room.php:61, ../views/layout-group.php:56, ../views/layout-index.php:174, ../views/layout-index.php:177, ../views/layout-index.php:43, ../views/layout-index.php:93, ../views/layout-index.php:96, ../views/layout-peepso-group.php:66, ../views/layout-search.php:19, ../views/layout-search.php:22, ../views/layout-thread.php:43, ../views/layout-um-group.php:68
+msgid "Search"
+msgstr ""
+
+#: ../addons/giphy.php:323, ../addons/giphy.php:327, ../inc/notifications.php:337
+msgid "GIF"
+msgstr ""
+
+#: ../addons/peepso-groups.php:253, ../addons/ultimate-member-groups.php:111, ../inc/functions.php:1826, ../inc/functions.php:1905
+msgid "Access restricted"
+msgstr ""
+
+#: ../addons/peepso-groups.php:306
+msgctxt "PeepSo Group Section Label"
+msgid "Messages"
+msgstr ""
+
+#: ../addons/peepso.php:114, ../addons/ultimate-member.php:120, ../inc/ajax.php:478
+msgctxt "Combined view - Empty groups list"
+msgid "No groups added yet"
+msgstr ""
+
+#: ../addons/peepso.php:136, ../addons/ultimate-member.php:142, ../inc/ajax.php:849, ../inc/functions.php:2951
+msgid "Group homepage"
+msgstr ""
+
+#: ../addons/peepso.php:174, ../addons/ultimate-member.php:447, ../inc/hooks.php:2169
+msgid "%s not on your friends list"
+msgstr ""
+
+#: ../addons/peepso.php:202, ../addons/ultimate-member.php:475, ../inc/hooks.php:2011
+msgid "You must become friends to send messages"
+msgstr ""
+
+#: ../addons/peepso.php:233, ../addons/ultimate-member.php:187, ../inc/ajax.php:444
+msgctxt "Combined view - Empty friends list"
+msgid "No friends added yet"
+msgstr ""
+
+#: ../addons/peepso.php:265, ../addons/peepso.php:285, ../addons/ultimate-member.php:206, ../addons/ultimate-member.php:251, ../inc/functions.php:3035, ../inc/functions.php:3064
+msgctxt "Combined View Tabs"
+msgid "Friends"
+msgstr ""
+
+#: ../addons/peepso.php:269, ../addons/peepso.php:289, ../addons/ultimate-member.php:210, ../addons/ultimate-member.php:255, ../inc/functions.php:3040, ../inc/functions.php:3069
+msgctxt "Combined View Tabs"
+msgid "Groups"
+msgstr ""
+
+#: ../addons/peepso.php:324
+msgctxt "PeepSo Mini Widget"
+msgid "Friends"
+msgstr ""
+
+#: ../addons/peepso.php:329
+msgctxt "PeepSo Mini Widget"
+msgid "Groups"
+msgstr ""
+
+#: ../addons/peepso.php:344, ../addons/peepso.php:344, ../addons/peepso.php:359, ../addons/peepso.php:359, ../addons/ultimate-member.php:294, ../addons/ultimate-member.php:294, ../addons/ultimate-member.php:309, ../addons/ultimate-member.php:309, ../inc/functions.php:2467, ../views/layout-chat-room.php:61, ../views/layout-group.php:56, ../views/layout-index.php:43, ../views/layout-mini-list.php:67, ../views/layout-mini-list.php:67, ../views/layout-mini-list.php:80, ../views/layout-mini-list.php:80, ../views/layout-peepso-group.php:66, ../views/layout-thread.php:43, ../views/layout-um-group.php:68
+msgid "Search..."
+msgstr ""
+
+#: ../addons/peepso.php:425
+msgctxt "PeepSo Integration"
+msgid "Send Message"
+msgstr ""
+
+#: ../addons/peepso.php:464
+msgctxt "PeepSo Integration"
+msgid "Start a conversation"
+msgstr ""
+
+#: ../addons/peepso.php:482
+msgctxt "PeepSo Integration"
+msgid "Video Call"
+msgstr ""
+
+#: ../addons/peepso.php:500
+msgctxt "PeepSo Integration"
+msgid "Audio Call"
+msgstr ""
+
+#: ../addons/peepso.php:518
+msgctxt "PeepSo Integration"
+msgid "New Messages"
+msgstr ""
+
+#: ../addons/peepso.php:519
+msgctxt "Peepso Integration"
+msgid "Messages"
+msgstr ""
+
+#: ../addons/pinned-message.php:32
+msgctxt "Extra thread control buttons"
+msgid "Add pinned message"
+msgstr ""
+
+#: ../addons/reactions.php:62
+msgctxt "Reaction name"
+msgid "Thinking"
+msgstr ""
+
+#: ../addons/reactions.php:63
+msgctxt "Reaction name"
+msgid "Star"
+msgstr ""
+
+#: ../addons/reactions.php:64
+msgctxt "Reaction name"
+msgid "WOW"
+msgstr ""
+
+#: ../addons/reactions.php:65
+msgctxt "Reaction name"
+msgid "Love"
+msgstr ""
+
+#: ../addons/reactions.php:66
+msgctxt "Reaction name"
+msgid "Okay"
+msgstr ""
+
+#: ../addons/reactions.php:67
+msgctxt "Reaction name"
+msgid "Thumbs up"
+msgstr ""
+
+#: ../addons/stickers.php:151
+msgid "Stickers"
+msgstr ""
+
+#: ../addons/stickers.php:159
+msgid "Latest"
+msgstr ""
+
+#: ../addons/stickers.php:192
+msgid "No stickers found"
+msgstr ""
+
+#: ../addons/stickers.php:190
+msgid "You have not used any stickers yet"
+msgstr ""
+
+#: ../addons/stickers.php:217, ../inc/notifications.php:332
+msgid "Sticker"
+msgstr ""
+
+#: ../addons/ultimate-member-groups.php:64
+msgctxt "Ultimate Member - Group Tab Name"
+msgid "Messages"
+msgstr ""
+
+#: ../addons/ultimate-member.php:280
+msgctxt "Ultimate Member Mini Widget"
+msgid "Friends"
+msgstr ""
+
+#: ../addons/ultimate-member.php:285
+msgctxt "Ultimate Member Mini Widget"
+msgid "Groups"
+msgstr ""
+
+#: ../addons/ultimate-member.php:385
+msgctxt "Ultimate member - follower restriction"
+msgid "%s need to be followed to start new conversation"
+msgstr ""
+
+#: ../addons/ultimate-member.php:417
+msgctxt "Ultimate member - follower restriction"
+msgid "You must follower this user to send messages"
+msgstr ""
+
+#: ../addons/ultimate-member.php:492, ../inc/ajax.php:695, ../inc/component-group.php:37, ../inc/component.php:37, ../inc/hooks.php:558, ../views/layout-mini-list.php:17, ../views/layout-settings.php:289
+msgid "Messages"
+msgstr ""
+
+#: ../addons/ultimate-member.php:528, ../addons/ultimate-member.php:548, ../inc/hooks.php:1251, ../inc/hooks.php:1266, ../inc/hooks.php:1314, ../inc/hooks.php:2385, ../inc/shortcodes.php:65, ../inc/shortcodes.php:249
+msgid "Private Message"
+msgstr ""
+
+#: ../addons/users-block.php:45
+msgctxt "User settings page"
+msgid "Blocked users"
+msgstr ""
+
+#: ../addons/users-block.php:49
+msgctxt "User settings page"
+msgid "This is list of users you blocked, you can remove them from blacklist here if needed."
+msgstr ""
+
+#: ../addons/users-block.php:58
+msgctxt "User settings page"
+msgid "Unblock user"
+msgstr ""
+
+#: ../addons/users-block.php:66
+msgctxt "User settings page"
+msgid "You didn't blocked anyone yet"
+msgstr ""
+
+#: ../addons/users-block.php:115
+msgctxt "Error when starting new thread but user blocked"
+msgid "%s blocked by you"
+msgstr ""
+
+#: ../addons/users-block.php:121
+msgctxt "Error when starting new thread but user blocked"
+msgid "%s blocked you"
+msgstr ""
+
+#: ../addons/users-block.php:153
+msgctxt "Message when user cant send message to user blocked by him"
+msgid "You can't send message to user who was blocked by you"
+msgstr ""
+
+#: ../addons/users-block.php:163
+msgctxt "Message when user cant send message to user who blocked him"
+msgid "You can't send message to user who blocked you"
+msgstr ""
+
+#: ../addons/users-block.php:202
+msgctxt "Unblock user button tooltip in more options dropdown"
+msgid "Unblock private messages from this user to you"
+msgstr ""
+
+#: ../addons/users-block.php:202
+msgctxt "Unblock user button in more options dropdown"
+msgid "Unblock user"
+msgstr ""
+
+#: ../addons/users-block.php:200
+msgctxt "Block user button tooltip in more options dropdown"
+msgid "Block private messages from this user to you"
+msgstr ""
+
+#: ../addons/users-block.php:200
+msgctxt "Block user button in more options dropdown"
+msgid "Block user"
+msgstr ""
+
+#: ../inc/ajax.php:569
+msgid "Exclude user from thread"
+msgstr ""
+
+#: ../inc/ajax.php:586
+msgctxt "Load more participants button"
+msgid "Load more participants"
+msgstr ""
+
+#: ../inc/ajax.php:643, ../views/layout-mini-list.php:20
+msgid "Friends"
+msgstr ""
+
+#: ../inc/ajax.php:656, ../inc/ajax.php:892, ../inc/functions.php:2919
+msgid "User profile"
+msgstr ""
+
+#: ../inc/ajax.php:789, ../inc/functions.php:980, ../inc/functions.php:1474, ../inc/hooks.php:595, ../views/layout-thread.php:90, ../views/layout-viewer.php:55
+msgid "Deleted User"
+msgstr ""
+
+#: ../inc/ajax.php:805, ../inc/ajax.php:799, ../inc/functions.php:1498, ../inc/functions.php:1495, ../inc/hooks.php:338, ../views/layout-chat-room.php:111, ../views/layout-chat-room.php:146, ../views/layout-group.php:107, ../views/layout-group.php:140, ../views/layout-peepso-group.php:119, ../views/layout-peepso-group.php:153, ../views/layout-thread.php:102, ../views/layout-thread.php:216, ../views/layout-um-group.php:121, ../views/layout-um-group.php:155
+msgid "Participants"
+msgstr ""
+
+#: ../inc/ajax.php:812
+msgid "%s matches"
+msgstr ""
+
+#: ../inc/ajax.php:829, ../views/layout-mini-list.php:23
+msgid "Groups"
+msgstr ""
+
+#: ../inc/ajax.php:878
+msgid "Members"
+msgstr ""
+
+#: ../inc/ajax.php:909, ../inc/functions.php:1966, ../views/layout-mini-list.php:56
+msgid "Nothing found"
+msgstr ""
+
+#: ../inc/ajax.php:1077, ../inc/ajax.php:1393, ../inc/ajax.php:2311, ../inc/ajax.php:2337
+msgid "Security error while deleting messages"
+msgstr ""
+
+#: ../inc/ajax.php:1111
+msgid "Deleted successfully"
+msgstr ""
+
+#: ../inc/ajax.php:1126
+msgid "Security error while changing thread option"
+msgstr ""
+
+#: ../inc/ajax.php:1134
+msgid "You can`t change options for this thread"
+msgstr ""
+
+#: ../inc/ajax.php:1145, ../inc/ajax.php:1205
+msgid "Saved successfully"
+msgstr ""
+
+#: ../inc/ajax.php:1158
+msgid "Thread subject changed"
+msgstr ""
+
+#: ../inc/ajax.php:1184
+msgid "Security error while changing user option"
+msgstr ""
+
+#: ../inc/ajax.php:1194
+msgid "You can`t change options for this user"
+msgstr ""
+
+#: ../inc/ajax.php:1284
+msgid "You can`t add members to this thread"
+msgstr ""
+
+#: ../inc/ajax.php:1328
+msgid "You can`t exclude members from this thread"
+msgstr ""
+
+#: ../inc/ajax.php:1334
+msgid "Not found member in this thread"
+msgstr ""
+
+#: ../inc/ajax.php:1420
+msgid "This message can`t be edited"
+msgstr ""
+
+#: ../inc/ajax.php:1450, ../inc/ajax.php:1913
+msgid "Your message was empty."
+msgstr ""
+
+#: ../inc/ajax.php:1479
+msgid "Message not found"
+msgstr ""
+
+#: ../inc/ajax.php:1966
+msgid "Security error while starting new thread"
+msgstr ""
+
+#: ../inc/ajax.php:2137
+msgid "You can`t delete this thread"
+msgstr ""
+
+#: ../inc/ajax.php:2126
+msgid "Security error while deleting thread"
+msgstr ""
+
+#: ../inc/ajax.php:2262
+msgid "Security error while recovering thread"
+msgstr ""
+
+#: ../inc/bulk.php:98
+msgid "Admin disabled replies to this thread"
+msgstr ""
+
+#: ../inc/bulk.php:262
+msgid "Message is empty"
+msgstr ""
+
+#: ../inc/bulk.php:266
+msgid "No users was selected"
+msgstr ""
+
+#: ../inc/chats.php:123
+msgid "Leave chat room"
+msgstr ""
+
+#: ../inc/chats.php:193
+msgid "Chat Rooms"
+msgstr ""
+
+#: ../inc/chats.php:194
+msgid "Chat Room"
+msgstr ""
+
+#: ../inc/chats.php:195, ../inc/chats.php:196
+msgid "Create new Chat Room"
+msgstr ""
+
+#: ../inc/chats.php:197
+msgid "Edit Chat Room"
+msgstr ""
+
+#: ../inc/chats.php:198
+msgid "New Chat Room"
+msgstr ""
+
+#: ../inc/chats.php:221
+msgid "Chat settings"
+msgstr ""
+
+#: ../inc/chats.php:239, ../inc/chats.php:307
+msgid "You must join this chat room to send messages"
+msgstr ""
+
+#: ../inc/chats.php:240, ../inc/chats.php:313
+msgid "Join chat room"
+msgstr ""
+
+#: ../inc/chats.php:241, ../inc/chats.php:331
+msgid "You are not allowed to join this chat room"
+msgstr ""
+
+#: ../inc/chats.php:242, ../inc/chats.php:337
+msgid "You are not allowed to reply in this chat room"
+msgstr ""
+
+#: ../inc/chats.php:243, ../inc/chats.php:325
+msgid "You must login to website to send messages"
+msgstr ""
+
+#: ../inc/chats.php:244, ../inc/chats.php:319
+msgid "Login"
+msgstr ""
+
+#: ../inc/chats.php:486, ../views/layout-settings.php:457
+msgid "Messages styling"
+msgstr ""
+
+#: ../inc/chats.php:493, ../views/layout-settings.php:463
+msgid "Standard"
+msgstr ""
+
+#: ../inc/chats.php:495, ../views/layout-settings.php:467
+msgid "Modern"
+msgstr ""
+
+#: ../inc/chats.php:502, ../views/layout-settings.php:476
+msgid "Modern messages layout"
+msgstr ""
+
+#: ../inc/chats.php:512, ../views/layout-settings.php:482
+msgid "My messages at left side"
+msgstr ""
+
+#: ../inc/chats.php:516, ../views/layout-settings.php:486
+msgid "My messages at right side"
+msgstr ""
+
+#: ../inc/chats.php:520, ../views/layout-settings.php:490
+msgid "All messages at left side"
+msgstr ""
+
+#: ../inc/chats.php:528
+msgid "Must Join Message"
+msgstr ""
+
+#: ../inc/chats.php:529, ../inc/chats.php:547, ../inc/chats.php:556, ../inc/chats.php:565
+msgid "HTML allowed"
+msgstr ""
+
+#: ../inc/chats.php:538
+msgid "Join Button Text"
+msgstr ""
+
+#: ../inc/chats.php:546
+msgid "Not Allowed To Join Text"
+msgstr ""
+
+#: ../inc/chats.php:555
+msgid "Not Allowed To Reply Text"
+msgstr ""
+
+#: ../inc/chats.php:564
+msgid "Must Login Text"
+msgstr ""
+
+#: ../inc/chats.php:573
+msgid "Login Button Text"
+msgstr ""
+
+#: ../inc/component-group.php:166
+msgid "Group Messages"
+msgstr ""
+
+#: ../inc/component-group.php:168
+msgctxt "BuddyPress Groups"
+msgid "Enable Group Messages feature for this group"
+msgstr ""
+
+#: ../inc/component-group.php:169
+msgctxt "BuddyPress Groups"
+msgid "All members of the group will be automatically joined to the conversation of this group"
+msgstr ""
+
+#: ../inc/component-group.php:173
+msgid "Enabled"
+msgstr ""
+
+#: ../inc/component-group.php:178
+msgid "Disabled"
+msgstr ""
+
+#: ../inc/component.php:109
+msgctxt "Messages list sub nav"
+msgid "Messages <span class=\"%s bp-better-messages-unread count\">%s</span>"
+msgstr ""
+
+#: ../inc/component.php:121
+msgid "Threads"
+msgstr ""
+
+#: ../inc/component.php:134, ../views/layout-index.php:166, ../views/layout-index.php:87
+msgid "Starred"
+msgstr ""
+
+#: ../inc/component.php:147, ../inc/functions.php:2461, ../views/layout-bulk.php:9, ../views/layout-chat-room.php:56, ../views/layout-group.php:51, ../views/layout-index.php:161, ../views/layout-index.php:37, ../views/layout-index.php:82, ../views/layout-mini-list.php:4, ../views/layout-peepso-group.php:61, ../views/layout-thread.php:37, ../views/layout-um-group.php:63
+msgid "New Thread"
+msgstr ""
+
+#: ../inc/component.php:169
+msgctxt "Messages list sub nav"
+msgid "Messages"
+msgstr ""
+
+#: ../inc/component.php:167
+msgctxt "Messages list sub nav"
+msgid "Messages <span class=\"%s\">%s</span>"
+msgstr ""
+
+#: ../inc/functions.php:1520
+msgid "Thread was deleted."
+msgstr ""
+
+#: ../inc/functions.php:1521
+msgid "Recover?"
+msgstr ""
+
+#: ../inc/functions.php:1818
+msgid "Thread not found."
+msgstr ""
+
+#: ../inc/functions.php:2325
+msgid "<a href=\"%s\" target=\"_blank\">Download</a> and install Premium version of plugin to use this feature"
+msgstr ""
+
+#: ../inc/functions.php:2321
+msgid "Get WebSocket License"
+msgstr ""
+
+#: ../inc/functions.php:2381
+msgid "My profile"
+msgstr ""
+
+#: ../inc/functions.php:2426, ../inc/options.php:249, ../views/layout-index.php:103
+msgid "Settings"
+msgstr ""
+
+#: ../inc/functions.php:2447, ../views/layout-bulk.php:485, ../views/layout-chat-room.php:232, ../views/layout-group.php:221, ../views/layout-new.php:148, ../views/layout-peepso-group.php:234, ../views/layout-search.php:45, ../views/layout-starred.php:35, ../views/layout-thread.php:306, ../views/layout-um-group.php:236, ../views/layout-user-settings.php:191
+msgid "Tap to open messages"
+msgstr ""
+
+#: ../inc/functions.php:2505
+msgctxt "User settings"
+msgid "Everyone"
+msgstr ""
+
+#: ../inc/functions.php:2510, ../inc/functions.php:2520, ../inc/functions.php:2540
+msgctxt "User settings"
+msgid "Allow Friends"
+msgstr ""
+
+#: ../inc/functions.php:2528
+msgctxt "User settings"
+msgid "Allow Followers"
+msgstr ""
+
+#: ../inc/functions.php:2548
+msgctxt "User settings"
+msgid "Nobody"
+msgstr ""
+
+#: ../inc/functions.php:3030, ../inc/functions.php:3058
+msgctxt "Combined View Tabs"
+msgid "Messages"
+msgstr ""
+
+#: ../inc/functions.php:3167
+msgctxt "Login form for unlogged users"
+msgid "Login required"
+msgstr ""
+
+#: ../inc/hooks.php:470
+msgid "Minimize"
+msgstr ""
+
+#: ../inc/hooks.php:766
+msgid "You cant start new thread now. Please wait %s seconds."
+msgstr ""
+
+#: ../inc/hooks.php:798
+msgid "Your message was not sent. User muted this thread."
+msgstr ""
+
+#: ../inc/hooks.php:811
+msgid "Delete thread and all messages"
+msgstr ""
+
+#: ../inc/hooks.php:811
+msgid "Delete thread"
+msgstr ""
+
+#: ../inc/hooks.php:820
+msgid "Delete all messages in this thread"
+msgstr ""
+
+#: ../inc/hooks.php:822
+msgid "Delete all messages in this chat"
+msgstr ""
+
+#: ../inc/hooks.php:826
+msgid "Clear messages"
+msgstr ""
+
+#: ../inc/hooks.php:840
+msgid "Mute thread notifications"
+msgstr ""
+
+#: ../inc/hooks.php:840
+msgid "Mute thread"
+msgstr ""
+
+#: ../inc/hooks.php:838
+msgid "Unmute thread notifications"
+msgstr ""
+
+#: ../inc/hooks.php:838
+msgid "Unmute thread"
+msgstr ""
+
+#: ../inc/hooks.php:852, ../inc/hooks.php:852
+msgid "Block user"
+msgstr ""
+
+#: ../inc/hooks.php:867, ../inc/hooks.php:867, ../inc/hooks.php:875, ../inc/hooks.php:875, ../views/layout-thread.php:224
+msgid "Add new participants"
+msgstr ""
+
+#: ../inc/hooks.php:881, ../inc/hooks.php:881
+msgid "Leave thread"
+msgstr ""
+
+#: ../inc/hooks.php:933
+msgid "You don't have sufficient balance to start new thread"
+msgstr ""
+
+#: ../inc/hooks.php:958
+msgid "You don't have sufficient balance to reply"
+msgstr ""
+
+#: ../inc/hooks.php:976
+msgctxt "MyCred Log Entry"
+msgid "Better Messages charge for new thread #%d"
+msgstr ""
+
+#: ../inc/hooks.php:991
+msgctxt "MyCred Log Entry"
+msgid "Better Messages charge for message #%d"
+msgstr ""
+
+#: ../inc/hooks.php:1073
+msgid "You can't message a blocked member."
+msgstr ""
+
+#: ../inc/hooks.php:1095
+msgid "You can't message this member."
+msgstr ""
+
+#: ../inc/hooks.php:1160
+msgid "Joined \"%s\""
+msgstr ""
+
+#: ../inc/hooks.php:1158
+msgid "Left \"%s\""
+msgstr ""
+
+#: ../inc/hooks.php:1165
+msgid "This message was deleted."
+msgstr ""
+
+#: ../inc/hooks.php:1231, ../inc/hooks.php:1319
+msgctxt "Messages list sub nav"
+msgid "Messages <span class=\"%s bp-better-messages-unread\">%s</span>"
+msgstr ""
+
+#: ../inc/hooks.php:1361, ../inc/hooks.php:1369
+msgid "Your membership does not allow to use messages"
+msgstr ""
+
+#: ../inc/hooks.php:1860
+msgid "You can start conversation only with 1 user per thread"
+msgstr ""
+
+#: ../inc/hooks.php:1890
+msgid "You were blocked by recipient"
+msgstr ""
+
+#: ../inc/hooks.php:2051
+msgid "You already have threads with %s"
+msgstr ""
+
+#: ../inc/hooks.php:2076
+msgid "%s allows only friends to message him"
+msgstr ""
+
+#: ../inc/hooks.php:2093, ../inc/hooks.php:2132
+msgctxt "Ultimate Member User Restriction"
+msgid "%s allows only friends to message him"
+msgstr ""
+
+#: ../inc/hooks.php:2107
+msgctxt "Ultimate Member User Restriction"
+msgid "%s allows only followers to message him"
+msgstr ""
+
+#: ../inc/hooks.php:2145
+msgid "%s not allow to message him"
+msgstr ""
+
+#. translators: do not remove {} brackets or translate its contents.
+#. translators: do not remove {} brackets or translate its contents.
+#: ../inc/install.php:18, ../inc/notifications.php:90
+msgid "[{{{site.name}}}] You have unread messages: {{subject}}"
+msgstr ""
+
+#. translators: do not remove {} brackets or translate its contents.
+#. translators: do not remove {} brackets or translate its contents.
+#: ../inc/install.php:20, ../inc/notifications.php:92
+msgid ""
+"You have unread messages: &quot;{{subject}}&quot;\n"
+"\n"
+"{{{messages.html}}}\n"
+"\n"
+"<a href=\"{{{thread.url}}}\">Go to the discussion</a> to reply or catch up on the conversation."
+msgstr ""
+
+#. translators: do not remove {} brackets or translate its contents.
+#. translators: do not remove {} brackets or translate its contents.
+#: ../inc/install.php:22, ../inc/notifications.php:94
+msgid ""
+"You have unread messages: \"{{subject}}\"\n"
+"\n"
+"{{messages.raw}}\n"
+"\n"
+"Go to the discussion to reply or catch up on the conversation: {{{thread.url}}}"
+msgstr ""
+
+#: ../inc/install.php:26, ../inc/notifications.php:98
+msgid "A member has unread private messages."
+msgstr ""
+
+#: ../inc/mini.php:39, ../inc/mini.php:37, ../inc/strings.php:27
+msgid "Minimize thread"
+msgstr ""
+
+#: ../inc/notifications.php:368
+msgid "%s wrote:"
+msgstr ""
+
+#: ../inc/notifications.php:431
+msgctxt "Email notification header for non BuddyPress websites"
+msgid "You have unread messages:"
+msgstr ""
+
+#: ../inc/notifications.php:429
+msgctxt "Email notification header for non BuddyPress websites"
+msgid "You have unread messages: \"%s\""
+msgstr ""
+
+#: ../inc/notifications.php:549
+msgid "Hi %s,"
+msgstr ""
+
+#: ../inc/notifications.php:552
+msgid "<a href=\"%s\">Go to the discussion</a> to reply or catch up on the conversation."
+msgstr ""
+
+#: ../inc/options.php:58
+msgid "Your limit for replies is exceeded"
+msgstr ""
+
+#: ../inc/options.php:60
+msgid "You are not allowed to start new threads"
+msgstr ""
+
+#: ../inc/options.php:61
+msgid "Your message contains a word from blacklist"
+msgstr ""
+
+#: ../inc/options.php:64
+msgid "You are not allowed to reply"
+msgstr ""
+
+#: ../inc/options.php:66
+msgid "You are not allowed to make a call"
+msgstr ""
+
+#: ../inc/options.php:68
+msgid "Message hidden"
+msgstr ""
+
+#: ../inc/options.php:153
+msgctxt "Settings page"
+msgid "Not enough points to send a new message."
+msgstr ""
+
+#: ../inc/options.php:155
+msgctxt "Settings page"
+msgid "Not enough points to start a new conversation."
+msgstr ""
+
+#: ../inc/options.php:239, ../views/layout-settings.php:286
+msgid "Better Messages"
+msgstr ""
+
+#: ../inc/options.php:260, ../views/layout-moderation.php:12, ../views/layout-viewer.php:38
+msgid "Messages Viewer"
+msgstr ""
+
+#: ../inc/premium.php:172
+msgid "New friendship request"
+msgstr ""
+
+#: ../inc/premium.php:187
+msgid "Friendship request accepted"
+msgstr ""
+
+#: ../inc/premium.php:721, ../inc/strings.php:3
+msgid "New message from %s"
+msgstr ""
+
+#: ../inc/premium.php:722, ../inc/strings.php:4
+msgid "You have new message from %s"
+msgstr ""
+
+#: ../inc/premium.php:1099, ../inc/strings.php:30
+msgctxt "User status"
+msgid "Online"
+msgstr ""
+
+#: ../inc/premium.php:1104, ../inc/strings.php:29
+msgctxt "User status"
+msgid "Away"
+msgstr ""
+
+#: ../inc/premium.php:1109, ../inc/strings.php:28
+msgctxt "User status"
+msgid "Do not disturb"
+msgstr ""
+
+#: ../inc/premium.php:1110
+msgctxt "User status description"
+msgid "You will not receive sound notifications"
+msgstr ""
+
+#: ../inc/strings.php:16
+msgid "Switch Camera"
+msgstr ""
+
+#: ../inc/strings.php:17
+msgid "Disable Video"
+msgstr ""
+
+#: ../inc/strings.php:18
+msgid "Enable Video"
+msgstr ""
+
+#: ../inc/strings.php:21
+msgid "Cancel"
+msgstr ""
+
+#: ../inc/strings.php:24
+msgid "End call"
+msgstr ""
+
+#: ../inc/strings.php:34
+msgid "Record Voice Message"
+msgstr ""
+
+#: ../views/layout-bulk.php:15
+msgid "Reports"
+msgstr ""
+
+#: ../views/layout-bulk.php:75
+msgid "No reports yet."
+msgstr ""
+
+#: ../views/layout-bulk.php:30, ../views/layout-bulk.php:151, ../views/layout-new.php:87
+msgid "Subject"
+msgstr ""
+
+#: ../views/layout-bulk.php:31, ../views/layout-viewer.php:43
+msgid "Sender"
+msgstr ""
+
+#: ../views/layout-bulk.php:33
+msgid "Read"
+msgstr ""
+
+#: ../views/layout-bulk.php:34
+msgid "Date"
+msgstr ""
+
+#: ../views/layout-bulk.php:35
+msgid "Disable Reply"
+msgstr ""
+
+#: ../views/layout-bulk.php:86
+msgid "Send To:"
+msgstr ""
+
+#: ../views/layout-bulk.php:91
+msgid "All Users"
+msgstr ""
+
+#: ../views/layout-bulk.php:95
+msgid "Users with Role"
+msgstr ""
+
+#: ../views/layout-bulk.php:113
+msgid "Group"
+msgstr ""
+
+#: ../views/layout-bulk.php:125
+msgid "Users selected"
+msgstr ""
+
+#: ../views/layout-bulk.php:129
+msgid "Options"
+msgstr ""
+
+#: ../views/layout-bulk.php:134
+msgid "Disallow reply to this message"
+msgstr ""
+
+#: ../views/layout-bulk.php:138
+msgid "Hide this thread from your thread list"
+msgstr ""
+
+#: ../views/layout-bulk.php:139
+msgid "If you are messaging to many users better to hide new threads from your thread list."
+msgstr ""
+
+#: ../views/layout-bulk.php:143
+msgid "Add all recipients to one thread"
+msgstr ""
+
+#: ../views/layout-bulk.php:158, ../views/layout-new.php:98, ../views/layout-settings.php:1417, ../views/layout-viewer.php:44
+msgid "Message"
+msgstr ""
+
+#: ../views/layout-bulk.php:160, ../views/layout-chat-room.php:189, ../views/layout-group.php:178, ../views/layout-new.php:101, ../views/layout-peepso-group.php:191, ../views/layout-thread.php:267, ../views/layout-um-group.php:193
+msgid "Write your message"
+msgstr ""
+
+#: ../views/layout-bulk.php:169
+msgid "Start Messaging"
+msgstr ""
+
+#: ../views/layout-bulk.php:298
+msgid "Users can`t reply to this message anymore."
+msgstr ""
+
+#: ../views/layout-bulk.php:300
+msgid "Users can reply to this message now."
+msgstr ""
+
+#: ../views/layout-bulk.php:313
+msgid "Are you sure you want to delete %d thread(s) and report?"
+msgstr ""
+
+#: ../views/layout-chat-room.php:99, ../views/layout-group.php:94, ../views/layout-peepso-group.php:104, ../views/layout-search.php:15, ../views/layout-starred.php:14, ../views/layout-thread.php:82, ../views/layout-um-group.php:106, ../views/layout-user-settings.php:22
+msgid "Back"
+msgstr ""
+
+#: ../views/layout-chat-room.php:121, ../views/layout-group.php:116, ../views/layout-peepso-group.php:129, ../views/layout-thread.php:119, ../views/layout-um-group.php:131
+msgid "More"
+msgstr ""
+
+#: ../views/layout-chat-room.php:170, ../views/layout-group.php:159, ../views/layout-peepso-group.php:172, ../views/layout-thread.php:248, ../views/layout-um-group.php:174
+msgid "Write the message to start conversation"
+msgstr ""
+
+#: ../views/layout-chat-room.php:165
+msgid "Only participants can see this chat room messages"
+msgstr ""
+
+#: ../views/layout-chat-room.php:194, ../views/layout-group.php:183, ../views/layout-new.php:109, ../views/layout-peepso-group.php:196, ../views/layout-thread.php:272, ../views/layout-um-group.php:198
+msgid "Send Message"
+msgstr ""
+
+#: ../views/layout-index.php:203, ../views/layout-index.php:125
+msgid "No messages yet!"
+msgstr ""
+
+#: ../views/layout-index.php:205, ../views/layout-index.php:127, ../views/layout-index.php:139
+msgid "Start new conversation"
+msgstr ""
+
+#: ../views/layout-index.php:136
+msgid "Select thread to display messages"
+msgstr ""
+
+#: ../views/layout-index.php:138
+msgid "or"
+msgstr ""
+
+#: ../views/layout-new.php:12
+msgid "Mass Message"
+msgstr ""
+
+#: ../views/layout-new.php:21
+msgctxt "New threads screen"
+msgid "Start new conversation"
+msgstr ""
+
+#: ../views/layout-new.php:63
+msgctxt "New threads screen"
+msgid "Add <strong>%s</strong> to new conversation"
+msgstr ""
+
+#: ../views/layout-new.php:77
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#: ../views/layout-search.php:39
+msgid "No messages found"
+msgstr ""
+
+#: ../views/layout-settings.php:288
+msgid "General"
+msgstr ""
+
+#: ../views/layout-settings.php:290
+msgid "Integrations"
+msgstr ""
+
+#: ../views/layout-settings.php:291
+msgid "Mini Widgets"
+msgstr ""
+
+#: ../views/layout-settings.php:292
+msgid "Mobile"
+msgstr ""
+
+#: ../views/layout-settings.php:293
+msgid "Attachments"
+msgstr ""
+
+#: ../views/layout-settings.php:294, ../views/layout-user-settings.php:50
+msgid "Notifications"
+msgstr ""
+
+#: ../views/layout-settings.php:295
+msgid "Restrictions"
+msgstr ""
+
+#: ../views/layout-settings.php:296
+msgid "Sounds"
+msgstr ""
+
+#: ../views/layout-settings.php:297
+msgid "Calls"
+msgstr ""
+
+#: ../views/layout-settings.php:298
+msgid "Group Calls"
+msgstr ""
+
+#: ../views/layout-settings.php:299
+msgid "Customization"
+msgstr ""
+
+#: ../views/layout-settings.php:301
+msgid "Shortcodes"
+msgstr ""
+
+#: ../views/layout-settings.php:302
+msgid "Export/Import"
+msgstr ""
+
+#: ../views/layout-settings.php:313
+msgid "Better Messages Location"
+msgstr ""
+
+#: ../views/layout-settings.php:314
+msgid "Choose the page where Better Messages will be located"
+msgstr ""
+
+#: ../views/layout-settings.php:332
+msgid "Select page"
+msgstr ""
+
+#: ../views/layout-settings.php:337
+msgid "Show in Ultimate Member profile"
+msgstr ""
+
+#: ../views/layout-settings.php:335
+msgid "Show in BuddyPress profile"
+msgstr ""
+
+#: ../views/layout-settings.php:388
+msgid "You can use <code>%s</code> shortcode to place chat in specific place of your selected page, if you not used this shortcode all page content will be replaced."
+msgstr ""
+
+#: ../views/layout-settings.php:393, ../views/layout-settings.php:399
+msgid "Refresh mechanism"
+msgstr ""
+
+#: ../views/layout-settings.php:400
+msgid "AJAX"
+msgstr ""
+
+#: ../views/layout-settings.php:404
+msgid "WebSocket"
+msgstr ""
+
+#: ../views/layout-settings.php:415, ../views/layout-settings.php:421, ../views/layout-settings.php:436, ../views/layout-settings.php:530
+msgid "Thread Refresh Interval"
+msgstr ""
+
+#: ../views/layout-settings.php:430
+msgid "Site Refresh Interval"
+msgstr ""
+
+#: ../views/layout-settings.php:431
+msgid "Ajax check interval on other sites pages"
+msgstr ""
+
+#: ../views/layout-settings.php:444
+msgid "Enable Encryption"
+msgstr ""
+
+#: ../views/layout-settings.php:445
+msgid "Encrypts all sensitive content before transfer to websocket server and decrypt on client site with special secret keys not known by our side."
+msgstr ""
+
+#: ../views/layout-settings.php:499
+msgid "Modern messages roundness"
+msgstr ""
+
+#: ../views/layout-settings.php:500
+msgid "Bigger value will result to more rounded borders"
+msgstr ""
+
+#: ../views/layout-settings.php:509
+msgid "User Statuses"
+msgstr ""
+
+#: ../views/layout-settings.php:510
+msgid "Allow users to set their status: Online, Away or Do not disturb"
+msgstr ""
+
+#: ../views/layout-settings.php:524
+msgid "Number of Messages"
+msgstr ""
+
+#: ../views/layout-settings.php:525
+msgid "Number of Messages per request on user open thread or loading old messages through ajax"
+msgstr ""
+
+#: ../views/layout-settings.php:537
+msgid "Combined View"
+msgstr ""
+
+#: ../views/layout-settings.php:538
+msgid "Always show threads list on left side of thread"
+msgstr ""
+
+#: ../views/layout-settings.php:547
+msgid "Full Screen Mode"
+msgstr ""
+
+#: ../views/layout-settings.php:548
+msgid "Show full screen button for desktop browsers"
+msgstr ""
+
+#: ../views/layout-settings.php:557
+msgid "Show My Profile Button"
+msgstr ""
+
+#: ../views/layout-settings.php:558
+msgid "Show my profile button at the messages bottom part"
+msgstr ""
+
+#: ../views/layout-settings.php:567
+msgid "Show Private Message Link at Members List"
+msgstr ""
+
+#: ../views/layout-settings.php:576
+msgid "Enable Messages Viewer"
+msgstr ""
+
+#: ../views/layout-settings.php:577
+msgid "Enable messages viewer page in WordPress admin"
+msgstr ""
+
+#: ../views/layout-settings.php:586
+msgid "Enable Smart Cache"
+msgstr ""
+
+#: ../views/layout-settings.php:587
+msgid "Enable smart cache of some plugin logic that shouldnt be noticed by users, but improve response times"
+msgstr ""
+
+#: ../views/layout-settings.php:623
+msgid "This website has domain name <b>%s</b>"
+msgstr ""
+
+#: ../views/layout-settings.php:624
+msgid "Double-checking if WebSocket server know about this domain and sync is fine"
+msgstr ""
+
+#: ../views/layout-settings.php:636
+msgid "All good, WebSocket server know about this domain, all should be working good."
+msgstr ""
+
+#: ../views/layout-settings.php:640
+msgid "WebSocket server dont know about this domain, realtime functionality will not work. If you just activated the license at this website need to wait some time for system to sync your license with websocket servers. It usually takes up to 15 minutes, but in some cases can take longer."
+msgstr ""
+
+#: ../views/layout-settings.php:618
+msgid "Seems like this website has active WebSocket License, but you are still using free version of plugin. Try to download and install plugin from <a href=\"%s\">your account</a> page."
+msgstr ""
+
+#: ../views/layout-settings.php:612
+msgid "This website using WebSocket plugin version, but has no active license attached."
+msgstr ""
+
+#: ../views/layout-settings.php:613
+msgid "If you have license and it must be attached to this website, try to press sync button in <a href=\"%s\">your account</a>."
+msgstr ""
+
+#: ../views/layout-settings.php:689
+msgid "For the best performance disable WP Cron and schedule it with your server scheduler."
+msgstr ""
+
+#: ../views/layout-settings.php:690
+msgid "How to Disable WP-Cron for Faster Performance"
+msgstr ""
+
+#: ../views/layout-settings.php:691
+msgid "This message will disappear when WP Cron is disabled."
+msgstr ""
+
+#: ../views/layout-settings.php:703
+msgid "Easy Start Thread"
+msgstr ""
+
+#: ../views/layout-settings.php:704
+msgid "When clicking the Private Message button user will be immediately redirected to new thread instead of new message screen"
+msgstr ""
+
+#: ../views/layout-settings.php:712
+msgid "Enable replies to messages"
+msgstr ""
+
+#: ../views/layout-settings.php:713
+msgid "Users will be able to select messages to reply"
+msgstr ""
+
+#: ../views/layout-settings.php:721
+msgctxt "Settings page"
+msgid "Enable reactions to messages"
+msgstr ""
+
+#: ../views/layout-settings.php:722
+msgctxt "Settings page"
+msgid "Users will be able to react messages with emojis"
+msgstr ""
+
+#: ../views/layout-settings.php:723
+msgctxt "Settings page"
+msgid "You can select reactions in Integrations -> Emojies Tab"
+msgstr ""
+
+#: ../views/layout-settings.php:731
+msgid "Allow users to edit messages"
+msgstr ""
+
+#: ../views/layout-settings.php:732
+msgid "Allow users to edit their messages only"
+msgstr ""
+
+#: ../views/layout-settings.php:740
+msgid "Allow users to delete messages"
+msgstr ""
+
+#: ../views/layout-settings.php:741
+msgid "Allow users to delete their messages only"
+msgstr ""
+
+#: ../views/layout-settings.php:749
+msgid "Disable Threads with multiple participants"
+msgstr ""
+
+#: ../views/layout-settings.php:750
+msgid "Don`t allow to create threads with multiple participants"
+msgstr ""
+
+#: ../views/layout-settings.php:758
+msgctxt "Settings page"
+msgid "Allow invite more participants to private threads"
+msgstr ""
+
+#: ../views/layout-settings.php:759
+msgctxt "Settings page"
+msgid "Allow users to invite more participants to private threads converting them to group conversation"
+msgstr ""
+
+#: ../views/layout-settings.php:760
+msgctxt "Settings page"
+msgid "(admins can add more participants even if this option is disabled)"
+msgstr ""
+
+#: ../views/layout-settings.php:768
+msgid "Allow users to leave threads with multiple participants"
+msgstr ""
+
+#: ../views/layout-settings.php:769
+msgid "Allow users to leave threads with multiple participants (creator can`t leave thread he started)"
+msgstr ""
+
+#: ../views/layout-settings.php:777
+msgid "Disable Multiple Threads"
+msgstr ""
+
+#: ../views/layout-settings.php:778
+msgid "This will prevent users from starting few threads with same user"
+msgstr ""
+
+#: ../views/layout-settings.php:786
+msgid "Auto Redirect to Existing Thread"
+msgstr ""
+
+#: ../views/layout-settings.php:787
+msgid "This will redirect user to existing thread with another user if they already have thread and Disable Multiple Threads is enabled"
+msgstr ""
+
+#: ../views/layout-settings.php:796
+msgid "Messages Status"
+msgstr ""
+
+#: ../views/layout-settings.php:797
+msgid "Enable messages status functionality"
+msgstr ""
+
+#: ../views/layout-settings.php:810
+msgid "Disable users search"
+msgstr ""
+
+#: ../views/layout-settings.php:811
+msgid "Disables suggestions when starting new thread"
+msgstr ""
+
+#: ../views/layout-settings.php:819
+msgctxt "Settings page"
+msgid "Users suggestions"
+msgstr ""
+
+#: ../views/layout-settings.php:820
+msgctxt "Settings page"
+msgid "Enable users suggestions on new threads screen for the fast selection of users"
+msgstr ""
+
+#: ../views/layout-settings.php:821
+msgctxt "Settings page"
+msgid "Friends are listed first, after that listed lastly active users"
+msgstr ""
+
+#: ../views/layout-settings.php:829
+msgid "Search all users"
+msgstr ""
+
+#: ../views/layout-settings.php:830
+msgid "Enable search among all users when starting new thread"
+msgstr ""
+
+#: ../views/layout-settings.php:838
+msgid "Enable oEmbed for popular services"
+msgstr ""
+
+#: ../views/layout-settings.php:839
+msgid "oEmbed YouTube, Vimeo, VideoPress, Flickr, DailyMotion, Kickstarter, Meetup.com, Mixcloud, SoundCloud and more"
+msgstr ""
+
+#: ../views/layout-settings.php:848
+msgid "Enable nice links"
+msgstr ""
+
+#: ../views/layout-settings.php:849
+msgid "Nice links finds link in user messages, fetching title and description if available and shows it at the bottom of message"
+msgstr ""
+
+#: ../views/layout-settings.php:858
+msgid "Disable Subject"
+msgstr ""
+
+#: ../views/layout-settings.php:859
+msgid "Disable Subject when starting new thread"
+msgstr ""
+
+#: ../views/layout-settings.php:868
+msgid "Disable Send on Enter for Desktop devices"
+msgstr ""
+
+#: ../views/layout-settings.php:877
+msgid "Disable additional security check when deleting thread"
+msgstr ""
+
+#: ../views/layout-settings.php:878
+msgid "Check this if you have issue with thread deleting"
+msgstr ""
+
+#: ../views/layout-settings.php:894
+msgid "Mini Threads"
+msgstr ""
+
+#: ../views/layout-settings.php:895
+msgid "Enables mini threads list widget fixed to the bottom of browser window"
+msgstr ""
+
+#: ../views/layout-settings.php:899, ../views/layout-settings.php:914
+msgid "Small Chats"
+msgstr ""
+
+#: ../views/layout-settings.php:909
+msgid "Mini Chats"
+msgstr ""
+
+#: ../views/layout-settings.php:910
+msgid "Enables mini chats fixed to the bottom of browser window"
+msgstr ""
+
+#: ../views/layout-settings.php:926
+msgid "Add close button to Mini Threads & Friends Widget"
+msgstr ""
+
+#: ../views/layout-settings.php:937
+msgctxt "Settings page"
+msgid "Height of Mini Chats"
+msgstr ""
+
+#: ../views/layout-settings.php:938, ../views/layout-settings.php:947, ../views/layout-settings.php:968, ../views/layout-settings.php:978
+msgctxt "Settings page"
+msgid "Measured in pixels"
+msgstr ""
+
+#: ../views/layout-settings.php:946
+msgctxt "Settings page"
+msgid "Width of Mini Chats"
+msgstr ""
+
+#: ../views/layout-settings.php:957
+msgctxt "Settings page"
+msgid "Indent of Mini Widgets"
+msgstr ""
+
+#: ../views/layout-settings.php:958
+msgctxt "Settings page"
+msgid "Indent of mini widgets from the window side in pixels."
+msgstr ""
+
+#: ../views/layout-settings.php:967
+msgctxt "Settings page"
+msgid "Height of Mini Widgets"
+msgstr ""
+
+#: ../views/layout-settings.php:977
+msgctxt "Settings page"
+msgid "Width of Mini Widgets"
+msgstr ""
+
+#: ../views/layout-settings.php:987
+msgid "Audio Call button in mini chats"
+msgstr ""
+
+#: ../views/layout-settings.php:988
+msgid "Add audio call button to the mini chat"
+msgstr ""
+
+#: ../views/layout-settings.php:998
+msgid "Video Call button in mini chats"
+msgstr ""
+
+#: ../views/layout-settings.php:999
+msgid "Add video call button to the mini chat"
+msgstr ""
+
+#: ../views/layout-settings.php:1016
+msgid "Enable Mobile Chat at Any Page"
+msgstr ""
+
+#: ../views/layout-settings.php:1017
+msgid "Adds button fixed to the right corner on mobile devices, on click fully featured messaging will appear in full screen mode"
+msgstr ""
+
+#: ../views/layout-settings.php:1026
+msgid "Mobile Chat button position"
+msgstr ""
+
+#: ../views/layout-settings.php:1032
+msgid "Left"
+msgstr ""
+
+#: ../views/layout-settings.php:1036
+msgid "Right"
+msgstr ""
+
+#: ../views/layout-settings.php:1045
+msgid "Mobile Chat button margin from bottom (px)"
+msgstr ""
+
+#: ../views/layout-settings.php:1054
+msgid "Dont show Mobile Chat button"
+msgstr ""
+
+#: ../views/layout-settings.php:1055
+msgid "Dont show mobile button to following roles"
+msgstr ""
+
+#: ../views/layout-settings.php:1068
+msgid "Enable Full Screen Mode for Touch Screens"
+msgstr ""
+
+#: ../views/layout-settings.php:1072, ../views/layout-settings.php:1083
+msgid "Recommended"
+msgstr ""
+
+#: ../views/layout-settings.php:1079
+msgid "Auto open full screen mode when opening messages page"
+msgstr ""
+
+#: ../views/layout-settings.php:1089
+msgid "Disable Send on Enter for Touch Screens"
+msgstr ""
+
+#: ../views/layout-settings.php:1098
+msgid "Disable Tap to Open for Touch Screens"
+msgstr ""
+
+#: ../views/layout-settings.php:1107
+msgctxt "Settings page"
+msgid "Hide Possible Overlaying Elements"
+msgstr ""
+
+#: ../views/layout-settings.php:1108
+msgctxt "Settings page"
+msgid "If in mobile view something overlaying the messages enable this option"
+msgstr ""
+
+#: ../views/layout-settings.php:1125
+msgid "Enable files"
+msgstr ""
+
+#: ../views/layout-settings.php:1126
+msgid "Enable file sharing between users"
+msgstr ""
+
+#: ../views/layout-settings.php:1134
+msgid "Hide Attachments"
+msgstr ""
+
+#: ../views/layout-settings.php:1135
+msgid "Hides attachments from media gallery"
+msgstr ""
+
+#: ../views/layout-settings.php:1143
+msgid "Random file names"
+msgstr ""
+
+#: ../views/layout-settings.php:1144
+msgid "Changes file names to random to improve users privacy"
+msgstr ""
+
+#: ../views/layout-settings.php:1152
+msgid "Delete attachment after"
+msgstr ""
+
+#: ../views/layout-settings.php:1160
+msgid "Max attachment size"
+msgstr ""
+
+#: ../views/layout-settings.php:1168, ../views/layout-settings.php:1173
+msgid "Allowed formats"
+msgstr ""
+
+#: ../views/layout-settings.php:1200
+msgid "Title notifications"
+msgstr ""
+
+#: ../views/layout-settings.php:1201
+msgid "Show unread threads number in website title (browser tab)"
+msgstr ""
+
+#: ../views/layout-settings.php:1209
+msgid "Mute Threads"
+msgstr ""
+
+#: ../views/layout-settings.php:1210
+msgid "When enabled users will be able to mute threads"
+msgstr ""
+
+#: ../views/layout-settings.php:1218
+msgid "Replace Standard BuddyPress Email Notifications"
+msgstr ""
+
+#: ../views/layout-settings.php:1219
+msgid "When enabled instead of standard notification on each new message, plugin will group messages by thread and send it every 15 minutes or other specified in this settings interval with cron job."
+msgstr ""
+
+#: ../views/layout-settings.php:1220
+msgctxt "Settings page"
+msgid "Recommended - When using with BuddyPress its huge performance impact and UX issue to use standard Email Notifications."
+msgstr ""
+
+#: ../views/layout-settings.php:1229
+msgctxt "Settings page"
+msgid "Auto create BuddyPress Email template if its missing"
+msgstr ""
+
+#: ../views/layout-settings.php:1231
+msgctxt "Settings page"
+msgid "You need to disable it only if you modified email template and plugin try to replace it"
+msgstr ""
+
+#: ../views/layout-settings.php:1241
+msgid "Send notifications every (minutes)"
+msgstr ""
+
+#: ../views/layout-settings.php:1242, ../views/layout-settings.php:1382
+msgid "Set to 0 to disable"
+msgstr ""
+
+#: ../views/layout-settings.php:1251
+msgctxt "Settings page"
+msgid "Send email after user is not online for (minutes)"
+msgstr ""
+
+#: ../views/layout-settings.php:1260
+msgid "Stop messages notifications to be added to BuddyPress Notifications Bell"
+msgstr ""
+
+#: ../views/layout-settings.php:1261
+msgid "This will work only with setting above"
+msgstr ""
+
+#: ../views/layout-settings.php:1269
+msgid "Enable Browser Push Notifications"
+msgstr ""
+
+#: ../views/layout-settings.php:1270
+msgid "Allow users to enable web push notifications, so they can receive messages even with closed website"
+msgstr ""
+
+#: ../views/layout-settings.php:1271
+msgid "Also adds notifications, when user has website opened in other tab"
+msgstr ""
+
+#: ../views/layout-settings.php:1272
+msgid "Supported in all major browsers like: Chrome, Opera, Firefox, IE, Edge and others"
+msgstr ""
+
+#: ../views/layout-settings.php:1282
+msgid "Disable new messages onsite notifications"
+msgstr ""
+
+#: ../views/layout-settings.php:1291
+msgid "Additional real time on site notifications"
+msgstr ""
+
+#: ../views/layout-settings.php:1292
+msgid "How it works?"
+msgstr ""
+
+#: ../views/layout-settings.php:1305
+msgid "BuddyPress Friends"
+msgstr ""
+
+#: ../views/layout-settings.php:1309
+msgid "BuddyPress Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:1325
+msgid "Allow users to restrict who can start conversations with them"
+msgstr ""
+
+#: ../views/layout-settings.php:1326
+msgid "Allow users to select who start conversations with them in plugin user settings"
+msgstr ""
+
+#: ../views/layout-settings.php:1335
+msgctxt "Settings page"
+msgid "Allow users to block other users"
+msgstr ""
+
+#: ../views/layout-settings.php:1336
+msgctxt "Settings page"
+msgid "Allow users to block other users from sending them messages (admins cant be blocked)"
+msgstr ""
+
+#: ../views/layout-settings.php:1345
+msgctxt "Settings page"
+msgid "Restrict user role from blocking other users"
+msgstr ""
+
+#: ../views/layout-settings.php:1346
+msgctxt "Settings page"
+msgid "Selected roles which will not be able to block other users if previous option is enabled"
+msgstr ""
+
+#: ../views/layout-settings.php:1358
+msgctxt "Settings page"
+msgid "Roles which can't block other users"
+msgstr ""
+
+#: ../views/layout-settings.php:1366
+msgctxt "Settings page"
+msgid "Roles which can't be blocked by other users"
+msgstr ""
+
+#: ../views/layout-settings.php:1380
+msgid "Rate limiting new threads (seconds)"
+msgstr ""
+
+#: ../views/layout-settings.php:1381
+msgid "Limit new threads creation to prevent users spam"
+msgstr ""
+
+#: ../views/layout-settings.php:1391
+msgid "Restrict users from deleting threads"
+msgstr ""
+
+#: ../views/layout-settings.php:1392
+msgid "Disable users from being able to delete thread (admin always can delete)"
+msgstr ""
+
+#: ../views/layout-settings.php:1401
+msgid "Role to Role restrictions"
+msgstr ""
+
+#: ../views/layout-settings.php:1402
+msgid "Disable users from being able to write each other based on user role"
+msgstr ""
+
+#: ../views/layout-settings.php:1409
+msgid "No role block rules added"
+msgstr ""
+
+#: ../views/layout-settings.php:1415
+msgid "From"
+msgstr ""
+
+#: ../views/layout-settings.php:1416
+msgid "To"
+msgstr ""
+
+#: ../views/layout-settings.php:1448
+msgid "Add new rule"
+msgstr ""
+
+#: ../views/layout-settings.php:1468
+msgid "You cannot send messages to this user"
+msgstr ""
+
+#: ../views/layout-settings.php:1519
+msgid "Rate limiting for new replies"
+msgstr ""
+
+#: ../views/layout-settings.php:1520
+msgid "Limit max amount of replies within timeframe"
+msgstr ""
+
+#: ../views/layout-settings.php:1527
+msgid "Role"
+msgstr ""
+
+#: ../views/layout-settings.php:1528
+msgid "Limitation (0 to disable)"
+msgstr ""
+
+#: ../views/layout-settings.php:1545
+msgid "messages per"
+msgstr ""
+
+#: ../views/layout-settings.php:1547
+msgid "Hour"
+msgstr ""
+
+#: ../views/layout-settings.php:1548
+msgid "Day"
+msgstr ""
+
+#: ../views/layout-settings.php:1561
+msgid "Rate limiting for new replies message"
+msgstr ""
+
+#: ../views/layout-settings.php:1570
+msgid "Restrict the creation of a new thread"
+msgstr ""
+
+#: ../views/layout-settings.php:1571
+msgid "Selected roles will not be allowed to start new threads"
+msgstr ""
+
+#: ../views/layout-settings.php:1584
+msgid "Restrict the creation of a new thread message"
+msgstr ""
+
+#: ../views/layout-settings.php:1593
+msgid "Remove new thread button for restricted users"
+msgstr ""
+
+#: ../views/layout-settings.php:1602
+msgid "Restrict new replies"
+msgstr ""
+
+#: ../views/layout-settings.php:1603
+msgid "Selected roles will not be allowed to reply"
+msgstr ""
+
+#: ../views/layout-settings.php:1615
+msgid "Restrict new replies message"
+msgstr ""
+
+#: ../views/layout-settings.php:1624
+msgid "Restrict from viewing message"
+msgstr ""
+
+#: ../views/layout-settings.php:1625
+msgid "Selected roles will see message configured below instead of real message"
+msgstr ""
+
+#: ../views/layout-settings.php:1637
+msgid "Restrict viewing message"
+msgstr ""
+
+#: ../views/layout-settings.php:1646
+msgid "Restrict from viewing mini widgets"
+msgstr ""
+
+#: ../views/layout-settings.php:1647
+msgid "Selected roles will not see selected widgets"
+msgstr ""
+
+#: ../views/layout-settings.php:1699
+msgid "Bad Words List"
+msgstr ""
+
+#: ../views/layout-settings.php:1700
+msgid "One word per line"
+msgstr ""
+
+#: ../views/layout-settings.php:1709
+msgid "Bad Words List message"
+msgstr ""
+
+#: ../views/layout-settings.php:1723
+msgid "Website must to have SSL certificate in order to audio and video calls work."
+msgstr ""
+
+#: ../views/layout-settings.php:1724
+msgid "This is security requirements by browsers. Contact your hosting company to enable SSL certificate at your website."
+msgstr ""
+
+#: ../views/layout-settings.php:1725
+msgid "This notice will be hidden when website will work via HTTPS"
+msgstr ""
+
+#: ../views/layout-settings.php:1733
+msgid "Enable Video Calls"
+msgstr ""
+
+#: ../views/layout-settings.php:1734
+msgid "Allow users to make video calls between each other"
+msgstr ""
+
+#: ../views/layout-settings.php:1735
+msgid "Video calls are possible only with websocket version, its using most secure and modern WebRTC technology to empower video chats."
+msgstr ""
+
+#: ../views/layout-settings.php:1744
+msgid "Enable Audio Calls"
+msgstr ""
+
+#: ../views/layout-settings.php:1745
+msgid "Allow users to make audio calls between each other"
+msgstr ""
+
+#: ../views/layout-settings.php:1746
+msgid "Audio calls are possible only with websocket version, its using most secure and modern WebRTC technology to empower audio calls."
+msgstr ""
+
+#: ../views/layout-settings.php:1755
+msgid "Revert Mute Voice & Hide Video icons"
+msgstr ""
+
+#: ../views/layout-settings.php:1756
+msgid "Makes mute and hide video icons to appear in reverse way"
+msgstr ""
+
+#: ../views/layout-settings.php:1765
+msgid "Call time limit before call marked as missed (seconds)"
+msgstr ""
+
+#: ../views/layout-settings.php:1770
+msgid "Call Request Time Limit"
+msgstr ""
+
+#: ../views/layout-settings.php:1780
+msgid "Missed call message when user was offline"
+msgstr ""
+
+#: ../views/layout-settings.php:1781
+msgid "Leaving message about missed call for user if user was offline at that moment."
+msgstr ""
+
+#: ../views/layout-settings.php:1790
+msgctxt "Settings page"
+msgid "Allow call even when user is offline"
+msgstr ""
+
+#: ../views/layout-settings.php:1800
+msgctxt "Settings page"
+msgid "Restrict calls"
+msgstr ""
+
+#: ../views/layout-settings.php:1801
+msgctxt "Settings page"
+msgid "Selected roles will not be allowed to call, but they will be able to receive calls still"
+msgstr ""
+
+#: ../views/layout-settings.php:1822
+msgid "Restrict call message"
+msgstr ""
+
+#: ../views/layout-settings.php:1847
+msgctxt "Settings page"
+msgid "Group Video Chat"
+msgstr ""
+
+#: ../views/layout-settings.php:1848
+msgctxt "Settings page"
+msgid "Group audio chat allows to start high definition video & voice group chat up to 9 people per 1 conversation."
+msgstr ""
+
+#: ../views/layout-settings.php:1854
+msgctxt "Settings page"
+msgid "Enable Video Chat for Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:1855
+msgctxt "Settings page"
+msgid "Allow users to start group video chats in Group Chats"
+msgstr ""
+
+#: ../views/layout-settings.php:1864
+msgctxt "Settings page"
+msgid "Enable Video Chat for Threads"
+msgstr ""
+
+#: ../views/layout-settings.php:1865
+msgctxt "Settings page"
+msgid "Allow users to start group video chats in threads with many participants"
+msgstr ""
+
+#: ../views/layout-settings.php:1875
+msgctxt "Settings page"
+msgid "Enable Video Chat for Chat Rooms"
+msgstr ""
+
+#: ../views/layout-settings.php:1876
+msgctxt "Settings page"
+msgid "Allow users to start group video chats in chat rooms"
+msgstr ""
+
+#: ../views/layout-settings.php:1886
+msgctxt "Settings page"
+msgid "Group Audio Chat"
+msgstr ""
+
+#: ../views/layout-settings.php:1887
+msgctxt "Settings page"
+msgid "Group audio chat allowing your user to start high definition voice only group chat up to 50 people per 1 conversation."
+msgstr ""
+
+#: ../views/layout-settings.php:1894
+msgctxt "Settings page"
+msgid "Enable Audio Chat for Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:1895
+msgctxt "Settings page"
+msgid "Allow users to start group audio chats in Group Chats"
+msgstr ""
+
+#: ../views/layout-settings.php:1904
+msgctxt "Settings page"
+msgid "Enable Audio Chat for Threads"
+msgstr ""
+
+#: ../views/layout-settings.php:1905
+msgctxt "Settings page"
+msgid "Allow users to start group audio chats in threads with many participants"
+msgstr ""
+
+#: ../views/layout-settings.php:1915
+msgctxt "Settings page"
+msgid "Enable Audio Chat for Chat Rooms"
+msgstr ""
+
+#: ../views/layout-settings.php:1916
+msgctxt "Settings page"
+msgid "Allow users to start group audio chats in chat rooms"
+msgstr ""
+
+#: ../views/layout-settings.php:1932
+msgid "General Color"
+msgstr ""
+
+#: ../views/layout-settings.php:1934
+msgid "Dark Mode"
+msgstr ""
+
+#: ../views/layout-settings.php:1943
+msgid "Block Scroll on Hover"
+msgstr ""
+
+#: ../views/layout-settings.php:1944
+msgid "When hovering messages container scroll of the site will be disabled to improve user experience while using messages"
+msgstr ""
+
+#: ../views/layout-settings.php:1953
+msgid "Fixed Header Height"
+msgstr ""
+
+#: ../views/layout-settings.php:1954
+msgid "If your website has fixed header specify its height in PX."
+msgstr ""
+
+#: ../views/layout-settings.php:1955
+msgid "This needed for correct scrolling in some cases."
+msgstr ""
+
+#: ../views/layout-settings.php:1964
+msgid "Min Height of Messages Container"
+msgstr ""
+
+#: ../views/layout-settings.php:1965
+msgid "Min Height of Messages Container in PX."
+msgstr ""
+
+#: ../views/layout-settings.php:1974
+msgid "Max Height of Messages Container"
+msgstr ""
+
+#: ../views/layout-settings.php:1975
+msgid "Max Height of Messages Container in PX."
+msgstr ""
+
+#: ../views/layout-settings.php:1984
+msgid "Side Threads Width"
+msgstr ""
+
+#: ../views/layout-settings.php:1985
+msgid "Side Threads Width when Combined View is enabled in PX."
+msgstr ""
+
+#: ../views/layout-settings.php:1995
+msgid "Allow user disable sound notifications in their user settings"
+msgstr ""
+
+#: ../views/layout-settings.php:2004
+msgid "Disable Search"
+msgstr ""
+
+#: ../views/layout-settings.php:2005
+msgid "Disables search functionality"
+msgstr ""
+
+#: ../views/layout-settings.php:2014
+msgid "Disable Favorite Messages"
+msgstr ""
+
+#: ../views/layout-settings.php:2015
+msgid "Disables favorite messages functionality"
+msgstr ""
+
+#: ../views/layout-settings.php:2024
+msgid "Disable User Settings"
+msgstr ""
+
+#: ../views/layout-settings.php:2025
+msgid "Disables settings button in the messages header"
+msgstr ""
+
+#: ../views/layout-settings.php:2034
+msgid "Disable New Threads Screen"
+msgstr ""
+
+#: ../views/layout-settings.php:2035
+msgid "Disables new thread button and screen (admin will always see it)"
+msgstr ""
+
+#: ../views/layout-settings.php:2056
+msgctxt "Settings page"
+msgid "BuddyPress & BuddyBoss"
+msgstr ""
+
+#: ../views/layout-settings.php:2057
+msgctxt "Settings page"
+msgid "Ultimate Member"
+msgstr ""
+
+#: ../views/layout-settings.php:2058
+msgctxt "Settings page"
+msgid "PeepSo"
+msgstr ""
+
+#: ../views/layout-settings.php:2059
+msgctxt "Settings page"
+msgid "MyCRED"
+msgstr ""
+
+#: ../views/layout-settings.php:2060
+msgctxt "Settings page"
+msgid "GIFs & Stickers"
+msgstr ""
+
+#: ../views/layout-settings.php:2061
+msgctxt "Settings page"
+msgid "bbPress"
+msgstr ""
+
+#: ../views/layout-settings.php:2062
+msgctxt "Settings page"
+msgid "Emojies"
+msgstr ""
+
+#: ../views/layout-settings.php:2068, ../views/layout-settings.php:2496, ../views/layout-settings.php:2738, ../views/layout-settings.php:3057
+msgctxt "Settings page"
+msgid "Website must to have %s plugin to be installed."
+msgstr ""
+
+#: ../views/layout-settings.php:2069
+msgctxt "Settings page"
+msgid "This notice will be hidden when PeepSo plugin is installed"
+msgstr ""
+
+#: ../views/layout-settings.php:2076
+msgctxt "Settings page"
+msgid "Enable PeepSo Header at Messages Page"
+msgstr ""
+
+#: ../views/layout-settings.php:2085, ../views/layout-settings.php:2513
+msgctxt "Settings page"
+msgid "Only Friends Mode"
+msgstr ""
+
+#: ../views/layout-settings.php:2086, ../views/layout-settings.php:2514
+msgctxt "Settings page"
+msgid "Allow only friends to send messages each other"
+msgstr ""
+
+#: ../views/layout-settings.php:2087, ../views/layout-settings.php:2139, ../views/layout-settings.php:2515, ../views/layout-settings.php:2566, ../views/layout-settings.php:2577
+msgctxt "Settings page"
+msgid "%s must be installed"
+msgstr ""
+
+#: ../views/layout-settings.php:2095
+msgctxt "Settings page"
+msgid "PeepSo Friends"
+msgstr ""
+
+#: ../views/layout-settings.php:2106, ../views/layout-settings.php:2178, ../views/layout-settings.php:2534, ../views/layout-settings.php:2616, ../views/layout-settings.php:2768, ../views/layout-settings.php:2829
+msgctxt "Settings page"
+msgid "Mini Widget"
+msgstr ""
+
+#: ../views/layout-settings.php:2108, ../views/layout-settings.php:2536, ../views/layout-settings.php:2770
+msgctxt "Settings page"
+msgid "Enables mini friends list widget fixed to the bottom of browser window"
+msgstr ""
+
+#: ../views/layout-settings.php:2116, ../views/layout-settings.php:2188, ../views/layout-settings.php:2544, ../views/layout-settings.php:2626, ../views/layout-settings.php:2778, ../views/layout-settings.php:2838
+msgctxt "Settings page"
+msgid "Combined View"
+msgstr ""
+
+#: ../views/layout-settings.php:2117, ../views/layout-settings.php:2545, ../views/layout-settings.php:2779
+msgctxt "Settings page"
+msgid "Shows Friends in left column of Combined view"
+msgstr ""
+
+#: ../views/layout-settings.php:2125, ../views/layout-settings.php:2197, ../views/layout-settings.php:2553, ../views/layout-settings.php:2635, ../views/layout-settings.php:2787, ../views/layout-settings.php:2847
+msgctxt "Settings page"
+msgid "Mobile View"
+msgstr ""
+
+#: ../views/layout-settings.php:2126, ../views/layout-settings.php:2554, ../views/layout-settings.php:2788
+msgctxt "Settings page"
+msgid "Shows Friends as tab at bottom of Mobile View"
+msgstr ""
+
+#: ../views/layout-settings.php:2137
+msgctxt "Settings page"
+msgid "Enable Messages for PeepSo Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2138
+msgctxt "Settings page"
+msgid "Enable messages for PeepSo groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2148
+msgctxt "Settings page"
+msgid "Enable file uploading in PeepSo Groups Messages"
+msgstr ""
+
+#: ../views/layout-settings.php:2157
+msgctxt "Settings page"
+msgid "Enable Email Notifications for PeepSo Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2158, ../views/layout-settings.php:2596
+msgctxt "Settings page"
+msgid "When enabled users will receive email notifications for Group Chats"
+msgstr ""
+
+#: ../views/layout-settings.php:2167
+msgctxt "Settings page"
+msgid "PeepSo Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2180, ../views/layout-settings.php:2618
+msgctxt "Settings page"
+msgid "Enables mini groups list widget fixed to the bottom of browser window"
+msgstr ""
+
+#: ../views/layout-settings.php:2189, ../views/layout-settings.php:2627, ../views/layout-settings.php:2839
+msgctxt "Settings page"
+msgid "Shows Groups in left column of Combined view"
+msgstr ""
+
+#: ../views/layout-settings.php:2198, ../views/layout-settings.php:2636, ../views/layout-settings.php:2848
+msgctxt "Settings page"
+msgid "Shows Groups as tab at bottom of Mobile View"
+msgstr ""
+
+#: ../views/layout-settings.php:2210
+msgctxt "Settings page"
+msgid "Audio Call button in user profile"
+msgstr ""
+
+#: ../views/layout-settings.php:2211
+msgctxt "Settings page"
+msgid "Add audio call button to user profile"
+msgstr ""
+
+#: ../views/layout-settings.php:2221
+msgctxt "Settings page"
+msgid "Video Call button in user profile"
+msgstr ""
+
+#: ../views/layout-settings.php:2222
+msgctxt "Settings page"
+msgid "Add video call button to user profile"
+msgstr ""
+
+#: ../views/layout-settings.php:2303
+msgctxt "Settings page"
+msgid "Emojies for Reactions"
+msgstr ""
+
+#: ../views/layout-settings.php:2323
+msgctxt "Settings page"
+msgid "Add new reaction"
+msgstr ""
+
+#: ../views/layout-settings.php:2331
+msgctxt "Settings page"
+msgid "Select Emoji for new reaction"
+msgstr ""
+
+#: ../views/layout-settings.php:2400
+msgctxt "Settings page"
+msgid "Emojies for Selector"
+msgstr ""
+
+#: ../views/layout-settings.php:2403
+msgctxt "Settings page"
+msgid "Click on emoji to enable or disable it, drag it to change it position in emoji selector"
+msgstr ""
+
+#: ../views/layout-settings.php:2497
+msgctxt "Settings page"
+msgid "This notice will be hidden when Ultimate Member plugin is installed"
+msgstr ""
+
+#: ../views/layout-settings.php:2504
+msgctxt "Settings page"
+msgid "User Profile - Private Message Button"
+msgstr ""
+
+#: ../views/layout-settings.php:2505
+msgctxt "Settings page"
+msgid "Show Private Message button in user profiles"
+msgstr ""
+
+#: ../views/layout-settings.php:2523
+msgctxt "Settings page"
+msgid "Ultimate Member Friends"
+msgstr ""
+
+#: ../views/layout-settings.php:2564
+msgctxt "Settings page"
+msgid "Only Followers Mode"
+msgstr ""
+
+#: ../views/layout-settings.php:2565
+msgctxt "Settings page"
+msgid "Allow only send message if user following the user or followed by the user"
+msgstr ""
+
+#: ../views/layout-settings.php:2575
+msgctxt "Settings page"
+msgid "Enable Messages for Ultimate Member Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2576
+msgctxt "Settings page"
+msgid "Enable messages for Ultimate Member groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2586
+msgctxt "Settings page"
+msgid "Enable file uploading in Ultimate Member Groups Messages"
+msgstr ""
+
+#: ../views/layout-settings.php:2595
+msgctxt "Settings page"
+msgid "Enable Email Notifications for Ultimate Member Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2605
+msgctxt "Settings page"
+msgid "Ultimate Member Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2664
+msgid "GIPHY API Key"
+msgstr ""
+
+#: ../views/layout-settings.php:2665
+msgid "Leave this field empty to disable giphy"
+msgstr ""
+
+#: ../views/layout-settings.php:2666
+msgid "How to create GIPHY API key"
+msgstr ""
+
+#: ../views/layout-settings.php:2674
+msgid "GIPHY Content rating"
+msgstr ""
+
+#: ../views/layout-settings.php:2675
+msgid "GIPHY Content Rating <a href=\"%s\" target=\"_blank\">Learn more</a>"
+msgstr ""
+
+#: ../views/layout-settings.php:2683
+msgid "GIPHY Language"
+msgstr ""
+
+#: ../views/layout-settings.php:2684
+msgid "GIPHY Language <a href=\"%s\" target=\"_blank\">Learn more</a>"
+msgstr ""
+
+#: ../views/layout-settings.php:2714
+msgid "Stipop.io API Key"
+msgstr ""
+
+#: ../views/layout-settings.php:2715
+msgid "Leave this field empty to disable stickers"
+msgstr ""
+
+#: ../views/layout-settings.php:2723
+msgid "Language"
+msgstr ""
+
+#: ../views/layout-settings.php:2724
+msgid "Two letter language code for showing stickers which best fits this language"
+msgstr ""
+
+#: ../views/layout-settings.php:2725
+msgid "For example (en, ko, es)"
+msgstr ""
+
+#: ../views/layout-settings.php:2739
+msgctxt "Settings page"
+msgid "This notice will be hidden when BuddyPress plugin is installed"
+msgstr ""
+
+#: ../views/layout-settings.php:2747
+msgid "Only Friends Mode"
+msgstr ""
+
+#: ../views/layout-settings.php:2748
+msgid "Allow only friends to send messages each other"
+msgstr ""
+
+#: ../views/layout-settings.php:2757
+msgctxt "Settings page"
+msgid "BuddyPress Friends"
+msgstr ""
+
+#: ../views/layout-settings.php:2799
+msgid "Enable Messages for BuddyPress Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2800
+msgid "Enable messages for BuddyPress groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2809
+msgctxt "Settings page"
+msgid "Enable file uploading in BuddyPress Groups Messages"
+msgstr ""
+
+#: ../views/layout-settings.php:2818
+msgctxt "Settings page"
+msgid "BuddyPress Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2830
+msgctxt "Settings page"
+msgid "Enables mini groups widget fixed to the bottom of browser window"
+msgstr ""
+
+#: ../views/layout-settings.php:2858
+msgid "Enable Email Notifications for BuddyPress Groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2859
+msgid "When enabled users will receive email notifications for Group Chats"
+msgstr ""
+
+#: ../views/layout-settings.php:2867
+msgid "BuddyPress Group Slug"
+msgstr ""
+
+#: ../views/layout-settings.php:2868
+msgid "Change messages tab URL slug in BuddyPress group"
+msgstr ""
+
+#: ../views/layout-settings.php:2882
+msgctxt "Settings page"
+msgid "Replace BuddyBoss Header Messages"
+msgstr ""
+
+#: ../views/layout-settings.php:2883
+msgctxt "Settings page"
+msgid "Replaces BuddyBoss Header Messages with plugin native messages layout"
+msgstr ""
+
+#: ../views/layout-settings.php:2892
+msgid "Limit calls only to the friends"
+msgstr ""
+
+#: ../views/layout-settings.php:2893
+msgid "Allow only friends to make calls between each other (admins always can call)"
+msgstr ""
+
+#: ../views/layout-settings.php:2903
+msgid "Audio Call button in user profile"
+msgstr ""
+
+#: ../views/layout-settings.php:2904
+msgid "Add audio call button to user profile"
+msgstr ""
+
+#: ../views/layout-settings.php:2914
+msgid "Video Call button in user profile"
+msgstr ""
+
+#: ../views/layout-settings.php:2915
+msgid "Add video call button to user profile"
+msgstr ""
+
+#: ../views/layout-settings.php:2925
+msgid "BuddyPress Profile Slug"
+msgstr ""
+
+#: ../views/layout-settings.php:2926
+msgid "Change messages tab URL slug in BuddyPress profile (\"messages\" slug is not allowed)"
+msgstr ""
+
+#: ../views/layout-settings.php:2937
+msgid "Compatibility Mode"
+msgstr ""
+
+#: ../views/layout-settings.php:2938
+msgid "Enable this option if shortcode displayed instead of plugin in BuddyPress profile/groups"
+msgstr ""
+
+#: ../views/layout-settings.php:2956
+msgctxt "Settings page"
+msgid "Plugin also support %s addon, so please use it carefully together with this settings as double charge can occur."
+msgstr ""
+
+#: ../views/layout-settings.php:2951
+msgctxt "bp-better-messages"
+msgid "Website must to have %s plugin to be installed."
+msgstr ""
+
+#: ../views/layout-settings.php:2952
+msgid "This notice will be hidden when MyCRED plugin is installed"
+msgstr ""
+
+#: ../views/layout-settings.php:2963
+msgctxt "Settings page"
+msgid "Price for new message in the conversation"
+msgstr ""
+
+#: ../views/layout-settings.php:2964, ../views/layout-settings.php:3009
+msgctxt "Settings page"
+msgid "Use 0 if this is free"
+msgstr ""
+
+#: ../views/layout-settings.php:2971, ../views/layout-settings.php:3016
+msgctxt "Settings page"
+msgid "Role"
+msgstr ""
+
+#: ../views/layout-settings.php:2972, ../views/layout-settings.php:3017
+msgctxt "Settings page"
+msgid "Price"
+msgstr ""
+
+#: ../views/layout-settings.php:2998
+msgctxt "Settings page"
+msgid "Message when user can`t send new reply"
+msgstr ""
+
+#: ../views/layout-settings.php:2999, ../views/layout-settings.php:3044
+msgctxt "Settings page"
+msgid "HTML Allowed"
+msgstr ""
+
+#: ../views/layout-settings.php:3007
+msgctxt "Settings page"
+msgid "Price for new starting new conversation"
+msgstr ""
+
+#: ../views/layout-settings.php:3008
+msgctxt "Settings page"
+msgid "The charge will be applied additionally to the message price"
+msgstr ""
+
+#: ../views/layout-settings.php:3043
+msgctxt "Settings page"
+msgid "Message when user can`t send start new conversation"
+msgstr ""
+
+#: ../views/layout-settings.php:3058
+msgctxt "Settings page"
+msgid "This notice will be hidden when bbPress plugin is installed"
+msgstr ""
+
+#: ../views/layout-settings.php:3066
+msgctxt "Settings page"
+msgid "Show link in bbPress author details"
+msgstr ""
+
+#: ../views/layout-settings.php:3085
+msgid "Message notification sound volume"
+msgstr ""
+
+#: ../views/layout-settings.php:3086, ../views/layout-settings.php:3104, ../views/layout-settings.php:3114
+msgid "From 0 to 100 (0 to disable)"
+msgstr ""
+
+#: ../views/layout-settings.php:3094
+msgid "Message sent sound volume"
+msgstr ""
+
+#: ../views/layout-settings.php:3103
+msgid "Incoming call sound volume"
+msgstr ""
+
+#: ../views/layout-settings.php:3113
+msgid "Outgoing call sound volume"
+msgstr ""
+
+#: ../views/layout-settings.php:3130
+msgid "Export Settings"
+msgstr ""
+
+#: ../views/layout-settings.php:3131
+msgid "Copy settings, so you can import them later to another website"
+msgstr ""
+
+#: ../views/layout-settings.php:3143
+msgid "Import Settings"
+msgstr ""
+
+#: ../views/layout-settings.php:3144
+msgid "Paste settings copied before"
+msgstr ""
+
+#: ../views/layout-settings.php:3220
+msgid "Unread messages counter"
+msgstr ""
+
+#: ../views/layout-settings.php:3221
+msgid "Show unread messages counter anywhere in your website"
+msgstr ""
+
+#: ../views/layout-settings.php:3222
+msgid "To add this shortcode to your menu item you can use <a href=\"https://wordpress.org/plugins/shortcode-in-menus/\" target=\"_blank\">Shortcode in Menus</a> plugin."
+msgstr ""
+
+#: ../views/layout-settings.php:3230
+msgid "My messages URL"
+msgstr ""
+
+#: ../views/layout-settings.php:3231
+msgid "Return url to logged in user inbox"
+msgstr ""
+
+#: ../views/layout-settings.php:3235
+msgid "For example: "
+msgstr ""
+
+#: ../views/layout-settings.php:3247
+msgid "Private Message Button"
+msgstr ""
+
+#: ../views/layout-settings.php:3248
+msgid "Shows private message button"
+msgstr ""
+
+#: ../views/layout-settings.php:3249
+msgid "This shortcode will try to find user_id from environment, for example author of post and display Private Message button."
+msgstr ""
+
+#: ../views/layout-settings.php:3250, ../views/layout-settings.php:3262, ../views/layout-settings.php:3282, ../views/layout-settings.php:3303
+msgid "If user_id not found it will not display anything. You can force user id with user_id=\"1\" attribute."
+msgstr ""
+
+#: ../views/layout-settings.php:3259
+msgid "Video Call Button"
+msgstr ""
+
+#: ../views/layout-settings.php:3260
+msgid "Shows video call button"
+msgstr ""
+
+#: ../views/layout-settings.php:3261
+msgid "This shortcode will try to find user_id from environment, for example author of post and display Video Call button."
+msgstr ""
+
+#: ../views/layout-settings.php:3279
+msgid "Audio Call Button"
+msgstr ""
+
+#: ../views/layout-settings.php:3280
+msgid "Shows audio call button"
+msgstr ""
+
+#: ../views/layout-settings.php:3281
+msgid "This shortcode will try to find user_id from environment, for example author of post and display Audio Call button."
+msgstr ""
+
+#: ../views/layout-settings.php:3299
+msgid "Mini Chat Button"
+msgstr ""
+
+#: ../views/layout-settings.php:3300
+msgid "Shows mini chat button (opens mini chat with user on click)"
+msgstr ""
+
+#: ../views/layout-settings.php:3301
+msgid "This button will work only if Mini Chats option is enabled"
+msgstr ""
+
+#: ../views/layout-settings.php:3302
+msgid "This shortcode will try to find user_id from environment, for example author of post and display Mini Chat button."
+msgstr ""
+
+#: ../views/layout-settings.php:3324
+msgid "Save Changes"
+msgstr ""
+
+#: ../views/layout-starred.php:29
+msgid "No starred messages yet!"
+msgstr ""
+
+#: ../views/layout-thread.php:146
+msgid "Thread settings"
+msgstr ""
+
+#: ../views/layout-thread.php:152
+msgid "Allow thread members to invite other members"
+msgstr ""
+
+#: ../views/layout-thread.php:154
+msgid "When enabled, thread participants will be able to add other users to thread."
+msgstr ""
+
+#: ../views/layout-thread.php:163
+msgid "Change thread subject"
+msgstr ""
+
+#: ../views/layout-thread.php:167
+msgid "Change subject"
+msgstr ""
+
+#: ../views/layout-thread.php:198
+msgid "Are you sure you want to change subject of this thread?"
+msgstr ""
+
+#: ../views/layout-thread.php:229
+msgid "Add participants"
+msgstr ""
+
+#: ../views/layout-user-settings.php:34
+msgid "Who can start private conversations with you?"
+msgstr ""
+
+#: ../views/layout-user-settings.php:58
+msgid "Enable notifications via email"
+msgstr ""
+
+#: ../views/layout-user-settings.php:61
+msgid "When enabled, you will receive notifications about new messages via email when you are offline."
+msgstr ""
+
+#: ../views/layout-user-settings.php:71
+msgid "Disable sound notification on new message"
+msgstr ""
+
+#: ../views/layout-user-settings.php:74
+msgid "When enabled, you will not hear sound when you receive new message."
+msgstr ""
+
+#: ../views/layout-user-settings.php:82
+msgid "Browser push notifications"
+msgstr ""
+
+#: ../views/layout-user-settings.php:85
+msgid "When enabled, you will receive messages notifications even if browser is closed."
+msgstr ""
+
+#: ../views/layout-user-settings.php:88
+msgid "Disable"
+msgstr ""
+
+#: ../views/layout-viewer.php:45
+msgid "Thread"
+msgstr ""
+
+#: ../views/layout-viewer.php:46
+msgid "Time Sent"
+msgstr ""
+
+#: ../views/layout-viewer.php:69
+msgid "Thread ID:"
+msgstr ""
+
+#: ../views/layout-viewer.php:71
+msgid "Participants Count:"
+msgstr ""
+
+#: ../views/layout-viewer.php:78
+msgid "View Thread"
+msgstr ""

@@ -1,0 +1,82 @@
+
+/**
+ * Yoast SEO
+ *
+ * SEO plugin.
+ * https://wordpress.org/plugins/wordpress-seo/
+ */
+
+.yoast-breadcrumb {
+
+    background: none;
+    padding-left: 0;
+    padding-right: 0;
+
+    > li {
+        + li::before {
+            padding-right: $breadcrumb-item-padding;
+            padding-left: $breadcrumb-item-padding;
+        }
+    }
+
+    a {
+        padding-left: $breadcrumb-item-padding;
+        padding-right: $breadcrumb-item-padding;
+        color: inherit !important;
+    }
+
+    .breadcrumb_last {
+        padding-left: $breadcrumb-item-padding;
+        max-width: 250px;
+        display: inline;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    > span > span > a {
+        padding-left: 0;
+    }
+
+    .grimlock-custom_header & {
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: .25rem;
+        display: inline-flex;
+        color: currentColor !important;
+        order: -1;
+        opacity: .6;
+        a {
+            &,
+            &:hover,
+            &:focus,
+            &:active {
+                color: inherit !important;
+            }
+            &:hover {
+                opacity: .7;
+            }
+        }
+    }
+
+    .region--12-cols-center & {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .grimlock--page-header & {
+	    order: -1;
+        font-size: .75em;
+        font-weight: 600;
+        margin-bottom: 0;
+        padding: 0 0 .7rem 0;
+        @include media-breakpoint-up(md) {
+            font-size: .9em;
+        }
+    }
+
+    .home-page & {
+        margin-left: -0.5rem;
+    }
+
+}

@@ -1,0 +1,87 @@
+# Copyright (C) 2021 grimlock-login
+# This file is distributed under the same license as the grimlock-login package.
+msgid ""
+msgstr ""
+"Project-Id-Version: grimlock-login\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.1.1\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/class-grimlock-login.php:134, inc/class-grimlock-login.php:160
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: inc/class-grimlock-login.php:183
+msgid "Lost your password?"
+msgstr "Mot de passe oublié ?"
+
+#: inc/grimlock-login-template-functions.php:21,
+#: inc/grimlock-login-template-functions.php:19,
+#: inc/customizer/class-grimlock-login-customizer.php:27
+msgid "Login"
+msgstr "Se connecter"
+
+#: inc/grimlock-login-template-functions.php:26
+msgid "Register"
+msgstr "S’enregistrer"
+
+#: inc/customizer/class-grimlock-login-customizer.php:112
+msgid "Display login and register buttons in the navbar"
+msgstr ""
+"Afficher les boutons de connexion et d’enregistrement dans la barre de "
+"navigation"
+
+#: inc/customizer/class-grimlock-login-customizer.php:113
+msgid ""
+"The buttons are only visible for logged out users, therefore it will not "
+"show in the preview. The register button will only be displayed if the "
+"\"Anyone can register\" option is enabled in your general settings."
+msgstr ""
+"Les boutons ne sont visibles que pour les utilisateurs déconnectés, ils "
+"n’apparaissent donc pas dans l’aperçu. Le bouton d’enregistrement ne "
+"sera affiché que si l’option « Tout le monde peut s’enregistrer » est "
+"activée dans vos paramètres généraux."
+
+#: inc/customizer/class-grimlock-login-customizer.php:134
+msgid "Display login form in a modal"
+msgstr "Afficher le formulaire de connexion dans une modale"
+
+#: inc/customizer/class-grimlock-login-customizer.php:135
+msgid ""
+"Display the login form in a modal when clicking the navbar login button."
+msgstr ""
+"Display the login form in a modal when clicking the navbar login button."
+
+#: inc/customizer/class-grimlock-login-customizer.php:164
+msgid "Custom Logo"
+msgstr "Logo personnalisé"
+
+#: inc/customizer/class-grimlock-login-customizer.php:186
+msgid "Custom Logo Size"
+msgstr "Taille du logo personnalisé"
+
+#: inc/customizer/class-grimlock-login-customizer.php:211
+msgid "Custom Logo Background Color"
+msgstr "Couleur de fond du logo personnalisé"
+
+#: inc/customizer/class-grimlock-login-customizer.php:237
+msgid "Background Image"
+msgstr "Image de fond"
+
+#: inc/customizer/class-grimlock-login-customizer.php:258
+msgid "Layout"
+msgstr "Mise en page"

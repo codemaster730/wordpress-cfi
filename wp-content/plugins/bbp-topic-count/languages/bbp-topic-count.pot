@@ -1,0 +1,130 @@
+# Copyright (C) 2016 bbP topic count
+# This file is distributed under the same license as the bbP topic count package.
+msgid ""
+msgstr ""
+"Project-Id-Version: bbP topic count 1.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/bbp-topic-count\n"
+"POT-Creation-Date: 2016-11-18 18:32:24+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/settings.php:15
+msgid "Topic Count Settings"
+msgstr ""
+
+#: includes/settings.php:21
+msgid "Options saved"
+msgstr ""
+
+#: includes/settings.php:35
+msgid ""
+"If you find this plugin useful, please consider donating just a couple of "
+"pounds to help me develop and maintain it. You support will be appreciated"
+msgstr ""
+
+#: includes/settings.php:48
+msgid ""
+"This plugin allows you to display topic count, reply count and total posts "
+"under the authors name and avatar in topics and replies"
+msgstr ""
+
+#: includes/settings.php:56
+msgid "Topics"
+msgstr ""
+
+#: includes/settings.php:61 includes/settings.php:84 includes/settings.php:108
+msgid "Activate"
+msgstr ""
+
+#: includes/settings.php:69
+msgid "Topic Label Name"
+msgstr ""
+
+#: includes/settings.php:72
+msgid ""
+"Enter the description eg \"Topics:\", \"Topics - \", \"Posts :\" \"Started : "
+"\" etc."
+msgstr ""
+
+#: includes/settings.php:79
+msgid "Replies"
+msgstr ""
+
+#: includes/settings.php:92
+msgid "Reply Label Name"
+msgstr ""
+
+#: includes/settings.php:95
+msgid ""
+"Enter the description eg \"Replies:\", \"Replies - \", \"Posts\", \"joined "
+"in : \" etc."
+msgstr ""
+
+#: includes/settings.php:103
+msgid "Total posts (Topics + Replies)"
+msgstr ""
+
+#: includes/settings.php:116
+msgid "Total Posts Name"
+msgstr ""
+
+#: includes/settings.php:119
+msgid ""
+"Enter the description eg \"Total posts:\", \"Total Posts - \", \"Total\", "
+"\"Posts: \" etc."
+msgstr ""
+
+#: includes/settings.php:128
+msgid "Thousands Space Seperator"
+msgstr ""
+
+#: includes/settings.php:133
+msgid "No seperator (eg 1000)"
+msgstr ""
+
+#: includes/settings.php:137
+msgid "Comma Seperator (eg 1,000)"
+msgstr ""
+
+#: includes/settings.php:141
+msgid "Space Seperator (eg 1 000)"
+msgstr ""
+
+#: includes/settings.php:150
+msgid "Save Options"
+msgstr ""
+
+#: includes/settings.php:174
+msgid "bbp topic count"
+msgstr ""
+
+#: includes/settings.php:184 includes/settings.php:191
+#: includes/settings.php:198
+msgid "Add this item to the display"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "bbP topic count"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.rewweb.co.uk/bbp-topic-count-plugin/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin for bbPress shows any combination of the total topics, replies "
+"and post count under the avatar on each topic/reply"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Robin Wilson"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.rewweb.co.uk"
+msgstr ""

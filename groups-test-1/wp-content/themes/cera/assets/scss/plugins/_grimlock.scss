@@ -1,0 +1,356 @@
+
+/**
+ * Grimlock
+ *
+ * Grimlock components styles.
+ * https://themosaurus.com
+ */
+
+// Custom header
+#custom_header {
+
+	overflow: hidden;
+	z-index: 9;
+	background-color: $custom-header-bg;
+
+	&[data-parallax] {
+		background: none;
+	}
+
+	@include media-breakpoint-down(md) {
+		> .region__inner {
+			padding-top: 40px !important;
+			padding-bottom: 40px !important;
+		}
+	}
+
+	.region__container {
+		position: relative;
+		z-index: 3;
+		@extend .element-animated, .fade-in;
+		@include media-breakpoint-up(lg) {
+			padding-left: 3%;
+			padding-right: 3%;
+		}
+	}
+
+	.section__header {
+
+		display: flex;
+		flex-wrap: wrap;
+		color: #fff;
+		word-wrap: break-word;
+
+		> * {
+			width: 100%;
+		}
+
+	}
+
+	.cat-links,
+	.event-cat-links {
+
+		display: inline-block;
+		vertical-align: middle;
+		margin-bottom: .5rem;
+
+		a {
+
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: .8em;
+			font-weight: 600;
+			opacity: .6;
+			margin-right: 0 !important;
+
+			&:hover {
+				opacity: 1;
+			}
+
+		}
+
+		a + a {
+			&:before {
+				content: '•';
+				margin-right: 8px;
+				margin-left: 6px;
+				opacity: .4;
+				pointer-events: none;
+				color: #fff;
+				font-size: 12px;
+			}
+		}
+
+	}
+
+	.section__title {
+		margin-top: .5rem;
+		margin-bottom: .5rem;
+	}
+
+	.section__subtitle {
+		margin-bottom: 0;
+		letter-spacing: inherit;
+		text-transform: inherit;
+		> p {
+			font-size: .9em;
+		}
+	}
+
+	&.region--12-cols-center {
+		.section__subtitle {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.grimlock-section__header {
+			justify-content: center;
+		}
+	}
+
+	&.region--12-cols-right {
+		.section__header {
+			@include media-breakpoint-up(lg) {
+				align-items: flex-end;
+				text-align: right;
+			}
+		}
+	}
+
+	.region__col--2 {
+		@extend .element-animated, .fade-in;
+	}
+
+	&.region--6-6-cols-left,
+	&.region--6-6-cols-left-reverse {
+		.section__header {
+			@include media-breakpoint-up(lg) {
+				padding-left: 20px;
+				border-left: 2px solid currentColor;
+			}
+		}
+	}
+
+	.grimlock--navigation-hamburger-left.grimlock--navigation-fixed &,
+	.grimlock--navigation-hamburger-right.grimlock--navigation-fixed &,
+	.grimlock--navigation-fixed-left.grimlock--navigation-fixed &,
+	.grimlock--navigation-fixed-right.grimlock--navigation-fixed & {
+		margin-top: $slideout-mini-width;
+	}
+
+}
+
+.grimlock--navigation-fixed-left.grimlock--navigation-fixed {
+	&.grimlock--navigation-inside-top .grimlock-custom_header > .region__inner > .region__container {
+		margin-top: 0 !important;
+	}
+}
+
+
+// Grimlock section
+.widget_grimlock_section {
+	margin-bottom: 0;
+
+	.widget-title {
+		font-size: inherit;
+	}
+}
+
+
+// Grimlock query
+.grimlock-query-section--posts {
+	margin-bottom: 0;
+
+	.widget-title {
+		font-size: inherit;
+	}
+
+	// If grid style
+	&.section--posts-grid {
+
+		.section__title,
+		.section__subtitle,
+		.section__footer {
+			text-align: center;
+		}
+
+		[id^="post-"] {
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+		.grimlock-query-section__posts {
+			margin: 0;
+		}
+		.card {
+			text-align: center;
+			border: 0;
+			border-radius: 0;
+			background: $gray-800;
+			color: #fff;
+			min-height: 300px;
+			box-shadow: none !important;
+
+			&:hover {
+				transform: none;
+				.card-body {
+					transform: translate3d(0,-10px,0);
+				}
+				.post-thumbnail {
+					opacity: .25;
+				}
+			}
+
+			a,
+			a:hover,
+			a:focus,
+			a:active,
+			.entry-title,
+			.entry-title a {
+				color: #fff !important;
+			}
+
+			.wp-post-image,
+			.post-thumbnail {
+				border-radius: 0;
+			}
+			.post-thumbnail {
+				opacity: .4;
+				height: 100%;
+				img {
+					border-radius: 0;
+					height: 100%;
+					object-fit: cover;
+					object-position: center;
+				}
+			}
+			.card-body {
+				z-index: 1;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				background: none;
+				transform: none !important;
+				@include media-breakpoint-up(lg) {
+					padding: 4rem;
+				}
+				@include transition($transition-base);
+
+				&:before,
+				&:after {
+					content: none;
+				}
+
+			}
+			.entry-header {
+				margin: 0;
+				max-width: 390px;
+			}
+			.entry-title {
+				color: #fff;
+				> a {
+					&,
+					&:hover,
+					&:focus,
+					&:active {
+						color: #fff !important;
+					}
+					&:after {
+						content: '';
+						display: block;
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+						z-index: 9;
+					}
+				}
+			}
+			.entry-summary {
+				max-width: 340px;
+				display: none;
+				@include media-breakpoint-up(md) {
+					display: block;
+				}
+				p {
+					margin-bottom: 0;
+				}
+			}
+			.author,
+			.entry-footer,
+			p:empty,
+			.more-link,
+			.tags-links {
+				display: none;
+			}
+		}
+
+		.section__btn {
+			border-radius: 0;
+			width: 100%;
+			margin: 0 !important;
+			border-radius: 0 !important;
+		}
+
+		.posts--12-cols-classic {
+			.entry-header,
+			.entry-summary {
+				max-width: 540px;
+			}
+		}
+	}
+}
+
+
+.region__col[data-grimlock-animate-parallax] {
+	@include media-breakpoint-down(sm) {
+		transform: translate3d(0,0,0) !important;
+	}
+}
+
+.parallax-mirror {
+	will-change: top, scroll-position, transform;
+	.parallax-slider {
+		will-change: top, scroll-position, transform;
+	}
+}
+
+.grimlock-section:not(.grimlock-hero):not(.grimlock-custom_header) {
+	&.region--12-cols-left {
+		.grimlock-section__footer {
+			@include media-breakpoint-up(lg) {
+				position: absolute;
+				top: 0;
+				right: 0;
+				z-index: 9;
+				.grimlock-section__btn {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+	&.region--container-classic {
+		.grimlock-section__footer {
+			@include media-breakpoint-up(lg) {
+				right: $grid-gutter-width / 2;
+			}
+		}
+	}
+}
+
+.main-navigation {
+	&.navbar--classic-center,
+	&.navbar--classic-left,
+	&.navbar--classic-right {
+		.navbar-nav.navbar-nav--search {
+			@include media-breakpoint-up(lg) {
+				order: 100;
+			}
+		}
+	}
+}

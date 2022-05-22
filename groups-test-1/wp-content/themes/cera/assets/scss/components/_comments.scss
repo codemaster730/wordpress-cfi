@@ -1,0 +1,288 @@
+
+/**
+ * Comments
+ *
+ * Comments thread styles.
+ */
+
+// Comment area
+.comments-area {
+	margin-top: 4rem;
+	.comments-title {
+		font-size: 1.25rem;
+		margin-bottom: 2.5rem;
+		text-align: center;
+		&:before {
+			@include cera-icon();
+			content: $cera-message-square;
+			color: var(--grimlock-button-primary-background-color);
+			margin-right: .2rem;
+			font-size: 1.1em;
+			position: relative;
+			top: 0.1em;
+		}
+	}
+}
+
+// Comment Form
+.comment-form {
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	textarea {
+		@include form-control-style();
+	}
+
+	.required {
+		color: $danger;
+	}
+}
+
+.comment-respond,
+.comment-body {
+	background-color: $card-bg;
+	border: $card-border-width solid var(--grimlock-table-striped-background-color);
+	border-radius: $card-border-radius;
+	padding: $card-spacer-x;
+}
+
+.comment-respond {
+	margin-top: 1rem;
+	border-style: solid;
+	position: relative;
+	padding: 1.3rem;
+
+	@include media-breakpoint-up(sm) {
+		padding: 2rem;
+	}
+
+	.comment-reply-title {
+		font-size: 1.25rem;
+	}
+}
+
+.logged-in-as {
+	font-size: 0.9em;
+}
+
+
+// Comment list
+.comment {
+
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	flex-wrap: wrap;
+	width: 100%;
+	position: relative;
+
+	@include media-breakpoint-up(md) {
+		&:before {
+			content: '';
+			display: block;
+			width: 2px;
+			height: calc(100% - 65px);
+			position: absolute;
+			top: 65px;
+			left: 25px;
+			z-index: -1;
+			background: $card-bg;
+			pointer-events: none;
+		}
+	}
+
+
+	&-list {
+
+		padding-left: 0;
+
+		&-hover {
+			.comment {
+				&:hover {
+					background-color: $gray-800;
+				}
+			}
+		}
+
+	}
+
+	&-img {
+		margin-right: 1rem;
+		position: relative;
+		z-index: 2;
+		.avatar {
+			@extend .img-fluid;
+			border-radius: $avatar-border-radius;
+			max-width: $avatar-max-width;
+		}
+	}
+
+	&-main {
+		display: flex;
+		width: 100%;
+	}
+
+	&-content {
+		a {
+			word-wrap: break-word;
+		}
+	}
+
+	&-meta {
+
+		display: flex;
+		flex-wrap: wrap;
+		font-size: .85em;
+
+		@include media-breakpoint-up(sm) {
+			align-items: center;
+		}
+
+		a {
+			font-weight: 600;
+			display: inline-flex;
+		}
+
+		.comment-time {
+			opacity: .7;
+			margin-right: auto;
+			width: 100%;
+			margin-bottom: .5rem;
+			@include media-breakpoint-up(sm) {
+				margin-bottom: 0;
+				width: auto;
+			}
+		}
+
+		> span {
+			&:not(:last-child) {
+				margin-right: 1.2rem;
+			}
+		}
+
+		.comment-reply-link {
+			&:before {
+				@include cera-icon();
+				content: $cera-message-circle;
+				margin-right: .2rem;
+				font-size: 1.2em;
+			}
+		}
+
+		.comment-edit-link {
+			&:before {
+				@include cera-icon();
+				content: $cera-edit;
+				margin-right: .2rem;
+				font-size: 1.2em;
+			}
+		}
+
+	}
+
+	&-body {
+		overflow: auto;
+		pre {
+			white-space: normal;
+		}
+
+	}
+
+	&-title {
+		.fn {
+			font-weight: 600;
+			font-size: .9em;
+		}
+		a {
+			color: inherit !important;
+		}
+	}
+
+	.children {
+
+		flex-wrap: wrap;
+		padding-top: 0;
+		padding-left: 0;
+		width: 100%;
+		list-style: none;
+
+		@include media-breakpoint-up(md) {
+			padding-top: $spacer;
+			padding-left: $avatar-max-width;
+		}
+
+		.comment {
+			&:before {
+				top: 45px;
+				left: 15px;
+				height: calc(100% - 45px);
+			}
+		}
+
+		.comment-img {
+			.avatar-round-ratio.medium {
+				width: 30px !important;
+				height: 30px !important;
+			}
+		}
+
+	}
+
+}
+
+.bypostauthor {
+	color: inherit;
+}
+
+// Comment notices
+.must-log-in {
+	@extend .alert;
+	border-color: var(--grimlock-button-primary-background-color);
+	background-color: var(--grimlock-button-primary-background-color);
+	color: var(--grimlock-button-primary-color);
+}
+
+.no-comments {
+	@extend .alert;
+	@include alert-variant-type($danger);
+}
+
+#cancel-comment-reply-link {
+	color: inherit;
+	opacity: 0.7;
+	font-size: 0.65em;
+	padding: 5px 8px;
+	display: block;
+	position: absolute;
+	font-weight: 600;
+	top: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.08);
+	text-transform: uppercase;
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.comment-form {
+	.comment-form-email,
+	.comment-form-author {
+		width: 50%;
+		float: left;
+		position: relative;
+	}
+	.comment-form-author {
+		padding-right: 15px;
+	}
+	.form-submit {
+		text-align: right;
+		margin-bottom: 0;
+		input[type="submit"] {
+			width: 100%;
+		}
+	}
+}
+
+#comment-nav-above {
+	display: none;
+}

@@ -1,0 +1,778 @@
+
+/**
+ * Fonts
+ *
+ * Custom fonts.
+ */
+
+// Font variables
+$cera-font-path: "assets/fonts/cera" !default;
+
+// To make
+$cera-thumb-request: "\e939";
+$cera-smile-request: "\e939";
+$cera-star-request: "\e939";
+$cera-add-request: "\e939";
+$cera-group-request: "\e939";
+//-----
+$cera-menu-arrow: "\ea21";
+$cera-quote: "\ea1e";
+$cera-pushpin: "\ea1f";
+$cera-swap: "\ea20";
+$cera-alphabetical: "\ea18";
+$cera-talk: "\ea19";
+$cera-student: "\ea1a";
+$cera-reply-all: "\ea1b";
+$cera-star-on: "\ea1c";
+$cera-heart-on: "\ea1d";
+$cera-activity: "\e900";
+$cera-airplay: "\e901";
+$cera-alert-circle: "\e902";
+$cera-alert-octagon: "\e903";
+$cera-alert-triangle: "\e904";
+$cera-align-center: "\e905";
+$cera-align-justify: "\e906";
+$cera-align-left: "\e907";
+$cera-align-right: "\e908";
+$cera-anchor: "\e909";
+$cera-aperture: "\e90a";
+$cera-archive: "\e90b";
+$cera-arrow-down-circle: "\e90c";
+$cera-arrow-down-left: "\e90d";
+$cera-arrow-down-right: "\e90e";
+$cera-arrow-down: "\e90f";
+$cera-arrow-left-circle: "\e910";
+$cera-arrow-left: "\e911";
+$cera-arrow-right-circle: "\e912";
+$cera-arrow-right: "\e913";
+$cera-arrow-up-circle: "\e914";
+$cera-arrow-up-left: "\e915";
+$cera-arrow-up-right: "\e916";
+$cera-arrow-up: "\e917";
+$cera-at-sign: "\e918";
+$cera-award: "\e919";
+$cera-bar-chart-2: "\e91a";
+$cera-bar-chart: "\e91b";
+$cera-battery-charging: "\e91c";
+$cera-battery: "\e91d";
+$cera-bell-off: "\e91e";
+$cera-bell: "\e91f";
+$cera-bluetooth: "\e920";
+$cera-bold: "\e921";
+$cera-book-open: "\e922";
+$cera-book: "\e923";
+$cera-bookmark: "\e924";
+$cera-box: "\e925";
+$cera-briefcase: "\e926";
+$cera-calendar: "\e927";
+$cera-camera-off: "\e928";
+$cera-camera: "\e929";
+$cera-cast: "\e92a";
+$cera-check-circle: "\e92b";
+$cera-check-square: "\e92c";
+$cera-check: "\e92d";
+$cera-chevron-down: "\e92e";
+$cera-chevron-left: "\e92f";
+$cera-chevron-right: "\e930";
+$cera-chevron-up: "\e931";
+$cera-chevrons-down: "\e932";
+$cera-chevrons-left: "\e933";
+$cera-chevrons-right: "\e934";
+$cera-chevrons-up: "\e935";
+$cera-chrome: "\e936";
+$cera-circle: "\e937";
+$cera-clipboard: "\e938";
+$cera-clock: "\e939";
+$cera-cloud-drizzle: "\e93a";
+$cera-cloud-lightning: "\e93b";
+$cera-cloud-off: "\e93c";
+$cera-cloud-rain: "\e93d";
+$cera-cloud-snow: "\e93e";
+$cera-cloud: "\e93f";
+$cera-code: "\e940";
+$cera-codepen: "\e941";
+$cera-codesandbox: "\e942";
+$cera-coffee: "\e943";
+$cera-columns: "\e944";
+$cera-command: "\e945";
+$cera-compass: "\e946";
+$cera-copy: "\e947";
+$cera-corner-down-left: "\e948";
+$cera-corner-down-right: "\e949";
+$cera-corner-left-down: "\e94a";
+$cera-corner-left-up: "\e94b";
+$cera-corner-right-down: "\e94c";
+$cera-corner-right-up: "\e94d";
+$cera-corner-up-left: "\e94e";
+$cera-corner-up-right: "\e94f";
+$cera-cpu: "\e950";
+$cera-credit-card: "\e951";
+$cera-crop: "\e952";
+$cera-crosshair: "\e953";
+$cera-database: "\e954";
+$cera-delete: "\e955";
+$cera-disc: "\e956";
+$cera-dollar-sign: "\e957";
+$cera-download-cloud: "\e958";
+$cera-download: "\e959";
+$cera-droplet: "\e95a";
+$cera-edit-2: "\e95b";
+$cera-edit-3: "\e95c";
+$cera-edit: "\e95d";
+$cera-external-link: "\e95e";
+$cera-eye-off: "\e95f";
+$cera-eye: "\e960";
+$cera-facebook: "\e961";
+$cera-fast-forward: "\e962";
+$cera-feather: "\e963";
+$cera-figma: "\e964";
+$cera-file-minus: "\e965";
+$cera-file-plus: "\e966";
+$cera-file-text: "\e967";
+$cera-file: "\e968";
+$cera-film: "\e969";
+$cera-filter: "\e96a";
+$cera-flag: "\e96b";
+$cera-folder-minus: "\e96c";
+$cera-folder-plus: "\e96d";
+$cera-folder: "\e96e";
+$cera-framer: "\e96f";
+$cera-frown: "\e970";
+$cera-gift: "\e971";
+$cera-git-branch: "\e972";
+$cera-git-commit: "\e973";
+$cera-git-merge: "\e974";
+$cera-git-pull-request: "\e975";
+$cera-github: "\e976";
+$cera-gitlab: "\e977";
+$cera-globe: "\e978";
+$cera-grid: "\e979";
+$cera-hard-drive: "\e97a";
+$cera-hash: "\e97b";
+$cera-headphones: "\e97c";
+$cera-heart: "\e97d";
+$cera-help-circle: "\e97e";
+$cera-hexagon: "\e97f";
+$cera-home: "\e980";
+$cera-image: "\e981";
+$cera-inbox: "\e982";
+$cera-info: "\e983";
+$cera-instagram: "\e984";
+$cera-italic: "\e985";
+$cera-key: "\e986";
+$cera-layers: "\e987";
+$cera-layout: "\e988";
+$cera-life-buoy: "\e989";
+$cera-link-2: "\e98a";
+$cera-link: "\e98b";
+$cera-linkedin: "\e98c";
+$cera-list: "\e98d";
+$cera-loader: "\e98e";
+$cera-lock: "\e98f";
+$cera-log-in: "\e990";
+$cera-log-out: "\e991";
+$cera-mail: "\e992";
+$cera-map-pin: "\e993";
+$cera-map: "\e994";
+$cera-maximize-2: "\e995";
+$cera-maximize: "\e996";
+$cera-meh: "\e997";
+$cera-menu: "\e998";
+$cera-message-circle: "\e999";
+$cera-message-square: "\e99a";
+$cera-mic-off: "\e99b";
+$cera-mic: "\e99c";
+$cera-minimize-2: "\e99d";
+$cera-minimize: "\e99e";
+$cera-minus-circle: "\e99f";
+$cera-minus-square: "\e9a0";
+$cera-minus: "\e9a1";
+$cera-monitor: "\e9a2";
+$cera-moon: "\e9a3";
+$cera-more-horizontal: "\e9a4";
+$cera-more-vertical: "\e9a5";
+$cera-mouse-pointer: "\e9a6";
+$cera-move: "\e9a7";
+$cera-music: "\e9a8";
+$cera-navigation-2: "\e9a9";
+$cera-navigation: "\e9aa";
+$cera-octagon: "\e9ab";
+$cera-package: "\e9ac";
+$cera-paperclip: "\e9ad";
+$cera-pause-circle: "\e9ae";
+$cera-pause: "\e9af";
+$cera-pen-tool: "\e9b0";
+$cera-percent: "\e9b1";
+$cera-phone-call: "\e9b2";
+$cera-phone-forwarded: "\e9b3";
+$cera-phone-incoming: "\e9b4";
+$cera-phone-missed: "\e9b5";
+$cera-phone-off: "\e9b6";
+$cera-phone-outgoing: "\e9b7";
+$cera-phone: "\e9b8";
+$cera-pie-chart: "\e9b9";
+$cera-play-circle: "\e9ba";
+$cera-play: "\e9bb";
+$cera-plus-circle: "\e9bc";
+$cera-plus-square: "\e9bd";
+$cera-plus: "\e9be";
+$cera-pocket: "\e9bf";
+$cera-power: "\e9c0";
+$cera-printer: "\e9c1";
+$cera-radio: "\e9c2";
+$cera-refresh-ccw: "\e9c3";
+$cera-refresh-cw: "\e9c4";
+$cera-repeat: "\e9c5";
+$cera-rewind: "\e9c6";
+$cera-rotate-ccw: "\e9c7";
+$cera-rotate-cw: "\e9c8";
+$cera-rss: "\e9c9";
+$cera-save: "\e9ca";
+$cera-scissors: "\e9cb";
+$cera-search: "\e9cc";
+$cera-send: "\e9cd";
+$cera-server: "\e9ce";
+$cera-settings: "\e9cf";
+$cera-share-2: "\e9d0";
+$cera-share: "\e9d1";
+$cera-shield-off: "\e9d2";
+$cera-shield: "\e9d3";
+$cera-shopping-bag: "\e9d4";
+$cera-shopping-cart: "\e9d5";
+$cera-shuffle: "\e9d6";
+$cera-sidebar: "\e9d7";
+$cera-skip-back: "\e9d8";
+$cera-skip-forward: "\e9d9";
+$cera-slack: "\e9da";
+$cera-slash: "\e9db";
+$cera-sliders: "\e9dc";
+$cera-smartphone: "\e9dd";
+$cera-smile: "\e9de";
+$cera-speaker: "\e9df";
+$cera-square: "\e9e0";
+$cera-star: "\e9e1";
+$cera-stop-circle: "\e9e2";
+$cera-sun: "\e9e3";
+$cera-sunrise: "\e9e4";
+$cera-sunset: "\e9e5";
+$cera-tablet: "\e9e6";
+$cera-tag: "\e9e7";
+$cera-target: "\e9e8";
+$cera-terminal: "\e9e9";
+$cera-thermometer: "\e9ea";
+$cera-thumbs-down: "\e9eb";
+$cera-thumbs-up: "\e9ec";
+$cera-toggle-left: "\e9ed";
+$cera-toggle-right: "\e9ee";
+$cera-trash-2: "\e9ef";
+$cera-trash: "\e9f0";
+$cera-trello: "\e9f1";
+$cera-trending-down: "\e9f2";
+$cera-trending-up: "\e9f3";
+$cera-triangle: "\e9f4";
+$cera-truck: "\e9f5";
+$cera-tv: "\e9f6";
+$cera-twitter: "\e9f7";
+$cera-type: "\e9f8";
+$cera-umbrella: "\e9f9";
+$cera-underline: "\e9fa";
+$cera-unlock: "\e9fb";
+$cera-upload-cloud: "\e9fc";
+$cera-upload: "\e9fd";
+$cera-user-check: "\e9fe";
+$cera-user-minus: "\e9ff";
+$cera-user-plus: "\ea00";
+$cera-user-x: "\ea01";
+$cera-user: "\ea02";
+$cera-users: "\ea03";
+$cera-video-off: "\ea04";
+$cera-video: "\ea05";
+$cera-voicemail: "\ea06";
+$cera-volume-1: "\ea07";
+$cera-volume-2: "\ea08";
+$cera-volume-x: "\ea09";
+$cera-volume: "\ea0a";
+$cera-watch: "\ea0b";
+$cera-wifi-off: "\ea0c";
+$cera-wifi: "\ea0d";
+$cera-wind: "\ea0e";
+$cera-x-circle: "\ea0f";
+$cera-x-octagon: "\ea10";
+$cera-x-square: "\ea11";
+$cera-x: "\ea12";
+$cera-youtube: "\ea13";
+$cera-zap-off: "\ea14";
+$cera-zap: "\ea15";
+$cera-zoom-in: "\ea16";
+$cera-zoom-out: "\ea17";
+
+@font-face {
+	font-family: 'cera';
+	src:
+	url('#{$cera-font-path}/cera.ttf?foirwg') format('truetype'),
+	url('#{$cera-font-path}/cera.woff?foirwg') format('woff'),
+	url('#{$cera-font-path}/cera.svg?foirwg#cera') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.cera-icon {
+	font-family: 'cera' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: auto;
+}
+
+.cera-menu-arrow { &:before { content: $cera-menu-arrow; }  }
+.cera-quote { &:before { content: $cera-quote; }  }
+.cera-pushpin { &:before { content: $cera-pushpin; }  }
+.cera-swap { &:before { content: $cera-swap; }  }
+.cera-alphabetical { &:before { content: $cera-alphabetical; }  }
+.cera-talk { &:before { content: $cera-talk; }  }
+.cera-student { &:before { content: $cera-student; }  }
+.cera-reply-all { &:before { content: $cera-reply-all; }  }
+.cera-star-on { &:before { content: $cera-star-on; }  }
+.cera-heart-on { &:before { content: $cera-heart-on; }  }
+.cera-activity { &:before { content: $cera-activity; } }
+.cera-airplay { &:before { content: $cera-airplay; } }
+.cera-alert-circle { &:before { content: $cera-alert-circle; } }
+.cera-alert-octagon { &:before { content: $cera-alert-octagon; } }
+.cera-alert-triangle { &:before { content: $cera-alert-triangle; } }
+.cera-align-center { &:before { content: $cera-align-center; } }
+.cera-align-justify { &:before { content: $cera-align-justify; } }
+.cera-align-left { &:before { content: $cera-align-left; } }
+.cera-align-right { &:before { content: $cera-align-right; } }
+.cera-anchor { &:before { content: $cera-anchor; } }
+.cera-aperture { &:before { content: $cera-aperture; } }
+.cera-archive { &:before { content: $cera-archive; } }
+.cera-arrow-down-circle { &:before { content: $cera-arrow-down-circle; } }
+.cera-arrow-down-left { &:before { content: $cera-arrow-down-left; } }
+.cera-arrow-down-right { &:before { content: $cera-arrow-down-right; } }
+.cera-arrow-down { &:before { content: $cera-arrow-down; } }
+.cera-arrow-left-circle { &:before { content: $cera-arrow-left-circle; } }
+.cera-arrow-left { &:before { content: $cera-arrow-left; } }
+.cera-arrow-right-circle { &:before { content: $cera-arrow-right-circle; } }
+.cera-arrow-right { &:before { content: $cera-arrow-right; } }
+.cera-arrow-up-circle { &:before { content: $cera-arrow-up-circle; } }
+.cera-arrow-up-left { &:before { content: $cera-arrow-up-left; } }
+.cera-arrow-up-right { &:before { content: $cera-arrow-up-right; } }
+.cera-arrow-up { &:before { content: $cera-arrow-up; } }
+.cera-at-sign { &:before { content: $cera-at-sign; } }
+.cera-award { &:before { content: $cera-award; } }
+.cera-bar-chart-2 { &:before { content: $cera-bar-chart-2; } }
+.cera-bar-chart { &:before { content: $cera-bar-chart; } }
+.cera-battery-charging { &:before { content: $cera-battery-charging; } }
+.cera-battery { &:before { content: $cera-battery; } }
+.cera-bell-off { &:before { content: $cera-bell-off; } }
+.cera-bell { &:before { content: $cera-bell; } }
+.cera-bluetooth { &:before { content: $cera-bluetooth; } }
+.cera-bold { &:before { content: $cera-bold; } }
+.cera-book-open { &:before { content: $cera-book-open; } }
+.cera-book { &:before { content: $cera-book; } }
+.cera-bookmark { &:before { content: $cera-bookmark; } }
+.cera-box { &:before { content: $cera-box; } }
+.cera-briefcase { &:before { content: $cera-briefcase; } }
+.cera-calendar { &:before { content: $cera-calendar; } }
+.cera-camera-off { &:before { content: $cera-camera-off; } }
+.cera-camera { &:before { content: $cera-camera; } }
+.cera-cast { &:before { content: $cera-cast; } }
+.cera-check-circle { &:before { content: $cera-check-circle; } }
+.cera-check-square { &:before { content: $cera-check-square; } }
+.cera-check { &:before { content: $cera-check; } }
+.cera-chevron-down { &:before { content: $cera-chevron-down; } }
+.cera-chevron-left { &:before { content: $cera-chevron-left; } }
+.cera-chevron-right { &:before { content: $cera-chevron-right; } }
+.cera-chevron-up { &:before { content: $cera-chevron-up; } }
+.cera-chevrons-down { &:before { content: $cera-chevrons-down; } }
+.cera-chevrons-left { &:before { content: $cera-chevrons-left; } }
+.cera-chevrons-right { &:before { content: $cera-chevrons-right; } }
+.cera-chevrons-up { &:before { content: $cera-chevrons-up; } }
+.cera-chrome { &:before { content: $cera-chrome; } }
+.cera-circle { &:before { content: $cera-circle; } }
+.cera-clipboard { &:before { content: $cera-clipboard; } }
+.cera-clock { &:before { content: $cera-clock; } }
+.cera-cloud-drizzle { &:before { content: $cera-cloud-drizzle; } }
+.cera-cloud-lightning { &:before { content: $cera-cloud-lightning; } }
+.cera-cloud-off { &:before { content: $cera-cloud-off; } }
+.cera-cloud-rain { &:before { content: $cera-cloud-rain; } }
+.cera-cloud-snow { &:before { content: $cera-cloud-snow; } }
+.cera-cloud { &:before { content: $cera-cloud; } }
+.cera-code { &:before { content: $cera-code; } }
+.cera-codepen { &:before { content: $cera-codepen; } }
+.cera-codesandbox { &:before { content: $cera-codesandbox; } }
+.cera-coffee { &:before { content: $cera-coffee; } }
+.cera-columns { &:before { content: $cera-columns; } }
+.cera-command { &:before { content: $cera-command; } }
+.cera-compass { &:before { content: $cera-compass; } }
+.cera-copy { &:before { content: $cera-copy; } }
+.cera-corner-down-left { &:before { content: $cera-corner-down-left; } }
+.cera-corner-down-right { &:before { content: $cera-corner-down-right; } }
+.cera-corner-left-down { &:before { content: $cera-corner-left-down; } }
+.cera-corner-left-up { &:before { content: $cera-corner-left-up; } }
+.cera-corner-right-down { &:before { content: $cera-corner-right-down; } }
+.cera-corner-right-up { &:before { content: $cera-corner-right-up; } }
+.cera-corner-up-left { &:before { content: $cera-corner-up-left; } }
+.cera-corner-up-right { &:before { content: $cera-corner-up-right; } }
+.cera-cpu { &:before { content: $cera-cpu; } }
+.cera-credit-card { &:before { content: $cera-credit-card; } }
+.cera-crop { &:before { content: $cera-crop; } }
+.cera-crosshair { &:before { content: $cera-crosshair; } }
+.cera-database { &:before { content: $cera-database; } }
+.cera-delete { &:before { content: $cera-delete; } }
+.cera-disc { &:before { content: $cera-disc; } }
+.cera-dollar-sign { &:before { content: $cera-dollar-sign; } }
+.cera-download-cloud { &:before { content: $cera-download-cloud; } }
+.cera-download { &:before { content: $cera-download; } }
+.cera-droplet { &:before { content: $cera-droplet; } }
+.cera-edit-2 { &:before { content: $cera-edit-2; } }
+.cera-edit-3 { &:before { content: $cera-edit-3; } }
+.cera-edit { &:before { content: $cera-edit; } }
+.cera-external-link { &:before { content: $cera-external-link; } }
+.cera-eye-off { &:before { content: $cera-eye-off; } }
+.cera-eye { &:before { content: $cera-eye; } }
+.cera-facebook { &:before { content: $cera-facebook; } }
+.cera-fast-forward { &:before { content: $cera-fast-forward; } }
+.cera-feather { &:before { content: $cera-feather; } }
+.cera-figma { &:before { content: $cera-figma; } }
+.cera-file-minus { &:before { content: $cera-file-minus; } }
+.cera-file-plus { &:before { content: $cera-file-plus; } }
+.cera-file-text { &:before { content: $cera-file-text; } }
+.cera-file { &:before { content: $cera-file; } }
+.cera-film { &:before { content: $cera-film; } }
+.cera-filter { &:before { content: $cera-filter; } }
+.cera-flag { &:before { content: $cera-flag; } }
+.cera-folder-minus { &:before { content: $cera-folder-minus; } }
+.cera-folder-plus { &:before { content: $cera-folder-plus; } }
+.cera-folder { &:before { content: $cera-folder; } }
+.cera-framer { &:before { content: $cera-framer; } }
+.cera-frown { &:before { content: $cera-frown; } }
+.cera-gift { &:before { content: $cera-gift; } }
+.cera-git-branch { &:before { content: $cera-git-branch; } }
+.cera-git-commit { &:before { content: $cera-git-commit; } }
+.cera-git-merge { &:before { content: $cera-git-merge; } }
+.cera-git-pull-request { &:before { content: $cera-git-pull-request; } }
+.cera-github { &:before { content: $cera-github; } }
+.cera-gitlab { &:before { content: $cera-gitlab; } }
+.cera-globe { &:before { content: $cera-globe; } }
+.cera-grid { &:before { content: $cera-grid; } }
+.cera-hard-drive { &:before { content: $cera-hard-drive; } }
+.cera-hash { &:before { content: $cera-hash; } }
+.cera-headphones { &:before { content: $cera-headphones; } }
+.cera-heart { &:before { content: $cera-heart; } }
+.cera-help-circle { &:before { content: $cera-help-circle; } }
+.cera-hexagon { &:before { content: $cera-hexagon; } }
+.cera-home { &:before { content: $cera-home; } }
+.cera-image { &:before { content: $cera-image; } }
+.cera-inbox { &:before { content: $cera-inbox; } }
+.cera-info { &:before { content: $cera-info; } }
+.cera-instagram { &:before { content: $cera-instagram; } }
+.cera-italic { &:before { content: $cera-italic; } }
+.cera-key { &:before { content: $cera-key; } }
+.cera-layers { &:before { content: $cera-layers; } }
+.cera-layout { &:before { content: $cera-layout; } }
+.cera-life-buoy { &:before { content: $cera-life-buoy; } }
+.cera-link-2 { &:before { content: $cera-link-2; } }
+.cera-link { &:before { content: $cera-link; } }
+.cera-linkedin { &:before { content: $cera-linkedin; } }
+.cera-list { &:before { content: $cera-list; } }
+.cera-loader { &:before { content: $cera-loader; } }
+.cera-lock { &:before { content: $cera-lock; } }
+.cera-log-in { &:before { content: $cera-log-in; } }
+.cera-log-out { &:before { content: $cera-log-out; } }
+.cera-mail { &:before { content: $cera-mail; } }
+.cera-map-pin { &:before { content: $cera-map-pin; } }
+.cera-map { &:before { content: $cera-map; } }
+.cera-maximize-2 { &:before { content: $cera-maximize-2; } }
+.cera-maximize { &:before { content: $cera-maximize; } }
+.cera-meh { &:before { content: $cera-meh; } }
+.cera-menu { &:before { content: $cera-menu; } }
+.cera-message-circle { &:before { content: $cera-message-circle; } }
+.cera-message-square { &:before { content: $cera-message-square; } }
+.cera-mic-off { &:before { content: $cera-mic-off; } }
+.cera-mic { &:before { content: $cera-mic; } }
+.cera-minimize-2 { &:before { content: $cera-minimize-2; } }
+.cera-minimize { &:before { content: $cera-minimize; } }
+.cera-minus-circle { &:before { content: $cera-minus-circle; } }
+.cera-minus-square { &:before { content: $cera-minus-square; } }
+.cera-minus { &:before { content: $cera-minus; } }
+.cera-monitor { &:before { content: $cera-monitor; } }
+.cera-moon { &:before { content: $cera-moon; } }
+.cera-more-horizontal { &:before { content: $cera-more-horizontal; } }
+.cera-more-vertical { &:before { content: $cera-more-vertical; } }
+.cera-mouse-pointer { &:before { content: $cera-mouse-pointer; } }
+.cera-move { &:before { content: $cera-move; } }
+.cera-music { &:before { content: $cera-music; } }
+.cera-navigation-2 { &:before { content: $cera-navigation-2; } }
+.cera-navigation { &:before { content: $cera-navigation; } }
+.cera-octagon { &:before { content: $cera-octagon; } }
+.cera-package { &:before { content: $cera-package; } }
+.cera-paperclip { &:before { content: $cera-paperclip; } }
+.cera-pause-circle { &:before { content: $cera-pause-circle; } }
+.cera-pause { &:before { content: $cera-pause; } }
+.cera-pen-tool { &:before { content: $cera-pen-tool; } }
+.cera-percent { &:before { content: $cera-percent; } }
+.cera-phone-call { &:before { content: $cera-phone-call; } }
+.cera-phone-forwarded { &:before { content: $cera-phone-forwarded; } }
+.cera-phone-incoming { &:before { content: $cera-phone-incoming; } }
+.cera-phone-missed { &:before { content: $cera-phone-missed; } }
+.cera-phone-off { &:before { content: $cera-phone-off; } }
+.cera-phone-outgoing { &:before { content: $cera-phone-outgoing; } }
+.cera-phone { &:before { content: $cera-phone; } }
+.cera-pie-chart { &:before { content: $cera-pie-chart; } }
+.cera-play-circle { &:before { content: $cera-play-circle; } }
+.cera-play { &:before { content: $cera-play; } }
+.cera-plus-circle { &:before { content: $cera-plus-circle; } }
+.cera-plus-square { &:before { content: $cera-plus-square; } }
+.cera-plus { &:before { content: $cera-plus; } }
+.cera-pocket { &:before { content: $cera-pocket; } }
+.cera-power { &:before { content: $cera-power; } }
+.cera-printer { &:before { content: $cera-printer; } }
+.cera-radio { &:before { content: $cera-radio; } }
+.cera-refresh-ccw { &:before { content: $cera-refresh-ccw; } }
+.cera-refresh-cw { &:before { content: $cera-refresh-cw; } }
+.cera-repeat { &:before { content: $cera-repeat; } }
+.cera-rewind { &:before { content: $cera-rewind; } }
+.cera-rotate-ccw { &:before { content: $cera-rotate-ccw; } }
+.cera-rotate-cw { &:before { content: $cera-rotate-cw; } }
+.cera-rss { &:before { content: $cera-rss; } }
+.cera-save { &:before { content: $cera-save; } }
+.cera-scissors { &:before { content: $cera-scissors; } }
+.cera-search { &:before { content: $cera-search; } }
+.cera-send { &:before { content: $cera-send; } }
+.cera-server { &:before { content: $cera-server; } }
+.cera-settings { &:before { content: $cera-settings; } }
+.cera-share-2 { &:before { content: $cera-share-2; } }
+.cera-share { &:before { content: $cera-share; } }
+.cera-shield-off { &:before { content: $cera-shield-off; } }
+.cera-shield { &:before { content: $cera-shield; } }
+.cera-shopping-bag { &:before { content: $cera-shopping-bag; } }
+.cera-shopping-cart { &:before { content: $cera-shopping-cart; } }
+.cera-shuffle { &:before { content: $cera-shuffle; } }
+.cera-sidebar { &:before { content: $cera-sidebar; } }
+.cera-skip-back { &:before { content: $cera-skip-back; } }
+.cera-skip-forward { &:before { content: $cera-skip-forward; } }
+.cera-slack { &:before { content: $cera-slack; } }
+.cera-slash { &:before { content: $cera-slash; } }
+.cera-sliders { &:before { content: $cera-sliders; } }
+.cera-smartphone { &:before { content: $cera-smartphone; } }
+.cera-smile { &:before { content: $cera-smile; } }
+.cera-speaker { &:before { content: $cera-speaker; } }
+.cera-square { &:before { content: $cera-square; } }
+.cera-star { &:before { content: $cera-star; } }
+.cera-stop-circle { &:before { content: $cera-stop-circle; } }
+.cera-sun { &:before { content: $cera-sun; } }
+.cera-sunrise { &:before { content: $cera-sunrise; } }
+.cera-sunset { &:before { content: $cera-sunset; } }
+.cera-tablet { &:before { content: $cera-tablet; } }
+.cera-tag { &:before { content: $cera-tag; } }
+.cera-target { &:before { content: $cera-target; } }
+.cera-terminal { &:before { content: $cera-terminal; } }
+.cera-thermometer { &:before { content: $cera-thermometer; } }
+.cera-thumbs-down { &:before { content: $cera-thumbs-down; } }
+.cera-thumbs-up { &:before { content: $cera-thumbs-up; } }
+.cera-toggle-left { &:before { content: $cera-toggle-left; } }
+.cera-toggle-right { &:before { content: $cera-toggle-right; } }
+.cera-trash-2 { &:before { content: $cera-trash-2; } }
+.cera-trash { &:before { content: $cera-trash; } }
+.cera-trello { &:before { content: $cera-trello; } }
+.cera-trending-down { &:before { content: $cera-trending-down; } }
+.cera-trending-up { &:before { content: $cera-trending-up; } }
+.cera-triangle { &:before { content: $cera-triangle; } }
+.cera-truck { &:before { content: $cera-truck; } }
+.cera-tv { &:before { content: $cera-tv; } }
+.cera-twitter { &:before { content: $cera-twitter; } }
+.cera-type { &:before { content: $cera-type; } }
+.cera-umbrella { &:before { content: $cera-umbrella; } }
+.cera-underline { &:before { content: $cera-underline; } }
+.cera-unlock { &:before { content: $cera-unlock; } }
+.cera-upload-cloud { &:before { content: $cera-upload-cloud; } }
+.cera-upload { &:before { content: $cera-upload; } }
+.cera-user-check { &:before { content: $cera-user-check; } }
+.cera-user-minus { &:before { content: $cera-user-minus; } }
+.cera-user-plus { &:before { content: $cera-user-plus; } }
+.cera-user-x { &:before { content: $cera-user-x; } }
+.cera-user { &:before { content: $cera-user; } }
+.cera-users { &:before { content: $cera-users; } }
+.cera-video-off { &:before { content: $cera-video-off; } }
+.cera-video { &:before { content: $cera-video; } }
+.cera-voicemail { &:before { content: $cera-voicemail; } }
+.cera-volume-1 { &:before { content: $cera-volume-1; } }
+.cera-volume-2 { &:before { content: $cera-volume-2; } }
+.cera-volume-x { &:before { content: $cera-volume-x; } }
+.cera-volume { &:before { content: $cera-volume; } }
+.cera-watch { &:before { content: $cera-watch; } }
+.cera-wifi-off { &:before { content: $cera-wifi-off; } }
+.cera-wifi { &:before { content: $cera-wifi; } }
+.cera-wind { &:before { content: $cera-wind; } }
+.cera-x-circle { &:before { content: $cera-x-circle; } }
+.cera-x-octagon { &:before { content: $cera-x-octagon; } }
+.cera-x-square { &:before { content: $cera-x-square; } }
+.cera-x { &:before { content: $cera-x; } }
+.cera-youtube { &:before { content: $cera-youtube; } }
+.cera-zap-off { &:before { content: $cera-zap-off; } }
+.cera-zap { &:before { content: $cera-zap; } }
+.cera-zoom-in { &:before { content: $cera-zoom-in; } }
+.cera-zoom-out { &:before { content: $cera-zoom-out; } }
+
+/* Override fonts */
+$icons: (
+	"times": #{$cera-x},
+	"times-circle": #{$cera-x-circle},
+	"check": #{$cera-check},
+	"edit": #{$cera-edit-2},
+	"alert-circle": #{$cera-alert-circle},
+	"alert-triangle": #{$cera-alert-triangle},
+	"question": #{$cera-help-circle},
+	"question-circle": #{$cera-help-circle},
+	"plus": #{$cera-plus},
+	"plus-circle": #{$cera-plus-circle},
+	"minus": #{$cera-minus},
+	"minus-circle": #{$cera-minus-circle},
+	"search": #{$cera-search},
+	"cog": #{$cera-settings},
+	"cogs": #{$cera-settings},
+	"filter": #{$cera-filter},
+	"sliders": #{$cera-sliders},
+	"upload": #{$cera-upload},
+	"download": #{$cera-download},
+	"lock": #{$cera-lock},
+	"unlock": #{$cera-unlock},
+	"globe": #{$cera-globe},
+	"map": #{$cera-map},
+	"map-marker": #{$cera-map-pin},
+	"trash": #{$cera-trash-2},
+	"paperclip": #{$cera-paperclip},
+	"thumbs-up": #{$cera-thumbs-up},
+	"thumbs-down": #{$cera-thumbs-down},
+	"signal": #{$cera-radio},
+	"pin": #{$cera-pushpin},
+	"file": #{$cera-file},
+	"files": #{$cera-layers},
+	"file-text": #{$cera-file-text},
+	"file-plus": #{$cera-file-plus},
+	"folder": #{$cera-folder},
+	"angle-up": #{$cera-chevron-up},
+	"angle-right": #{$cera-chevron-right},
+	"angle-down": #{$cera-chevron-down},
+	"angle-left": #{$cera-chevron-left},
+	"angle-double-up": #{$cera-chevrons-up},
+	"angle-double-right": #{$cera-chevrons-right},
+	"angle-double-down": #{$cera-chevrons-down},
+	"angle-double-left": #{$cera-chevrons-left},
+
+	"pager-next": #{$cera-chevron-right},
+	"pager-prev": #{$cera-chevron-left},
+
+	"message": #{$cera-message-square},
+	"messages": #{$cera-message-square},
+	"hourglass": #{$cera-clock},
+	"expand": #{$cera-maximize-2},
+	"minimize": #{$cera-minimize-2},
+	"loading": #{$cera-refresh-cw},
+	"grid": #{$cera-grid},
+	"eye": #{$cera-eye},
+	"eye-off": #{$cera-eye-off},
+	"check-circle": #{$cera-check-circle},
+	"arrow-up": #{$cera-arrow-up},
+	"arrow-right": #{$cera-arrow-right},
+	"arrow-down": #{$cera-arrow-down},
+	"arrow-left": #{$cera-arrow-left},
+	"user": #{$cera-user},
+	"users": #{$cera-users},
+	"group": #{$cera-users},
+	"groups": #{$cera-users},
+	"poke": #{$cera-target},
+	"cubes": #{$cera-box},
+	"tasks": #{$cera-activity},
+	"compass": #{$cera-compass},
+	"credit-card": #{$cera-credit-card},
+	"at": #{$cera-at-sign},
+	"personal": #{$cera-user},
+	"trophy": #{$cera-award},
+	"profile-avatar": #{$cera-crop},
+	"image": #{$cera-image},
+	"inbox": #{$cera-inbox},
+	"quote": #{$cera-chevrons-right},
+	"quill": #{$cera-feather},
+	"share": #{$cera-share},
+	"check-square": #{$cera-check-square},
+	"bell": #{$cera-bell},
+	"envelope": #{$cera-mail},
+	"data": #{$cera-upload-cloud},
+	"cancel": #{$cera-slash},
+	"chat": #{$cera-message-square},
+	"topic": #{$cera-message-circle},
+	"album": #{$cera-layers},
+	"video": #{$cera-video},
+	"music": #{$cera-music},
+	"list": #{$cera-list},
+	"spinner": #{$cera-refresh-cw},
+	"calendar": #{$cera-calendar},
+	"asterisk": #{$cera-globe},
+	"bolt": #{$cera-zap},
+	"flag": #{$cera-flag},
+	"clock": #{$cera-clock},
+	"stat": #{$cera-activity},
+	"refresh": #{$cera-refresh-cw},
+	"dots-v": #{$cera-more-vertical},
+	"dots-h": #{$cera-more-horizontal},
+	"switch": #{$cera-swap},
+	"layers": #{$cera-layers},
+	"print": #{$cera-printer},
+	"hamburger-menu": #{$cera-menu},
+	"sun": #{$cera-sun},
+	"cart": #{$cera-shopping-cart},
+	"checkout": #{$cera-check-circle},
+	"external-link": #{$cera-external-link},
+	"ticket": #{$cera-clipboard},
+
+	//--- Post formats
+	"post-format-image": #{$cera-image},
+	"post-format-aside": #{$cera-file-text},
+	"post-format-link": #{$cera-link},
+	"post-format-quote": #{$cera-chevrons-right},
+	"post-format-video": #{$cera-video},
+	"post-format-gallery": #{$cera-grid},
+	"post-format-audio": #{$cera-music},
+	"post-format-status": #{$cera-bookmark},
+	"post-format-chat": #{$cera-message-circle},
+
+	// Grimlock for BuddyPress
+	"user-new": #{$cera-plus},
+	"group-request": #{$cera-clock},
+	"my-groups": #{$cera-users},
+	"my-friends": #{$cera-check},
+	"bp-private-message": #{$cera-message-square},
+	"bp-friend-add": #{$cera-user-plus},
+	"bp-friend-requested": #{$cera-user-check},
+	"bp-friend-approved": #{$cera-user-check},
+	"bp-friend-remove": #{$cera-user-x},
+	"bp-match": #{$cera-help-circle},
+
+	// Grimlock for WooCommerce
+	"wc-filters": #{$cera-sliders},
+	"wc-wishlist": #{$cera-heart},
+	"wc-wishlist-added": #{$cera-heart-on},
+
+	// Grimlock for TEC
+	"tec-list":  #{$cera-list},
+	"tec-month": #{$cera-calendar},
+	"tec-day":   #{$cera-clock},
+	"tec-photo": #{$cera-image},
+	"tec-week":  #{$cera-server},
+	"tec-map":   #{$cera-map},
+
+);
+
+:root {
+	@each $name, $glyph in $icons {
+		--grimlock-icon-#{$name}: "#{$glyph}";
+		--grimlock-icon-#{$name}-font-family: 'cera';
+	}
+}

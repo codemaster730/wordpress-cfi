@@ -1,0 +1,56 @@
+
+/**
+ * Ninja forms
+ *
+ * Custom form plugin
+ * https://wordpress.org/plugins/ninja-forms/
+ */
+
+.ninja-forms-form {
+
+    .ninja-forms-star-rating-control {
+        a {
+            transition: none;
+        }
+    }
+
+    .field-wrap.label-left .ninja-forms-field, .field-wrap.label-left .ninja-forms-star-rating-control {
+        margin-left: 0;
+    }
+
+
+    .field-wrap, #ninja_forms_required_items {
+        @extend .form-group;
+    }
+
+    .label-left,
+    .label-right {
+        input,
+        select,
+        textarea {
+            display: inline-block;
+        }
+    }
+
+    .ninja-forms-error input,
+    .ninja-forms-error select,
+    .ninja-forms-error textarea {
+        border-color: $danger !important;
+    }
+
+    .ninja-forms-field-description {
+        @extend .small;
+    }
+
+    .list-radio-wrap.label-above ul li,
+    .list-radio-wrap.label-below ul li,
+    .list-checkbox-wrap.label-above ul li,
+    .list-checkbox-wrap.label-below ul li {
+        padding-left: 0;
+    }
+}
+
+#ui-datepicker-div {
+    box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    padding: 10px;
+}

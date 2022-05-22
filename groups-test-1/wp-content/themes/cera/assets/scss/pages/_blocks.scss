@@ -1,0 +1,24 @@
+
+/**
+ * Blocks layouts
+ *
+ */
+
+// Remove padding for blocks when navigation is fixed
+.grimlock--navigation-fixed-left,
+.grimlock--navigation-fixed-right {
+
+	[class*="wp-block-"].alignfull,
+	[class*="wp-block-"].alignwide {
+
+		margin-left: -($grid-gutter-width / 2);
+		margin-right: -($grid-gutter-width / 2);
+
+		@include media-breakpoint-up(lg) {
+			margin-left: calc(#{$content-padding} * -1);
+			margin-right: calc(#{$content-padding} * -1);
+		}
+
+	}
+
+}

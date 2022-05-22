@@ -1,0 +1,71 @@
+
+/**
+ * Easy pricing tables
+ *
+ * Pricing tables plugin
+ * https://wordpress.org/plugins/easy-pricing-tables/
+ */
+
+.ptp-pricing-table {
+
+    // One table
+    .ptp-col {
+
+        .ptp-item-container {
+            border: 0;
+            border-radius: $border-radius;
+            box-shadow: 0 0 20px rgba(0,0,0,0.04);
+            background-color: #fff;
+            @include transition($transition-base);
+
+            &:hover {
+                box-shadow: 0 0 30px rgba(0,0,0,0.08);
+            }
+
+            // Name
+            .ptp-plan {
+                background-color: $primary;
+                color: #fff;
+            }
+
+            // Price
+            .ptp-price {
+                background-color: $black-faded;
+                color: inherit;
+            }
+
+            // Items
+            .ptp-bullet-item {
+                color: inherit;
+                border-bottom: 2px solid $black-faded;
+            }
+
+            // Button container
+            div.ptp-cta {
+                background-color: transparent;
+            }
+
+            // Button
+            .ptp-button {
+                border-width: 2px;
+            }
+
+        }
+
+        // Highlight table
+        &.ptp-highlight {
+
+            // Price
+            .ptp-price {
+                font-weight: $font-weight-bold;
+            }
+        }
+    }
+
+    // Highlight badge
+    div.ptp-most-popular {
+        background-color: $info;
+        color: #fff;
+    }
+}
+

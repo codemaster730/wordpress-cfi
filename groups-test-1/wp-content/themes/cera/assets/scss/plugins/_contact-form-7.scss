@@ -1,0 +1,77 @@
+
+/**
+ * Contact form 7
+ *
+ * Custom form plugin.
+ * https://wordpress.org/plugins/contact-form-7/
+ */
+
+.wpcf7 {
+
+    input[type="tel"],
+    input[type="url"],
+    input[type="text"],
+    input[type="week"],
+    input[type="date"],
+    input[type="time"],
+    input[type="email"],
+    input[type="month"],
+    input[type="number"],
+    input[type="search"],
+    input[type="website"],
+    input[type="password"],
+    select[multiple="multiple"],
+    textarea,
+    select {
+        margin-top: ($spacer / 2);
+    }
+
+    label,
+    .form-group {
+        width: 100%;
+        text-align: left;
+    }
+
+    // Quiz
+    [class*="quiz-"] {
+        label {
+            width: 100%;
+        }
+    }
+
+    // Validation tips
+    .wpcf7-not-valid-tip{
+        color: $danger;
+        margin-top: ($spacer / 3);
+        @extend .small, .base-fadeIn;
+    }
+
+    // Ajax tiny loader
+    .ajax-loader {
+        display: none;
+        &.is-active {
+            display: inline-block;
+        }
+        margin-left: ($spacer / 2);
+        margin-right: ($spacer / 2);
+    }
+
+    // Ajax tiny loader
+    span.wpcf7-list-item {
+        margin-left: .5rem;
+        margin-right: .5rem;
+        &.first {
+            margin-left: 0;
+        }
+    }
+
+    &-form-control-wrap {
+        display: block;
+        @extend .form-group, .clearfix;
+    }
+
+    .wpcf7-response-output {
+        margin: 1rem 0;
+    }
+
+}

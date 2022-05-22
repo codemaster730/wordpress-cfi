@@ -1,0 +1,58 @@
+
+/**
+ * Testimonials by Woothemes
+ *
+ * Testimonial plugin.
+ * https://docs.woothemes.com/document/testimonials-plugin/
+ */
+
+.testimonials-list {
+
+    .quote {
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: $grid-gutter-width;
+        text-align: left;
+
+        .avatar,
+        .avatar-link {
+            order: 1;
+            margin: 0 !important;
+        }
+
+        .avatar {
+            box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+        }
+
+        .testimonials-text {
+            order: 2;
+            position: relative;
+            z-index: 1;
+            margin-top: -20px;
+            margin-bottom: .5rem;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .author {
+            order: 3;
+            display: block;
+            @extend .clearfix;
+
+            > span {
+                display: block;
+                &[itemprop="name"] {
+                    float: left;
+                    margin-right: 8px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .url {
+            display: none !important;
+        }
+
+    }
+
+}

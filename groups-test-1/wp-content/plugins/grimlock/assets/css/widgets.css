@@ -1,0 +1,770 @@
+/**
+ * Admin Widget Styles
+ *
+ * Extend admin widget styles for a seamless user experience.
+ */
+/**
+ *
+ * SETTINGS
+ * Variables............Variables and config.
+ *
+ * TOOLS
+ * Mixins...............Mixins.
+ *
+ * COMPONENTS
+ * Widgets..............Widget styles.
+ *
+ * STYLES
+ *
+ */
+/*------------------------------------*\
+     #SETTINGS
+ \*------------------------------------*/
+/**
+ * Customizer Controls variables
+ */
+/*------------------------------------*\
+    #TOOLS
+\*------------------------------------*/
+/**
+ * Customizer Controls Mixins
+ */
+/**
+ * Trumps & Commons styles
+ */
+/*------------------------------------*\
+    #COMPONENTS
+\*------------------------------------*/
+/**
+ * Components
+ */
+/**
+ * Radio image component
+ */
+.radio-img-component, div.grimlock-widget .grimlock_section_widget-radio-image__button > label {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  padding: 3px;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.radio-img-component .ui-button-text, div.grimlock-widget .grimlock_section_widget-radio-image__button > label .ui-button-text {
+  padding: 0;
+}
+
+.radio-img-component .ui-button__tooltip, div.grimlock-widget .grimlock_section_widget-radio-image__button > label .ui-button__tooltip {
+  background-color: transparent;
+  border-radius: 500px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  font-size: .8em;
+  padding: 0;
+  font-weight: 600;
+  font-style: italic;
+  pointer-events: none;
+  color: #888;
+  display: none !important;
+}
+
+@media screen and (max-width: 640px) {
+  .radio-img-component, div.grimlock-widget .grimlock_section_widget-radio-image__button > label {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .radio-img-component, div.grimlock-widget .grimlock_section_widget-radio-image__button > label {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
+
+.radio-img-component img, div.grimlock-widget .grimlock_section_widget-radio-image__button > label img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border: 2px solid #dddddd;
+  border-width: 2px !important;
+  overflow: hidden;
+  border-radius: 3px;
+  background-color: rgba(221, 211, 211, 0.75);
+  background-clip: padding-box;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-user-drag: none;
+}
+
+html[dir="rtl"] .radio-img-component img, html[dir="rtl"] div.grimlock-widget .grimlock_section_widget-radio-image__button > label img, div.grimlock-widget html[dir="rtl"] .grimlock_section_widget-radio-image__button > label img {
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.radio-img-component img::-moz-selection, div.grimlock-widget .grimlock_section_widget-radio-image__button > label img::-moz-selection {
+  background: none !important;
+}
+
+.radio-img-component img::-moz-selection, div.grimlock-widget .grimlock_section_widget-radio-image__button > label img::-moz-selection, .radio-img-component img::selection, div.grimlock-widget .grimlock_section_widget-radio-image__button > label img::selection {
+  background: none !important;
+}
+
+.radio-img-component:hover, div.grimlock-widget .grimlock_section_widget-radio-image__button > label:hover {
+  background: none !important;
+}
+
+.radio-img-component:hover .customize-control-title, div.grimlock-widget .grimlock_section_widget-radio-image__button > label:hover .customize-control-title {
+  color: #0085ba;
+}
+
+.radio-img-component:hover img, div.grimlock-widget .grimlock_section_widget-radio-image__button > label:hover img {
+  border-color: #0085ba;
+}
+
+.radio-img-component:active, div.grimlock-widget .grimlock_section_widget-radio-image__button > label:active, .radio-img-component:focus, div.grimlock-widget .grimlock_section_widget-radio-image__button > label:focus, .radio-img-component.ui-state-active, div.grimlock-widget .grimlock_section_widget-radio-image__button > label.ui-state-active {
+  border: 0;
+  box-shadow: none;
+  background: none;
+}
+
+.radio-img-component:active img, div.grimlock-widget .grimlock_section_widget-radio-image__button > label:active img, .radio-img-component:focus img, div.grimlock-widget .grimlock_section_widget-radio-image__button > label:focus img, .radio-img-component.ui-state-active img, div.grimlock-widget .grimlock_section_widget-radio-image__button > label.ui-state-active img {
+  border-color: #0085ba;
+  opacity: .85;
+}
+
+.radio-img-component.ui-state-active .ui-button__tooltip, div.grimlock-widget .grimlock_section_widget-radio-image__button > label.ui-state-active .ui-button__tooltip {
+  opacity: 1;
+}
+
+.radio-img-component::-moz-selection, div.grimlock-widget .grimlock_section_widget-radio-image__button > label::-moz-selection {
+  background: none !important;
+}
+
+.radio-img-component::-moz-selection, div.grimlock-widget .grimlock_section_widget-radio-image__button > label::-moz-selection, .radio-img-component::selection, div.grimlock-widget .grimlock_section_widget-radio-image__button > label::selection {
+  background: none !important;
+}
+
+/* // Smaller buttons
+    &[id*="_alignment_control"] {
+        .ui-button-col {
+            padding-right: $ui-col-width / 2;
+            padding-left: $ui-col-width / 2;
+            width: 33%;
+            text-align: center;
+            &:first-child {
+                text-align: left;
+                padding-left: 0;
+                padding-right: $ui-col-width;
+            }
+            &:last-child {
+                padding-right: 0;
+                padding-left: $ui-col-width;
+                text-align: right;
+            }
+        }
+    }*/
+/**
+ * Divider control component
+ */
+.customize-control-divider {
+  padding: 12px 0;
+  width: 100%;
+}
+
+.customize-control-divider hr {
+  width: auto;
+  margin: 0 -12px !important;
+  border-top: 2px solid #e2e4e7;
+  border-bottom: none;
+}
+
+/**
+ * Color Picker
+ */
+.color-picker, div.grimlock-widget .wp-picker-container {
+  display: block;
+  position: relative;
+}
+
+.color-picker .wp-color-result-text, div.grimlock-widget .wp-picker-container .wp-color-result-text {
+  display: none !important;
+}
+
+.color-picker .wp-color-result.button, div.grimlock-widget .wp-picker-container .wp-color-result.button {
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  min-height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 500px !important;
+  overflow: hidden;
+  position: absolute !important;
+  top: -24px;
+  right: 2px;
+  margin: 0;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+  transition: box-shadow .2s ease-in-out;
+  outline: 0 !important;
+}
+
+.color-picker .wp-color-result.button:hover, div.grimlock-widget .wp-picker-container .wp-color-result.button:hover {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.color-picker .wp-color-result.button .color-alpha, div.grimlock-widget .wp-picker-container .wp-color-result.button .color-alpha {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.color-picker .wp-picker-input-wrap, div.grimlock-widget .wp-picker-container .wp-picker-input-wrap {
+  width: 100%;
+  padding-top: 1.3rem;
+}
+
+.color-picker .wp-picker-input-wrap > label, div.grimlock-widget .wp-picker-container .wp-picker-input-wrap > label {
+  width: 100% !important;
+}
+
+.color-picker .wp-picker-input-wrap input[type="text"].wp-color-picker, div.grimlock-widget .wp-picker-container .wp-picker-input-wrap input[type="text"].wp-color-picker {
+  width: 100% !important;
+}
+
+.color-picker .wp-picker-input-wrap .button.button-small, div.grimlock-widget .wp-picker-container .wp-picker-input-wrap .button.button-small {
+  min-height: 28px;
+  margin-left: 6px;
+}
+
+.color-picker.wp-picker-active .wp-picker-input-wrap, div.grimlock-widget .wp-picker-active.wp-picker-container .wp-picker-input-wrap {
+  display: flex !important;
+}
+
+/**
+ * Input range
+ */
+.input-range, div.grimlock-widget input[type=range] {
+  -webkit-appearance: none;
+  margin: 8px 0;
+  width: 100%;
+  background: none;
+}
+
+.input-range:focus, div.grimlock-widget input:focus[type=range] {
+  outline: none;
+}
+
+.input-range::-webkit-slider-runnable-track, div.grimlock-widget input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 0 transparent, 0 0 0 rgba(13, 13, 13, 0);
+  background: #d0d0d0;
+  border: 0 solid transparent;
+  border-radius: 500px;
+}
+
+.input-range::-webkit-slider-thumb, div.grimlock-widget input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(13, 13, 13, 0.3);
+  border: 1px solid #0085ba;
+  height: 16px;
+  width: 16px;
+  border-radius: 500px;
+  background: #0085ba;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: ew-resize !important;
+  -webkit-appearance: none;
+  margin-top: -5.5px;
+}
+
+.input-range::-webkit-slider-thumb:hover, div.grimlock-widget input::-webkit-slider-thumb:hover[type=range] {
+  border-color: #5b9dd9;
+}
+
+.input-range::-webkit-slider-thumb:focus, div.grimlock-widget input::-webkit-slider-thumb:focus[type=range], .input-range::-webkit-slider-thumb:active, div.grimlock-widget input::-webkit-slider-thumb:active[type=range] {
+  box-shadow: none;
+}
+
+.input-range::-webkit-slider-thumb:active, div.grimlock-widget input::-webkit-slider-thumb:active[type=range] {
+  background: #5b9dd9;
+}
+
+.input-range:focus::-webkit-slider-runnable-track, div.grimlock-widget input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #dddddd;
+}
+
+.input-range::-moz-range-track, div.grimlock-widget input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 0 transparent, 0 0 0 rgba(13, 13, 13, 0);
+  background: #d0d0d0;
+  border: 0 solid transparent;
+  border-radius: 500px;
+}
+
+.input-range::-moz-range-thumb, div.grimlock-widget input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(13, 13, 13, 0.3);
+  border: 1px solid #0085ba;
+  height: 16px;
+  width: 16px;
+  border-radius: 500px;
+  background: #0085ba;
+  cursor: pointer;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.input-range::-moz-range-thumb:hover, div.grimlock-widget input::-moz-range-thumb:hover[type=range] {
+  border-color: #5b9dd9;
+}
+
+.input-range::-moz-range-thumb:focus, div.grimlock-widget input::-moz-range-thumb:focus[type=range], .input-range::-moz-range-thumb:active, div.grimlock-widget input::-moz-range-thumb:active[type=range] {
+  box-shadow: none;
+}
+
+.input-range::-ms-track, div.grimlock-widget input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+
+.input-range::-ms-fill-lower, div.grimlock-widget input[type=range]::-ms-fill-lower {
+  box-shadow: 0 0 0 transparent, 0 0 0 rgba(13, 13, 13, 0);
+  background: #c3c3c3;
+  border: 0 solid transparent;
+  border-radius: 1000px;
+}
+
+.input-range::-ms-fill-upper, div.grimlock-widget input[type=range]::-ms-fill-upper {
+  box-shadow: 0 0 0 transparent, 0 0 0 rgba(13, 13, 13, 0);
+  background: #d0d0d0;
+  border: 0 solid transparent;
+  border-radius: 1000px;
+}
+
+.input-range::-ms-thumb, div.grimlock-widget input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3), 0 0 1px rgba(13, 13, 13, 0.3);
+  border: 1px solid #0085ba;
+  height: 16px;
+  width: 16px;
+  border-radius: 500px;
+  background: #0085ba;
+  cursor: pointer;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.input-range::-ms-thumb:hover, div.grimlock-widget input::-ms-thumb:hover[type=range] {
+  border-color: #5b9dd9;
+}
+
+.input-range::-ms-thumb:focus, div.grimlock-widget input::-ms-thumb:focus[type=range], .input-range::-ms-thumb:active, div.grimlock-widget input::-ms-thumb:active[type=range] {
+  box-shadow: none;
+}
+
+.input-range:focus::-ms-fill-lower, div.grimlock-widget input[type=range]:focus::-ms-fill-lower {
+  background: #d0d0d0;
+}
+
+.input-range:focus::-ms-fill-upper, div.grimlock-widget input[type=range]:focus::-ms-fill-upper {
+  background: #dddddd;
+}
+
+.grimlock_input-range-value-indicator {
+  position: absolute;
+  top: 3px;
+  z-index: 2;
+  right: 0;
+  pointer-events: none;
+  opacity: .7;
+}
+
+/*------------------------------------*\
+    #STYLES
+\*------------------------------------*/
+.widget[id*="grimlock"] .widget-inside {
+  padding: 0 !important;
+}
+
+div.grimlock-widget ul.grimlock-widget-tabs {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  width: 100%;
+  border: 0;
+  box-shadow: 0 1px 0 #e2e4e7;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  overflow: auto;
+}
+
+div.grimlock-widget ul.grimlock-widget-tabs > li {
+  width: 100%;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  max-width: 33.3333%;
+  transition: all .2s ease-in-out;
+  outline: 0 !important;
+  background-color: #f3f4f5;
+}
+
+div.grimlock-widget ul.grimlock-widget-tabs > li a {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  padding: 10px 4px !important;
+  font-size: .85em;
+  border-bottom: 2px solid transparent;
+  text-overflow: ellipsis;
+  white-space: pre;
+  overflow: hidden;
+  max-width: 100%;
+  transition: all .2s ease-in-out;
+  outline: 0 !important;
+  color: inherit;
+}
+
+div.grimlock-widget ul.grimlock-widget-tabs > li a:hover, div.grimlock-widget ul.grimlock-widget-tabs > li a:active, div.grimlock-widget ul.grimlock-widget-tabs > li a:focus {
+  border-bottom-color: #0085ba;
+}
+
+div.grimlock-widget ul.grimlock-widget-tabs > li a:focus {
+  box-shadow: none !important;
+}
+
+div.grimlock-widget ul.grimlock-widget-tabs > li.tabs a {
+  color: #0085ba;
+  border-bottom-color: #0085ba;
+}
+
+div.grimlock-widget .tabs-panel {
+  padding: 15px;
+  border: 0;
+}
+
+div.grimlock-widget .tabs-panel > div,
+div.grimlock-widget .tabs-panel > p {
+  margin: 0 0 1.5em 0;
+  position: relative;
+}
+
+div.grimlock-widget .tabs-panel > *:last-child {
+  margin-bottom: 0;
+}
+
+div.grimlock-widget .tabs-panel div.categorydiv {
+  margin: 0;
+}
+
+div.grimlock-widget ~ p,
+div.grimlock-widget ~ div {
+  padding: 15px;
+  margin: 0;
+  background-color: #f3f4f5;
+  border-top: 1px solid #e2e4e7;
+}
+
+div.grimlock-widget ~ p > label,
+div.grimlock-widget ~ div > label {
+  display: none;
+}
+
+div.grimlock-widget ~ p ul,
+div.grimlock-widget ~ div ul {
+  margin: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding-bottom: 0 !important;
+}
+
+div.grimlock-widget ~ p ul li:last-child,
+div.grimlock-widget ~ div ul li:last-child {
+  margin-bottom: 0 !important;
+}
+
+div.grimlock-widget ~ p + p,
+div.grimlock-widget ~ p + div,
+div.grimlock-widget ~ div + p,
+div.grimlock-widget ~ div + div {
+  margin-top: -2px !important;
+  border-top-width: 1px;
+}
+
+div.grimlock-widget ~ p select,
+div.grimlock-widget ~ p input,
+div.grimlock-widget ~ p textarea,
+div.grimlock-widget ~ div select,
+div.grimlock-widget ~ div input,
+div.grimlock-widget ~ div textarea {
+  width: 100%;
+}
+
+div.grimlock-widget input[type="checkbox"] {
+  position: relative;
+  top: 2px;
+  margin-right: 0;
+}
+
+div.grimlock-widget select[multiple],
+div.grimlock-widget select[multiple="multiple"] {
+  min-height: 130px;
+  padding: 6px;
+  margin-bottom: -15px;
+}
+
+div.grimlock-widget textarea {
+  max-height: 300px;
+  margin-bottom: -15px;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .grimlock_section_widget-image__title {
+  margin-bottom: 5px;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .attachment-media-view {
+  background: none;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .thumbnail-image {
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  overflow: hidden;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .thumbnail-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .thumbnail-image.hidden {
+  display: none !important;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .thumbnail-image.upload-button {
+  position: relative;
+  cursor: pointer;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .thumbnail-image.upload-button:after {
+  font-family: "dashicons";
+  content: "\f464";
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 2rem;
+  transition: opacity .2s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .thumbnail-image.upload-button:hover:after {
+  opacity: 1;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .attachment-thumb {
+  width: 100%;
+  height: auto;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .placeholder {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  padding: 15px;
+  line-height: 20px;
+  margin-top: 10px;
+  border: 1px dashed #aaaaaa;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .placeholder.upload-button {
+  background-color: #f3f4f5;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .placeholder.upload-button:hover {
+  background-color: #fff;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .actions {
+  margin-top: 6px !important;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .actions .button {
+  margin: 0 !important;
+  white-space: nowrap;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .actions .button.upload-button {
+  width: 100%;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .actions .button + .button {
+  margin-left: 6px !important;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .actions.remove-actions {
+  width: 100%;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .actions.remove-actions:not(.hidden) {
+  display: flex;
+}
+
+div.grimlock-widget .grimlock_section_widget-image .actions br.clear {
+  display: none !important;
+}
+
+div.grimlock-widget .grimlock_section_widget-radio-image {
+  position: relative;
+}
+
+div.grimlock-widget .grimlock_section_widget-radio-image__buttonset {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -6px;
+  margin-right: -6px;
+  margin-top: 12px;
+}
+
+div.grimlock-widget .grimlock_section_widget-radio-image__button {
+  max-width: 33.333333%;
+  flex: 0 0 33.333333%;
+}
+
+.widget[id*="grimlock"] div.widget-control-actions {
+  padding: 15px;
+  margin: 0;
+  border-top: 1px solid #e2e4e7;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.widget[id*="grimlock"] div.widget-control-actions .alignright {
+  margin-left: auto;
+  display: flex;
+}
+
+.widget[id*="grimlock"] div.widget-control-actions .alignright input[type="submit"] {
+  order: 99;
+  align-items: center;
+}
+
+.widget[id*="grimlock"] div.widget-control-actions .alignright .spinner {
+  width: 20px;
+  max-width: 20px;
+  flex: 0 0 20px;
+}
+
+.widget[id*="grimlock"] div.widget-control-actions input,
+.widget[id*="grimlock"] div.widget-control-actions select,
+.widget[id*="grimlock"] div.widget-control-actions textarea {
+  width: 100%;
+}
+
+.menu-item-settings .field-image.wp-media-buttons img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] .grimlock_section_widget-radio-image__buttonset {
+  max-width: 150px;
+}
+
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] .grimlock_section_widget-radio-image__buttonset > div > label {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+}
+
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] .grimlock_section_widget-radio-image__buttonset > div > label img {
+  border-radius: 0;
+}
+
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] .grimlock_section_widget-radio-image__buttonset > div > label:hover {
+  z-index: 9;
+}
+
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] input:checked + label {
+  z-index: 9;
+}
+
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-270deg"],
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-225deg"] {
+  clear: left;
+}
+
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-270deg"],
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-360deg"],
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-90deg"] {
+  top: -2px;
+}
+
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-225deg"],
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-180deg"],
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-135deg"] {
+  top: -4px;
+}
+
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-0deg"],
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-360deg"],
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-180deg"] {
+  left: -2px;
+}
+
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-45deg"],
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-90deg"],
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-135deg"] {
+  left: -4px;
+}
+
+.grimlock_section_widget-radio-image[id*="background_gradient_direction"] label[for*="direction-360deg"] {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}

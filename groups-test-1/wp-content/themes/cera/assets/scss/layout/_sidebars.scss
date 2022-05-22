@@ -1,0 +1,33 @@
+
+/**
+ * Sidebar
+ *
+ * Sidebars styles.
+ */
+
+.sidebar {
+	&-nav {
+		margin-bottom: $spacer;
+	}
+	@if $enable-hide-search-btn {
+		form[role="search"] {
+			input[type="submit"],
+			button[type="submit"] {
+				display: none !important;
+			}
+			input[type="search"],
+			input[type="text"],
+			.form-group {
+				width: 100% !important;
+			}
+		}
+	}
+}
+
+#secondary-left,
+#secondary-right {
+	@include media-breakpoint-down(md) {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+}

@@ -1,0 +1,79 @@
+
+/**
+ * Grimlock BuddyPress
+ *
+ * Grimlock addons for Buddypress.
+ * https://themosaurus.com
+ */
+
+// /**
+//  * BuddyPress components in main-navigation
+//  */
+
+.main-navigation {
+
+	.navbar-nav.navbar-nav--buddypress {
+
+		.menu-item--profile {
+
+			@include media-breakpoint-up(lg) {
+
+				padding-right: 1.2rem;
+				order: -1;
+				margin-right: .3rem;
+
+				.menu-item--profile__link  {
+
+					width: auto !important;
+					display: flex !important;
+					align-items: center;
+
+					.avatar-round-ratio {
+						position: static !important;
+						transform: none !important;
+					}
+					.menu-item--profile__name {
+						display: inline-flex !important;
+						margin-left: .8rem !important;
+						margin-right: 0 !important;
+					}
+				}
+
+			}
+
+		}
+
+		> .menu-item:not(.menu-item--profile) {
+			> a {
+				&:before {
+					width: auto !important;
+					background: none !important;
+					height: auto !important;
+				}
+			}
+		}
+
+		.slideout-wrapper & {
+			@include media-breakpoint-up(lg) {
+				display: none !important;
+			}
+		}
+
+	}
+
+}
+
+
+.main-navigation {
+	&.grimlock-navbar--hamburger {
+		.navbar-nav.navbar-nav--buddypress {
+			.menu-item--profile {
+				@include media-breakpoint-up(lg) {
+					&:not(:first-child) {
+						border-right: 2px solid var(--grimlock-table-striped-background-color);
+					}
+				}
+			}
+		}
+	}
+}

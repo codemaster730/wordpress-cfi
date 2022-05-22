@@ -1,0 +1,344 @@
+/*
+justify-content:
+ - flex-start
+ - flex-end
+ - center
+ - space-between
+ - space-around
+ - space-evenly
+align-items:
+ - stretch
+ - flex-start
+ - flex-end
+ - center
+ - baseline
+ */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+/*
+start   - aligns items to be flush with the start edge of their cell
+end     - aligns items to be flush with the end edge of their cell
+center  - aligns items in the center of their cell
+stretch - fills the whole height of the cell (this is the default)
+ */
+#eckb-help-dialog {
+  position: fixed !important;
+  bottom: 81px;
+  right: 20px;
+  min-width: 300px;
+  z-index: 99999;
+  box-shadow: 5px 5px 15px 5px #000000; }
+  #eckb-help-dialog h1, #eckb-help-dialog h2, #eckb-help-dialog h3, #eckb-help-dialog h4, #eckb-help-dialog h5, #eckb-help-dialog h6, #eckb-help-dialog p, #eckb-help-dialog a, #eckb-help-dialog div, #eckb-help-dialog span, #eckb-help-dialog strong, #eckb-help-dialog b, #eckb-help-dialog i, #eckb-help-dialog ol, #eckb-help-dialog ul, #eckb-help-dialog li, #eckb-help-dialog section, #eckb-help-dialog nav, #eckb-help-dialog menu, #eckb-help-dialog header, #eckb-help-dialog form, #eckb-help-dialog input, #eckb-help-dialog textarea, #eckb-help-dialog button, #eckb-help-dialog img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-weight: normal;
+    line-height: 1.7em;
+    text-align: left;
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    list-style-image: none; }
+    #eckb-help-dialog h1:focus, #eckb-help-dialog h2:focus, #eckb-help-dialog h3:focus, #eckb-help-dialog h4:focus, #eckb-help-dialog h5:focus, #eckb-help-dialog h6:focus, #eckb-help-dialog p:focus, #eckb-help-dialog a:focus, #eckb-help-dialog div:focus, #eckb-help-dialog span:focus, #eckb-help-dialog strong:focus, #eckb-help-dialog b:focus, #eckb-help-dialog i:focus, #eckb-help-dialog ol:focus, #eckb-help-dialog ul:focus, #eckb-help-dialog li:focus, #eckb-help-dialog section:focus, #eckb-help-dialog nav:focus, #eckb-help-dialog menu:focus, #eckb-help-dialog header:focus, #eckb-help-dialog form:focus, #eckb-help-dialog input:focus, #eckb-help-dialog textarea:focus, #eckb-help-dialog button:focus, #eckb-help-dialog img:focus {
+      outline: none; }
+  #eckb-help-dialog h1 {
+    font-size: 24px; }
+  #eckb-help-dialog h2 {
+    font-size: 22px; }
+  #eckb-help-dialog h3 {
+    font-size: 20px; }
+  #eckb-help-dialog h4 {
+    font-size: 18px; }
+  #eckb-help-dialog h5 {
+    font-size: 16px; }
+  #eckb-help-dialog h6 {
+    font-size: 15px; }
+  #eckb-help-dialog p {
+    font-size: 14px; }
+  #eckb-help-dialog input {
+    border: 1px solid #d9d9d9;
+    width: 100%;
+    margin: 0;
+    line-height: 14px;
+    font-size: 14px;
+    padding: 10px 10px;
+    height: auto;
+    background-color: #ffffff;
+    background-image: none; }
+  #eckb-help-dialog textarea {
+    border: 1px solid #d9d9d9;
+    width: 100%;
+    margin: 0;
+    line-height: 14px;
+    font-size: 14px;
+    padding: 10px 10px;
+    height: 130px;
+    background-color: #ffffff;
+    box-shadow: none; }
+  #eckb-help-dialog .eckb-hd-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px; }
+    #eckb-help-dialog .eckb-hd-header-container .eckb-hd-header__logo {
+      width: 50px; }
+      #eckb-help-dialog .eckb-hd-header-container .eckb-hd-header__logo .eckb-hd-header__logo__img {
+        width: 100%; }
+    #eckb-help-dialog .eckb-hd-header-container .eckb-hd-header__button-container .eckb-hd-button {
+      padding: 5px 10px;
+      border-radius: 4px; }
+      #eckb-help-dialog .eckb-hd-header-container .eckb-hd-header__button-container .eckb-hd-button:hover {
+        cursor: pointer; }
+    #eckb-help-dialog .eckb-hd-header-container .eckb-hd-header__button-container .eckb-hd-button__faq-btn {
+      display: none; }
+    #eckb-help-dialog .eckb-hd-header-container .eckb-hd-header__title {
+      font-size: 26px;
+      line-height: 1em;
+      text-align: center;
+      margin: 0 0 10px 0;
+      padding: 0;
+      color: #fff; }
+      #eckb-help-dialog .eckb-hd-header-container .eckb-hd-header__title .eckb-hd-header__title__contact {
+        display: none; }
+      #eckb-help-dialog .eckb-hd-header-container .eckb-hd-header__title:before {
+        display: none; }
+  #eckb-help-dialog .eckb-hd-body-container {
+    display: flex;
+    background-color: #fff;
+    width: 700px; }
+    #eckb-help-dialog .eckb-hd-body-container ::-webkit-scrollbar {
+      width: 10px; }
+    #eckb-help-dialog .eckb-hd-body-container ::-webkit-scrollbar-thumb {
+      background: #cccccc; }
+    #eckb-help-dialog .eckb-hd-body-container ::-webkit-scrollbar-track {
+      background-color: #ededed; }
+    #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container {
+      border-right: solid 1px #ddd;
+      width: 100%; }
+      #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container .eckb-hd-faq-container {
+        padding: 10px 0 0 10px; }
+        #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container .eckb-hd-faq-container .eckb-hd-faq__list {
+          height: 340px;
+          overflow: auto;
+          padding: 0 10px 0 0; }
+          #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container .eckb-hd-faq-container .eckb-hd-faq__list .eckb-hd-faq__list__item-container {
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+            border: solid 1px #00a4bd;
+            margin: 0 0 10px 0;
+            border-radius: 3px;
+            color: #00a4bd; }
+            #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container .eckb-hd-faq-container .eckb-hd-faq__list .eckb-hd-faq__list__item-container:hover {
+              cursor: pointer;
+              background-color: #f7f7f7; }
+            #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container .eckb-hd-faq-container .eckb-hd-faq__list .eckb-hd-faq__list__item-container .eckb-hd__item__question {
+              padding: 8px 16px; }
+            #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container .eckb-hd-faq-container .eckb-hd-faq__list .eckb-hd-faq__list__item-container .eckb-hd__item__answer {
+              padding: 8px 16px;
+              display: none; }
+              #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container .eckb-hd-faq-container .eckb-hd-faq__list .eckb-hd-faq__list__item-container .eckb-hd__item__answer .eckb-hd__item__answer__text {
+                color: #000000; }
+              #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container .eckb-hd-faq-container .eckb-hd-faq__list .eckb-hd-faq__list__item-container .eckb-hd__item__answer .eckb-hd__item__answer__link {
+                text-align: center; }
+          #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container .eckb-hd-faq-container .eckb-hd-faq__list .eckb-hd-faq__list__item--active .eckb-hd__item__question {
+            background-color: #00a4bd;
+            color: #fff; }
+          #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container .eckb-hd-faq-container .eckb-hd-faq__list .eckb-hd-faq__list__item--active .eckb-hd__item__answer {
+            display: block; }
+      #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__left-content-container .eckb-hd-search-container {
+        padding: 10px 10px 10px 10px;
+        border-top: solid 2px #49b7cb; }
+    #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__right-content-container {
+      display: none;
+      width: 360px;
+      padding: 10px; }
+      #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__right-content-container .eckb-hd-kb-articles-container .eckb-hd-kb-articles__header {
+        position: relative; }
+        #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__right-content-container .eckb-hd-kb-articles-container .eckb-hd-kb-articles__header .eckb-hd__loading-spinner {
+          display: none;
+          position: absolute;
+          border: 3px solid #f3f3f3;
+          border-top: 4px solid #0c0c0c;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          animation: spin 1s linear infinite;
+          top: 50%;
+          right: 22px;
+          z-index: 50;
+          margin-left: -15px;
+          margin-top: -15px; }
+      #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__right-content-container .eckb-hd-kb-articles-container .epkb-hd-search-results-container {
+        position: relative;
+        width: 100%; }
+        #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__right-content-container .eckb-hd-kb-articles-container .epkb-hd-search-results-container .epkb-hd-search-results__article-list {
+          display: none;
+          max-height: 400px;
+          overflow: auto; }
+          #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__right-content-container .eckb-hd-kb-articles-container .epkb-hd-search-results-container .epkb-hd-search-results__article-list li:last-child {
+            border: none; }
+        #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__right-content-container .eckb-hd-kb-articles-container .epkb-hd-search-results-container .epkb-hd-search-results__article-list--active {
+          display: block; }
+        #eckb-help-dialog .eckb-hd-body-container .eckb-hd-body__right-content-container .eckb-hd-kb-articles-container .epkb-hd-search-results-container .epkb-hd__search_results-cat-article-details--active {
+          display: block;
+          min-height: 300px; }
+    #eckb-help-dialog .eckb-hd-body-container #epkb-hd-body__contact-container {
+      display: none;
+      width: 100%; }
+      #eckb-help-dialog .eckb-hd-body-container #epkb-hd-body__contact-container #epkb-hd__contact-form {
+        width: 100%;
+        display: flex; }
+        #eckb-help-dialog .eckb-hd-body-container #epkb-hd-body__contact-container #epkb-hd__contact-form #epkb-hd__contact-form-body {
+          width: 100%;
+          padding: 20px; }
+          #eckb-help-dialog .eckb-hd-body-container #epkb-hd-body__contact-container #epkb-hd__contact-form #epkb-hd__contact-form-body .epkb-hd__contact-form-field {
+            width: 100%;
+            margin-bottom: 10px; }
+          #eckb-help-dialog .eckb-hd-body-container #epkb-hd-body__contact-container #epkb-hd__contact-form #epkb-hd__contact-form-body .epkb-hd__contact-form-btn-wrap {
+            text-align: center; }
+            #eckb-help-dialog .eckb-hd-body-container #epkb-hd-body__contact-container #epkb-hd__contact-form #epkb-hd__contact-form-body .epkb-hd__contact-form-btn-wrap .epkb-hd__contact-form-btn {
+              display: inline-block;
+              width: fit-content;
+              border: none;
+              text-align: center;
+              padding: 15px 30px;
+              color: #fff;
+              position: relative;
+              text-shadow: none;
+              box-shadow: none;
+              vertical-align: middle;
+              text-decoration: none;
+              font-size: 15px; }
+    #eckb-help-dialog .eckb-hd-body-container .epkb-hd_categories {
+      padding: 0;
+      margin: 0; }
+      #eckb-help-dialog .eckb-hd-body-container .epkb-hd_categories li:last-child {
+        border: none; }
+      #eckb-help-dialog .eckb-hd-body-container .epkb-hd_categories .epkb-hd_cat-item {
+        list-style-type: none;
+        padding: 8px 0;
+        cursor: pointer;
+        border-bottom: solid 1px #ddd; }
+        #eckb-help-dialog .eckb-hd-body-container .epkb-hd_categories .epkb-hd_cat-item .epkb-hd_cat-name {
+          font-size: 14px; }
+          #eckb-help-dialog .eckb-hd-body-container .epkb-hd_categories .epkb-hd_cat-item .epkb-hd_cat-name .epkb-hd_cat-name__icon {
+            margin-right: 3px; }
+    #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-box .epkb-hd__category_title {
+      font-weight: bold;
+      font-size: 16px;
+      padding: 0 0 10px 0; }
+    #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-box .epkb-hd__article_list {
+      padding: 0;
+      margin: 0; }
+      #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-box .epkb-hd__article_list li:last-child {
+        border: none; }
+    #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-item {
+      list-style-type: none;
+      cursor: pointer;
+      padding: 8px 0;
+      border-bottom: solid 1px #ddd; }
+      #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-item .epkb-hd_article-item__name {
+        display: flex; }
+        #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-item .epkb-hd_article-item__name .epkb-hd_article-item__text {
+          margin: 0 0 0 10px; }
+    #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-item-details {
+      font-size: 13px; }
+      #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-item-details .epkb-hd_article-title {
+        font-weight: bold;
+        font-size: 16px;
+        padding: 0 0 10px 0;
+        border-bottom: solid 1px #ddd; }
+      #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-item-details .epkb-hd_article-desc {
+        padding: 10px 0 10px 0; }
+        #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-item-details .epkb-hd_article-desc p, #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-item-details .epkb-hd_article-desc a, #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-item-details .epkb-hd_article-desc span, #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-item-details .epkb-hd_article-desc div {
+          display: none; }
+      #eckb-help-dialog .eckb-hd-body-container .epkb-hd_article-item-details .epkb-hd_article-link {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 15px; }
+  #eckb-help-dialog .eckb-hd-body--show-right-col-only .eckb-hd-body__left-content-container {
+    display: none; }
+  #eckb-help-dialog .eckb-hd-body--show-right-col-only .eckb-hd-body__right-content-container {
+    width: 100%;
+    display: flex; }
+  #eckb-help-dialog .eckb-hd-body--show-both-columns .eckb-hd-body__left-content-container {
+    width: 50%; }
+  #eckb-help-dialog .eckb-hd-body--show-both-columns .eckb-hd-body__right-content-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column; }
+  #eckb-help-dialog #eckb-hd__footer {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff !important;
+    text-align: center;
+    padding: 10px; }
+    #eckb-help-dialog #eckb-hd__footer a {
+      color: #fff !important;
+      display: inline-block !important; }
+    #eckb-help-dialog #eckb-hd__footer .eckb-hd__kb_icon {
+      width: 14px;
+      display: inline-block !important;
+      margin: 0 5px; }
+  #eckb-help-dialog .epkb-hd__loading {
+    position: relative; }
+  #eckb-help-dialog .epkb-hd__loading:after {
+    display: block;
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5); }
+  #eckb-help-dialog__footer {
+    font-size: 14px;
+    text-align: center;
+    color: #fff; }
+    #eckb-help-dialog__footer .eckb-hd__kb_icon {
+      width: 14px;
+      display: inline-block; }
+    #eckb-help-dialog__footer a {
+      color: #fff;
+      text-decoration: none; }
+
+.eckb-help-dialog--contact-us-active .eckb-hd-header__title__faq {
+  display: none !important; }
+.eckb-help-dialog--contact-us-active .eckb-hd-body__left-content-container {
+  display: none !important; }
+.eckb-help-dialog--contact-us-active .eckb-hd-body__right-content-container {
+  display: none !important; }
+.eckb-help-dialog--contact-us-active .eckb-hd-button__faq-btn {
+  display: block !important; }
+.eckb-help-dialog--contact-us-active .eckb-hd-header__title__contact {
+  display: block !important; }
+.eckb-help-dialog--contact-us-active #epkb-hd-body__contact-container {
+  display: block !important; }
+.eckb-help-dialog--contact-us-active .eckb-hd-button__contact-btn {
+  display: none !important; }
+
+.eckb-hd-toggle {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  text-align: center;
+  line-height: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 999;
+  font-size: 40px; }

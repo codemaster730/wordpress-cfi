@@ -1,0 +1,40 @@
+
+/**
+ * Youzer
+ *
+ * Community & User Profiles for BuddyPress.
+ * https://codecanyon.net/item/youzer-new-wordpress-user-profiles-era/19716647
+ */
+
+.yz-page-main-content,
+.yz-account-page {
+	padding-top: 3% !important;
+	padding-bottom: 3% !important;
+}
+
+#yz-profile-navmenu .yz-inner-content,
+.youzer .wild-content,
+.youzer .yz-boxed-navbar,
+.yz-cover-content,
+.yz-header-content,
+.yz-vertical-layout .yz-content,
+.yz-page-main-content {
+	padding-left: $grid-gutter-width / 2 !important;
+	padding-right: $grid-gutter-width / 2 !important;
+	.page-template-template-classic-12-cols-left & {
+		padding-left: 3% !important;
+		padding-right: 3% !important;
+	}
+}
+
+body.page-template-template-dashboard {
+
+	.buddypress.widget .item-list,
+	.buddypress.widget .item-options {
+		padding: 0 !important;
+	}
+
+	.widget_display_topics ul {
+		padding: 0;
+	}
+}

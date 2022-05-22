@@ -1,0 +1,115 @@
+
+/**
+ * Gravity forms
+ *
+ * Custom form plugin.
+ * http://www.gravityforms.com/
+ */
+
+
+.gform_wrapper {
+
+    width: 100%;
+
+    input[type="tel"],
+    input[type="url"],
+    input[type="text"],
+    input[type="week"],
+    input[type="date"],
+    input[type="time"],
+    input[type="email"],
+    input[type="month"],
+    input[type="number"],
+    input[type="search"],
+    input[type="website"],
+    input[type="password"],
+    select[multiple="multiple"],
+    textarea,
+    select {
+        padding: $input-btn-padding-y $input-btn-padding-x !important;
+    }
+
+    // Form title
+    .gform_heading {
+        width: 100%;
+    }
+
+    // Form group
+    .gfield {
+
+        @extend .form-group;
+
+        input,
+        textarea,
+        select {
+            &.large {
+                width: 100% !important;
+            }
+        }
+
+        label.gfield_label + div.gfield_description {
+            margin-top: 0;
+            padding-top: 0;
+            color: inherit;
+        }
+
+        // Info text
+        div.charleft.warningTextareaInfo,
+        div.gfield_description {
+            color: inherit;
+            font-size: 80%;
+            opacity: 0.7;
+        }
+
+        &_radio,
+        &_checkbox {
+            label[for*="choice"] {
+                font-weight: normal;
+            }
+        }
+
+    }
+
+    // Remove input margin top
+    label.gfield_label + div.ginput_container {
+        body & {
+            margin-top: 0 !important;
+        }
+    }
+
+    // Progress bar
+    .gf_progressbar_percentage,
+    .gf_progressbar {
+        background-image: none !important;
+    }
+
+    // Wizard
+    div.gform_page_footer {
+        border-top: 2px solid rgba(0,0,0,0.1);
+        .button {
+            vertical-align: top;
+        }
+        img {
+            display: inline-block;
+        }
+    }
+
+    // Notice
+    div.validation_error {
+        body & {
+            @extend .alert;
+            @include alert-variant-type($danger);
+            font-size: 1em !important;
+            padding: 1em !important;
+            border-width: 1px !important;
+        }
+    }
+
+    // Error field
+    li.gfield.gfield_error,
+    li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+        background-color: $danger !important;
+        border: 0 !important;
+    }
+
+}

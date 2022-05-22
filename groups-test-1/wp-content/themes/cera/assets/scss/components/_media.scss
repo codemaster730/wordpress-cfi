@@ -1,0 +1,22 @@
+
+/**
+ * Media
+ *
+ * Styles for the Bootstrap Media component.
+ */
+
+.media {
+
+	&-heading {
+		margin-bottom: $media-heading-spacer-y;
+		font-weight: $media-heading-font-weight;
+		font-size: $media-heading-font-size;
+	}
+
+	img {
+		.entry-content & {
+			max-width: none;
+		}
+	}
+
+}

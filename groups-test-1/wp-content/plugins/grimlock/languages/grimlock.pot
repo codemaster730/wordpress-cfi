@@ -1,0 +1,1621 @@
+# Copyright (C) 2021 grimlock
+# This file is distributed under the same license as the grimlock package.
+msgid ""
+msgstr ""
+"Project-Id-Version: grimlock\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Themosaurus <support@themosaurus.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: inc/class-grimlock-ajax.php:32, inc/block/class-grimlock-base-block.php:290, inc/block/class-grimlock-nav-menu-section-block.php:66, inc/widget/fields/class-grimlock-nav-menu-section-widget-fields.php:38, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:147
+msgid "- Select -"
+msgstr ""
+
+#: inc/class-grimlock.php:242
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/class-grimlock.php:243
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/class-grimlock.php:244, inc/block/class-grimlock-section-block.php:920, inc/block/class-grimlock-section-block.php:981, inc/widget/fields/class-grimlock-section-widget-fields.php:929
+msgid "Full Width"
+msgstr ""
+
+#: inc/class-grimlock.php:245
+msgid "Full Width: Narrow"
+msgstr ""
+
+#: inc/class-grimlock.php:246
+msgid "Full Width: Narrower"
+msgstr ""
+
+#: inc/class-grimlock.php:247
+msgid "Full Width: No Header"
+msgstr ""
+
+#: inc/class-grimlock.php:248, templates/page-templates/template-canvas.php:5
+msgid "Canvas"
+msgstr ""
+
+#: inc/class-grimlock.php:807, inc/widget/fields/class-grimlock-base-widget-fields.php:235
+msgid "Select Image"
+msgstr ""
+
+#: inc/class-grimlock.php:808
+msgid "Select"
+msgstr ""
+
+#: inc/class-grimlock.php:844
+msgid "Pre Header 1"
+msgstr ""
+
+#: inc/class-grimlock.php:845
+msgid "The first area before the header of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:849
+msgid "Pre Header 2"
+msgstr ""
+
+#: inc/class-grimlock.php:850
+msgid "The second area before the header of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:854
+msgid "Pre Header 3"
+msgstr ""
+
+#: inc/class-grimlock.php:855
+msgid "The third area before the header of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:859
+msgid "Pre Header 4"
+msgstr ""
+
+#: inc/class-grimlock.php:860
+msgid "The fourth area before the header of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:864
+msgid "Before Content"
+msgstr ""
+
+#: inc/class-grimlock.php:865
+msgid "The area before the content for all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:869
+msgid "Sidebar 1"
+msgstr ""
+
+#: inc/class-grimlock.php:870
+msgid "The left hand area for all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:874
+msgid "Sidebar 2"
+msgstr ""
+
+#: inc/class-grimlock.php:875
+msgid "The right hand area for all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:879
+msgid "After Content"
+msgstr ""
+
+#: inc/class-grimlock.php:880
+msgid "The area after the content for all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:884
+msgid "Pre Footer 1"
+msgstr ""
+
+#: inc/class-grimlock.php:885
+msgid "The first area before the footer of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:889
+msgid "Pre Footer 2"
+msgstr ""
+
+#: inc/class-grimlock.php:890
+msgid "The second area before the footer of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:894
+msgid "Pre Footer 3"
+msgstr ""
+
+#: inc/class-grimlock.php:895
+msgid "The third area before the footer of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:899
+msgid "Pre Footer 4"
+msgstr ""
+
+#: inc/class-grimlock.php:900
+msgid "The fourth area before the footer of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:904
+msgid "Footer 1"
+msgstr ""
+
+#: inc/class-grimlock.php:905
+msgid "The first area for the footer of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:909
+msgid "Footer 2"
+msgstr ""
+
+#: inc/class-grimlock.php:910
+msgid "The second area for the footer of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:914
+msgid "Footer 3"
+msgstr ""
+
+#: inc/class-grimlock.php:915
+msgid "The third area for the footer of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:919
+msgid "Footer 4"
+msgstr ""
+
+#: inc/class-grimlock.php:920
+msgid "The fourth area for the footer of all pages."
+msgstr ""
+
+#: inc/class-grimlock.php:924
+msgid "Search Modal"
+msgstr ""
+
+#: inc/class-grimlock.php:925
+msgid "The widget area in the search modal"
+msgstr ""
+
+#: inc/class-grimlock.php:962, inc/customizer/class-grimlock-custom-header-customizer.php:26
+msgid "Header"
+msgstr ""
+
+#: inc/class-grimlock.php:982
+msgid "Appearance"
+msgstr ""
+
+#: inc/class-grimlock.php:983
+msgid "Appearance regroups every components you can customize for your site. Basic styles can be set and then overriden for regions and pages when necessary."
+msgstr ""
+
+#. translators: 1: Name of current post, 2: Right arrow
+#: inc/grimlock-template-functions.php:114
+msgid "Continue reading %1$s %2$s"
+msgstr ""
+
+#: inc/grimlock-template-functions.php:135, inc/grimlock-template-functions.php:135
+msgid "Sticky"
+msgstr ""
+
+#. translators: %s: The post format name
+#: inc/grimlock-template-functions.php:143
+msgid "View posts formatted as %s"
+msgstr ""
+
+#: inc/grimlock-template-functions.php:214, inc/grimlock-template-functions.php:825
+msgid "Posted on"
+msgstr ""
+
+#: inc/grimlock-template-functions.php:221, inc/grimlock-template-functions.php:839
+msgid "by"
+msgstr ""
+
+#: inc/grimlock-template-functions.php:246, inc/grimlock-template-functions.php:619, inc/grimlock-template-functions.php:718
+msgid "Pages:"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: inc/grimlock-template-functions.php:336, inc/grimlock-template-functions.php:351
+msgid ", "
+msgstr ""
+
+#: inc/grimlock-template-functions.php:338
+msgid "Posted in"
+msgstr ""
+
+#: inc/grimlock-template-functions.php:353
+msgid "Tagged"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/grimlock-template-functions.php:382
+msgid "Edit %s"
+msgstr ""
+
+#: inc/grimlock-template-functions.php:506
+msgid "Read more"
+msgstr ""
+
+#: inc/grimlock-template-functions.php:623, inc/grimlock-template-functions.php:722
+msgid "Page"
+msgstr ""
+
+#: inc/grimlock-template-functions.php:643
+msgid "By"
+msgstr ""
+
+#. translators: %s: The post author name.
+#: inc/grimlock-template-functions.php:650
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:67
+msgid "Grimlock Divider"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:73
+msgid "divider"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:73
+msgid "separator"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:73
+msgid "spacer"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:89, inc/block/class-grimlock-divider-block.php:105
+msgid "Shape"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:90, inc/block/class-grimlock-divider-block.php:213, inc/block/class-grimlock-divider-block.php:260, inc/customizer/class-grimlock-site-identity-customizer.php:173
+msgid "Icon"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:91, inc/block/class-grimlock-query-section-block.php:96, inc/block/class-grimlock-section-block.php:117, inc/block/class-grimlock-term-query-section-block.php:86, inc/customizer/class-grimlock-404-customizer.php:991, inc/customizer/class-grimlock-archive-customizer.php:144, inc/customizer/class-grimlock-custom-header-customizer.php:192, inc/customizer/class-grimlock-navigation-customizer.php:292, inc/customizer/class-grimlock-page-customizer.php:87, inc/customizer/class-grimlock-region-customizer.php:74, inc/customizer/class-grimlock-search-customizer.php:171, inc/customizer/class-grimlock-single-customizer.php:277, inc/widget/fields/class-grimlock-query-section-widget-fields.php:62, inc/widget/fields/class-grimlock-section-widget-fields.php:78, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:58
+msgid "Style"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:149
+msgid "Shape Color"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:165
+msgid "Flip shape horizontally"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:181
+msgid "Flip shape vertically"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:197
+msgid "Upload an image to use as the divider icon"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:286
+msgid "Icon size"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:302, inc/customizer/class-grimlock-typography-customizer.php:1163
+msgid "Icon Color"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:325
+msgid "Icon alignment"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:341
+msgid "Height"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:364, inc/block/class-grimlock-section-block.php:498, inc/widget/fields/class-grimlock-section-widget-fields.php:402
+msgid "Top Margin"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:384, inc/block/class-grimlock-section-block.php:517, inc/widget/fields/class-grimlock-section-widget-fields.php:423
+msgid "Bottom Margin"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:400, inc/block/class-grimlock-section-block.php:573, inc/customizer/class-grimlock-back-to-top-button-customizer.php:189, inc/customizer/class-grimlock-button-customizer.php:730, inc/customizer/class-grimlock-button-customizer.php:992, inc/customizer/class-grimlock-control-customizer.php:286, inc/customizer/class-grimlock-loader-customizer.php:179, inc/customizer/class-grimlock-navigation-customizer.php:381, inc/customizer/class-grimlock-pagination-customizer.php:153, inc/customizer/class-grimlock-region-customizer.php:618, inc/customizer/class-grimlock-template-customizer.php:732, inc/customizer/class-grimlock-typography-customizer.php:1205, inc/widget/fields/class-grimlock-section-widget-fields.php:462
+msgid "Background Color"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:419, inc/block/class-grimlock-section-block.php:1029
+msgid "Z-index"
+msgstr ""
+
+#: inc/block/class-grimlock-divider-block.php:435
+msgid "Display divider on mobile"
+msgstr ""
+
+#: inc/block/class-grimlock-nav-menu-section-block.php:41, inc/widget/class-grimlock-nav-menu-section-widget.php:27
+msgid "Grimlock Navigation Menu Section"
+msgstr ""
+
+#: inc/block/class-grimlock-nav-menu-section-block.php:47
+msgid "menu"
+msgstr ""
+
+#: inc/block/class-grimlock-nav-menu-section-block.php:47, inc/block/class-grimlock-posts-section-block.php:47, inc/block/class-grimlock-query-section-block.php:77, inc/block/class-grimlock-section-block.php:99, inc/block/class-grimlock-term-query-section-block.php:67
+msgid "section"
+msgstr ""
+
+#: inc/block/class-grimlock-nav-menu-section-block.php:47
+msgid "navigation"
+msgstr ""
+
+#: inc/block/class-grimlock-nav-menu-section-block.php:75, inc/widget/fields/class-grimlock-nav-menu-section-widget-fields.php:48
+msgid "Select Menu"
+msgstr ""
+
+#: inc/block/class-grimlock-nav-menu-section-block.php:92, inc/block/class-grimlock-query-section-block.php:95, inc/block/class-grimlock-query-section-block.php:452, inc/block/class-grimlock-section-block.php:116, inc/block/class-grimlock-section-block.php:422, inc/block/class-grimlock-term-query-section-block.php:85, inc/block/class-grimlock-term-query-section-block.php:297, inc/customizer/class-grimlock-404-customizer.php:494, inc/customizer/class-grimlock-404-customizer.php:980, inc/customizer/class-grimlock-archive-customizer.php:100, inc/customizer/class-grimlock-custom-header-customizer.php:180, inc/customizer/class-grimlock-custom-header-customizer.php:373, inc/customizer/class-grimlock-global-customizer.php:108, inc/customizer/class-grimlock-global-customizer.php:136, inc/customizer/class-grimlock-navigation-customizer.php:281, inc/customizer/class-grimlock-navigation-customizer.php:1248, inc/customizer/class-grimlock-page-customizer.php:75, inc/customizer/class-grimlock-region-customizer.php:62, inc/customizer/class-grimlock-region-customizer.php:443, inc/customizer/class-grimlock-search-customizer.php:127, inc/customizer/class-grimlock-single-customizer.php:261, inc/widget/fields/class-grimlock-nav-menu-section-widget-fields.php:67, inc/widget/fields/class-grimlock-query-section-widget-fields.php:61, inc/widget/fields/class-grimlock-query-section-widget-fields.php:442, inc/widget/fields/class-grimlock-section-widget-fields.php:77, inc/widget/fields/class-grimlock-section-widget-fields.php:320, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:57, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:297
+msgid "Layout"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:41, inc/widget/class-grimlock-posts-section-widget.php:28
+msgid "Grimlock Posts Section"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:47, inc/block/class-grimlock-query-section-block.php:77, inc/block/class-grimlock-term-query-section-block.php:67
+msgid "query"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:47, inc/block/class-grimlock-query-section-block.php:77
+msgid "posts"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:66, inc/block/class-grimlock-query-section-block.php:151, inc/customizer/class-grimlock-archive-customizer.php:353, inc/customizer/class-grimlock-single-customizer.php:300, inc/customizer/class-grimlock-template-customizer.php:365, inc/widget/fields/class-grimlock-query-section-widget-fields.php:122
+msgid "Posts"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:107, inc/block/class-grimlock-query-section-block.php:193, inc/widget/fields/class-grimlock-posts-section-widget-fields.php:77, inc/widget/fields/class-grimlock-query-section-widget-fields.php:165
+msgid "Taxonomies"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:129, inc/widget/fields/class-grimlock-posts-section-widget-fields.php:98
+msgid "Categories"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:130, inc/widget/fields/class-grimlock-posts-section-widget-fields.php:99
+msgid "Tags"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:148, inc/widget/fields/class-grimlock-posts-section-widget-fields.php:118
+msgid "All"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:149, inc/widget/fields/class-grimlock-posts-section-widget-fields.php:119
+msgid "Standard"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:158, inc/widget/fields/class-grimlock-posts-section-widget-fields.php:129
+msgid "Format"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:183, inc/widget/fields/class-grimlock-posts-section-widget-fields.php:156
+msgid "Ignore sticky posts"
+msgstr ""
+
+#: inc/block/class-grimlock-posts-section-block.php:200, inc/widget/fields/class-grimlock-posts-section-widget-fields.php:41
+msgid "More posts"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:71, inc/widget/class-grimlock-query-section-widget.php:28
+msgid "Grimlock Query Section"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:93, inc/block/class-grimlock-section-block.php:115, inc/block/class-grimlock-term-query-section-block.php:83, inc/customizer/class-grimlock-404-customizer.php:960, inc/customizer/class-grimlock-archive-customizer.php:71, inc/customizer/class-grimlock-button-customizer.php:293, inc/customizer/class-grimlock-custom-header-customizer.php:173, inc/customizer/class-grimlock-page-customizer.php:67, inc/customizer/class-grimlock-search-customizer.php:109, inc/customizer/class-grimlock-single-customizer.php:239, inc/widget/fields/class-grimlock-query-section-widget-fields.php:59, inc/widget/fields/class-grimlock-section-widget-fields.php:76, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:55
+msgid "General"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:94, inc/block/class-grimlock-term-query-section-block.php:84, inc/widget/fields/class-grimlock-query-section-widget-fields.php:60, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:56
+msgid "Query"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:118, inc/block/class-grimlock-query-section-block.php:248, inc/widget/fields/class-grimlock-query-section-widget-fields.php:85, inc/widget/fields/class-grimlock-query-section-widget-fields.php:381
+msgid "Post type"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:135, inc/widget/fields/class-grimlock-query-section-widget-fields.php:104
+msgid "Handpick specific posts to display in the section"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:218, inc/widget/fields/class-grimlock-query-section-widget-fields.php:348
+msgid "Number of posts to display"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:241, inc/block/class-grimlock-term-query-section-block.php:215, inc/widget/fields/class-grimlock-query-section-widget-fields.php:373, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:208
+msgid "Order by"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:243, inc/block/class-grimlock-term-query-section-block.php:217, inc/widget/fields/class-grimlock-query-section-widget-fields.php:376, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:211
+msgid "No order"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:244, inc/block/class-grimlock-term-query-section-block.php:218, inc/widget/fields/class-grimlock-query-section-widget-fields.php:377, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:212
+msgid "ID"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:245, inc/widget/fields/class-grimlock-query-section-widget-fields.php:378
+msgid "Author"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:246, inc/block/class-grimlock-section-block.php:188, inc/customizer/class-grimlock-404-customizer.php:195, inc/customizer/class-grimlock-archive-customizer.php:375, inc/customizer/class-grimlock-site-identity-customizer.php:154, inc/widget/fields/class-grimlock-query-section-widget-fields.php:379, inc/widget/fields/class-grimlock-section-widget-fields.php:154
+msgid "Title"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:247, inc/block/class-grimlock-term-query-section-block.php:220, inc/widget/fields/class-grimlock-query-section-widget-fields.php:380, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:214
+msgid "Slug"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:249, inc/widget/fields/class-grimlock-query-section-widget-fields.php:382
+msgid "Creation date"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:250, inc/widget/fields/class-grimlock-query-section-widget-fields.php:383
+msgid "Last modified date"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:251, inc/widget/fields/class-grimlock-query-section-widget-fields.php:384
+msgid "Post/Page parent ID"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:252, inc/widget/fields/class-grimlock-query-section-widget-fields.php:385
+msgid "Random order"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:253, inc/widget/fields/class-grimlock-query-section-widget-fields.php:386
+msgid "Number of comments"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:254, inc/widget/fields/class-grimlock-query-section-widget-fields.php:387
+msgid "Relevance (the ones matching the search best first)"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:255, inc/widget/fields/class-grimlock-query-section-widget-fields.php:388
+msgid "Menu order"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:279, inc/block/class-grimlock-term-query-section-block.php:221, inc/block/class-grimlock-term-query-section-block.php:247, inc/widget/fields/class-grimlock-query-section-widget-fields.php:413, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:215, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:242
+msgid "Order"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:281, inc/block/class-grimlock-term-query-section-block.php:249, inc/widget/fields/class-grimlock-query-section-widget-fields.php:416, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:245
+msgid "Ascending"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:282, inc/block/class-grimlock-term-query-section-block.php:250, inc/widget/fields/class-grimlock-query-section-widget-fields.php:417, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:246
+msgid "Descending"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:306, inc/widget/fields/class-grimlock-query-section-widget-fields.php:192
+msgid "Filter using metadata key and value"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:329
+msgid "Meta Key"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:357
+msgid "Meta Compare"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:396
+msgid "Meta Value"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:424, inc/widget/fields/class-grimlock-query-section-widget-fields.php:318
+msgid "Treat meta value as a number"
+msgstr ""
+
+#: inc/block/class-grimlock-query-section-block.php:487, inc/block/class-grimlock-term-query-section-block.php:326, inc/widget/fields/class-grimlock-query-section-widget-fields.php:477, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:328
+msgid "Alignment"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:93, inc/widget/class-grimlock-section-widget.php:27
+msgid "Grimlock Section"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:131
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:149, inc/block/class-grimlock-section-block.php:1007, inc/widget/fields/class-grimlock-section-widget-fields.php:112, inc/widget/fields/class-grimlock-section-widget-fields.php:957
+msgid "Default"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:171, inc/widget/fields/class-grimlock-section-widget-fields.php:135
+msgid "Thumbnail size"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:204, inc/customizer/class-grimlock-404-customizer.php:289, inc/widget/fields/class-grimlock-section-widget-fields.php:172
+msgid "Subtitle"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:220, inc/customizer/class-grimlock-404-customizer.php:383, inc/customizer/class-grimlock-typography-customizer.php:236, inc/customizer/class-grimlock-typography-customizer.php:328, inc/customizer/class-grimlock-typography-customizer.php:1404, inc/customizer/class-grimlock-typography-customizer.php:1419, inc/widget/fields/class-grimlock-section-widget-fields.php:191
+msgid "Text"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:236, inc/widget/fields/class-grimlock-section-widget-fields.php:209
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:252, inc/customizer/class-grimlock-404-customizer.php:631, inc/widget/fields/class-grimlock-section-widget-fields.php:302
+msgid "Display button"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:268, inc/customizer/class-grimlock-404-customizer.php:556, inc/widget/fields/class-grimlock-section-widget-fields.php:227
+msgid "Button Text"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:291, inc/customizer/class-grimlock-404-customizer.php:586, inc/widget/fields/class-grimlock-section-widget-fields.php:252
+msgid "Button Link"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:314, inc/customizer/class-grimlock-404-customizer.php:609, inc/widget/fields/class-grimlock-section-widget-fields.php:277
+msgid "Open link in a new page"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:337
+msgid "Display extra button"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:353
+msgid "Extra button Text"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:376
+msgid "Extra button Link"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:399
+msgid "Open extra link in a new page"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:457, inc/customizer/class-grimlock-navigation-customizer.php:1280, inc/customizer/class-grimlock-region-customizer.php:482, inc/customizer/class-grimlock-template-customizer.php:338, inc/widget/fields/class-grimlock-section-widget-fields.php:357
+msgid "Spread"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:479, inc/customizer/class-grimlock-region-customizer.php:565, inc/widget/fields/class-grimlock-section-widget-fields.php:381
+msgid "Background Image"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:537
+msgid "Top Padding"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:557
+msgid "Bottom Padding"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:589, inc/widget/fields/class-grimlock-section-widget-fields.php:480
+msgid "Add Gradient to Background Color"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:605
+msgid "Background Gradient"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:628, inc/widget/fields/class-grimlock-section-widget-fields.php:612
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:673, inc/widget/fields/class-grimlock-section-widget-fields.php:659
+msgid "Add borders"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:693, inc/customizer/class-grimlock-navigation-customizer.php:857, inc/customizer/class-grimlock-region-customizer.php:161, inc/widget/fields/class-grimlock-section-widget-fields.php:681
+msgid "Border Top Width"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:716, inc/customizer/class-grimlock-navigation-customizer.php:895, inc/customizer/class-grimlock-region-customizer.php:203, inc/widget/fields/class-grimlock-section-widget-fields.php:706
+msgid "Border Top Color"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:743, inc/customizer/class-grimlock-navigation-customizer.php:973, inc/customizer/class-grimlock-region-customizer.php:289, inc/widget/fields/class-grimlock-section-widget-fields.php:735
+msgid "Border Bottom Width"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:766, inc/customizer/class-grimlock-navigation-customizer.php:933, inc/customizer/class-grimlock-region-customizer.php:245, inc/widget/fields/class-grimlock-section-widget-fields.php:760
+msgid "Border Bottom Color"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:789, inc/customizer/class-grimlock-404-customizer.php:261, inc/customizer/class-grimlock-custom-header-customizer.php:276, inc/widget/fields/class-grimlock-section-widget-fields.php:785
+msgid "Title Format"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:791, inc/block/class-grimlock-section-block.php:830, inc/customizer/class-grimlock-404-customizer.php:266, inc/customizer/class-grimlock-404-customizer.php:360, inc/customizer/class-grimlock-custom-header-customizer.php:281, inc/customizer/class-grimlock-custom-header-customizer.php:350, inc/customizer/class-grimlock-typography-customizer.php:566, inc/widget/fields/class-grimlock-section-widget-fields.php:788, inc/widget/fields/class-grimlock-section-widget-fields.php:831
+msgid "Heading 1"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:792, inc/block/class-grimlock-section-block.php:831, inc/customizer/class-grimlock-404-customizer.php:267, inc/customizer/class-grimlock-404-customizer.php:361, inc/customizer/class-grimlock-custom-header-customizer.php:282, inc/customizer/class-grimlock-custom-header-customizer.php:351, inc/customizer/class-grimlock-typography-customizer.php:600, inc/widget/fields/class-grimlock-section-widget-fields.php:789, inc/widget/fields/class-grimlock-section-widget-fields.php:832
+msgid "Heading 2"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:793, inc/block/class-grimlock-section-block.php:832, inc/customizer/class-grimlock-404-customizer.php:268, inc/customizer/class-grimlock-404-customizer.php:362, inc/customizer/class-grimlock-custom-header-customizer.php:283, inc/customizer/class-grimlock-custom-header-customizer.php:352, inc/customizer/class-grimlock-typography-customizer.php:635, inc/widget/fields/class-grimlock-section-widget-fields.php:790, inc/widget/fields/class-grimlock-section-widget-fields.php:833
+msgid "Heading 3"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:794, inc/block/class-grimlock-section-block.php:833, inc/customizer/class-grimlock-404-customizer.php:269, inc/customizer/class-grimlock-404-customizer.php:363, inc/customizer/class-grimlock-custom-header-customizer.php:284, inc/customizer/class-grimlock-custom-header-customizer.php:353, inc/customizer/class-grimlock-typography-customizer.php:669, inc/widget/fields/class-grimlock-section-widget-fields.php:791, inc/widget/fields/class-grimlock-section-widget-fields.php:834
+msgid "Heading 4"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:795, inc/block/class-grimlock-section-block.php:834, inc/customizer/class-grimlock-404-customizer.php:270, inc/customizer/class-grimlock-404-customizer.php:364, inc/customizer/class-grimlock-custom-header-customizer.php:285, inc/customizer/class-grimlock-custom-header-customizer.php:354, inc/customizer/class-grimlock-typography-customizer.php:1484, inc/widget/fields/class-grimlock-section-widget-fields.php:792, inc/widget/fields/class-grimlock-section-widget-fields.php:835
+msgid "Subheading"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:812, inc/customizer/class-grimlock-404-customizer.php:222, inc/customizer/class-grimlock-custom-header-customizer.php:238, inc/customizer/class-grimlock-template-customizer.php:856, inc/widget/fields/class-grimlock-section-widget-fields.php:810
+msgid "Title Color"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:828, inc/customizer/class-grimlock-404-customizer.php:355, inc/customizer/class-grimlock-custom-header-customizer.php:345, inc/widget/fields/class-grimlock-section-widget-fields.php:828
+msgid "Subtitle Format"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:851, inc/customizer/class-grimlock-404-customizer.php:316, inc/customizer/class-grimlock-custom-header-customizer.php:307, inc/widget/fields/class-grimlock-section-widget-fields.php:853
+msgid "Subtitle Color"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:867, inc/customizer/class-grimlock-404-customizer.php:440, inc/customizer/class-grimlock-back-to-top-button-customizer.php:152, inc/customizer/class-grimlock-button-customizer.php:780, inc/customizer/class-grimlock-button-customizer.php:936, inc/customizer/class-grimlock-control-customizer.php:327, inc/customizer/class-grimlock-pagination-customizer.php:116, inc/customizer/class-grimlock-region-customizer.php:331, inc/customizer/class-grimlock-template-customizer.php:695, inc/customizer/class-grimlock-typography-customizer.php:378, inc/widget/fields/class-grimlock-section-widget-fields.php:871
+msgid "Text Color"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:883, inc/widget/fields/class-grimlock-section-widget-fields.php:889
+msgid "Button Format"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:885, inc/block/class-grimlock-section-block.php:946, inc/customizer/class-grimlock-button-customizer.php:306, inc/widget/fields/class-grimlock-section-widget-fields.php:892
+msgid "Primary"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:886, inc/block/class-grimlock-section-block.php:947, inc/customizer/class-grimlock-button-customizer.php:319, inc/widget/fields/class-grimlock-section-widget-fields.php:893
+msgid "Secondary"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:887, inc/block/class-grimlock-section-block.php:948, inc/widget/fields/class-grimlock-section-widget-fields.php:894
+msgid "Primary Outline"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:888, inc/block/class-grimlock-section-block.php:949, inc/widget/fields/class-grimlock-section-widget-fields.php:895
+msgid "Secondary Outline"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:889, inc/block/class-grimlock-section-block.php:950, inc/widget/fields/class-grimlock-section-widget-fields.php:896
+msgid "Primary Inverse"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:890, inc/block/class-grimlock-section-block.php:951, inc/widget/fields/class-grimlock-section-widget-fields.php:897
+msgid "Secondary Inverse"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:891, inc/block/class-grimlock-section-block.php:952, inc/widget/fields/class-grimlock-section-widget-fields.php:898
+msgid "Link"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:915, inc/customizer/class-grimlock-404-customizer.php:920, inc/widget/fields/class-grimlock-section-widget-fields.php:923
+msgid "Button Size"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:917, inc/block/class-grimlock-section-block.php:978, inc/customizer/class-grimlock-404-customizer.php:925, inc/widget/fields/class-grimlock-section-widget-fields.php:926
+msgid "Small"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:918, inc/block/class-grimlock-section-block.php:979, inc/customizer/class-grimlock-404-customizer.php:926, inc/widget/fields/class-grimlock-section-widget-fields.php:927
+msgid "Regular"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:919, inc/block/class-grimlock-section-block.php:980, inc/customizer/class-grimlock-404-customizer.php:927, inc/widget/fields/class-grimlock-section-widget-fields.php:928
+msgid "Large"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:944
+msgid "Extra button format"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:976
+msgid "Extra button size"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:1005, inc/widget/fields/class-grimlock-section-widget-fields.php:954
+msgid "Forms Color Scheme"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:1008, inc/widget/fields/class-grimlock-section-widget-fields.php:958
+msgid "Light"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:1009, inc/widget/fields/class-grimlock-section-widget-fields.php:959
+msgid "Dark"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:1074, inc/widget/fields/class-grimlock-section-widget-fields.php:1016
+msgid "Title goes here..."
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:1078, inc/widget/fields/class-grimlock-section-widget-fields.php:1020
+msgid "Subtitle goes here..."
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:1082, inc/widget/fields/class-grimlock-section-widget-fields.php:1024
+msgid "Text goes here..."
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:1087, inc/widget/fields/class-grimlock-section-widget-fields.php:1028
+msgid "Learn more"
+msgstr ""
+
+#: inc/block/class-grimlock-section-block.php:1094
+msgid "View now"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:61, inc/widget/class-grimlock-term-query-section-widget.php:28
+msgid "Grimlock Term Query Section"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:67
+msgid "terms"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:67
+msgid "taxonomies"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:107, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:80
+msgid "Taxonomy"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:124, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:99
+msgid "Handpick specific terms to display in the section"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:140, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:117
+msgid "Terms"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:165, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:157
+msgid "Parent term"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:192, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:183
+msgid "Number of terms to display"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:219, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:213
+msgid "Name"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:222, inc/customizer/class-grimlock-archive-customizer.php:399, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:216
+msgid "Description"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:223, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:217
+msgid "Count"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:274, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:272
+msgid "Hide empty terms"
+msgstr ""
+
+#: inc/block/class-grimlock-term-query-section-block.php:353, inc/widget/fields/class-grimlock-term-query-section-widget-fields.php:358
+msgid "More items"
+msgstr ""
+
+#: inc/component/class-grimlock-divider-component.php:129
+msgid "Divider Icon"
+msgstr ""
+
+#: inc/component/class-grimlock-terms-component.php:24
+msgid "All categories"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:26
+msgid "404 Page"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:58
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:62
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:73
+msgid "Back to homepage"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:151, inc/customizer/class-grimlock-page-customizer.php:145, inc/customizer/class-grimlock-static-front-page-customizer.php:52
+msgid "Pages"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:174, inc/widget/fields/class-grimlock-section-widget-fields.php:93
+msgid "Featured Image"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:472, inc/customizer/class-grimlock-navigation-customizer.php:1333
+msgid "Display search form"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:529, inc/customizer/class-grimlock-navigation-customizer.php:1354
+msgid "Activate full screen mode"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:666
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:709
+msgid "Button Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:752
+msgid "Button Border Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:798
+msgid "Button Background Color on Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:844
+msgid "Button Color on Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-404-customizer.php:890
+msgid "Button Border Color on Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:35
+msgid "Posts Page"
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:117, inc/customizer/class-grimlock-navigation-customizer.php:251, inc/customizer/class-grimlock-search-customizer.php:144
+msgid "Item"
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:224, inc/customizer/class-grimlock-search-customizer.php:235, inc/customizer/class-grimlock-single-customizer.php:194
+msgid "Header Display"
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:227
+msgid "Filter Display"
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:232
+msgid "Post Display"
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:376
+msgid "You can change the header title for the posts page by editing its title in the admin."
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:400
+msgid "You can change the header text for the posts page by editing its excerpt in the admin."
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:424
+msgid "Header Image"
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:425
+msgid "You can change the header image for the posts page by editing its featured image in the admin."
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:446
+msgid "Display tag filter"
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:467
+msgid "Display category filter"
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:488
+msgid "Display format filter"
+msgstr ""
+
+#: inc/customizer/class-grimlock-archive-customizer.php:560, inc/customizer/class-grimlock-search-customizer.php:337, inc/customizer/class-grimlock-typography-customizer.php:1365
+msgid "Margin"
+msgstr ""
+
+#: inc/customizer/class-grimlock-back-to-top-button-customizer.php:32
+msgid "Back To Top Button"
+msgstr ""
+
+#: inc/customizer/class-grimlock-back-to-top-button-customizer.php:96, inc/customizer/class-grimlock-loader-customizer.php:85, inc/customizer/class-grimlock-navigation-customizer.php:196, inc/customizer/class-grimlock-page-customizer.php:119
+msgid "Display"
+msgstr ""
+
+#: inc/customizer/class-grimlock-back-to-top-button-customizer.php:122, inc/customizer/class-grimlock-region-customizer.php:127
+msgid "Display in pages"
+msgstr ""
+
+#: inc/customizer/class-grimlock-back-to-top-button-customizer.php:226, inc/customizer/class-grimlock-button-customizer.php:651, inc/customizer/class-grimlock-button-customizer.php:1048, inc/customizer/class-grimlock-control-customizer.php:145, inc/customizer/class-grimlock-pagination-customizer.php:190, inc/customizer/class-grimlock-table-customizer.php:99, inc/customizer/class-grimlock-template-customizer.php:769, inc/customizer/class-grimlock-typography-customizer.php:1243
+msgid "Border Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-back-to-top-button-customizer.php:254, inc/customizer/class-grimlock-navigation-customizer.php:1307
+msgid "Position"
+msgstr ""
+
+#: inc/customizer/class-grimlock-back-to-top-button-customizer.php:260
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/class-grimlock-back-to-top-button-customizer.php:261
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/class-grimlock-back-to-top-button-customizer.php:290, inc/customizer/class-grimlock-template-customizer.php:1003
+msgid "Padding"
+msgstr ""
+
+#: inc/customizer/class-grimlock-back-to-top-button-customizer.php:329, inc/customizer/class-grimlock-button-customizer.php:398, inc/customizer/class-grimlock-control-customizer.php:199, inc/customizer/class-grimlock-pagination-customizer.php:229, inc/customizer/class-grimlock-template-customizer.php:1041
+msgid "Border Radius"
+msgstr ""
+
+#: inc/customizer/class-grimlock-back-to-top-button-customizer.php:369, inc/customizer/class-grimlock-button-customizer.php:437, inc/customizer/class-grimlock-control-customizer.php:245, inc/customizer/class-grimlock-pagination-customizer.php:268, inc/customizer/class-grimlock-table-customizer.php:138, inc/customizer/class-grimlock-template-customizer.php:1080
+msgid "Border Width"
+msgstr ""
+
+#: inc/customizer/class-grimlock-button-customizer.php:92
+msgid "Buttons"
+msgstr ""
+
+#: inc/customizer/class-grimlock-button-customizer.php:359, inc/customizer/class-grimlock-site-identity-customizer.php:211, inc/customizer/class-grimlock-typography-customizer.php:44, inc/customizer/class-grimlock-typography-customizer.php:1286
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/class-grimlock-button-customizer.php:514, inc/customizer/class-grimlock-pagination-customizer.php:424
+msgid "Horizontal Padding"
+msgstr ""
+
+#: inc/customizer/class-grimlock-button-customizer.php:603, inc/customizer/class-grimlock-navigation-customizer.php:1554, inc/customizer/class-grimlock-pagination-customizer.php:468, inc/customizer/class-grimlock-region-customizer.php:666, inc/widget/fields/class-grimlock-section-widget-fields.php:444
+msgid "Vertical Padding"
+msgstr ""
+
+#: inc/customizer/class-grimlock-button-customizer.php:816, inc/customizer/class-grimlock-button-customizer.php:1084, inc/customizer/class-grimlock-pagination-customizer.php:306
+msgid "Text Color on Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-button-customizer.php:852, inc/customizer/class-grimlock-button-customizer.php:1120, inc/customizer/class-grimlock-pagination-customizer.php:343
+msgid "Border Color on Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-button-customizer.php:888, inc/customizer/class-grimlock-button-customizer.php:1156, inc/customizer/class-grimlock-pagination-customizer.php:380
+msgid "Background Color on Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-button-customizer.php:1186
+msgid "Button Primary"
+msgstr ""
+
+#: inc/customizer/class-grimlock-button-customizer.php:1195
+msgid "Button Secondary"
+msgstr ""
+
+#: inc/customizer/class-grimlock-control-customizer.php:44
+msgid "Form Controls"
+msgstr ""
+
+#: inc/customizer/class-grimlock-control-customizer.php:399
+msgid "Placeholder Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-control-customizer.php:443
+msgid "Text Color on Focus"
+msgstr ""
+
+#: inc/customizer/class-grimlock-control-customizer.php:480
+msgid "Border Color on Focus"
+msgstr ""
+
+#: inc/customizer/class-grimlock-control-customizer.php:517
+msgid "Background Color on Focus"
+msgstr ""
+
+#: inc/customizer/class-grimlock-custom-header-customizer.php:131
+msgid "You can change the header layout through the following panels : <a href=\"#archive_custom_header_layout\" rel=\"tc-control\">Posts Page</a>, <a href=\"#search_custom_header_layout\" rel=\"tc-control\">Search Page</a>, <a href=\"#single_custom_header_layout\" rel=\"tc-control\">Single Post</a>, <a href=\"#page_custom_header_layout\" rel=\"tc-control\">Single Page</a>"
+msgstr ""
+
+#: inc/customizer/class-grimlock-custom-header-customizer.php:133
+msgid "You can change the header spread through the following panels : <a href=\"#archive_custom_header_container_layout\" rel=\"tc-control\">Posts Page</a>, <a href=\"#search_custom_header_container_layout\" rel=\"tc-control\">Search Page</a>, <a href=\"#single_custom_header_container_layout\" rel=\"tc-control\">Single Post</a>, <a href=\"#page_custom_header_container_layout\" rel=\"tc-control\">Single Page</a>"
+msgstr ""
+
+#: inc/customizer/class-grimlock-custom-header-customizer.php:135, inc/customizer/class-grimlock-footer-customizer.php:69, inc/customizer/class-grimlock-prefooter-customizer.php:68, inc/customizer/class-grimlock-preheader-customizer.php:102
+msgid "Mobile Display"
+msgstr ""
+
+#: inc/customizer/class-grimlock-custom-header-customizer.php:138
+msgid "You can change the vertical padding through the following panels : <a href=\"#archive_custom_header_padding_y\" rel=\"tc-control\">Posts Page</a>, <a href=\"#search_custom_header_padding_y\" rel=\"tc-control\">Search Page</a>, <a href=\"#single_custom_header_padding_y\" rel=\"tc-control\">Single Post</a>, <a href=\"#page_custom_header_padding_y\" rel=\"tc-control\">Single Page</a>"
+msgstr ""
+
+#: inc/customizer/class-grimlock-custom-header-customizer.php:403, inc/customizer/class-grimlock-navigation-customizer.php:409
+msgid "Add gradient to background color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-custom-header-customizer.php:423, inc/customizer/class-grimlock-navigation-customizer.php:429, inc/widget/fields/class-grimlock-section-widget-fields.php:498
+msgid "Background Gradient First Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-custom-header-customizer.php:459, inc/customizer/class-grimlock-navigation-customizer.php:465, inc/widget/fields/class-grimlock-section-widget-fields.php:523
+msgid "Background Gradient Second Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-custom-header-customizer.php:496, inc/customizer/class-grimlock-navigation-customizer.php:502, inc/widget/fields/class-grimlock-section-widget-fields.php:548
+msgid "Background Gradient Direction"
+msgstr ""
+
+#: inc/customizer/class-grimlock-custom-header-customizer.php:539, inc/customizer/class-grimlock-navigation-customizer.php:545, inc/widget/fields/class-grimlock-section-widget-fields.php:588
+msgid "Background Gradient Position"
+msgstr ""
+
+#: inc/customizer/class-grimlock-footer-customizer.php:27
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/class-grimlock-global-customizer.php:26, inc/customizer/class-grimlock-global-customizer.php:59
+msgid "Global"
+msgstr ""
+
+#: inc/customizer/class-grimlock-global-customizer.php:64, inc/customizer/class-grimlock-site-identity-customizer.php:248, inc/customizer/class-grimlock-typography-customizer.php:1320
+msgid "Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-global-customizer.php:67
+msgid "Image"
+msgstr ""
+
+#: inc/customizer/class-grimlock-global-customizer.php:95
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/class-grimlock-global-customizer.php:115, inc/customizer/class-grimlock-global-customizer.php:207
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/class-grimlock-global-customizer.php:177
+msgid "Background color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-grid-template-customizer.php:52
+msgid "Shadow Horizontal Offset"
+msgstr ""
+
+#: inc/customizer/class-grimlock-grid-template-customizer.php:82
+msgid "Shadow Vertical Offset"
+msgstr ""
+
+#: inc/customizer/class-grimlock-grid-template-customizer.php:112
+msgid "Shadow Blur Radius"
+msgstr ""
+
+#: inc/customizer/class-grimlock-grid-template-customizer.php:142
+msgid "Shadow Spread Radius"
+msgstr ""
+
+#: inc/customizer/class-grimlock-grid-template-customizer.php:180
+msgid "Shadow Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-loader-customizer.php:26
+msgid "Loader"
+msgstr ""
+
+#: inc/customizer/class-grimlock-loader-customizer.php:93
+msgid "Fade In Animation"
+msgstr ""
+
+#: inc/customizer/class-grimlock-loader-customizer.php:109
+msgid "Display loader on page refresh"
+msgstr ""
+
+#: inc/customizer/class-grimlock-loader-customizer.php:141
+msgid "Symbol Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-loader-customizer.php:206
+msgid "Display fade in animation"
+msgstr ""
+
+#: inc/customizer/class-grimlock-loader-customizer.php:227
+msgid "Fade In Animation Duration"
+msgstr ""
+
+#: inc/customizer/class-grimlock-loader-customizer.php:229
+msgid "This is the Page Fade-in entrance duration."
+msgstr ""
+
+#: inc/customizer/class-grimlock-loader-customizer.php:254
+msgid "Animation Duration"
+msgstr ""
+
+#: inc/customizer/class-grimlock-loader-customizer.php:256
+msgid "Loader Display duration. The final rendering is not always loaded as it should be. Please test outside the customizer."
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:32, inc/customizer/class-grimlock-single-customizer.php:454
+msgid "Navigation"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:226
+msgid "Sticky Navigation"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:265
+msgid "Search"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:348
+msgid "Menu Item Typography"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:602
+msgid "Menu Item Text Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:648
+msgid "Menu Item Active Text Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:695
+msgid "Menu Item Active Background Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:754
+msgid "Submenu Item Background Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:817
+msgid "Submenu Item Text Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:1015
+msgid "Search Form Text Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:1059
+msgid "Search Form Background Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:1111
+msgid "Search Form Placeholder Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:1164
+msgid "Search Form Active Background Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:1219
+msgid "Search Form Active Text Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:1382
+msgid "Stick navigation to top on scroll"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:1421
+msgid "Background Color on Scroll"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:1422
+msgid "This is the color of the navigation when page is scrolling. This color will also be applied when there is no custom header."
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:1466
+msgid "Mobile Background Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:1467
+msgid "This is the color of the navigation on mobile views. This color will also be applied to the vertical fixed navbar."
+msgstr ""
+
+#: inc/customizer/class-grimlock-navigation-customizer.php:1555
+msgid "Adjusts the height of the navbar"
+msgstr ""
+
+#: inc/customizer/class-grimlock-page-customizer.php:27
+msgid "Single Page"
+msgstr ""
+
+#: inc/customizer/class-grimlock-page-customizer.php:126, inc/customizer/class-grimlock-template-customizer.php:401
+msgid "Sidebars"
+msgstr ""
+
+#: inc/customizer/class-grimlock-prefooter-customizer.php:27
+msgid "Pre Footer"
+msgstr ""
+
+#: inc/customizer/class-grimlock-preheader-customizer.php:27
+msgid "Pre Header"
+msgstr ""
+
+#: inc/customizer/class-grimlock-region-customizer.php:373, inc/customizer/class-grimlock-template-customizer.php:901, inc/customizer/class-grimlock-typography-customizer.php:1082
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-region-customizer.php:414, inc/customizer/class-grimlock-typography-customizer.php:1120
+msgid "Link Color on Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-region-customizer.php:536, inc/customizer/class-grimlock-typography-customizer.php:526
+msgid "Headings Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-region-customizer.php:586
+msgid "Display in mobile pages"
+msgstr ""
+
+#: inc/customizer/class-grimlock-search-customizer.php:27
+msgid "Search Results"
+msgstr ""
+
+#: inc/customizer/class-grimlock-search-customizer.php:62
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer/class-grimlock-search-customizer.php:238
+msgid "Results Display"
+msgstr ""
+
+#: inc/customizer/class-grimlock-single-customizer.php:27
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/class-grimlock-single-customizer.php:202
+msgid "Content Display"
+msgstr ""
+
+#: inc/customizer/class-grimlock-single-customizer.php:203
+msgid "Display featured image"
+msgstr ""
+
+#: inc/customizer/class-grimlock-single-customizer.php:204, inc/customizer/class-grimlock-single-customizer.php:323
+msgid "Display date"
+msgstr ""
+
+#: inc/customizer/class-grimlock-single-customizer.php:205, inc/customizer/class-grimlock-single-customizer.php:345
+msgid "Display author"
+msgstr ""
+
+#: inc/customizer/class-grimlock-single-customizer.php:209, inc/customizer/class-grimlock-single-customizer.php:389
+msgid "Display format"
+msgstr ""
+
+#: inc/customizer/class-grimlock-single-customizer.php:367, inc/customizer/class-grimlock-template-customizer.php:603
+msgid "Display categories"
+msgstr ""
+
+#: inc/customizer/class-grimlock-single-customizer.php:411
+msgid "Display navigation between posts"
+msgstr ""
+
+#: inc/customizer/class-grimlock-single-customizer.php:433
+msgid "Display author biography"
+msgstr ""
+
+#: inc/customizer/class-grimlock-site-identity-customizer.php:145
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/class-grimlock-site-identity-customizer.php:165
+msgid "Tagline"
+msgstr ""
+
+#: inc/customizer/class-grimlock-site-identity-customizer.php:290
+msgid "Color on Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-site-identity-customizer.php:319
+msgid "Display site title"
+msgstr ""
+
+#: inc/customizer/class-grimlock-site-identity-customizer.php:340
+msgid "Display logo"
+msgstr ""
+
+#: inc/customizer/class-grimlock-site-identity-customizer.php:381
+msgid "Logo Size"
+msgstr ""
+
+#: inc/customizer/class-grimlock-site-identity-customizer.php:410
+msgid "Display tagline"
+msgstr ""
+
+#: inc/customizer/class-grimlock-table-customizer.php:32
+msgid "Tables"
+msgstr ""
+
+#: inc/customizer/class-grimlock-table-customizer.php:188
+msgid "Alternative Row Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-table-customizer.php:218
+msgid "Table Striped"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:169
+msgid "Display header image"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:205
+msgid "Header Padding"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:250
+msgid "Content Padding"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:280
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:311
+msgid "Header Spread"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:428
+msgid "Display sidebar on mobile pages"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:449
+msgid "Display featured images"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:470
+msgid "Display dates"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:491
+msgid "Display authors"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:512
+msgid "Display contents"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:533
+msgid "Display excerpts"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:554
+msgid "Display Continue reading"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:582
+msgid "Display tags"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:624
+msgid "Display formats"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:645
+msgid "Display Leave a comment"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:666
+msgid "Equalize height for posts"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:813
+msgid "Thumbnail Border Radius"
+msgstr ""
+
+#: inc/customizer/class-grimlock-template-customizer.php:958
+msgid "Link Color Hover"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:246, inc/customizer/class-grimlock-typography-customizer.php:478
+msgid "Headings"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:275
+msgid "Links"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:283
+msgid "Quotes"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:427
+msgid "Text Selection Background Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:479
+msgid "Headings are found in posts, page, other post types and built-in widgets."
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:702
+msgid "Heading 5"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:735
+msgid "Heading 6"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:777
+msgid "Display Headings"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:778
+msgid "Display headings are big headlines found in the custom header and the section widgets."
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:825
+msgid "Display Headings Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:865
+msgid "Display Heading 1"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:899
+msgid "Display Heading 2"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:933
+msgid "Display Heading 3"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:967
+msgid "Display Heading 4"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1007
+msgid "Subheadings"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1008
+msgid "Subheadings appear after the headings of the custom header or the section widgets."
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1044
+msgid "Subheadings Color"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1395
+msgid "Display Heading"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1424
+msgid "Text Smaller"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1429
+msgid "Text Bigger"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1434
+msgid "H1"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1439
+msgid "H2"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1444
+msgid "H3"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1449
+msgid "H4"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1454
+msgid "H5"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1459
+msgid "H6"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1464
+msgid "DH1"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1469
+msgid "DH2"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1474
+msgid "DH3"
+msgstr ""
+
+#: inc/customizer/class-grimlock-typography-customizer.php:1479
+msgid "DH4"
+msgstr ""
+
+#: inc/widget/class-grimlock-nav-menu-section-widget.php:29
+msgid "A flexible component that display a navigation menu."
+msgstr ""
+
+#: inc/widget/class-grimlock-posts-section-widget.php:30
+msgid "A flexible component that displays a list of posts."
+msgstr ""
+
+#: inc/widget/class-grimlock-query-section-widget.php:30
+msgid "A flexible component that displays a query for post type objects."
+msgstr ""
+
+#: inc/widget/class-grimlock-section-widget.php:29
+msgid "A flexible component that showcase key marketing messages on front page."
+msgstr ""
+
+#: inc/widget/class-grimlock-term-query-section-widget.php:30
+msgid "A flexible component that displays a query for taxonomy terms."
+msgstr ""
+
+#: templates/page-templates/template-full-width-narrow.php:5
+msgid "Full Width Narrow Template"
+msgstr ""
+
+#: templates/page-templates/template-full-width-narrower.php:5
+msgid "Full Width Narrower Template"
+msgstr ""
+
+#: templates/page-templates/template-full-width-no-header.php:5
+msgid "Full Width: No Header Template"
+msgstr ""
+
+#: templates/page-templates/template-full-width.php:5
+msgid "Full Width Template"
+msgstr ""
+
+#: templates/page-templates/template-sidebar-left.php:5
+msgid "Sidebar Template: Left"
+msgstr ""
+
+#: templates/page-templates/template-sidebar-right.php:5
+msgid "Sidebar Template: Right"
+msgstr ""
+
+#: inc/customizer/section/class-grimlock-installer-customizer-section.php:62, inc/customizer/section/class-grimlock-installer-customizer-section.php:59
+msgid "Kirki Toolkit is required to take advantage of this theme's features in the customizer."
+msgstr ""
+
+#: inc/customizer/section/class-grimlock-installer-customizer-section.php:63
+msgid "Activate Now"
+msgstr ""
+
+#: inc/customizer/section/class-grimlock-installer-customizer-section.php:60
+msgid "Install Now"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-base-widget-fields.php:240
+msgid "Remove"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-base-widget-fields.php:241
+msgid "Change Image"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-query-section-widget-fields.php:217
+msgid "Meta key"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-query-section-widget-fields.php:247
+msgid "Meta compare"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-query-section-widget-fields.php:288
+msgid "Meta value"
+msgstr ""
+
+#: inc/widget/fields/class-grimlock-section-widget-fields.php:977
+msgid "CSS Classes (optional)"
+msgstr ""

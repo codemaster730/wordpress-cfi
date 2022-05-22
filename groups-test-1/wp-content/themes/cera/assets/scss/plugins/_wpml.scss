@@ -1,0 +1,186 @@
+
+/**
+ * WPML
+ *
+ * Translate WordPress your site.
+ * https://wpml.org/
+ */
+
+.widget_icl_lang_sel_widget {
+
+    .widget-title {
+        display: none;
+    }
+
+    // Language switcher
+    .wpml-ls {
+
+        display: inline-block;
+        height: auto;
+        background: none !important;
+        border: 0;
+        font-family: inherit;
+
+        // All links
+        a {
+            text-decoration: none !important;
+            line-height: inherit;
+        }
+
+        // Flag img
+        .wpml-ls-flag {}
+
+        // Native language displayed between brackets
+        .wpml-ls-native {
+            font-size: 0.8em;
+        }
+
+        // Language brackets
+        .wpml-ls-bracket {
+            display: none;
+        }
+
+        // Language Items
+        .wpml-ls-item {
+            text-align: left;
+
+            a {
+                color: inherit;
+                background-color: transparent;
+                border: 0;
+                &:hover,
+                &:active,
+                &:focus {
+                    color: inherit;
+                    background-color: transparent;
+                    opacity: 0.7;
+                }
+
+            }
+        }
+
+        // Submenu
+        .wpml-ls-sub-menu {
+            display: none;
+            right: 0;
+            left: auto;
+            width: auto !important;
+            min-width: $dropdown-min-width;
+            max-width: $dropdown-max-width;
+            max-height: $dropdown-max-height;
+            height: auto !important;
+            visibility: visible;
+            border: none;
+            box-shadow: $dropdown-box-shadow;
+            overflow-x: hidden;
+            overflow-y: auto;
+
+            @if $enable-wpml-dropdown-transition {
+                @extend .element-animated, .fade-in, .super-short;
+            }
+
+            // Submenu item
+            .wpml-ls-item {
+
+                // Submenu item link
+                a {
+                    padding: $dropdown-item-padding-y $dropdown-item-padding-x;
+                    border: 0;
+                    font-size: 0.9em;
+                    word-wrap: break-word;
+                    color: $wpml-item-color;
+
+                    &:hover,
+                    &:active,
+                    &:focus {
+                        background-color: $wpml-item-hover-bg-color;
+                        color: $wpml-item-hover-color;
+                    }
+
+                }
+
+            }
+
+        }
+
+        // Dropdown styles
+        &.wpml-ls-legacy-dropdown,
+        &.wpml-ls-legacy-dropdown-click {
+
+            width: auto;
+
+            // Toggle item
+            .wpml-ls-item-toggle {
+                @if $enable-wpml-caret {
+                    @include caret-angle();
+                    &:after {
+                        position: static;
+                        border: 0;
+                        top: auto;
+                        right: auto;
+                    }
+                }
+            }
+
+            // Current language
+            .lang_sel_sel {
+
+                color: $wpml-current-color;
+                background-color: $wpml-current-bg-color;
+                border: 0;
+                padding: $dropdown-item-padding-y $dropdown-item-padding-x;
+
+                &:hover,
+                &:active,
+                &:focus {
+                    color: $wpml-current-hover-color;
+                    background: $wpml-current-hover-bg-color;
+                }
+            }
+
+            a span {
+                margin-right: 2px;
+            }
+
+        }
+
+        // Dropdown hover only
+        &.wpml-ls-legacy-dropdown {
+
+            // Hover to show submenu
+            &:hover {
+                .wpml-ls-sub-menu {
+                    display: block;
+                }
+            }
+
+        }
+
+        // Dropdown click only
+        &.wpml-ls-legacy-dropdown-click {
+
+            // Click to show menu
+            ul ul {
+                &[style*="visible"] {
+                    display: block;
+                }
+            }
+        }
+
+        // List styles
+        &.wpml-ls-legacy-list-vertical,
+        &.wpml-ls-legacy-list-horizontal {
+            .lang_sel_sel {
+                opacity: 0.5;
+            }
+        }
+
+        // Vertical list only
+        &.wpml-ls-legacy-list-vertical {}
+
+        // Horizontal list only
+        &.wpml-ls-legacy-list-horizontal {}
+
+    }
+
+}

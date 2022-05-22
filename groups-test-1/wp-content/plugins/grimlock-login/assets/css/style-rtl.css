@@ -1,0 +1,450 @@
+/**
+ * Grimlock Login styles
+ */
+/**
+ * Plugins
+ */
+/**
+ * Register and login social profiles (Facebook, Google, Twitter, etc.)
+ *
+ * Nextend Social Login and Register
+ * https://wordpress.org/plugins/super-socializer/
+ */
+#loginform [id*="nsl-custom-login-form"] {
+  order: -1;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--grimlock-table-striped-background-color);
+}
+
+#loginform div.nsl-container-block div.nsl-container-buttons {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+#loginform div.nsl-container-block div.nsl-container-buttons a {
+  max-width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#loginform div.nsl-container-block div.nsl-container-buttons a:hover, #loginform div.nsl-container-block div.nsl-container-buttons a:focus {
+  opacity: .75;
+}
+
+#loginform div.nsl-container-block div.nsl-container-buttons a:active {
+  opacity: 1;
+}
+
+#loginform div.nsl-container-block div.nsl-container-buttons a + * {
+  margin-top: .5rem;
+}
+
+#loginform div.nsl-container-block div.nsl-container-buttons a .nsl-button {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.modal #loginform div.nsl-container-block div.nsl-container-buttons a .nsl-button {
+  border-radius: var(--grimlock-button-border-radius);
+}
+
+#loginform div.nsl-container-block div.nsl-container-buttons a span.nsl-button-label-container {
+  text-align: right;
+  font-size: .95rem;
+  font-family: inherit;
+}
+
+/**
+ * WordPress Social Share, Social Login and Social Comments Plugin
+ *
+ * Super Socializer
+ * https://wordpress.org/plugins/super-socializer/
+ */
+#loginform .the_champ_error {
+  order: -1;
+  background-color: var(--grimlock-table-striped-background-color);
+  border: 0;
+  padding: .5rem;
+  margin: 0 0 .25rem 0;
+}
+
+#loginform > .the_champ_login_container,
+#loginform .the_champ_outer_login_container {
+  order: -1;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-top: 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--grimlock-table-striped-background-color);
+}
+
+#loginform > .the_champ_login_container ul.the_champ_login_ul li,
+#loginform .the_champ_outer_login_container ul.the_champ_login_ul li {
+  margin-left: .25rem !important;
+}
+
+#loginform > .the_champ_login_container .theChampLogin,
+#loginform .the_champ_outer_login_container .theChampLogin {
+  border-radius: var(--grimlock-button-border-radius);
+  transition: all 0.2s ease-in-out;
+}
+
+#loginform > .the_champ_login_container .theChampLogin:hover, #loginform > .the_champ_login_container .theChampLogin:focus,
+#loginform .the_champ_outer_login_container .theChampLogin:hover,
+#loginform .the_champ_outer_login_container .theChampLogin:focus {
+  opacity: .75;
+}
+
+#loginform > .the_champ_login_container .theChampLogin:active,
+#loginform .the_champ_outer_login_container .theChampLogin:active {
+  opacity: 1;
+}
+
+#loginform div.the_champ_social_login_title, #loginform div.the_champ_login_container, #loginform ul.the_champ_login_ul {
+  text-align: right;
+}
+
+/**
+ * WordPress Social login
+ *
+ * Social login
+ * https://wordpress.org/plugins/wordpress-social-login/
+ */
+.wp-social-login-widget .wp-social-login-connect-with {
+  font-weight: bold;
+}
+
+.wp-social-login-widget .wp-social-login-provider-list {
+  padding: .5rem 0 1rem 0;
+}
+
+.wp-social-login-widget a.wp-social-login-provider {
+  padding: .85rem 1.2rem;
+  display: inline-block;
+  background-color: var(--grimlock-content-background-color);
+  border-radius: var(--grimlock-button-border-radius);
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: .5rem;
+  margin-left: .35rem;
+}
+
+.wp-social-login-widget a.wp-social-login-provider:before {
+  font-family: var(--grimlock-icon-plug-font-family) !important;
+  content: var(--grimlock-icon-plug);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.4em;
+  position: relative;
+  top: -1px;
+}
+
+.wp-social-login-widget a.wp-social-login-provider:after {
+  content: attr(data-provider);
+}
+
+.wp-social-login-widget a.wp-social-login-provider:hover, .wp-social-login-widget a.wp-social-login-provider:focus, .wp-social-login-widget a.wp-social-login-provider:active {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.wp-social-login-widget a.wp-social-login-provider img {
+  display: none;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="facebook"] {
+  background-color: #3B5998;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="facebook"]:before {
+  font-family: var(--grimlock-icon-facebook-font-family) !important;
+  content: var(--grimlock-icon-facebook);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="twitter"] {
+  background-color: #1DA1F2;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="twitter"]:before {
+  font-family: var(--grimlock-icon-twitter-font-family) !important;
+  content: var(--grimlock-icon-twitter);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="google"] {
+  background-color: #DB4437;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="google"]:before {
+  font-family: var(--grimlock-icon-google-font-family) !important;
+  content: var(--grimlock-icon-google);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="instagram"] {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="instagram"]:before {
+  font-family: var(--grimlock-icon-instagram-font-family) !important;
+  content: var(--grimlock-icon-instagram);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="linkedin"] {
+  background-color: #0077B5;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="linkedin"]:before {
+  font-family: var(--grimlock-icon-linkedin-font-family) !important;
+  content: var(--grimlock-icon-linkedin);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="pinterest"] {
+  background-color: #BD081C;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="pinterest"]:before {
+  font-family: var(--grimlock-icon-pinterest-font-family) !important;
+  content: var(--grimlock-icon-pinterest);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="wordpress"] {
+  background-color: #0073aa;
+}
+
+.wp-social-login-widget a.wp-social-login-provider[class*="wordpress"]:before {
+  font-family: var(--grimlock-icon-wordpress-font-family) !important;
+  content: var(--grimlock-icon-wordpress);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * Jetpack
+ *
+ * The Swiss army knife of WordPress plugin.
+ * https://wordpress.org/plugins/jetpack/
+ */
+#jetpack_protect_answer {
+  min-width: 60px;
+  text-align: center;
+}
+
+/**
+ * Components
+ */
+/**
+ * Modal
+ */
+#grimlock-login-form-modal .modal-header {
+  margin-bottom: 1rem;
+  justify-content: center;
+  position: static;
+}
+
+#grimlock-login-form-modal .modal-header .grimlock-login-form-modal-logo {
+  max-width: 150px;
+  height: auto;
+  max-height: 85px;
+  display: none;
+}
+
+#grimlock-login-form-modal .modal-header .close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  -webkit-transform: none;
+          transform: none;
+}
+
+#grimlock-login-form-modal .modal-content {
+  padding: 2rem;
+  box-shadow: 0 0 20px var(--grimlock-archive-post-box-shadow-color);
+  background-color: var(--grimlock-archive-post-background-color);
+  color: var(--grimlock-archive-post-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+}
+
+#grimlock-login-form-modal .modal-body {
+  padding: 0;
+}
+
+/**
+ * Form
+ */
+#loginform {
+  display: flex;
+  flex-direction: column;
+}
+
+#loginform::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+#loginform .login-submit {
+  width: 100%;
+}
+
+#loginform .login-submit input[type="submit"] {
+  width: 100%;
+}
+
+#loginform .login-footer {
+  display: flex;
+  margin: 0;
+}
+
+#loginform .login-footer > div {
+  width: 100%;
+}
+
+#loginform .login-footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem .5rem;
+  text-align: center;
+  height: 100%;
+  font-size: .85em;
+  border-radius: var(--grimlock-button-border-radius);
+  font-weight: var(--grimlock-button-font-weight);
+  text-transform: var(--grimlock-button-text-transform);
+}
+
+#loginform .login-footer a:not(:hover) {
+  color: inherit !important;
+}
+
+#loginform .login-footer ~ .tribe-ce-register,
+#loginform .login-footer ~ .tribe-ce-lostpassword {
+  display: none;
+}
+
+#loginform .login-remember label {
+  cursor: pointer;
+}
+
+#loginform .login-remember input {
+  margin-left: .25em;
+}
+
+.entry-content #loginform,
+.section:not(.grimlock-hero) .section__content #loginform {
+  background-color: var(--grimlock-archive-post-background-color);
+  border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+  border-radius: var(--grimlock-archive-post-border-radius);
+  box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+  padding: 2rem;
+  color: var(--grimlock-archive-post-color);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 1.5rem auto;
+  text-align: right;
+}
+
+#loginform + .tribe-ce-register,
+#loginform + .tribe-ce-lostpassword {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/**
+ * Navigation
+ */
+.grimlock--navigation-login-displayed .navbar-nav--buddypress.logged-out {
+  display: none !important;
+}
+
+#navigation .nav.navbar-nav.navbar-nav--login {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991.98px) {
+  #navigation .nav.navbar-nav.navbar-nav--login {
+    order: -9;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #navigation .nav.navbar-nav.navbar-nav--login li.menu-item {
+    margin-top: 1rem;
+  }
+}
+
+#navigation .nav.navbar-nav.navbar-nav--login li.menu-item a, #navigation .nav.navbar-nav.navbar-nav--login li.menu-item button {
+  padding: .4rem 1.4rem;
+  font-family: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  font-size: .9em;
+  min-height: 35px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  #navigation .nav.navbar-nav.navbar-nav--login li.menu-item + li.menu-item {
+    margin-right: .8rem;
+  }
+}

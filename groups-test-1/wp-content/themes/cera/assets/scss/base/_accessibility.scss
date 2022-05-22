@@ -1,0 +1,33 @@
+
+/**
+ * Accessibility
+ *
+ * Affecting the overall accessibility (Screen readers & co).
+ */
+
+// Text meant only for screen readers.
+.screen-reader-text {
+	@extend .sr-only;
+	&:active,
+	&:focus {
+		position: absolute !important;
+		z-index: $wp-admin-bar-index + 1;
+		display: block;
+		padding: 15px 20px;
+		top:  5px;
+		left: 5px;
+		background-color: $body-bg;
+		color: $link-color;
+		box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+		border-radius: 3px;
+		text-align: center;
+		font-weight: 600;
+		line-height: normal;
+		text-decoration: none;
+	}
+}
+
+// Do not show the outline on the skip link target.
+#content:focus {
+	outline: 0;
+}

@@ -1,0 +1,22 @@
+
+/**
+ * Grimlock Echo Knowledge Base
+ *
+ * Grimlock addons for Echo Knowledge Base.
+ * https://themosaurus.com
+ */
+
+// /**
+//  * Echo Knowledge Base components in wiki page
+//  */
+
+/* Wiki page */
+.eckb-kb-template,
+.grimlock--page-content {
+	#epkb-main-page-container > div[class*="epkb-"] {
+		// Search header
+		.epkb-doc-search-container {
+			margin-top: -3% !important;
+		}
+	}
+}

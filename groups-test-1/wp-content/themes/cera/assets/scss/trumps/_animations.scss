@@ -1,0 +1,26 @@
+
+/**
+ * Animations
+ *
+ * Custom keyframes animations and transitions stuff.
+ */
+
+.base-fadeIn {
+    @include animate(base-fadeIn, .2s, ease-in-out);
+    animation-iteration-count: 1;
+}
+
+
+// Repaintless
+.element-animated {
+    &.once { animation-iteration-count: 1; }
+    &-both { animation-fill-mode: both; }
+    &.super-short { animation-duration: .2s; }
+}
+
+@keyframes progress-width {
+    0%   { width: 0;    }
+    50%  { width: 50%;  }
+    75%  { width: 50%;  }
+    100% { width: 100%; }
+}

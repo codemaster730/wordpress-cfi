@@ -1,0 +1,338 @@
+
+// /**
+//  * Custom mixins
+//  */
+
+@mixin scroll-bar-style {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+        width: 0px;
+    }
+    &::-webkit-scrollbar-track {
+        -webkit-box-shadow: none;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $black-faded;
+        outline: 0;
+    }
+}
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+    font-size: ($sizeValue * 16) * 1px;
+    font-size: $sizeValue * $font-size-base;
+}
+
+// Caret
+@mixin caret-angle() {
+    position: relative;
+    &:after {
+        @include cera-icon();
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: ($spacer / 3);
+        content: $cera-chevron-down;
+        pointer-events: none;
+        text-align: center;
+        font-size: 1.3em;
+        border: 0;
+        position: relative;
+    }
+}
+
+// Retina Images
+@mixin background-image-retina($file, $type, $width, $height) {
+    background-image: url($file + '.' + $type);
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (-moz-min-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx){
+        & {
+            background-image: url($file + '@2x.' + $type);
+            -webkit-background-size: $width $height;
+            -moz-background-size: $width $height;
+            -o-background-size: $width $height;
+            background-size: $width $height;
+        }
+    }
+}
+
+// Triangle shape
+@mixin triangle($direction, $color: currentcolor, $size: 1em) {
+    @if not index(top right bottom left, $direction) {
+        @error "Direction must be either `top`, `right`, `bottom` or `left`.";
+    }
+    width: 0;
+    height: 0;
+    content: '';
+    z-index: 2;
+    border-#{opposite-position($direction)}: ($size * 1.5) solid $color;
+    $perpendicular-borders: $size solid transparent;
+    @if $direction == top or $direction == bottom {
+        border-left:   $perpendicular-borders;
+        border-right:  $perpendicular-borders;
+    } @else if $direction == right or $direction == left {
+        border-bottom: $perpendicular-borders;
+        border-top:    $perpendicular-borders;
+    }
+}
+
+// Keyframes
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+// Animations
+@mixin animate($name, $duration, $function, $delay: null) {
+    -webkit-animation-name: $name;
+    -moz-animation-name: $name;
+    -o-animation-name: $name;
+    animation-name: $name;
+    -webkit-animation-duration: $duration;
+    -moz-animation-duration: $duration;
+    -o-animation-duration: $duration;
+    animation-duration: $duration;
+    -webkit-animation-timing-function: $function;
+    -moz-animation-timing-function: $function;
+    -o-animation-timing-function: $function;
+    animation-timing-function: $function;
+    -webkit-animation-delay: $delay;
+    -moz-animation-delay: $delay;
+    -o-animation-delay: $delay;
+    animation-delay: $delay;
+}
+
+// Animations
+@mixin remove-page-content() {
+    padding: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+@mixin grimlock-page-content() {
+    background-color: var(--grimlock-archive-post-background-color);
+    border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+    border-radius: var(--grimlock-archive-post-border-radius);
+    box-shadow: 0px 0px 15px 0px var(--grimlock-archive-post-box-shadow-color);
+    padding: 1.5rem;
+    color: var(--grimlock-archive-post-color);
+    @include media-breakpoint-up(md) {
+        padding: 3rem;
+    }
+}
+
+@mixin grimlock-archive-post($padding: 1.5rem) {
+	background-color: var(--grimlock-archive-post-background-color);
+	border: var(--grimlock-archive-post-border-width) solid var(--grimlock-archive-post-border-color);
+	border-radius: var(--grimlock-archive-post-border-radius);
+	box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+	padding: $padding;
+	color: var(--grimlock-archive-post-color);
+}
+
+@mixin grimlock-button-primary() {
+    background-color: var(--grimlock-button-primary-background-color) !important;
+    color: var(--grimlock-button-primary-color) !important;
+    border-radius: var(--grimlock-button-border-radius);
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--grimlock-button-primary-hover-background-color) !important;
+        color: var(--grimlock-button-primary-hover-color) !important;
+    }
+}
+
+@mixin icon-spin() {
+    font-family: cera !important;
+    content: $cera-refresh-cw !important;
+    animation: fa-spin 1.2s infinite linear;
+    transform-origin: center center;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+// Mixin Bootstrap form control
+// To reduce extend crap from compiled css
+@mixin form-control-style() {
+    display: block;
+    width: 100%;
+    // // Make inputs at least the height of their button counterpart (base line-height + padding + border)
+    // height: $input-height;
+    padding: $input-btn-padding-y $input-btn-padding-x;
+    font-size: $font-size-base;
+    line-height: $input-btn-line-height;
+    color: $input-color;
+    background-color: $input-bg;
+    // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214.
+    background-image: none;
+    background-clip: padding-box;
+    border: $input-btn-border-width solid $input-border-color;
+
+    // Note: This has no effect on <select>s in some browsers, due to the limited stylability of `<select>`s in CSS.
+    @if $enable-rounded {
+        // Manually use the if/else instead of the mixin to account for iOS override
+        border-radius: $input-border-radius;
+    } @else {
+        // Otherwise undo the iOS default
+        border-radius: 0;
+    }
+
+    @include box-shadow($input-box-shadow);
+    @include transition($input-transition);
+
+    // Unstyle the caret on `<select>`s in IE10+.
+    &::-ms-expand {
+        background-color: transparent;
+        border: 0;
+    }
+
+    // Customize the `:focus` state to imitate native WebKit styles.
+    @include form-control-focus();
+
+    // Placeholder
+    &::placeholder {
+        color: $input-placeholder-color;
+        // Override Firefox's unusual default opacity; see https://github.com/twbs/bootstrap/pull/11526.
+        opacity: 1;
+    }
+
+    // Disabled and read-only inputs
+    //
+    // HTML5 says that controls under a fieldset > legend:first-child won't be
+    // disabled if the fieldset is disabled. Due to implementation difficulty, we
+    // don't honor that edge case; we style them as disabled anyway.
+    &:disabled,
+    &[readonly] {
+        background-color: $input-disabled-bg;
+        // iOS fix for unreadable disabled content; see https://github.com/twbs/bootstrap/issues/11655.
+        opacity: 1;
+    }
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
+
+
+@mixin form-control-select-style() {
+    &:not([size]):not([multiple]) {
+        $select-border-width: ($border-width * 2);
+        height: calc(#{$input-height} + #{$select-border-width});
+    }
+
+    &:focus::-ms-value {
+        color: $input-color;
+        background-color: $input-bg;
+    }
+}
+
+@mixin cera-icon() {
+    display: inline-block;
+    font: normal normal normal #{$fa-font-size-base}/#{$fa-line-height-base} cera;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// Rtl mixin
+@mixin rtl {
+    html[dir="rtl"] & {
+        @content;
+    }
+}
+
+// Prevent blurry transform
+@mixin unblur() {
+    transform: translate3d(0,0,0);
+    will-change: transform;
+    backface-visibility: hidden;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// Remove button style
+@mixin remove-btn-style() {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0 !important;
+    border-radius: 0;
+    background: none;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    text-align: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    -webkit-appearance: none;
+}
+
+// Intermediate Full width Container
+@mixin container-max-width($container-max-width : $container-max-width-classic) {
+    @include media-breakpoint-up(lg) {
+        width: 100%;
+        max-width: $container-max-width;
+    }
+}
+
+// Hide text
+@mixin hide-text() {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+// Buttons
+@mixin button-variant-type($color: $primary) {
+    @include button-variant($color, $color, darken($color, 7.5%));
+}
+
+// Alerts
+@mixin alert-variant-type($color: $info) {
+    @include alert-variant($color, $color, #ffffff);
+}
+
+// User Select/Drag
+@mixin user-no-select() {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+

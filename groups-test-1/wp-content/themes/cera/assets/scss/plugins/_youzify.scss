@@ -1,0 +1,39 @@
+
+/**
+ * Youzify
+ *
+ * Community & User Profiles for BuddyPress.
+ */
+
+.youzify-page-main-content,
+.youzify-account-page {
+	padding-top: 3% !important;
+	padding-bottom: 3% !important;
+}
+
+#youzify-profile-navmenu .youzify-inner-content,
+.youzify .wild-content,
+.youzify .youzify-boxed-navbar,
+.youzify-cover-content,
+.youzify-header-content,
+.youzify-vertical-layout .youzify-content,
+.youzify-page-main-content {
+	padding-left: $grid-gutter-width / 2 !important;
+	padding-right: $grid-gutter-width / 2 !important;
+	.page-template-template-classic-12-cols-left & {
+		padding-left: 3% !important;
+		padding-right: 3% !important;
+	}
+}
+
+body.page-template-template-dashboard {
+
+	.buddypress.widget .item-list,
+	.buddypress.widget .item-options {
+		padding: 0 !important;
+	}
+
+	.widget_display_topics ul {
+		padding: 0;
+	}
+}

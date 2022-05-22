@@ -1,0 +1,40 @@
+
+/**
+ * Our team by Woothemes
+ *
+ * Team member plugin.
+ * https://docs.woothemes.com/documentation/plugins/our-team/
+ */
+
+.team-members {
+
+    // Title
+    .member {
+        font-size: $tm-title-font-size;
+    }
+
+    // Description
+    .team-member-text {
+        clear: both;
+    }
+
+    &:not(.columns-1):not(.columns-2) .team-member {
+        .site-primary & {
+            text-align: center;
+        }
+    }
+
+}
+
+// Single
+.author-details {
+    .single-team-member & {
+        @extend .list-inline;
+        li {
+            display: inline-block;
+            & + li {
+                margin-right: 1rem;
+            }
+        }
+    }
+}

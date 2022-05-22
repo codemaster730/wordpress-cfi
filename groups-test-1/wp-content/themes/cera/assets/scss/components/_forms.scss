@@ -1,0 +1,403 @@
+
+/**
+ * Forms
+ *
+ * All form components.
+ */
+
+
+/* Common Form styles */
+
+input[type="tel"],
+input[type="url"],
+input[type="text"],
+input[type="week"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="time"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="search"],
+input[type="website"],
+input[type="password"],
+select[multiple="multiple"],
+textarea,
+select,
+.docs-filters form input:not([type]),
+.docs form input:not([type]),
+input[id="new-folder"] {
+    @include form-control-style();
+    font-family: inherit;
+    &:disabled,
+    &[readonly] {
+        opacity: 0.8;
+    }
+}
+
+input:focus::placeholder,
+input:focus::-webkit-input-placeholder {
+    opacity: 0 !important;
+}
+
+select {
+    @include form-control-select-style();
+}
+
+.select-style {
+    padding: 0;
+    margin: 0;
+    background: none;
+    font-weight: $font-weight-bold;
+    height: 38px;
+    cursor: pointer;
+    @include transition($transition-base);
+    @include caret-angle();
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    &:before,
+    &:after {
+        position: absolute;
+        z-index: 1;
+        pointer-events: none;
+        transform: translate3d(0,0,0);
+        backface-visibility: hidden;
+        will-change: opacity;
+    }
+
+    &:before {
+        @include cera-icon();
+        content: $cera-alert-circle;
+        margin-right: 5px;
+        top: .85em;
+        left: 0;
+        padding-left: 1px;
+    }
+
+    &:after {
+        margin: 0;
+        padding: 0;
+        top: 50%;
+        transform: translate3d(0,calc(-50% + 4px),0);
+        right: 0;
+        font-size: 1.05em;
+    }
+
+    select {
+        border: none;
+        font-weight: $font-weight-bold;
+        box-shadow: none;
+        background-image: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        cursor: pointer;
+        line-height: normal;
+        padding-left: 25px;
+        padding-right: 20px;
+        //max-width: 230px;
+        min-width: 100px;
+        font-size: 1em;
+        color: inherit;
+
+        @include media-breakpoint-down(sm) {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+        &,
+        &:hover,
+        &:active,
+        &:focus {
+            background: transparent;
+            color: inherit;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        &::-ms-expand {
+            display: none !important;
+        }
+    }
+}
+
+// Checkbox and radio
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: .25rem;
+    cursor: pointer;
+}
+
+.custom-control.custom-checkbox,
+.custom-control.custom-radio {
+    .custom-control-label {
+        position: static;
+        &:before,
+        &:after {
+            left: 0;
+        }
+        &:before {
+            border: 2px solid rgba(0,0,0,0.1);
+        }
+    }
+    .custom-control-input:focus ~ .custom-control-label::before {
+        box-shadow: none !important;
+    }
+}
+
+
+// Buttons
+input[type="submit"],
+button[type="submit"] {
+    @include button-variant-type($primary);
+}
+
+// Big fields
+textarea,
+select[multiple] {
+    overflow: auto;
+    max-height: $textarea-max-height;
+    min-height: $textarea-min-height;
+}
+
+// Label
+form {
+    label {
+        font-weight: $form-label-font-weight;
+    }
+}
+
+// Require field
+.required,
+form.contact-form label span {
+    color: $danger;
+}
+
+/* Common notices : All plugins and core alert from form submission */
+
+.wpcf7-response-output,
+.mc4wp-alert {
+
+    @extend .alert;
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0;
+    font-size: .8em;
+    font-weight: 600;
+
+    &.wpcf7-validation-errors,
+    &.mc4wp-error {
+        @include alert-variant-type($danger);
+    }
+    &.mc4wp-notice {
+        @include alert-variant-type($warning);
+    }
+    &.wpcf7-mail-sent-ok,
+    &.mc4wp-success{
+        @include alert-variant-type($success);
+    }
+    &.wpcf7-display-none{
+        display: none;
+    }
+
+    > p {
+        margin-bottom: 0;
+    }
+
+}
+
+.mc4wp-response {
+    margin-top: 10px;
+}
+
+/* Navigation search form */
+.navbar-search {
+
+    position: relative;
+    width: 100%;
+
+    .search-form {
+        .form-group {
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+    input[type="search"] {
+        width: 100%;
+        border-radius: 500px !important;
+    }
+
+    input[type="submit"],
+    button[type="submit"] {
+        display: none;
+    }
+
+    &.navbar-search--animate {
+
+        min-width: $navbar-search-min-width;
+        height: $navbar-search-min-width;
+        transform: translate3d(0,0,0);
+        transition: all $transition-base;
+        z-index: $zindex-dropdown;
+        margin-bottom: 1rem;
+
+        @include media-breakpoint-up(lg) {
+            width: 0%;
+            margin-bottom: 0;
+            &:not(.navbar-search--open) {
+                .search-field {
+                    color: transparent !important;
+                    padding: 0;
+                }
+                .search-field::-webkit-input-placeholder {
+                    color: transparent !important;
+                }
+                .search-field:-moz-input-placeholder {
+                    color: transparent !important;
+                }
+                .search-field::-ms-input-placeholder {
+                    color: transparent !important;
+                }
+                .search-field::-ms-input-placeholder {
+                    color: transparent !important;
+                }
+                .search-field::placeholder {
+                    color: transparent !important;
+                }
+                .search-field::placeholder-shown {
+                    color: transparent !important;
+                }
+                .search-icon {
+                    color: $navbar-search-icon-color;
+                }
+            }
+        }
+
+        .search-form {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 100%;
+            @include transition(width .2s ease-in-out);
+
+            @include media-breakpoint-up(lg) {
+                width: $navbar-search-min-width;
+            }
+        }
+
+        .search-field {
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: $navbar-search-min-width;
+            margin: 0;
+            padding: 0 ($navbar-search-min-width + 5) 0 20px;
+            border: 0;
+            background-color: $navbar-search-input-open-bg;
+            color: $navbar-search-input-color;
+            outline: 0;
+            @include transition($transition-base);
+
+            @include media-breakpoint-up(lg) {
+                background: $navbar-search-input-bg;
+            }
+        }
+
+        .search-field::-webkit-input-placeholder {
+            color: $navbar-search-input-placeholder-color;
+        }
+        .search-field:-moz-input-placeholder {
+            color: $navbar-search-input-placeholder-color;
+        }
+        .search-field::-ms-input-placeholder {
+            color: $navbar-search-input-placeholder-color;
+        }
+        .search-field::-ms-input-placeholder {
+            color: $navbar-search-input-placeholder-color;
+        }
+        .search-field::placeholder {
+            color: $navbar-search-input-placeholder-color;
+        }
+        .search-field::placeholder-shown {
+            color: $navbar-search-input-placeholder-color;
+        }
+
+        .search-icon {
+            color: $navbar-search-input-placeholder-color;
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 0;
+            margin: 0;
+            width: $navbar-search-min-width;
+            height: $navbar-search-min-width;
+            font-size: $font-size-base * 1.2;
+            line-height: $navbar-search-min-width;
+            text-align: center;
+            background: transparent;
+            border-radius: $navbar-search-border-radius;
+            @include transition(opacity .2s ease-in-out, color .2s ease-in-out);
+            user-select: none;
+            pointer-events: none;
+            @include media-breakpoint-up(lg) {
+                pointer-events: auto;
+            }
+
+            i {
+                font-size: 15px;
+                position: relative;
+                top: 1px;
+            }
+
+        }
+
+        &.navbar-search--open {
+            .search-form {
+                width: $navbar-search-max-width;
+            }
+            .search-field {
+                background-color: $navbar-search-input-open-bg;
+            }
+        }
+    }
+
+    // Relevanssi search autocomplete
+    .awesomplete {
+        width: 100%;
+        display: block;
+        > ul {
+            position: relative;
+            border: 0;
+            min-width: 100%;
+            z-index: $zindex-sticky;
+            > li {
+                mark {
+                    color: inherit;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+}
+
+.navbar-nav--search {
+    position: relative;
+    z-index: 2;
+    .menu-item {
+        &:before,
+        &:after {
+            content: none;
+        }
+    }
+}

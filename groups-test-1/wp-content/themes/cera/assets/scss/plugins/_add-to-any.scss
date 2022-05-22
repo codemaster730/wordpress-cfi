@@ -1,0 +1,45 @@
+
+/**
+ * Add to any
+ *
+ * Social and sharing plugin
+ * https://wordpress.org/plugins/add-to-any/
+ */
+
+.addtoany {
+
+    &_share_save_container {
+        margin: $spacer 0;
+    }
+
+    &_header {
+        font-weight: $headings-font-weight;
+        margin: 0 0 $spacer;
+    }
+
+}
+
+.a2a_menu {
+    a {
+      color: #000 !important;
+    }
+}
+
+div.a2a_floating_style {
+
+    z-index: $wp-admin-bar-index - 1 !important;
+    background-color: rgba(0,0,0,0.4);
+
+    &[style*="left: 0px"] {
+        border-radius: 0 $border-radius $border-radius 0 ;
+    }
+
+    &[style*="right: 0px"] {
+        border-radius: $border-radius 0 0 $border-radius;
+    }
+
+    @include media-breakpoint-down(md) {
+        display: none !important;
+    }
+
+}

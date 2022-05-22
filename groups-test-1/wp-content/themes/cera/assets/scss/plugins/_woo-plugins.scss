@@ -1,0 +1,139 @@
+
+/**
+ * WooThemes plugins
+ *
+ * Common styles form plugins by Woothemes (Grid, utilities, etc.)
+ * https://docs.woothemes.com/documentation/plugins/
+ */
+
+
+// Grid
+.testimonials-list,
+.team-members,
+.features,
+.projects_list_widget {
+
+    @extend .row;
+
+    > div {
+        @extend .col;
+    }
+
+    .sidebar & {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .fix {
+        display: none;
+    }
+}
+
+.projects ul.projects,
+.projects-page ul.projects {
+    @extend .clearfix;
+    margin-left:  ($grid-gutter-width / -2) !important;
+    margin-right: ($grid-gutter-width / -2) !important;
+}
+
+.columns-1 .testimonials-list .quote,
+.columns-1 .team-member,
+.projects.columns-1 ul.projects li.project,
+.projects-page.columns-1 ul.projects li.project,
+.region__col.region__col--1 ul.projects li.project,
+body #site .widget_woothemes_features .columns-1 .feature {
+    @extend .col-sm-12;
+    @extend .col-12;
+}
+
+.columns-2 .testimonials-list .quote,
+.columns-2 .team-member,
+.projects.columns-2 ul.projects li.project,
+.projects-page.columns-2 ul.projects li.project,
+.region__col.region__col--2 ul.projects li.project,
+body #site .widget_woothemes_features .columns-2 .feature {
+    @extend .col-sm-6;
+    @extend .col-12;
+}
+
+.columns-3 .testimonials-list .quote,
+.columns-3 .team-member,
+.projects.columns-3 ul.projects li.project,
+.projects-page.columns-3 ul.projects li.project,
+.region__col.region__col--3 ul.projects li.project,
+body #site .widget_woothemes_features .columns-3 .feature {
+    @extend .col-md-4;
+    @extend .col-sm-6;
+    @extend .col-12;
+}
+
+.columns-4 .testimonials-list .quote,
+.columns-4 .team-member,
+.projects.columns-4 ul.projects li.project,
+.projects-page.columns-4 ul.projects li.project,
+.region__col.region__col--4 ul.projects li.project,
+body #site .widget_woothemes_features .columns-4 .feature {
+    @extend .col-md-3;
+    @extend .col-sm-6;
+    @extend .col-12;
+}
+
+.columns-5 .testimonials-list .quote,
+.columns-5 .team-member,
+.projects.columns-5 ul.projects li.project,
+.projects-page.columns-5 ul.projects li.project,
+.region__col.region__col--5 ul.projects li.project,
+body #site .widget_woothemes_features .columns-5 .feature {
+    @extend .col-lg-2;
+    @extend .col-md-3;
+    @extend .col-sm-4;
+    @extend .col-12;
+    @include media-breakpoint-up(lg) {
+        width: 20%;
+    }
+}
+
+.columns-6 .testimonials-list .quote,
+.columns-6 .team-member,
+.projects.columns-6 ul.projects li.project,
+.projects-page.columns-6 ul.projects li.project,
+.region__col.region__col--6 ul.projects li.project,
+body #site .widget_woothemes_features .columns-6 .feature {
+    @extend .col-lg-2;
+    @extend .col-md-3;
+    @extend .col-sm-4;
+    @extend .col-12;
+}
+
+// Shortcode only
+section {
+    .site-main & {
+        &.widget_woothemes_features,
+        &.widget_woothemes_our_team,
+        &.widget_woothemes_testimonials,
+        &.widget_projects_items {
+
+            padding-top: 8%;
+            padding-bottom: 8%;
+
+            // Section title
+            .widget-title {
+                text-align: center;
+                padding: .5rem 0;
+                margin-bottom: 2rem;
+                display: block;
+            }
+
+            // List
+            .testimonials-list,
+            .team-members,
+            .features {
+
+                margin: 0 auto;
+                max-width: map-get($container-max-widths, xl);
+
+            }
+
+        }
+    }
+}

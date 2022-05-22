@@ -1,0 +1,428 @@
+
+/**
+ * BuddyPress
+ *
+ * User profile & community plugin
+ * https://wordpress.org/plugins/buddypress/
+ *
+ */
+
+:root {
+	--bp-member-swipe-card-avatar-width: 100%;
+	--bp-member-swipe-card-avatar-height: auto;
+	--bp-member-swipe-card-avatar-border-radius: 0;
+}
+
+// Placeholders
+$directory-members:    '.buddypress.directory.members';
+$directory-groups:     '.buddypress.directory.groups';
+$directory-activities: '.buddypress.directory.activity';
+$directory-docs:       '.archive.post-type-archive-bp_doc';
+
+$profile-member: '.buddypress.bp-user:not(.activity-permalink)';
+$profile-group:  '.buddypress.groups.single-item';
+
+$single-activity: '.buddypress.activity-permalink';
+$directory-myactivity:  '.buddypress.activity.my-activity';
+$create-group:    '.buddypress.groups.group-create';
+$register-page:   '.buddypress.register';
+
+
+
+
+
+/**
+ * Global
+ */
+
+/* Page header */
+#{$directory-members},
+#{$directory-groups},
+#{$create-group},
+#{$directory-activities} {
+	.grimlock--page-header {
+		display: flex !important;
+		min-height: 45px;
+	}
+}
+
+#buddypress:not(.youzer) {
+    @include media-breakpoint-down(md) {
+        margin-top: 1rem;
+    }
+}
+
+#buddypress:not(.youzer) {
+
+    /**
+     * Directory
+     */
+
+    #groups-dir-search,
+    #members-dir-search {
+        @include media-breakpoint-up(lg) {
+            right: 0;
+            left: auto;
+	        top: 0;
+        }
+    }
+
+	#search-message-form,
+	#search-groups-form,
+	#search-members-form,
+	.bboss_search_form_wrapper > form.search-form {
+
+		background: var(--grimlock-archive-post-background-color);
+	    border-radius: var(--grimlock-archive-post-border-radius);
+	    padding: .2rem;
+
+		&:after {
+			top: 48%;
+			left: 11px;
+			font-size: 1em;
+		}
+
+	    input[type="text"],
+	    input[type="search"]{
+		    border: none !important;
+		    padding-left: 33px;
+		    font-weight: inherit;
+		    font-size: .9em;
+	    }
+
+		br {
+			display: none;
+		}
+
+		.form-group {
+			margin-bottom: 0;
+		}
+
+	}
+
+    .directory-form-row {
+
+        padding-left: 0;
+        padding-right: 0;
+
+        .dir-filter {
+            padding-right: 0 !important;
+        }
+
+        .directory-form-nav {
+            @include media-breakpoint-up(lg) {
+                margin-left: 0;
+                text-align: left;
+            }
+        }
+
+    }
+
+	#groups-directory-form {
+		.directory-form-row {
+			@include media-breakpoint-up(lg) {
+				padding-right: 245px;
+			}
+		}
+	}
+
+    &.bps-active {
+        .directory-form-row {
+            @include media-breakpoint-up(lg) {
+                padding-right: 70px;
+            }
+        }
+        #members-dir-search {
+            display: none !important;
+        }
+	    @include media-breakpoint-down(lg) {
+			a.bps-toggle-modal {
+				top: -61px;
+			}
+	    }
+    }
+
+
+    /**
+     * Activity
+     */
+
+    #activity-stream {
+
+        &.grimlock-buddypress-activity-list {
+
+            // Activity item
+            .activity-item {
+
+                // Activity user > header
+                .activity-user {
+
+                    // Activity avatar
+                    .activity-avatar {
+                        img.avatar {
+                            border-radius: 500px;
+                        }
+                    }
+
+                }
+
+                // Activity content text
+                .activity-inner {
+	                margin-top: 1rem;
+                    padding: 1.5rem;
+                    font-size: .9em;
+                    line-height: 1.35em;
+	                background-color: var(--grimlock-table-striped-background-color);
+	                border-radius: var(--grimlock-archive-post-border-radius);
+                }
+
+	            div.activity-comments {
+		            .acomment-content {
+			            padding: 1rem;
+			            background-color: var(--grimlock-table-striped-background-color);
+			            border-radius: var(--grimlock-archive-post-border-radius);
+		            }
+		            .acomment-options {
+			            padding-left: 0;
+		            }
+	            }
+
+            }
+
+        }
+
+    }
+
+
+    /**
+     * Profil
+     */
+
+    .profile-content__body#item-body {
+        padding: 3% 0;
+        @include media-breakpoint-up(md) {
+            padding: 3% 0;
+        }
+    }
+
+}
+
+#{$directory-members},
+#{$directory-activities},
+#{$directory-groups} {
+	#buddypress .pagination {
+		padding-top: 0;
+	}
+}
+
+
+/**
+ * Custom card lists
+ */
+
+// Members Swipe
+.bp-member-swipe-card .bp-member-swipe-card__body {
+	position: relative;
+	padding: var(--bp-member-swipe-card-padding);
+}
+
+.bp-member-swipe-card .bp-member-swipe-card__avatar {
+	padding: 0;
+}
+
+.bp-card-list {
+
+    .bp-card-list__item {
+
+	    .card {
+		    .card-body-activity {
+			    .update {
+				    display: none;
+			    }
+		    }
+	    }
+
+	    &.is-online {
+
+		    .card .card-img > a {
+			    &:before {
+				    width: 10px;
+				    height: 10px;
+				    border: 3px solid var(--grimlock-success-button-background-color);
+				    background-color: var(--grimlock-archive-post-background-color);
+			    }
+		    }
+
+	    }
+
+	    &.is-member,
+	    &.is-current-user {
+		    .card {
+			    border-bottom: 3px solid var(--grimlock-success-button-background-color);
+		    }
+	    }
+
+
+	    &.is-current-user {
+		    .card {
+			    border-bottom-color: var(--grimlock-color-success);
+		    }
+	    }
+
+    }
+
+}
+
+/**
+ * BP Core Widgets
+ */
+
+.widget:not(.widget-content),
+.elementor-widget {
+
+    div.item-options {
+
+        display: flex;
+        flex-wrap: nowrap;
+        margin: (-$widget-padding) (-$widget-padding) ($widget-padding / 2) (-$widget-padding);
+        padding: 0 0 ($widget-padding / 2) 0;
+        justify-content: space-between;
+        font-size: 0;
+
+        a {
+            width: 100%;
+            color: inherit;
+            border: 0;
+            position: relative;
+            text-align: center;
+            margin: 0;
+            padding: .8rem 2px;
+            opacity: 1;
+            font-size: .75rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 100%;
+            white-space: normal;
+            display: block;
+            user-select: none;
+            transition: opacity .2s ease-in-out, color .2s ease-in-out;
+            border-radius: 0 !important;
+            background: none !important;
+
+            &:before {
+                content: '';
+                height: 2px;
+                width: 100%;
+                display: block;
+                background-color: $gray-800;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                z-index: 2;
+                pointer-events: none;
+                opacity: .1;
+                transition: inherit;
+            }
+
+            &:focus,
+            &:active,
+            &.selected,
+            &.loading {
+                border-bottom-color: $primary;
+                color: $primary;
+                &:after {
+                    opacity: 1;
+                }
+                &:before {
+                    opacity: 1;
+                }
+            }
+
+            &.loading {
+
+                font-size: 0 !important;
+                transition: none;
+                pointer-events: none;
+
+                &:after {
+                    @include icon-spin();
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    z-index: 2;
+                    width: 1rem;
+                    height: 1rem;
+	                line-height: 1rem;
+                    margin-top: -8px;
+                    margin-left: -9px;
+                    font-style: normal !important;
+                    font-size: 14px !important;
+                    transition: none;
+                }
+            }
+        }
+
+        .bp-separator {
+            display: none;
+        }
+
+    }
+
+    // Online members widget
+    &[class*="bp_core_whos_online_widget"] {
+        .item-avatar {
+            > a {
+                &:before {
+                    bottom: 4px;
+                    left: 0;
+                    width: 9px;
+                    height: 9px;
+                    border: 3px solid var(--grimlock-color-success);
+                    background-color: var(--grimlock-archive-post-background-color);
+                }
+            }
+        }
+    }
+
+
+
+}
+
+
+/**
+ * Actions buttons
+ */
+
+.buddypress:not(.grimlock-buddypress--members-actions-text-displayed) #site #members-list div.action,
+body:not(.grimlock-buddypress--members-actions-text-displayed) #site #members-swipe-list div.action,
+.buddypress:not(.grimlock-buddypress--members-actions-text-displayed) #site #friend-list div.action,
+.buddypress:not(.grimlock-buddypress--members-actions-text-displayed) #site #admins-list div.action,
+.buddypress:not(.grimlock-buddypress--members-actions-text-displayed) #site #mods-list div.action,
+.buddypress:not(.grimlock-buddypress--members-actions-text-displayed) #site div#item-header #profile-header.profile-header--member #item-buttons.action,
+.buddypress:not(.grimlock-buddypress--groups-actions-text-displayed) #site #groups-list div.action,
+.buddypress:not(.grimlock-buddypress--groups-actions-text-displayed) #site div#item-header #profile-header.profile-header--group #item-buttons.action {
+	> a,
+	> div > a {
+		&:not(:hover) {
+			color: inherit !important;
+			&:before {
+				color: inherit !important;
+				opacity: .6;
+			}
+		}
+	}
+}
+
+/* Members online state */
+.member-badge-state {
+    background: none !important;
+    border: 3px solid var(--grimlock-color-success);
+}
+
+/* Register sections badges */
+.buddypress.register .bp_register #register-page #signup_form .register-section:before {
+    top: -21px;
+    right: -21px;
+    left: auto;
+    z-index: 9;
+}

@@ -1,0 +1,322 @@
+/**
+ * Styles for Grimlock Author Avatars List
+ *
+ * Adds integration features between Grimlock and Author Avatars List
+ * https://themosaurus.com/
+ *
+ */
+/**
+ * Section authors
+ */
+.shortcode-author-avatars .grimlock-author-avatars__author-list {
+  display: flex;
+  width: auto;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user {
+  text-align: center;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user .card {
+  max-width: 100%;
+  min-width: 100%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user .card a {
+  color: inherit !important;
+  text-decoration: none;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.avatar {
+  display: block;
+  float: none;
+  padding: 1.5rem 1rem 1rem 1rem;
+  margin: 0;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.avatar img.avatar {
+  margin: 0;
+  float: none;
+  max-width: 100%;
+  width: 85px;
+  height: 85px;
+  border-radius: 500px;
+  user-drag: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  object-fit: cover;
+  object-position: center;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.name {
+  color: var(--grimlock-archive-post-title-color);
+  font-weight: var(--grimlock-heading-font-weight);
+  font-family: var(--grimlock-heading-font-family);
+  letter-spacing: var(--grimlock-heading-text-transform);
+  font-size: var(--grimlock-heading4-font-size);
+  display: block;
+  float: none;
+  font-size: 1rem;
+  padding-right: .7rem;
+  padding-left: .7rem;
+  margin-bottom: .5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.name a {
+  color: inherit !important;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.name a:hover {
+  color: var(--grimlock-archive-post-link-hover-color) !important;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.name:hover {
+  color: var(--grimlock-archive-post-link-hover-color);
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user span.name .bp-verified-badge {
+  margin-left: .3em;
+  position: relative;
+  top: -0.1em;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user .bp-member-xprofile-custom-fields {
+  font-size: .85em;
+  padding-right: .7rem;
+  padding-left: .7rem;
+}
+
+.shortcode-author-avatars .grimlock-author-avatars__author-list .grimlock-author-avatars__user .bp-member-xprofile-custom-fields:empty {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .section__content--avatars-12-by-5-cols-classic .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section__content--avatars-3-3-3-3-cols-classic .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section__content--avatars-4-4-4-cols-classic .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list {
+  margin: 0;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+  padding: 0 !important;
+  margin: 0 0 -1px 0 !important;
+}
+
+@media (min-width: 768px) {
+  .section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li .card {
+  padding: 0;
+  margin: 0;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none;
+  background: none !important;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li .card img.avatar {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0 !important;
+  box-shadow: none;
+  border: 0;
+  opacity: 1 !important;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li .card .ov-h > a {
+  display: block;
+  background: rgba(0, 0, 0, 0.15) !important;
+  border-radius: 0 !important;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li span.avatar {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li span.name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  padding: 5px;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #fff !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li span.name .bp-verified-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9;
+  margin: 0;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li .bp-member-xprofile-custom-fields {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 10px;
+  z-index: 2;
+  opacity: 0;
+  color: #fff;
+  padding: 0 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li:hover span.name {
+  opacity: 1;
+}
+
+.section__content--avatars-2-2-2-2-2-2-cols-grid .shortcode-author-avatars .grimlock-author-avatars__author-list > li:hover .bp-member-xprofile-custom-fields {
+  opacity: 1;
+}
+
+@media (min-width: 992px) {
+  .region--container-narrow .shortcode-author-avatars .grimlock-author-avatars__author-list > li,
+  .region--container-narrower .shortcode-author-avatars .grimlock-author-avatars__author-list > li {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+}
+
+#secondary-left .grimlock-author-avatars-section .region__container,
+#secondary-left .grimlock-author-avatars-section .region__row,
+#secondary-left .grimlock-author-avatars-section .region__col,
+#secondary-right .grimlock-author-avatars-section .region__container,
+#secondary-right .grimlock-author-avatars-section .region__row,
+#secondary-right .grimlock-author-avatars-section .region__col {
+  padding: 0;
+  margin: 0;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list {
+  margin-left: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list__item,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list__item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 !important;
+  margin-bottom: .5rem !important;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list__item:last-child,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .bp-card-list__item:last-child {
+  margin-bottom: 0 !important;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card {
+  text-align: left;
+  padding: .5rem;
+  -webkit-transform: none;
+          transform: none;
+  background-color: var(--grimlock-table-striped-background-color);
+  box-shadow: none;
+  border: none;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card span.avatar,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card span.avatar {
+  height: 100%;
+  float: left;
+  margin-right: .75rem;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card span.avatar img.avatar,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card span.avatar img.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 500px;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card span.name,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card span.name {
+  width: 100% !important;
+  font-size: .85em !important;
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card span.name .bp-verified-badge,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card span.name .bp-verified-badge {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 2px solid var(--grimlock-archive-post-background-color);
+}
+
+#secondary-left .grimlock-author-avatars-section .shortcode-author-avatars .card .bp-member-xprofile-custom-fields,
+#secondary-right .grimlock-author-avatars-section .shortcode-author-avatars .card .bp-member-xprofile-custom-fields {
+  font-size: .75em;
+  line-height: 1em;
+}
+
+.no_users {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/**
+ * Do not add your customizations here, this file will be overridden in future release of the plugin.
+ * Make your CSS changes in the Custom CSS panel of the WordPress Customizer or create a child theme : https://codex.wordpress.org/Child_Themes
+ */

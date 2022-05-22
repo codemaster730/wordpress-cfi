@@ -1,0 +1,9 @@
+
+/**
+ * Borders
+ *
+ * Border utilities.
+ */
+
+.rounded-card { border-radius: $card-border-radius; }
+.rounded-full { @include border-radius( 500px !important ); }

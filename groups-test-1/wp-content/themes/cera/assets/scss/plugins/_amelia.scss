@@ -1,0 +1,348 @@
+
+/**
+ * Amelia
+ *
+ * Events & Appointments Booking Calendar
+ * https://wordpress.org/plugins/ameliabooking/
+ */
+
+body,
+html {
+
+	.amelia-service,
+	.amelia-booking {
+		&.amelia-app-booking {
+
+			// Headings
+			h1, h2, h3, h4 {
+				font-family: var(--grimlock-heading-font-family);
+				font-weight: var(--grimlock-heading-font-weight);
+				letter-spacing: var(--grimlock-heading-letter-spacing);
+				text-transform: var(--grimlock-heading-text-transform);
+			}
+
+			h1 {
+				font-size: var(--grimlock-heading1-font-size);
+			}
+
+			h2 {
+				font-size: var(--grimlock-heading2-font-size);
+			}
+
+			h3 {
+				font-size: var(--grimlock-heading3-font-size);
+			}
+
+			h4 {
+				font-size: var(--grimlock-heading4-font-size);
+			}
+
+			// Text
+			div,
+			p,
+			span,
+			section,
+			ul,
+			li,
+			a {
+				font-family: var(--grimlock-text-font-family);
+				font-weight: var(--grimlock-text-font-weight);
+				font-size: var(--grimlock-text-font-size);
+				line-height: var(--grimlock-text-line-height);
+				letter-spacing: var(--grimlock-text-letter-spacing);
+				text-transform: var(--grimlock-text-text-transform);
+			}
+
+			// Form Global
+			input[type="text"],
+			input[type="password"],
+			input[type="email"],
+			input[type="tel"],
+			input[type="url"],
+			textarea,
+			select,
+			.form-control,
+			.am-stripe-card,
+			.v-calendar-column .am-calendar-picker {
+
+				@include form-control-style();
+
+				font-family: inherit;
+				border-radius: var(--grimlock-control-border-radius);
+				border: var(--grimlock-control-border-width) solid var(--grimlock-control-border-color);
+				background-color: var(--grimlock-control-background-color);
+				color: var(--grimlock-control-color);
+
+				&:focus {
+					background-color: var(--grimlock-control-focus-background-color);
+					color: var(--grimlock-control-focus-color);
+					border-color: var(--grimlock-control-focus-border-color);
+				}
+
+				::placeholder {
+					color: var(--grimlock-control-placeholder-color);
+				}
+
+			}
+
+			// Button
+			.el-button {
+
+				&:focus {
+					background-color: var(--grimlock-button-primary-hover-color);
+					color: var(--grimlock-button-primary-hover-background-color);
+				}
+
+				&.el-button--primary {
+
+					background-color: var(--grimlock-button-primary-background-color) !important;
+					color: var(--grimlock-button-primary-color) !important;
+					border-color: var(--grimlock-button-primary-border-color) !important;
+					font-family: var(--grimlock-button-font-family);
+					font-weight: var(--grimlock-button-font-weight);
+					font-size: var(--grimlock-button-font-size);
+					line-height: var(--grimlock-button-line-height);
+					letter-spacing: var(--grimlock-button-letter-spacing);
+					text-transform: var(--grimlock-button-text-transform);
+					padding: var(--grimlock-button-padding-y) var(--grimlock-button-padding-x);
+
+					&:hover {
+						background-color: var(--grimlock-button-primary-hover-background-color) !important;
+						color: var(--grimlock-button-primary-hover-color) !important;
+						border-color: var(--grimlock-button-primary-hover-border-color) !important;
+					}
+
+					a:not([class*="button"]):not([class*="btn"]) {
+						color: inherit;
+					}
+
+				}
+
+			}
+
+			// Event Booking
+			.v-calendar-column .am-calendar-picker:after {
+				background-color: transparent;
+			}
+
+			#am-events-booking {
+
+				.am-event-list .am-event {
+
+					background: var(--grimlock-archive-post-background-color);
+					border-radius: var(--grimlock-archive-post-border-radius);
+					margin-bottom: var(--grimlock-archive-post-margin);
+					padding: var(--grimlock-archive-post-padding);
+					box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+
+					.am-event-data {
+
+						.am-event-dates .am-event-date-month {
+							color: var(--grimlock-heading-color) !important;
+						}
+
+						.am-event-price {
+							background-color: var(--grimlock-button-primary-background-color) !important;
+							color: var(--grimlock-button-primary-color) !important;
+						}
+
+						.am-event-info .am-event-title {
+
+							display: flex;
+							align-items: center;
+							font-weight: var(--grimlock-heading-font-weight);
+							font-size: var(--grimlock-heading4-font-size);
+
+							.am-event-booking-status {
+
+								@extend .ml-2;
+
+								&.open,
+								&.closed {
+
+									color: #fff;
+
+									&:before {
+										background-color: #fff;
+									}
+
+								}
+
+								&.open {
+									background-color: var(--grimlock-color-success);
+								}
+
+								&.closed {
+									background-color: var(--grimlock-color-danger);
+								}
+
+							}
+
+						}
+
+					}
+
+					.am-event-book-cta {
+
+						margin-top: var(--grimlock-archive-post-margin);
+						padding-top: var(--grimlock-archive-post-padding);
+						padding-bottom: calc( #{var(--grimlock-archive-post-padding)} / 2 );
+
+						> div:first-child {
+							font-size: var(--grimlock-text-font-size);
+						}
+
+						.el-input-number--small {
+							.el-input-number__decrease,
+							.el-input-number__increase {
+								height: 32px;
+								line-height: 32px !important;
+							}
+						}
+
+					}
+
+				}
+
+				.am-waiting-confirmation,
+				.am-success-payment,
+				.am-booking-fetched {
+					.el-button.redirect-link {
+
+						background-color: var(--grimlock-button-secondary-background-color) !important;
+						color: var(--grimlock-button-secondary-color) !important;
+						border-color: var(--grimlock-button-secondary-border-color) !important;
+
+						&:hover {
+							background-color: var(--grimlock-button-secondary-hover-background-color) !important;
+							color: var(--grimlock-button-secondary-hover-color) !important;
+							border-color: var(--grimlock-button-secondary-hover-border-color) !important;
+						}
+
+						a:not([class*="button"]):not([class*="btn"]) {
+							color: inherit;
+						}
+
+					}
+				}
+
+				.am-waiting-confirmation .am-svg-wrapper .am-hourglass path,
+				.am-success-payment .am-svg-wrapper .am-hourglass path,
+				.am-booking-fetched .am-svg-wrapper .am-hourglass path {
+					fill: var(--grimlock-link-color);
+				}
+
+			}
+
+			#am-step-booking,
+			.am-step-booking-catalog {
+
+				border-radius: var(--grimlock-archive-post-border-radius);
+				box-shadow: var(--grimlock-archive-post-box-shadow-x-offset) var(--grimlock-archive-post-box-shadow-y-offset) var(--grimlock-archive-post-box-shadow-blur-radius) var(--grimlock-archive-post-box-shadow-spread-radius) var(--grimlock-archive-post-box-shadow-color);
+
+				// Spinner
+				.am-spinner {
+
+					.am-spin {
+
+						circle {
+							stroke: var(--grimlock-table-striped-background-color);
+							stroke-opacity: 1;
+						}
+
+						path {
+							stroke: var(--grimlock-link-color);
+						}
+
+					}
+
+					.am-hourglass path {
+						fill: var(--grimlock-link-color);
+					}
+
+				}
+
+				// Date
+				.am-select-date {
+
+					background: var(--grimlock-button-primary-background-color);
+
+					.am-button-wrapper .el-button {
+
+						border-color: var(--grimlock-button-primary-hover-border-color);
+
+						span {
+							color: var(--grimlock-button-primary-background-color);
+						}
+
+					}
+
+				}
+
+				// Date picker
+				.am-calendar-picker {
+					.c-day-content {
+						&:hover {
+							background-color: var(--grimlock-button-primary-hover-background-color);
+							color: var(--grimlock-button-primary-hover-color);
+						}
+					}
+				}
+
+			}
+
+			// Confirmation
+			#am-events-booking,
+			#am-step-booking {
+				.am-confirmation-total {
+
+					background-color: var(--grimlock-color-success) !important;
+
+					> div {
+						color: var(--grimlock-button-primary-color);
+					}
+
+					p {
+
+						color: inherit !important;
+
+						&.am-align-right {
+							color: inherit !important;
+						}
+
+					}
+
+				}
+			}
+
+			// Form
+			.el-input-group--prepend {
+				.el-input-group__prepend {
+
+					.el-select {
+						.el-input--suffix input.el-input__inner[readonly] {
+							border-top-right-radius: 0;
+							border-bottom-right-radius: 0;
+							border: var(--grimlock-control-border-width) solid var(--grimlock-control-border-color);
+							background-color: var(--grimlock-control-background-color);
+							color: var(--grimlock-control-color);
+						}
+					}
+
+					+ .el-input__inner {
+						border-top-left-radius: 0 !important;
+						border-bottom-left-radius: 0 !important;
+					}
+
+				}
+			}
+
+			// Footer
+			.am-lite-footer {
+				display: none;
+			}
+
+		}
+	}
+
+}

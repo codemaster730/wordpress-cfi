@@ -1,0 +1,57 @@
+
+/**
+ * Text
+ *
+ * Text utilities.
+ */
+
+
+// Extend Bootstrap text utilities ('.text-')
+.text {
+
+    &-antialiased {
+        -webkit-font-smoothing: antialiased;
+    }
+
+    &-antialiased-subpixel {
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+
+    &-spread {
+        letter-spacing: $text-spread;
+    }
+
+    &-narrow {
+        letter-spacing: $text-narrow;
+    }
+
+    &-muted {
+        color: inherit !important;
+        opacity: 0.55;
+    }
+
+    &-content-color {
+       color: $body-bg;
+    }
+
+    &-serif {
+        font-family: $font-family-serif;
+        font-weight: 400;
+    }
+
+    &-inherit {
+        color: inherit !important;
+    }
+
+}
+
+
+// Extend Bootstrap front weight utilities ('.font-weight-')
+.font-weight {
+    &-lighter {
+        font-weight: lighter;
+    }
+    &-bolder {
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,152 @@
+
+/**
+ * Login With Ajax
+ *
+ * Ajax Login form
+ * https://wordpress.org/plugins/login-with-ajax/
+ */
+
+
+.lwa-status {
+	@extend .alert;
+	&.lwa-status-invalid {
+		@include alert-variant-type($danger);
+	}
+	&.lwa-status-success,
+	&.lwa-status-valid,
+	&.lwa-status-confirm {
+		@include alert-variant-type($success);
+	}
+}
+
+.lwa.lwa-divs-only {
+
+	margin: 0 auto;
+	max-width: $container-max-width-narrower;
+	padding: 1.5rem;
+	border-style: solid;
+	position: relative;
+
+	.lwa-form {
+		display: flex;
+		flex-direction: column;
+
+		.lwa-submit-button {
+			order: 2;
+		}
+
+		.lwa-username,
+		.lwa-password {
+			label {
+				font-weight: $font-weight-bold !important;
+				margin: 0;
+			}
+		}
+
+		.lwa-login_form,
+		.lwa-password {
+			margin-top: 1rem;
+		}
+
+		.lwa-links {
+			@extend .clearfix;
+			position: relative;
+			margin-bottom: 1rem;
+
+			label {
+				margin: 0;
+				cursor: default;
+			}
+
+			br {
+				display: none;
+			}
+
+		}
+
+		.lwa-links-remember {
+			float: right;
+		}
+
+		.lwa-links-register-inline {
+			display: none;
+		}
+
+	}
+
+	.lwa-remember {
+		border-radius: 3px;
+		padding: 1rem !important;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate3d(-50%,-50%,0);
+		height: 100% !important;
+		width: 100% !important;
+		z-index: 15;
+		box-shadow: 0 0 30px rgba(0,0,0,0.2);
+		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+
+		.lwa-links-remember {
+			@include media-breakpoint-down(md) {
+				width: 100%;
+				float: left;
+				margin-top: 1rem;
+			}
+		}
+
+		p {
+			margin-top: 0 !important;
+			> strong {
+				font-size: 1.7em;
+			}
+		}
+		input[type="submit"] {
+			margin-bottom: .5rem;
+			width: 100%;
+		}
+		a.lwa-links-remember-cancel {
+			color: $danger;
+		}
+		.lwa-remember-email {
+			min-width: 80%;
+		}
+		.lwa-submit-button {
+			text-align: center;
+		}
+	}
+
+	.lwa-submit-button {
+		input[type="submit"] {
+			width: 100%;
+			white-space: normal !important;
+		}
+	}
+}
+
+.lwa-loading {
+	z-index: 99;
+}
+
+.lwa {
+	td {
+		vertical-align: middle;
+	}
+	.lwa-info {
+		font-weight: 600;
+		text-transform: none;
+	}
+
+	.lwa-avatar {
+		img {
+			border-radius: 500px;
+		}
+	}
+}
+

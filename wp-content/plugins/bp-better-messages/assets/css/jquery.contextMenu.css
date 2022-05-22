@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/*!
+ * jQuery contextMenu - Plugin for simple contextMenu handling
+ *
+ * Version: v2.9.2
+ *
+ * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)
+ * Web: http://swisnl.github.io/jQuery-contextMenu/
+ *
+ * Copyright (c) 2011-2020 SWIS BV and contributors
+ *
+ * Licensed under
+ *   MIT License http://www.opensource.org/licenses/mit-license
+ *
+ * Date: 2020-05-13T13:55:37.023Z
+ */
+@-webkit-keyframes cm-spin {
+    0% {
+        -webkit-transform: translateY(-50%) rotate(0deg);
+        transform: translateY(-50%) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-50%) rotate(359deg);
+        transform: translateY(-50%) rotate(359deg);
+    }
+}
+@-o-keyframes cm-spin {
+    0% {
+        -webkit-transform: translateY(-50%) rotate(0deg);
+        -o-transform: translateY(-50%) rotate(0deg);
+        transform: translateY(-50%) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-50%) rotate(359deg);
+        -o-transform: translateY(-50%) rotate(359deg);
+        transform: translateY(-50%) rotate(359deg);
+    }
+}
+@keyframes cm-spin {
+    0% {
+        -webkit-transform: translateY(-50%) rotate(0deg);
+        -o-transform: translateY(-50%) rotate(0deg);
+        transform: translateY(-50%) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateY(-50%) rotate(359deg);
+        -o-transform: translateY(-50%) rotate(359deg);
+        transform: translateY(-50%) rotate(359deg);
+    }
+}
+.bpbm-context-menu-icon-add:before {
+    content: "\EA01";
+}
+
+.bpbm-context-menu-icon-copy:before {
+    content: "\EA02";
+}
+
+.bpbm-context-menu-icon-cut:before {
+    content: "\EA03";
+}
+
+.bpbm-context-menu-icon-delete:before {
+    content: "\EA04";
+}
+
+.bpbm-context-menu-icon-edit:before {
+    content: "\EA05";
+}
+
+.bpbm-context-menu-icon-loading:before {
+    content: "\EA06";
+}
+
+.bpbm-context-menu-icon-paste:before {
+    content: "\EA07";
+}
+
+.bpbm-context-menu-icon-quit:before {
+    content: "\EA08";
+}
+
+.bpbm-context-menu-icon::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 2em;
+    font-family: "context-menu-icons";
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: var(--main-bm-color);
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.bpbm-context-menu-icon.bpbm-context-menu-hover:before {
+    color: #fff;
+}
+
+.bpbm-context-menu-icon.bpbm-context-menu-disabled::before {
+    color: #bbb;
+}
+
+.bpbm-context-menu-icon.bpbm-context-menu-icon-loading:before {
+    -webkit-animation: cm-spin 2s infinite;
+    -o-animation: cm-spin 2s infinite;
+    animation: cm-spin 2s infinite;
+}
+
+.bpbm-context-menu-icon.bpbm-context-menu-icon--fa {
+    display: list-item;
+    font-family: inherit;
+    line-height: inherit;
+}
+.bpbm-context-menu-icon.bpbm-context-menu-icon--fa::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 2em;
+    font-family: FontAwesome;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: var(--main-bm-color);
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.bpbm-context-menu-icon.bpbm-context-menu-icon--fa.bpbm-context-menu-hover:before {
+    color: #fff;
+}
+.bpbm-context-menu-icon.bpbm-context-menu-icon--fa.bpbm-context-menu-disabled::before {
+    color: #bbb;
+}
+
+.bpbm-context-menu-icon.bpbm-context-menu-icon--fa5 {
+    display: list-item;
+    font-family: inherit;
+    line-height: inherit;
+}
+.bpbm-context-menu-icon.bpbm-context-menu-icon--fa5 i, .bpbm-context-menu-icon.bpbm-context-menu-icon--fa5 svg {
+    position: absolute;
+    top: .3em;
+    left: .5em;
+    color: var(--main-bm-color);
+}
+.bpbm-context-menu-icon.bpbm-context-menu-icon--fa5.bpbm-context-menu-hover > i, .bpbm-context-menu-icon.bpbm-context-menu-icon--fa5.bpbm-context-menu-hover > svg {
+    color: #fff;
+}
+.bpbm-context-menu-icon.bpbm-context-menu-icon--fa5.bpbm-context-menu-disabled i, .bpbm-context-menu-icon.bpbm-context-menu-icon--fa5.bpbm-context-menu-disabled svg {
+    color: #bbb;
+}
+
+.bpbm-context-menu-list {
+    position: absolute !important;
+    display: inline-block;
+    min-width: 13em;
+    max-width: 26em;
+    padding: 0.25em 0 !important;
+    margin: 0.3em;
+    font-family: inherit;
+    list-style-type: none;
+    background: #fff !important;
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 0.2em !important;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 8%) !important;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.bpbm-context-menu-item {
+    position: relative;
+    box-sizing: content-box !important;
+    padding: .2em 2em;
+    color: #2f2f2f;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fff;
+    list-style: none;
+    margin: 0;
+}
+
+.bpbm-context-menu-separator {
+    padding: 0;
+    margin: .35em 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.bpbm-context-menu-item > label > input,
+.bpbm-context-menu-item > label > textarea {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+.bpbm-context-menu-item.bpbm-context-menu-hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--main-bm-color);
+}
+
+.bpbm-context-menu-item.bpbm-context-menu-disabled {
+    color: #bbb;
+    cursor: default;
+    background-color: #fff;
+}
+
+.bpbm-context-menu-input.bpbm-context-menu-hover {
+    color: #2f2f2f;
+    cursor: default;
+}
+
+.bpbm-context-menu-submenu:after {
+    position: absolute;
+    top: 50%;
+    right: .5em;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    content: '';
+    border-color: transparent transparent transparent #2f2f2f;
+    border-style: solid;
+    border-width: .25em 0 .25em .25em;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/**
+ * Inputs
+ */
+.bpbm-context-menu-item.bpbm-context-menu-input {
+    padding: .3em .6em;
+}
+
+/* vertically align inside labels */
+.bpbm-context-menu-input > label > * {
+    vertical-align: top;
+}
+
+/* position checkboxes and radios as icons */
+.bpbm-context-menu-input > label > input[type="checkbox"],
+.bpbm-context-menu-input > label > input[type="radio"] {
+    position: relative;
+    top: .12em;
+    margin-right: .4em;
+}
+
+.bpbm-context-menu-input > label {
+    margin: 0;
+}
+
+.bpbm-context-menu-input > label,
+.bpbm-context-menu-input > label > input[type="text"],
+.bpbm-context-menu-input > label > textarea,
+.bpbm-context-menu-input > label > select {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bpbm-context-menu-input > label > textarea {
+    height: 7em;
+}
+
+.bpbm-context-menu-item > .bpbm-context-menu-list {
+    top: .3em;
+    /* re-positioned by js */
+    right: -.3em;
+    display: none;
+}
+
+.bpbm-context-menu-item.bpbm-context-menu-visible > .bpbm-context-menu-list {
+    display: block;
+}
+
+.bpbm-context-menu-accesskey {
+    text-decoration: underline;
+}

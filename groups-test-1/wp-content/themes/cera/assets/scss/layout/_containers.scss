@@ -1,0 +1,43 @@
+
+/**
+ * Containers
+ *
+ * Constraining elements.
+ */
+
+.container {
+    &--narrower {
+        max-width: $container-max-width-narrower;
+    }
+    &--narrow {
+        max-width: $container-max-width-narrow;
+    }
+    &--medium {
+        width: 100%;
+        max-width: $container-max-width-classic;
+        @include media-breakpoint-up(lg) {
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        .grimlock--navigation-fixed-left &,
+        .grimlock--navigation-fixed-right & {
+            max-width: 100%;
+        }
+    }
+
+    &--fluid {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    &--max {
+        width: 100%;
+        max-width: $container-max-width-fluid;
+        padding: 0;
+    }
+    @include media-breakpoint-down(md) {
+        width: 100%;
+        max-width: 100%;
+    }
+}

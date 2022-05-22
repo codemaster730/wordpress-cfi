@@ -1,0 +1,842 @@
+# Copyright (C) 2013 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Grimlock Framework\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-08-13 11:30+0100\n"
+"PO-Revision-Date: 2016-08-13 11:32+0100\n"
+"Last-Translator: Olivier Cardoen <olivier.cardoen@themosaurus.com>\n"
+"Language-Team: themosaurus <dev@themosaurus.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_ex;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/meta-boxes/class-grimlock-admin-tentacle-count-meta-box.php:35
+msgid "Tentacle Count"
+msgstr "Nombre de tentacules"
+
+#: ../inc/class-grimlock.php:116
+msgid "Octopuses"
+msgstr "Pieuvres"
+
+#: ../inc/class-grimlock.php:117
+msgid "Octopus"
+msgstr "Pieuvre"
+
+#: ../inc/class-grimlock.php:118
+msgid "Add New"
+msgstr "Ajouter"
+
+#: ../inc/class-grimlock.php:119
+msgid "Add New Octopus"
+msgstr "Ajouter une nouvelle pieuvre"
+
+#: ../inc/class-grimlock.php:120
+msgid "Edit Octopus"
+msgstr "Editer la pieuvre"
+
+#: ../inc/class-grimlock.php:121
+msgid "New Octopus"
+msgstr "Nouvelles pieuvres"
+
+#: ../inc/class-grimlock.php:122
+msgid "View Octopus"
+msgstr "Afficher la pieuvre"
+
+#: ../inc/class-grimlock.php:123
+msgid "Search Octopuses"
+msgstr "Chercher dans les pieuvres"
+
+#: ../inc/class-grimlock.php:124
+msgid "No octopus found"
+msgstr "Aucune pieuvre trouvée"
+
+#: ../inc/class-grimlock.php:125
+msgid "No octopus found in Trash"
+msgstr "Aucune pieuvre n'a été trouvée dans la corbeille"
+
+#: ../inc/class-grimlock.php:126
+msgid "Parent Octopus:"
+msgstr "Pieuvre parente:"
+
+#: ../inc/class-grimlock.php:127
+msgid "All Octopuses"
+msgstr "Toutes les pieuvres"
+
+#: ../inc/class-grimlock.php:128
+msgid "Insert into octopus"
+msgstr "Insérer dans la pieuvre"
+
+#: ../inc/class-grimlock.php:129
+msgid "Uploaded to this octopus"
+msgstr "Charger dans cet pieuvre"
+
+#: ../inc/class-grimlock.php:130
+msgid "Featured Image"
+msgstr "Image principale"
+
+#: ../inc/class-grimlock.php:131
+msgid "Set featured image"
+msgstr "Ajouter l'image"
+
+#: ../inc/class-grimlock.php:132
+msgid "Remove featured image"
+msgstr "Supprimer l'image"
+
+#: ../inc/class-grimlock.php:133
+msgid "Use as featured image"
+msgstr "Utiliser en tant qu'image principale"
+
+#: ../inc/class-grimlock.php:151
+msgid "Species"
+msgstr "Espèces"
+
+#: ../inc/class-grimlock.php:152
+msgid "Specie"
+msgstr "Espèce"
+
+#: ../inc/class-grimlock.php:153
+msgid "Search Species"
+msgstr "Rechercher parmi les espèces"
+
+#: ../inc/class-grimlock.php:154
+msgid "All Species"
+msgstr "Toutes les espèces"
+
+#: ../inc/class-grimlock.php:155
+msgid "Parent Species"
+msgstr "Espèces parentes"
+
+#: ../inc/class-grimlock.php:156
+msgid "Parent Species:"
+msgstr "Espèce parente:"
+
+#: ../inc/class-grimlock.php:157
+msgid "Edit Specie"
+msgstr "Editer l'espèce"
+
+#: ../inc/class-grimlock.php:158
+msgid "Update Specie"
+msgstr "Mettre à jour l'espèce"
+
+#: ../inc/class-grimlock.php:159
+msgid "Add New Specie"
+msgstr "Ajouter une nouvelle espèce"
+
+#: ../inc/class-grimlock.php:160
+msgid "New Specie Name"
+msgstr "Nouveau nom d'espèce"
+
+#: ../inc/class-grimlock.php:174 ../inc/class-grimlock.php:189
+msgid "Colors"
+msgstr "Couleurs"
+
+#: ../inc/class-grimlock.php:175
+msgid "Color"
+msgstr "Couleur"
+
+#: ../inc/class-grimlock.php:176
+msgid "Search Colors"
+msgstr "Recherche parmi les couleurs"
+
+#: ../inc/class-grimlock.php:177
+msgid "Popular Colors"
+msgstr "Couleurs populaires"
+
+#: ../inc/class-grimlock.php:178
+msgid "All Colors"
+msgstr "Tous les couleurs"
+
+#: ../inc/class-grimlock.php:181
+msgid "Edit Color"
+msgstr "Editer"
+
+#: ../inc/class-grimlock.php:182
+msgid "Update Color"
+msgstr "Mettre à jour la couleur"
+
+#: ../inc/class-grimlock.php:183
+msgid "Add New Color"
+msgstr "Ajouter"
+
+#: ../inc/class-grimlock.php:184
+msgid "New Color Name"
+msgstr "Nouveau nom de couleur"
+
+#: ../inc/class-grimlock.php:185
+msgid "Separate colors with commas"
+msgstr "Séparer les couleurs par des virgules"
+
+#: ../inc/class-grimlock.php:186
+msgid "Add or remove colors"
+msgstr "Ajouter ou supprimer des couleurs"
+
+#: ../inc/class-grimlock.php:187
+msgid "Choose from the most used colors"
+msgstr "Choisir parmi les couleurs les plus utilisées."
+
+#: ../inc/class-grimlock.php:188
+msgid "No colors found."
+msgstr "Aucune couleur trouvée."
+
+#: ../inc/class-grimlock.php:215 ../inc/class-grimlock.php:218
+msgid "Octopus updated."
+msgstr "Pieuvre mise à jour."
+
+#: ../inc/class-grimlock.php:216
+msgid "Custom field updated."
+msgstr "Champ personnalisé mis à jour."
+
+#: ../inc/class-grimlock.php:217
+msgid "Custom field deleted."
+msgstr "Champ personnalisé supprimé."
+
+#: ../inc/class-grimlock.php:221
+#, php-format
+msgid "Octopus restored to revision from %s"
+msgstr "Pieuvre restaurée à partir de la révision du %s"
+
+#: ../inc/class-grimlock.php:224
+msgid "Octopus published."
+msgstr "Pieuvre publiée."
+
+#: ../inc/class-grimlock.php:225
+msgid "Octopus saved."
+msgstr "Pieuvre enregistrée."
+
+#: ../inc/class-grimlock.php:226
+msgid "Octopus submitted."
+msgstr "Pieuvre envoyée."
+
+#: ../inc/class-grimlock.php:228
+#, php-format
+msgid "Octopus scheduled for: <strong>%1$s</strong>."
+msgstr "Pieuvre prévue pour: <strong>%1$s</strong>."
+
+#: ../inc/class-grimlock.php:230
+msgid "M j, Y @ G:i"
+msgstr "j M Y @ G:i"
+
+#: ../inc/class-grimlock.php:232
+msgid "Octopus draft updated."
+msgstr "Brouillon de la pieuvre mis à jour."
+
+#: ../inc/class-grimlock.php:238
+msgid "View octopus"
+msgstr "Afficher la pieuvre"
+
+#: ../inc/class-grimlock.php:244
+msgid "Preview octopus"
+msgstr "Prévisualiser la pieuvre"
+
+#: ../inc/components/class-grimlock-tentacle-count-component.php:31
+#, php-format
+msgid "Has %d tentacles."
+msgstr "Possède %d tentacules."
+
+#: ../templates/content-octopus.php:39
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuer la lecture de %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../templates/content-octopus.php:44
+msgid "Pages:"
+msgstr "Pages:"
+
+#~ msgid "View Species"
+#~ msgstr "Voir les espèces"
+
+#~ msgid "No Speci found"
+#~ msgstr "Aucune espèce trouvée"
+
+#~ msgid "No Speci found in Trash"
+#~ msgstr "Aucune espèce n'a été trouvée dans la corbeille"
+
+#~ msgid "Enter number of tentacle"
+#~ msgstr "Saisir le nombre de tentacules ici"
+
+#~ msgid "Edit"
+#~ msgstr "Editer"
+
+#~ msgid "Foos"
+#~ msgstr "Foos"
+
+#~ msgid "Foo"
+#~ msgstr "Foo"
+
+#~ msgid "New Foo"
+#~ msgstr "Ajouter"
+
+#~ msgid "No Foo found in Trash"
+#~ msgstr "Aucun foo n'a été trouvé dans la corbeille"
+
+#~ msgid "Parent Foo"
+#~ msgstr "Parent"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "New %s"
+#~ msgstr "Nouveau %s"
+
+#~ msgid "All %s"
+#~ msgstr "Tous les %s"
+
+#~ msgid "View %s"
+#~ msgstr "Voir le %s"
+
+#~ msgid "Search %s"
+#~ msgstr "Rechercher %s"
+
+#~ msgid "More Cpt Fields"
+#~ msgstr "Plus de champs pour Cpt"
+
+#~ msgid "Cpts"
+#~ msgstr "Cpts"
+
+#~ msgid "Cpt"
+#~ msgstr "Cpt"
+
+#~ msgid "New Cpt"
+#~ msgstr "Nouveau cpt"
+
+#~ msgid "Spots"
+#~ msgstr "Lieux"
+
+#~ msgid "Spot"
+#~ msgstr "Lieu"
+
+#~ msgid "Our Dedicated Questions"
+#~ msgstr "Nos questions"
+
+#~ msgid "Questions"
+#~ msgstr "Questions"
+
+#~ msgid "Question"
+#~ msgstr "Question"
+
+#~ msgid "Add New Question"
+#~ msgstr "Ajouter une nouvelle question"
+
+#~ msgid "Edit Question"
+#~ msgstr "Editer la question"
+
+#~ msgid "New Question"
+#~ msgstr "Nouvelle question"
+
+#~ msgid "All Questions"
+#~ msgstr "Toutes les questions"
+
+#~ msgid "View Questions"
+#~ msgstr "Voir les questions"
+
+#~ msgid "Search Questions"
+#~ msgstr "Rechercher des questions"
+
+#~ msgid "Partners"
+#~ msgstr "Partenaires"
+
+#~ msgid "Partner"
+#~ msgstr "Partenaire"
+
+#~ msgid "Edit Partner"
+#~ msgstr "Editer le partenaire"
+
+#~ msgid "New Partner"
+#~ msgstr "Nouveau partenaire"
+
+#~ msgid "All Partners"
+#~ msgstr "Tous les partenaires"
+
+#~ msgid "View Partners"
+#~ msgstr "Voir les partenaires"
+
+#~ msgid "Latest Products From Our Shop"
+#~ msgstr "Derniers produits de notre boutique"
+
+#~ msgid "More Products"
+#~ msgstr "Plus de produits"
+
+#~ msgid "Products"
+#~ msgstr "Produits"
+
+#~ msgid "Product"
+#~ msgstr "Produit"
+
+#~ msgid "Our selection of products"
+#~ msgstr "Notre sélection de produits"
+
+#~ msgid "Select Category"
+#~ msgstr "Sélectionner une catégorie"
+
+#~ msgid "Toggle Dropdown"
+#~ msgstr "Afficher/cacher la liste déroulante"
+
+#~ msgid "Visit website &rarr;"
+#~ msgstr "En savoir plus &rarr;"
+
+#~ msgid "Team Members"
+#~ msgstr "Vignerons"
+
+#, fuzzy
+#~ msgid "Team Member"
+#~ msgstr "Vignerons"
+
+#, fuzzy
+#~ msgid "Add New Team Member"
+#~ msgstr "Ajouter un nouveau vigneron"
+
+#, fuzzy
+#~ msgid "Edit Team Member"
+#~ msgstr "Editer le vigneron"
+
+#, fuzzy
+#~ msgid "New Team Member"
+#~ msgstr "Nouveau vigneron"
+
+#~ msgid "All Team Members"
+#~ msgstr "Tous les vignerons"
+
+#~ msgid "View Team Members"
+#~ msgstr "Voir tous les vignerons"
+
+#~ msgid "Search Team Members"
+#~ msgstr "Rechercher les vignerons"
+
+#, fuzzy
+#~ msgid "No Team Member found"
+#~ msgstr "Aucun vigneron n'a été trouvé"
+
+#~ msgid "Parent Team Member"
+#~ msgstr "Vigneron parent"
+
+#~ msgid "Visit website"
+#~ msgstr "Visiter le site web"
+
+#~ msgid "View Project %s"
+#~ msgstr "Voir le projet %s"
+
+#~ msgid "Contact via E-mail"
+#~ msgstr "Contacter par E-mail"
+
+#~ msgid "Contact via Linkedin"
+#~ msgstr "Contacter via Linkedin"
+
+#~ msgid "Comment navigation"
+#~ msgstr "Navigation des commentaires"
+
+#~ msgid "&larr; Older Comments"
+#~ msgstr "&larr; Commentaire plus ancien"
+
+#~ msgid "Newer Comments &rarr;"
+#~ msgstr "Commentaires plus récents &rarr;"
+
+#~ msgid "Comments are closed."
+#~ msgstr "Les commentaires sont fermés."
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid ""
+#~ "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+#~ "\">permalink</a>."
+#~ msgstr ""
+#~ "Cet &eacute;l&eacute;ment a &eacute;t&eacute; marqu&eacute; %2$s. Ajouter "
+#~ "le <a href=\"%3$s\" title=\"Permalien\" rel=\"bookmark\">permalien</a> "
+#~ "aux favoris."
+
+#~ msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "Ajoute le <a href=\"%3$s\" rel=\"bookmark\">percaline</a> aux favoris."
+
+#~ msgid ""
+#~ "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s"
+#~ "\" rel=\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "Cet élément a été posté dans %1$s et marqué %2$s. Ajoute le <a href=\"%3$s"
+#~ "\" rel=\"bookmark\">permalien</a> aux favoris."
+
+#~ msgid ""
+#~ "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel="
+#~ "\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "Cet élément a été posté dans %1$s. Ajoute le <a href=\"%3$s\" rel="
+#~ "\"bookmark\">permalien</a> aux favoris."
+
+#~ msgid "Skip to content"
+#~ msgstr "Aller au contenu"
+
+#~ msgid "All rights reserved"
+#~ msgstr "Tous droits réservés"
+
+#~ msgid "Proudly powered by"
+#~ msgstr "Fièrement propulsé par"
+
+#~ msgid "http://www.themosaurus.com"
+#~ msgstr "http://www.themosaurus.com"
+
+#~ msgid "404"
+#~ msgstr "404"
+
+#~ msgid "Oops! That page can&rsquo;t be found."
+#~ msgstr "Oups ! Cette page est introuvable."
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try one of the "
+#~ "links below or a search?"
+#~ msgstr ""
+#~ "Il semble qu'il n'y ait rien ici. Essayez l'un des liens ci-dessous ou "
+#~ "une recherche ?"
+
+#~ msgid ""
+#~ "Here are some helpful links to help you find what you&rsquo;re looking "
+#~ "for:"
+#~ msgstr ""
+#~ "Voici &eacute;galement quelques liens que vous pourriez trouver utile "
+#~ "dans votre recherche:"
+
+#~ msgid "News"
+#~ msgstr "Actus"
+
+#~ msgid "Archive"
+#~ msgstr "Archives"
+
+#~ msgid "Back to products"
+#~ msgstr "Retour aux produits"
+
+#~ msgid "Search Results for: %s"
+#~ msgstr "Résultats de la recherche&nbsp;: %s"
+
+#~ msgid "Check out our product ranges"
+#~ msgstr "Venez voir nos différentes gammes de produits"
+
+#~ msgid "Our projects"
+#~ msgstr "Nos réalisations"
+
+#~ msgid "Check out our projects"
+#~ msgstr "Venez voir nos réalisations"
+
+#~ msgid ""
+#~ "<span class=\"bookmark\">Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+#~ "\">permalink</a>.</span>"
+#~ msgstr ""
+#~ "Ajouter le <a href=\"%3$s\" rel=\"bookmark\">permallien</a> aux favoris."
+
+#~ msgid "by "
+#~ msgstr "par"
+
+#~ msgid "Posted on"
+#~ msgstr "Publi&eacute; dans %1$s"
+
+#~ msgid "at"
+#~ msgstr "&agrave;"
+
+#~ msgid "Designed by %s"
+#~ msgstr "Design par %s"
+
+#~ msgid "view more"
+#~ msgstr "En savoir plus"
+
+#~ msgid "Actus"
+#~ msgstr "Actus"
+
+#~ msgid "Try looking in the monthly archives. %1$s"
+#~ msgstr "Essayez de voir du côté des archives mensuelles. %1$s"
+
+#~ msgid "%s Menu"
+#~ msgstr "Menu %s"
+
+#~ msgid "Author: %s"
+#~ msgstr "Auteur: %s"
+
+#~ msgid "Day: %s"
+#~ msgstr "Jour: %s"
+
+#~ msgid "Month: %s"
+#~ msgstr "Mois: %s"
+
+#~ msgid "Year: %s"
+#~ msgstr "Année: %s"
+
+#~ msgid "Asides"
+#~ msgstr "Apartés"
+
+#~ msgid "Galleries"
+#~ msgstr "Galeries"
+
+#~ msgid "Images"
+#~ msgstr "Images"
+
+#~ msgid "Videos"
+#~ msgstr "Vidéos"
+
+#~ msgid "Quotes"
+#~ msgstr "Citations"
+
+#~ msgid "Links"
+#~ msgstr "Liens"
+
+#~ msgid "Statuses"
+#~ msgstr "Statuts"
+
+#~ msgid "Audios"
+#~ msgstr "Audios"
+
+#~ msgid "Chats"
+#~ msgstr "Chats"
+
+#~ msgid "Display a fixed media in sidebar."
+#~ msgstr "Affiche un media fixe dans le panneau lat&eacute;ral"
+
+#~ msgid "Media"
+#~ msgstr "Media"
+
+#~ msgid "Title:"
+#~ msgstr "Titre:"
+
+#~ msgid "Image URL:"
+#~ msgstr "Image:"
+
+#~ msgid "Website URL:"
+#~ msgstr "Adresse du site:"
+
+#, fuzzy
+#~ msgid "Display a fixed media with description in sidebar."
+#~ msgstr "Affiche un media fixe dans le panneau lat&eacute;ral"
+
+#, fuzzy
+#~ msgid "Media Text"
+#~ msgstr "Media"
+
+#~ msgid "Text:"
+#~ msgstr "Texte:"
+
+#~ msgid "Display a small bootstrap carousel in sidebar."
+#~ msgstr "Affiche le carousel Bootstrap dans le panneau lat&eacute;ral"
+
+#~ msgid "Carousel"
+#~ msgstr "Carousel"
+
+#~ msgid "Image 1:"
+#~ msgstr "Image 1:"
+
+#~ msgid "Image 2:"
+#~ msgstr "Image 2:"
+
+#~ msgid "Image 3:"
+#~ msgstr "Image 3:"
+
+#~ msgid "Website URL 1:"
+#~ msgstr "Adresse du site:"
+
+#~ msgid "Website URL 2:"
+#~ msgstr "Adresse du site 2:"
+
+#~ msgid "Website URL 3:"
+#~ msgstr "Adresse du site 3:"
+
+#~ msgid "Nothing Found"
+#~ msgstr "Rien n'a été trouvé"
+
+#~ msgid ""
+#~ "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+#~ msgstr ""
+#~ "Prêt(e) à publier votre premier article? <a href=\"%1$s\">Lancez-vous "
+#~ "ici</a>."
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search terms. Please try again with some "
+#~ "different keywords."
+#~ msgstr ""
+#~ "Désolé, mais rien ne correspond à votre recherche. Veuillez réessayer "
+#~ "avec des mots différents."
+
+#~ msgid ""
+#~ "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+#~ "searching can help."
+#~ msgstr ""
+#~ "Il semble que ce que vous cherchez est introuvable. Essayez avec une "
+#~ "recherche."
+
+#~ msgid "Posted in %1$s"
+#~ msgstr "Publié dans %1$s"
+
+#~ msgid "Tagged %1$s"
+#~ msgstr "Marqué %1$s"
+
+#~ msgid "Leave a comment"
+#~ msgstr "Laisser un commentaire"
+
+#~ msgid "1 Comment"
+#~ msgstr "1 commentaire"
+
+#~ msgid "% Comments"
+#~ msgstr "% commentaires"
+
+#~ msgid "Page %s"
+#~ msgstr "Page %s"
+
+#~ msgid "Posts navigation"
+#~ msgstr "Navigation des articles"
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+#~ msgstr "<span class=\"meta-nav\">&larr;</span> Articles plus anciens"
+
+#~ msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Articles plus récents <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "Post navigation"
+#~ msgstr "Navigation de l'article"
+
+#~ msgid "Meta"
+#~ msgstr "Méta"
+
+#~ msgid ""
+#~ "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+#~ "\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size "
+#~ "image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s"
+#~ "\" rel=\"gallery\">%8$s</a>"
+#~ msgstr ""
+#~ "Publi&eacute; <span class=\"entry-date\"><time class=\"entry-date\" "
+#~ "datetime=\"%1$s\">%2$s</time></span> &agrave; <a href=\"%3$s\" title="
+#~ "\"Link to full-size image\">%4$s &times; %5$s</a> dans <a href=\"%6$s\" "
+#~ "title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+
+#~ msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+#~ msgstr "<span class=\"meta-nav\">&larr;</span> Suivant"
+
+#~ msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Pr&eacute;c&eacute;dent <span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid ""
+#~ "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post "
+#~ "a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s"
+#~ "\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</"
+#~ "a>."
+#~ msgstr ""
+#~ "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment"
+#~ "\">Laisser un commentaire</a> ou bien laisser un trackback: <a class="
+#~ "\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel="
+#~ "\"trackback\">URL de trackback</a>."
+
+#~ msgid ""
+#~ "Comments are closed, but you can leave a trackback: <a class=\"trackback-"
+#~ "link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+#~ "\">Trackback URL</a>."
+#~ msgstr ""
+#~ "Les commentaires sont ferm&eacute;s, mais vous pouvez laisser un "
+#~ "trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL "
+#~ "for your post\" rel=\"trackback\">URL de Trackback</a>."
+
+#~ msgid ""
+#~ "Trackbacks are closed, but you can <a class=\"comment-link\" href="
+#~ "\"#respond\" title=\"Post a comment\">post a comment</a>."
+#~ msgstr ""
+#~ "Les trackbacks sont ferm&eacute;s, mais vous pouvez <a class=\"comment-"
+#~ "link\" href=\"#respond\" title=\"Post a comment\">laisser un commentaire</"
+#~ "a>."
+
+#~ msgid "Both comments and trackbacks are currently closed."
+#~ msgstr "Les commentaires et les trackbacks sont ferm&eacute;s."
+
+#~ msgid "Close"
+#~ msgstr "Fermer"
+
+#~ msgid "Save changes"
+#~ msgstr "Sauver les changements"
+
+#~ msgid "Contact Information"
+#~ msgstr "Information de contact"
+
+#~ msgid "A problem occured. Sidebar can not be loaded."
+#~ msgstr ""
+#~ "Une erreur est survenue. Le panneau lat&eacute;ral ne peut pas &ecirc;tre "
+#~ "charg&eacute;."
+
+#~ msgid "http://wordpress.org/"
+#~ msgstr "http://wordpress.org/"
+
+#~ msgid "Home"
+#~ msgstr "Accueil"
+
+#~ msgid "All"
+#~ msgstr "Tous"
+
+#~ msgid "Post Archive"
+#~ msgstr "Archives des articles"
+
+#~ msgid "Post archive"
+#~ msgstr "Archives des articles"
+
+#~ msgid "Primary Menu"
+#~ msgstr "Menu principal"
+
+#~ msgid "Theme: %1$s by %2$s."
+#~ msgstr "Theme %1$s par %2$s."
+
+#~ msgid "Sidebar"
+#~ msgstr "Barre latérale"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Pingback:"
+#~ msgstr "Ping&nbsp;:"
+
+#~ msgid "%s <span class=\"says\">says:</span>"
+#~ msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "Votre commentaire est en attente de validation."
+
+#~ msgid ""
+#~ "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by "
+#~ "%2$s</span>"
+#~ msgstr ""
+#~ "<span class=\"posted-on\">Posté le %1$s</span><span class=\"byline\"> par "
+#~ "%2$s</span>"
+
+#~ msgctxt "monthly archives date format"
+#~ msgid "F Y"
+#~ msgstr "F Y"
+
+#~ msgctxt "yearly archives date format"
+#~ msgid "Y"
+#~ msgstr "Y"
+
+#~ msgctxt "comments title"
+#~ msgid "One thought on &ldquo;%2$s&rdquo;"
+#~ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+#~ msgstr[0] "Une réflexion au sujet de &laquo;&nbsp;%2$s&nbsp;&raquo;"
+#~ msgstr[1] "%1$s réflexions au sujet de &laquo;&nbsp;%2$s&nbsp;&raquo;"
+
+#~ msgctxt "1: date, 2: time"
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s à %2$s"
+
+#~ msgctxt "placeholder"
+#~ msgid "Search &hellip;"
+#~ msgstr "Rechercher &hellip;"
+
+#~ msgid "_s"
+#~ msgstr "_s"
+
+#~ msgid ""
+#~ "Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, "
+#~ "if you like. I'm a theme meant for hacking so don't use me as a "
+#~ "<em>Parent Theme</em>. Instead try turning me into the next, most "
+#~ "awesome, WordPress theme out there. That's what I'm here for."
+#~ msgstr ":)"
+
+#~ msgid "Automattic"
+#~ msgstr "Automattic"
+
+#~ msgid "http://automattic.com/"
+#~ msgstr "http://automattic.com/"

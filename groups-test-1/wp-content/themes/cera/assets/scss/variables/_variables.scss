@@ -1,0 +1,305 @@
+
+// /**
+//  * Variables
+//  * Globally-available variables and config (custom and from vendors)
+//  */
+
+// /**
+//  * Vendor Variables
+//  */
+
+@import "bootstrap_variables";
+@import "font-awesome/scss/variables";
+
+// Repaintless
+$default-offset: 60px !default;
+
+
+// /**
+//  * Custom variables
+//  * Theses are custom scss variables for this project.
+//  * Add "!default" for each new variable.
+//  */
+
+
+// /**
+//  * Base
+//  */
+
+
+// Colors
+$black-faded: rgba(0, 0, 0, 0.04) !default;
+$white-faded: rgba(255, 255, 255, 0.04) !default;
+
+$btn-primary-color: #fff !default;
+
+$brand-facebook: #3B5998 !default;
+$brand-twitter: #1DA1F2 !default;
+$brand-instagram: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !default;
+$brand-google: #DB4437 !default;
+$brand-pinterest: #BD081C !default;
+$brand-snapchat: #FFFC00 !default;
+$brand-linkedin: #0077B5 !default;
+$brand-wordpress: #0073aa !default;
+
+// Copy
+$text-spread: 2em !default;
+$text-narrow: -1em !default;
+
+// Selection color
+$selection-color: rgba($primary, 0.1) !default;
+
+
+$font-family-serif: Georgia, Times, "Times New Roman", serif !default;
+
+// /**
+//  * Layout
+//  */
+
+// Slideout
+$slideout-width: 275px !default;
+$slideout-mini-width: 60px !default;
+$slideout-width-mobile: 100% !default;
+
+
+// Regions
+
+// Grid
+$grid-breakpoints-width-xl: map-get($grid-breakpoints, xl);
+$grid-breakpoints-width-lg: map-get($grid-breakpoints, lg);
+$grid-breakpoints-width-md: map-get($grid-breakpoints, md);
+$grid-breakpoints-width-sm: map-get($grid-breakpoints, sm);
+$grid-breakpoints-width-xs: map-get($grid-breakpoints, xs);
+
+$container-max-width-xl: map-get($container-max-widths, xl);
+$container-max-width-lg: map-get($container-max-widths, lg);
+$container-max-width-md: map-get($container-max-widths, md);
+$container-max-width-sm: map-get($container-max-widths, sm);
+
+$grid-inner-width-xl: $grid-breakpoints-width-xl - $grid-gutter-width;
+$grid-inner-width-lg: $grid-breakpoints-width-lg - $grid-gutter-width;
+$grid-inner-width-md: $grid-breakpoints-width-md - $grid-gutter-width;
+
+// Regions
+$container-max-width-narrow:   910px  !default;
+$container-max-width-narrower: 720px  !default;
+$container-max-width-classic:  1400px !default;
+$container-max-width-fluid:    1600px !default;
+$container-max-width-fluider:  100%   !default;
+
+
+// Site
+$site-boxed-max-width: 1600 + $grid-gutter-width !default;
+$site-boxed-shadow: 0 0 20px 0 rgba(0,0,0,0.1) !default;
+
+
+// Site preheader
+$preheader-bg: transparent !default;
+$preheader-widget-spacing-y: .75rem !default;
+$preheader-links-spacing-x: 0 !default;
+$preheader-links-spacing-y: .5rem !default;
+
+
+// Site custom header
+$custom-header-bg: rgba(61,64,74,1) !default;
+$custom-header-color: #fff !default;
+$custom_header-overlay-bg: rgba(61, 64, 74, 0.8) !default;
+
+
+// Site content
+$site-content-bg: $body-bg !default;
+$site-content-spacer-y: $spacer * 2 !default;
+
+
+// Site prefooter
+$prefooter-bg: $gray-800 !default;
+$prefooter-color: $gray-100 !default;
+$prefooter-heading-color: #fff !default;
+$prefooter-link-color: $gray-100 !default;
+$prefooter-link-hover-color: $gray-600 !default;
+$prefooter-widget-spacing-y: 2rem !default;
+$prefooter-menu-item-spacing: .35rem !default;
+
+// Site footer
+$footer-bg: #fff !default;
+$footer-color: $gray-500 !default;
+$footer-heading-color: $headings-color !default;
+$footer-link-color: $gray-600 !default;
+$footer-link-hover-color: $primary !default;
+$footer-widget-spacing-y: .5rem !default;
+$footer-menu-item-spacing: .5rem !default;
+
+// Btn back to top
+$btn-back-to-top-bg: rgba(0,0,0,0.25) !default;
+$btn-back-to-top-border-color : rgba(0,0,0,0.2) !default;
+$btn-back-to-top-pos: 15px !default;
+
+
+// /**
+//  * COMPONENTS
+//  */
+
+// Buttons
+$btn-letter-spacing: -0.35px !default;
+$btn-font-size: 14px !default;
+$btn-border-witdh: 2px !default;
+
+// Dropdown
+$dropdown-item-padding-y: $spacer / 2 !default;
+$dropdown-max-width: 280px !default;
+$dropdown-max-height: 350px !default;
+$dropdown-border-radius-top: .25rem !default;
+$dropdown-border-radius-bottom: .25rem !default;
+$dropdown-transition-timing: .2s !default;
+$dropdown-transition-function: ease-in-out !default;
+$enable-dropdown-transition: true !default;
+
+
+// Posts
+$post-spacer-y: $spacer * 2 !default;
+
+
+// Widgets
+$widget-spacer-y: $spacer * 2 !default;
+$widget-heading-font-size: $h4-font-size  !default;
+
+
+// Comments
+$avatar-max-width: 60px !default;
+$avatar-bio-max-width: 110px !default;
+$avatar-bio-max-width-sm: 50px !default;
+
+
+// Avatar
+$avatar-border-radius: 50% !default;
+
+
+// Media
+$media-heading-spacer-y: .4rem !default;
+$media-heading-font-size: $h5-font-size !default;
+$media-heading-font-weight: 400 !default;
+
+// Breadcrumb
+$breadcrumb-bg: transparent !default;
+
+// Posts filters
+$posts-filter-spacing-y: $spacer * 2 !default;
+
+// Navbar
+$navbar-bg: #fff !default;
+$vertical-navbar-bg: #252537 !default;
+$vertical-navbar-hover-color: #fff !default;
+$navbar-border-width: 1px !default;
+$navbar-border-color: rgba(237,237,237,.85) !default;
+$vertical-navbar-border-color: rgba(255,255,255,.08) !default;
+
+$navbar-item-color: rgba(#ffffff, .6) !default;
+$navbar-item-hover-color: #ffffff !default;
+$navbar-item-ornement-bg: $primary !default;
+
+$navbar-font-family: $font-family-base !default;
+$navbar-font-weight: 600 !default;
+$navbar-font-size: .8rem !default;
+$navbar-item-text-transform: uppercase !default;
+$navbar-item-letter-spacing: .5px !default;
+
+$navbar-padding-x: 1rem;
+$navbar-padding-y: 1.5rem;
+$navbar-link-spacing: .3rem !default;
+$enable-navbar-caret: true !default;
+
+$navbar-fat-min-height: 150px !default;
+$navbar-vertical-bg: darken($gray-800, 5%) !default;
+$navbar-toggler-width: 25px !default;
+$navbar-toggler-height: 25px !default;
+
+$navbar-transition-timing: .4s !default;
+$navbar-transition-function: ease !default;
+$enable-navbar-transition: true !default; // Not for Bottom layout
+$navbar-brand-padding-vertical: $spacer !default;
+$navbar-brand-padding-horizontal: 0 !default;
+$navbar-brand-tagline-padding-vertical: .3rem !default;
+$navbar-brand-tagline-padding-horizontal: 0 !default;
+$navbar-brand-fat-padding-vertical: $spacer !default;
+$navbar-brand-fat-padding-horizontal: 0 !default;
+$navbar-vertical-brand-max-width: 80% !default;
+
+$navbar-search-min-width: 40px !default;
+$navbar-search-max-width: 250px !default;
+$navbar-search-input-color: #fff !default;
+$navbar-search-input-placeholder-color: #fff !default;
+$navbar-search-input-bg: rgba(113, 121, 142, 0) !default;
+$navbar-search-input-open-bg: rgba(113, 121, 142, 0.8) !default;
+$navbar-search-icon-color: $navbar-item-color !default;
+$navbar-search-border-radius: 500px !default;
+$navbar-search-icon-hover-opacity: 1 !default;
+
+$navbar-search-spacing-y: 1.15rem !default;
+$navbar-container-max-width: $container-max-width-classic !default;
+
+$submenu-bg: rgba($black, .1) !default;
+$submenu-color: rgba(255,255,255,.7) !default;
+
+$site-title-color: #ffffff !default;
+
+// Cards
+$card-color: $gray-600 !default;
+$card-hover-color: $primary !default;
+$card-lateral-img-border-radius: 0 !default;
+$card-overlay-bg: rgba(0,0,0,.2) !default;
+$card-box-shadow: 0 0 15px 0 var(--grimlock-archive-post-box-shadow-color) !default;
+
+// Form
+$textarea-min-height: 150px !default;
+$textarea-max-height: 550px !default;
+$form-label-font-weight: $font-weight-bold !default;
+$enable-hide-search-btn: false !default;
+
+
+// /**
+//  * PLUGINS
+//  */
+
+
+// Woo Features variables
+$ft-title-font-size: $h5-font-size !default;
+$ft-headings-margin: $headings-margin-bottom 0 $headings-margin-bottom 0 !default;
+$ft-icon-size: 4em !default;
+
+
+// Woo team variables
+$tm-img-margin: .5rem !default;
+$tm-title-font-size: $h5-font-size !default;
+
+
+// BudyPress custom variables
+$bp-breakpoint: 782px;
+$bp-navbar-avatar-size: 22px;
+
+
+// WPML
+$wpml-item-color: inherit !default;
+$wpml-item-hover-color: inherit !default;
+$wpml-item-hover-bg-color: $dropdown-link-hover-bg !default;
+$wpml-current-color: inherit !default;
+$wpml-current-hover-color: inherit !default;
+$wpml-current-bg-color: transparent !default;
+$wpml-current-hover-bg-color: transparent !default;
+$wpml-dropdown-bg: $dropdown-bg !default;
+$enable-wpml-caret: true !default;
+$enable-wpml-dropdown-transition: $enable-dropdown-transition !default;
+
+
+// Widgets
+$widget-padding: 1rem !default;
+
+// /**
+//  * MISC
+//  */
+
+// WP admin
+$wp-admin-bar-height: 32px !default;
+$wp-admin-bar-mobile-height: 46px !default;
+$wp-admin-bar-index: 99999 !default;
+$wp-customizer-breakpoint: 781px !default;
+$wp-customizer-breakpoint-xs: 640px !default;

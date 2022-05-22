@@ -1,0 +1,43 @@
+
+/**
+ * Positions
+ *
+ * Positions and depth utilities.
+ */
+
+.pos-s { position: static   !important; }
+.pos-r { position: relative !important; }
+.pos-f { position: fixed    !important; }
+.pos-a { position: absolute !important; }
+
+.pos-a-tl {
+    position: absolute;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: 0;
+}
+
+.pos-a-tr {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: auto;
+}
+
+.pos-a-bl {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: 0;
+    left: 0;
+}
+
+.pos-a-br {
+    position: absolute;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: auto;
+}

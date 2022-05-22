@@ -1,0 +1,148 @@
+/**
+ * Styles for Grimlock Animate
+ *
+ * Adds integration features between Grimlock and Grimlock Animate
+ * https://themosaurus.com/
+ *
+ */
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns .wp-block-column {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  transition: opacity 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), visibility 0.8s cubic-bezier(0.39, 0.58, 0.57, 1), -webkit-transform 0.5s cubic-bezier(0.39, 0.58, 0.57, 1);
+  transition: opacity 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), visibility 0.8s cubic-bezier(0.39, 0.58, 0.57, 1), transform 0.5s cubic-bezier(0.39, 0.58, 0.57, 1);
+  transition: opacity 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), visibility 0.8s cubic-bezier(0.39, 0.58, 0.57, 1), transform 0.5s cubic-bezier(0.39, 0.58, 0.57, 1), -webkit-transform 0.5s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns .wp-block-column:nth-child(1) {
+  transition-delay: 0.2s;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns .wp-block-column:nth-child(2) {
+  transition-delay: 0.4s;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns .wp-block-column:nth-child(3) {
+  transition-delay: 0.6s;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns .wp-block-column:nth-child(4) {
+  transition-delay: 0.8s;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns .wp-block-column:nth-child(5) {
+  transition-delay: 1s;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns .wp-block-column:nth-child(6) {
+  transition-delay: 1.2s;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns .wp-block-column:nth-child(7) {
+  transition-delay: 1.4s;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns .wp-block-column:nth-child(8) {
+  transition-delay: 1.6s;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns .wp-block-column:nth-child(9) {
+  transition-delay: 1.8s;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns .wp-block-column:nth-child(10) {
+  transition-delay: 2s;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns.grimlock-animate__wp-block-columns--fadeinFade .wp-block-column {
+  opacity: 0;
+  visibility: visible;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns.grimlock-animate__wp-block-columns--fadeinUp .wp-block-column {
+  -webkit-transform: translate3d(0, 3vw, 0);
+          transform: translate3d(0, 3vw, 0);
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns.grimlock-animate__wp-block-columns--fadeinRight .wp-block-column {
+  -webkit-transform: translate3d(-3vw, 0, 0);
+          transform: translate3d(-3vw, 0, 0);
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns.grimlock-animate__wp-block-columns--fadeinDown .wp-block-column {
+  -webkit-transform: translate3d(0, -3vw, 0);
+          transform: translate3d(0, -3vw, 0);
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns.grimlock-animate__wp-block-columns--fadeinLeft .wp-block-column {
+  -webkit-transform: translate3d(3vw, 0, 0);
+          transform: translate3d(3vw, 0, 0);
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns.is-animated.grimlock-animate__wp-block-columns--fadeinFade .wp-block-column {
+  opacity: 1;
+  visibility: visible;
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns.is-animated.grimlock-animate__wp-block-columns--fadeinUp .wp-block-column {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns.is-animated.grimlock-animate__wp-block-columns--fadeinRight .wp-block-column {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns.is-animated.grimlock-animate__wp-block-columns--fadeinDown .wp-block-column {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns.is-animated.grimlock-animate__wp-block-columns--fadeinLeft .wp-block-column {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.wp-block-columns:not([class*="block-editor-block"]).grimlock-animate__wp-block-columns.is-animated[class*="grimlock-animate__wp-block-columns--fadein"] .wp-block-column {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*
+.grimlock-animate__wp-block {
+
+	opacity: 0;
+	visibility: hidden;
+	transform: translate3d(0, 0, 0);
+	transition: opacity 0.5s cubic-bezier(.39,.58,.57,1), visibility 0.8s cubic-bezier(.39,.58,.57,1), transform 0.5s cubic-bezier(.39,.58,.57,1);
+
+	&--fadeinUp {
+		transform: translate3d(0, 3vw, 0);
+	}
+
+	&--fadeinRight {
+		transform: translate3d(-3vw, 0, 0);
+	}
+
+	&--fadeinDown {
+		transform: translate3d(0, -3vw, 0);
+	}
+
+	&--fadeinLeft {
+		transform: translate3d(3vw, 0, 0);
+	}
+
+	&.is-animated {
+		opacity: 1;
+		visibility: visible;
+		transform: translate3d(0, 0, 0);
+	}
+
+}
+*/
+/**
+ * Do not add your customizations here, this file will be overridden in future release of the plugin.
+ * Make your CSS changes in the Custom CSS panel of the WordPress Customizer or create a child theme : https://codex.wordpress.org/Child_Themes
+ */

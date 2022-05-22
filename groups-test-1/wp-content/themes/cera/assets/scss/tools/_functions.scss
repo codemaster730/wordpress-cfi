@@ -1,0 +1,14 @@
+
+// /**
+//  * Custom functions
+//  */
+
+
+$element: 24;
+
+@while $element > 0 {
+	.element-animated-delay:nth-child(#{$element}) {
+		animation-delay: ($element * 0.1) + s;
+		$element: $element - 1;
+	}
+}

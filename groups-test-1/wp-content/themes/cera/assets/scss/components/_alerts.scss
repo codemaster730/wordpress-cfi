@@ -1,0 +1,19 @@
+
+/**
+ * Alerts
+ *
+ * Alerts messages & notifications
+ */
+
+.alert {
+	a {
+		color: inherit !important;
+		opacity: 0.7;
+		text-decoration: underline;
+		&:hover,
+		&:active,
+		&:focus {
+			opacity: 1;
+		}
+	}
+}

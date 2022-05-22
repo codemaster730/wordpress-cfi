@@ -1,0 +1,149 @@
+
+/**
+ * Buttons
+ *
+ * Button styles.
+ */
+
+button,
+.button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    @extend .btn;
+}
+
+.btn,
+.button,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+
+    @include transition($transition-base);
+
+    &,
+    &:focus,
+    &:active {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    &:hover,
+    &:active {
+        cursor: pointer;
+    }
+
+    &.disabled,
+    &:disabled {
+        &:hover{
+            cursor: not-allowed;
+        }
+    }
+
+    img {
+        position: relative;
+        top: -1px;
+        margin-right: 4px;
+    }
+
+}
+
+// Secondary
+.btn-secondary {
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        color: $primary;
+    }
+}
+
+// Btn link
+.card .more-link,
+.btn.btn-link,
+.grimlock-section .grimlock-section__btn.btn-link,
+.wp-block-button.is-style-link .wp-block-button__link {
+
+	padding: .3rem 0 !important;
+    color: inherit;
+    position: relative;
+    text-transform: uppercase;
+    font-size: .75em;
+    letter-spacing: .5px;
+	display: inline-block;
+
+    &:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: currentColor;
+        display: block;
+        position: relative;
+        top: .3em;
+        opacity: .2;
+	    transition: inherit;
+    }
+
+    &:hover,
+    &:active,
+    &:focus,
+    &.active {
+
+	    &:after {
+            opacity: 1;
+        }
+
+    }
+
+}
+
+
+// Back to top button
+.btn-back-to-top {
+    display: inline-block;
+    position: fixed;
+    right: $btn-back-to-top-pos;
+    bottom: $btn-back-to-top-pos + 35px;
+    z-index: 99999;
+    padding: 1rem;
+    transition: opacity .3s 0s, visibility 0s .3s;
+    text-decoration: none !important;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    background-color: $btn-back-to-top-bg;
+    border: 1px solid $btn-back-to-top-border-color;
+    color: #fff;
+    text-align: center;
+    line-height: 1em !important;
+
+    @include media-breakpoint-down(sm) {
+        padding: .8rem !important;
+    }
+
+    > i { line-height: inherit; }
+
+    &.btn__visible {
+        transition: opacity .3s 0s, visibility 0s 0s;
+        text-decoration: none;
+        visibility: visible;
+        opacity: 0.5;
+        pointer-events: auto;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        opacity: 1;
+        text-decoration: none;
+    }
+
+    .grimlock--back-to-top-left & {
+        @include media-breakpoint-up(lg) {
+            right: auto;
+            left: $btn-back-to-top-pos;
+        }
+    }
+
+}

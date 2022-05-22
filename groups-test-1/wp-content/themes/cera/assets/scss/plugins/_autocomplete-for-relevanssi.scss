@@ -1,0 +1,38 @@
+
+/**
+ * Autocomplete for relevanssi
+ *
+ * Add autocomplete functionnality to Relevanssi plugin.
+ * https://srd.wordpress.org/plugins/autocomplete-for-relevanssi/
+ */
+
+.awesomplete {
+
+    width: 100%;
+    display: block;
+
+    > input[type="search"] {
+		width: 100%;
+    }
+
+    > ul {
+        top: 100%;
+        margin-top: 5px;
+        width: 100%;
+        border: 0 !important;
+        box-shadow: $dropdown-box-shadow;
+        @include media-breakpoint-up(lg) {
+            border-radius: $dropdown-border-radius-top $dropdown-border-radius-top $dropdown-border-radius-bottom $dropdown-border-radius-bottom;
+            padding-top: $dropdown-border-radius-bottom;
+            padding-bottom: $dropdown-border-radius-bottom;
+        }
+        > li {
+            mark {
+                color: inherit;
+                text-decoration: underline;
+            }
+        }
+
+    }
+
+}

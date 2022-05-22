@@ -1,0 +1,21 @@
+
+/**
+ * Tables
+ *
+ * Tables styles.
+ */
+
+table {
+	@extend .table;
+	width: 100%;
+	max-width: 100%;
+}
+
+.table {
+	border-collapse: collapse !important;
+	thead {
+		td, th {
+			border-bottom-width: $table-border-width;
+		}
+	}
+}

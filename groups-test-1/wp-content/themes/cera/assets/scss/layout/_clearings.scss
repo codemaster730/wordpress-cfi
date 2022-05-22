@@ -1,0 +1,24 @@
+
+/**
+ * Clearings
+ *
+ * Clear all wrappers & regions.
+ */
+
+.clear,
+.clearfix,
+.entry-content,
+.entry-header,
+.entry-footer,
+.comment-content,
+.site-preheader,
+.site-header,
+.site-before-content,
+.site-content,
+.site-after-content,
+.site-prefooter,
+.site-footer,
+.sidebar,
+.region {
+	@extend .clearfix;
+}

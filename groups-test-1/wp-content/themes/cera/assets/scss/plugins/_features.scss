@@ -1,0 +1,40 @@
+
+/**
+ * Features by Woothemes
+ *
+ * Important blocs like services or values.
+ * https://docs.woothemes.com/document/features-plugin/
+ */
+
+body #site {
+    .widget_woothemes_features {
+
+        // Item
+        .features .feature {
+
+            margin: $grid-gutter-width 0;
+
+            // Title
+            .feature-title {
+                margin: $ft-headings-margin;
+                font-size: $ft-title-font-size;
+            }
+
+            // Icon
+            .icon-preview {
+                font-size: $ft-icon-size;
+            }
+
+            // Image if no icon
+            img {
+                margin-bottom: 0;
+            }
+
+            p:empty {
+                display: none;
+            }
+
+        }
+
+    }
+}

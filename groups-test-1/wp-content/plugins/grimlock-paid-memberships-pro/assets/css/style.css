@@ -1,0 +1,733 @@
+@charset "UTF-8";
+/**
+ * Styles for Grimlock Paid Memberships Pro
+ *
+ * Adds integration features between Grimlock and PMPro
+ * https://themosaurus.com/ + https://www.paidmembershipspro.com/
+ *
+ */
+.pmpro_message {
+  position: relative;
+  padding: 0.75rem 0.75rem;
+  margin-bottom: 1rem;
+  border: 0 !important;
+  border-radius: var(--grimlock-archive-post-border-radius);
+  background-color: var(--grimlock-button-primary-background-color) !important;
+  color: var(--grimlock-button-primary-color) !important;
+}
+
+.pmpro_message a {
+  color: inherit !important;
+}
+
+.pmpro_message a:not(:hover) {
+  opacity: .7;
+}
+
+.pmpro_message a:not(.btn):not(.button) {
+  text-decoration: underline !important;
+}
+
+.pmpro_message a:not(.btn):not(.button):hover {
+  text-decoration: none !important;
+}
+
+.pmpro_message a.btn,
+.pmpro_message a.button {
+  background-color: var(--grimlock-button-primary-color) !important;
+  color: var(--grimlock-button-primary-background-color) !important;
+  opacity: 1 !important;
+  border: 0;
+}
+
+.pmpro_message a.btn:hover,
+.pmpro_message a.button:hover {
+  opacity: .7 !important;
+}
+
+/**
+ * Wrappers
+ */
+.pmpro-invoice #main .entry-content,
+.pmpro-confirmation #main .entry-content {
+  border-style: solid;
+  padding: 2rem;
+}
+
+/**
+ * Alerts
+ */
+.pmpro_message.pmpro_alert {
+  color: #fff !important;
+  background-color: #3DBDB6 !important;
+}
+
+.pmpro_message.pmpro_error {
+  color: #fff !important;
+  background-color: #e74c3c !important;
+}
+
+.pmpro_checkout h3 span.pmpro_checkout-h3-msg {
+  position: relative;
+  top: -12px;
+  display: block;
+  opacity: .75;
+}
+
+.pmpro_checkout h3 span.pmpro_checkout-h3-msg a:not(:hover) {
+  color: inherit !important;
+}
+
+body.pmpro-body-level-required .entry-content .pmpro_content_message {
+  text-align: center;
+  font-size: 1em;
+  padding: 10% 2rem;
+  min-height: 220px;
+  display: block;
+  text-align: center;
+}
+
+body.pmpro-body-level-required .entry-content .pmpro_content_message h2 {
+  margin-bottom: 1.5rem;
+}
+
+body.pmpro-body-level-required .entry-content .pmpro_content_message a {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-image: none;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  body.pmpro-body-level-required .entry-content .pmpro_content_message a {
+    min-width: 200px;
+    width: auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body.pmpro-body-level-required .entry-content .pmpro_content_message a + a {
+    margin-top: .5rem;
+  }
+}
+
+body.pmpro-body-level-required .entry-content .pmpro_content_message p {
+  max-width: 610px;
+  line-height: 1.6em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.pmpro-body-level-required .entry-content .pmpro_content_message p:last-child {
+  margin-bottom: 0;
+}
+
+/**
+ * Buttons
+ */
+.pmpro_a-print {
+  background-image: none;
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  float: none;
+  font-size: 1em;
+}
+
+.pmpro_a-print:before {
+  font-family: var(--grimlock-icon-print-font-family) !important;
+  content: var(--grimlock-icon-print);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: .3rem;
+}
+
+/**
+ * Forms
+ */
+#loginform input[type="text"],
+#loginform input[type="password"],
+#loginform select,
+#loginform .input,
+#loginform textarea {
+  max-width: 100%;
+}
+
+form.pmpro_form label,
+#loginform label {
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+form.pmpro_form .lite {
+  color: inherit;
+  font-size: 85%;
+  margin-top: .5rem;
+  opacity: .8;
+  display: block;
+}
+
+form#pmpro_form .pmpro_checkout-field-bcity_state_zip input {
+  margin-right: .5rem;
+}
+
+input.input.pmpro_error.pmpro_required {
+  border-color: var(--grimlock-color-danger);
+}
+
+input.input.pmpro_error.pmpro_required + .pmpro_asterisk {
+  color: var(--grimlock-color-danger);
+}
+
+form#pmpro_form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+form#pmpro_form > * {
+  width: 100%;
+}
+
+form#pmpro_form > .pmpro_message {
+  order: -2;
+}
+
+form#pmpro_form hr {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  form#pmpro_form #pmpro_pricing_fields {
+    width: 61%;
+  }
+  form#pmpro_form #pmpro_pricing_fields .pmpro_checkout-fields {
+    min-height: calc(100% - 65px);
+  }
+}
+
+@media (min-width: 992px) {
+  form#pmpro_form #pmpro_user_fields {
+    margin-right: auto;
+    order: -1;
+    width: 36%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  form#pmpro_form .pmpro_checkout h3 span.pmpro_checkout-h3-msg {
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: -.5rem;
+  }
+}
+
+form#pmpro_form .pmpro_checkout-fields {
+  padding: 1.5rem;
+  border-style: solid;
+}
+
+form#pmpro_form .pmpro_checkout-fields ol,
+form#pmpro_form .pmpro_checkout-fields ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+form#pmpro_form .pmpro_checkout-fields ol li,
+form#pmpro_form .pmpro_checkout-fields ul li {
+  margin-bottom: 15px;
+  cursor: default;
+  line-height: 1.2em;
+  font-size: .95em;
+}
+
+form#pmpro_form .pmpro_checkout-fields ol li:before,
+form#pmpro_form .pmpro_checkout-fields ul li:before {
+  font-family: var(--grimlock-icon-check-circle-font-family) !important;
+  content: var(--grimlock-icon-check-circle);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 0.2s ease-in-out;
+  opacity: .5;
+  margin-right: 8px;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  form#pmpro_form .pmpro_checkout-fields ol li:before,
+  form#pmpro_form .pmpro_checkout-fields ul li:before {
+    transition: none;
+  }
+}
+
+form#pmpro_form .pmpro_checkout-fields ol li:hover:before,
+form#pmpro_form .pmpro_checkout-fields ul li:hover:before {
+  opacity: 1;
+}
+
+form#pmpro_form .pmpro_checkout-fields p {
+  text-align: left !important;
+}
+
+form#pmpro_form #pmpro_billing_address_fields {
+  padding-top: .5rem;
+}
+
+form#pmpro_form #pmpro_billing_address_fields .pmpro_checkout-fields,
+form#pmpro_form #pmpro_payment_information_fields .pmpro_checkout-fields {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+form#pmpro_form #pmpro_billing_address_fields .pmpro_checkout-field,
+form#pmpro_form #pmpro_payment_information_fields .pmpro_checkout-field {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 768px) {
+  form#pmpro_form #pmpro_billing_address_fields .pmpro_checkout-field,
+  form#pmpro_form #pmpro_payment_information_fields .pmpro_checkout-field {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+form#pmpro_form .pmpro_checkout-field > label {
+  margin-bottom: 3px;
+}
+
+form#pmpro_form .pmpro_checkout-field .pmpro_asterisk {
+  margin-left: 2px;
+  opacity: .7;
+}
+
+form#pmpro_form .pmpro_checkout-field-bcity_state_zip input {
+  width: auto;
+  max-width: none;
+  min-width: 130px;
+}
+
+form#pmpro_form .pmpro_checkout {
+  margin-bottom: 2.5rem;
+}
+
+form#pmpro_form .pmpro_payment-expiration {
+  align-items: center;
+}
+
+form#pmpro_form .pmpro_payment-expiration #ExpirationMonth,
+form#pmpro_form .pmpro_payment-expiration #ExpirationYear {
+  width: 30%;
+}
+
+form#pmpro_form .pmpro_payment-expiration #ExpirationMonth {
+  margin-right: 5px;
+}
+
+form#pmpro_form .pmpro_payment-expiration #ExpirationMonth + .pmpro_asterisk {
+  display: none;
+}
+
+form#pmpro_form .pmpro_payment-expiration #ExpirationYear {
+  margin-left: 5px;
+}
+
+form#pmpro_form .pmpro_payment-cvv small {
+  width: 100%;
+  margin-top: 2px;
+  opacity: .8;
+  font-style: italic;
+}
+
+form#pmpro_form .pmpro_payment-cvv small a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+form#pmpro_form > div[align="center"] {
+  display: flex;
+  justify-content: center;
+}
+
+form#pmpro_form > div[align="center"] input {
+  min-width: 110px;
+  text-decoration: none !important;
+  border: none !important;
+}
+
+form#pmpro_form > div[align="center"] input.pmpro_btn-cancel {
+  order: -1;
+  margin-right: .5rem;
+}
+
+/**
+ * Pagination
+ */
+#nav-below {
+  padding-top: 1rem;
+}
+
+#nav-below::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+#nav-below .alignright,
+#nav-below .alignleft {
+  margin: 0;
+}
+
+@media (max-width: 767.98px) {
+  #nav-below > div {
+    margin: 10px 0 0 0;
+    float: none;
+  }
+  #nav-below > div > a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/**
+ * Table
+ */
+.pmpro_table {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 767.98px) {
+  #pmpro_cancel > table,
+  #pmpro_account-invoices > table,
+  table#pmpro_invoices_table {
+    display: block;
+  }
+  #pmpro_cancel > table thead,
+  #pmpro_account-invoices > table thead,
+  table#pmpro_invoices_table thead {
+    display: none;
+  }
+  #pmpro_cancel > table tbody,
+  #pmpro_account-invoices > table tbody,
+  table#pmpro_invoices_table tbody {
+    display: block;
+    width: 100%;
+  }
+  #pmpro_cancel > table tr,
+  #pmpro_account-invoices > table tr,
+  table#pmpro_invoices_table tr {
+    display: block;
+  }
+  #pmpro_cancel > table tr + tr,
+  #pmpro_account-invoices > table tr + tr,
+  table#pmpro_invoices_table tr + tr {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  #pmpro_cancel > table tr td,
+  #pmpro_account-invoices > table tr td,
+  table#pmpro_invoices_table tr td {
+    display: block;
+  }
+  #pmpro_cancel > table tr td:first-child,
+  #pmpro_account-invoices > table tr td:first-child,
+  table#pmpro_invoices_table tr td:first-child {
+    border: 0 !important;
+  }
+}
+
+/**
+ * Levels
+ */
+#pmpro_levels_table .pmpro-levels-col {
+  margin-bottom: 30px;
+}
+
+#pmpro_levels_table .card {
+  text-align: center;
+}
+
+#pmpro_levels_table .card .card-body {
+  padding: 3rem 2rem 0 2rem;
+}
+
+#pmpro_levels_table .card .card-footer {
+  padding: 1.5rem !important;
+}
+
+#pmpro_levels_table .level-short-price {
+  color: transparent;
+  font-size: 0;
+}
+
+#pmpro_levels_table .level-short-price strong {
+  color: #245CC5;
+  display: block;
+}
+
+#pmpro_levels_table .level-short-price strong:first-of-type {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+#pmpro_levels_table .level-short-price strong:nth-child(2), #pmpro_levels_table .level-short-price strong:nth-child(3) {
+  font-size: .95rem;
+  font-weight: normal;
+}
+
+@media (min-width: 992px) {
+  #pmpro_levels_table > .row > div {
+    max-width: calc(100% / 3);
+  }
+}
+
+#pmpro_levels_table .level-cost-text {
+  font-size: .9em;
+  opacity: .7;
+  text-align: center;
+}
+
+#pmpro_levels_table .level-description {
+  text-align: center;
+}
+
+#pmpro_levels_table .level-description ol,
+#pmpro_levels_table .level-description ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  max-width: 300px;
+  margin: 10px auto 0 auto;
+}
+
+#pmpro_levels_table .level-description ol li,
+#pmpro_levels_table .level-description ul li {
+  margin-bottom: 20px;
+  cursor: default;
+  line-height: 1.2em;
+  font-size: .95em;
+  display: flex;
+}
+
+#pmpro_levels_table .level-description ol li:before,
+#pmpro_levels_table .level-description ul li:before {
+  font-family: var(--grimlock-icon-check-circle-font-family) !important;
+  content: var(--grimlock-icon-check-circle);
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 0.2s ease-in-out;
+  opacity: .5;
+  margin-right: 8px;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  #pmpro_levels_table .level-description ol li:before,
+  #pmpro_levels_table .level-description ul li:before {
+    transition: none;
+  }
+}
+
+#pmpro_levels_table .level-description ol li:hover:before,
+#pmpro_levels_table .level-description ul li:hover:before {
+  opacity: 1;
+}
+
+#pmpro_levels_table p:empty {
+  display: none;
+}
+
+/**
+ * Account
+ */
+#pmpro_account .pmpro_box {
+  padding: 1.5rem;
+  border-style: solid;
+}
+
+#pmpro_account .pmpro_box ul, #pmpro_account .pmpro_box ol {
+  padding-left: 0;
+}
+
+#pmpro_account .pmpro_box table {
+  margin-top: 1rem;
+}
+
+#pmpro_account .pmpro_box table td p {
+  margin-top: 0;
+}
+
+#pmpro_account .pmpro_box#pmpro_account-profile ul {
+  list-style: none;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background: rgba(0, 0, 0, 0.04);
+  margin: .5rem 0;
+  word-break: break-word;
+}
+
+#pmpro_account .pmpro_actionlinks {
+  margin-top: 15px;
+}
+
+@media (max-width: 991.98px) {
+  .pmpro_actionlinks > a {
+    width: 100% !important;
+    text-align: center !important;
+    margin-top: 10px !important;
+    white-space: normal;
+    word-break: break-word;
+  }
+  #pmpro_account-membership table {
+    display: block;
+  }
+  #pmpro_account-membership table thead {
+    display: none;
+  }
+  #pmpro_account-membership table tr, #pmpro_account-membership table td, #pmpro_account-membership table tbody {
+    display: block;
+    text-align: left !important;
+  }
+  #pmpro_account-membership table td a {
+    width: auto !important;
+  }
+  #pmpro_account-membership table tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+  }
+}
+
+/**
+ * Billing
+ */
+.pmpro-billing .pmpro_billing_wrap > p,
+.pmpro-billing .pmpro_billing_wrap > ul {
+  list-style: none;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  background: rgba(0, 0, 0, 0.04);
+  margin-bottom: .5rem !important;
+}
+
+/**
+ * Confirmation
+ */
+body.pmpro-confirmation .pmpro_confirmation_wrap ul {
+  margin-left: 0;
+  background-color: var(--grimlock-table-striped-background-color);
+  padding: 1rem;
+  list-style: none;
+  border-radius: var(--grimlock-archive-post-border-radius);
+}
+
+/**
+ * Cancel
+ */
+#pmpro_cancel {
+  border-style: solid;
+  padding: 1.5rem;
+}
+
+#pmpro_cancel hr {
+  display: none;
+}
+
+#pmpro_cancel > p,
+#pmpro_cancel > p + .pmpro_actionlinks {
+  text-align: center;
+}
+
+#pmpro_cancel .pmpro_actionlinks a {
+  color: #fff;
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+#pmpro_cancel .pmpro_actionlinks a:hover {
+  color: #fff;
+  background-color: #e12e1c;
+  border-color: #d62c1a;
+}
+
+#pmpro_cancel .pmpro_actionlinks a:focus, #pmpro_cancel .pmpro_actionlinks a.focus {
+  box-shadow: 0 0 0 0.2rem rgba(231, 76, 60, 0.5);
+}
+
+#pmpro_cancel .pmpro_actionlinks a.disabled, #pmpro_cancel .pmpro_actionlinks a:disabled {
+  color: #fff;
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+#pmpro_cancel .pmpro_actionlinks a:not(:disabled):not(.disabled):active, #pmpro_cancel .pmpro_actionlinks a:not(:disabled):not(.disabled).active,
+.show > #pmpro_cancel .pmpro_actionlinks a.dropdown-toggle {
+  color: #fff;
+  background-color: #d62c1a;
+  border-color: #ca2a19;
+}
+
+#pmpro_cancel .pmpro_actionlinks a:not(:disabled):not(.disabled):active:focus, #pmpro_cancel .pmpro_actionlinks a:not(:disabled):not(.disabled).active:focus,
+.show > #pmpro_cancel .pmpro_actionlinks a.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(231, 76, 60, 0.5);
+}
+
+/**
+ * License
+ */
+#pmpro_license {
+  border: 0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--grimlock-table-striped-background-color);
+}
+
+#pmpro_license ol {
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+/**
+ * Paid Memberships Pro – BuddyPress Add On
+ * https://wordpress.org/plugins/pmpro-buddypress/
+ */
+.pmpro_bp_show_level_on_bp_profile {
+  margin-top: .5rem;
+}
+
+.pmpro_bp_show_level_on_bp_profile > strong {
+  display: inline-block;
+  padding: .35rem .6rem;
+  color: var(--grimlock-button-primary-background-color);
+  background: #fff;
+  font-weight: 600;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: .7em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-radius: var(--grimlock-archive-post-border-radius);
+}

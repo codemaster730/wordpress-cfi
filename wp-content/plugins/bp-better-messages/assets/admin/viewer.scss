@@ -1,0 +1,33 @@
+.bp-messages-list{
+  margin: 15px 0;
+
+  tbody{
+    tr{
+      td{
+        &.user-td{
+          display: flex;
+          align-content: center;
+          justify-content: flex-start;
+          align-items: center;
+
+          > * {
+            margin-right: 5px;
+          }
+        }
+
+        img{
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.pagination{
+  ul{
+    display: flex;
+    li{
+      margin-right: 5px;
+    }
+  }
+}

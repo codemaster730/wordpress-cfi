@@ -1,0 +1,83 @@
+
+/**
+ * Mailchimp for WordPress
+ *
+ * Mailchimp integration plugin.
+ * https://wordpress.org/plugins/mailchimp-for-wp/
+ */
+
+.mc4wp-form-basic,
+.mc4wp-form-theme {
+    line-height: inherit !important;
+    input,
+    label {
+        line-height: inherit !important;
+    }
+}
+
+.grimlock-section:not(.grimlock-hero) {
+
+    .mc4wp-form {
+        .form-row {
+            input[type="text"],
+            input[type="email"] {
+                border-color: rgba(255,255,255,0.5);
+                background: none;
+                color: #fff;
+                width: 100%;
+                max-width: 180px;
+                min-height: 100%;
+                @include media-breakpoint-up(sm) {
+                    max-width: 330px;
+                }
+                @include media-breakpoint-up(lg) {
+                    min-width: 330px;
+                }
+                &:hover,
+                &:active,
+                &:focus {
+                    border-color: #fff;
+                }
+
+                &::-webkit-input-placeholder {
+                    color: rgba(255,255,255,0.7);
+                }
+                &:-moz-input-placeholder {
+                    color: rgba(255,255,255,0.7);
+                }
+                &::-ms-input-placeholder {
+                    color: rgba(255,255,255,0.7);
+                }
+                &::-ms-input-placeholder {
+                    color: rgba(255,255,255,0.7);
+                }
+                &::placeholder {
+                    color: rgba(255,255,255,0.7);
+                }
+                &::placeholder-shown {
+                    color: rgba(255,255,255,0.7);
+                }
+
+                & + input[type="submit"] {
+                    width: 100%;
+                    margin-top: .3rem;
+                    @include media-breakpoint-up(md) {
+                        margin-top: 0;
+                        margin-left: .5rem;
+                        width: auto;
+                    }
+                }
+            }
+            .col-auto {
+                .btn {
+                    min-height: 100%;
+                }
+            }
+        }
+        &.region--12-cols-center {
+            .form-row {
+                justify-content: center;
+            }
+        }
+    }
+}

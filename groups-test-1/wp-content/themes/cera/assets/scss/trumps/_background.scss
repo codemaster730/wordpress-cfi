@@ -1,0 +1,105 @@
+
+/**
+ * Background
+ *
+ * Background utilities.
+ */
+
+// Extend Bootstrap background utilities ('.bg-')
+.bg {
+
+    &-gray-100 {
+        background-color: $gray-100 !important;
+    }
+
+    &-gray-200 {
+        background-color: $gray-200 !important;
+    }
+
+    &-gray-300 {
+        background-color: $gray-300 !important;
+    }
+
+    &-gray-400 {
+        background-color: $gray-400 !important;
+    }
+
+    &-gray-500 {
+        background-color: $gray-500 !important;
+    }
+
+    &-gray-600 {
+        background-color: $gray-600 !important;
+    }
+
+    &-gray-700 {
+        background-color: $gray-700 !important;
+    }
+
+    &-gray-800 {
+        background-color: $gray-800 !important;
+    }
+
+    &-gray-900 {
+        background-color: $gray-800 !important;
+    }
+
+    &-black-faded {
+        background-color: $black-faded !important;
+    }
+
+    &-text-color {
+        background-color: $body-color !important;
+    }
+
+    &-blue {
+        background-color: $blue !important;
+        color: #fff !important;
+    }
+
+    &-indigo {
+        background-color: $indigo !important;
+        color: #fff !important;
+    }
+
+    &-purple {
+        background-color: $purple !important;
+        color: #fff !important;
+    }
+
+    &-pink {
+        background-color: $pink !important;
+        color: #fff !important;
+    }
+
+    &-red {
+        background-color: $red !important;
+        color: #fff !important;
+    }
+
+    &-orange {
+        background-color: $orange !important;
+        color: #fff !important;
+    }
+
+    &-yellow {
+        background-color: $yellow !important;
+        color: #fff !important;
+    }
+
+    &-green {
+        background-color: $green !important;
+        color: #fff !important;
+    }
+
+    &-teal {
+        background-color: $teal !important;
+        color: #fff !important;
+    }
+
+    &-cyan {
+        background-color: $cyan !important;
+        color: #fff !important;
+    }
+
+}

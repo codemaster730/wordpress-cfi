@@ -1,0 +1,613 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Articles\n"
+"POT-Creation-Date: 2016-08-11 20:18-0300\n"
+"PO-Revision-Date: 2016-08-17 17:50-0300\n"
+"Last-Translator: \n"
+"Language-Team: Broobe <dev@broobe.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: social-articles.php:192
+msgid "Settings"
+msgstr "Réglages"
+
+#: social-articles.php:204
+msgid "Donate"
+msgstr "Donation"
+
+#: social-articles.php:229
+msgid ""
+"<strong>Social Articles</strong></a> requires the BuddyPress plugin to work. "
+"Please <a href=\"http://buddypress.org\">install BuddyPress</a> first, or <a "
+"href=\"plugins.php\">deactivate Social Articles</a>."
+msgstr ""
+"<strong>Social Articles</strong></a> requiert l'extension BuddyPress. Merci "
+"d'installer <a href=\"http://buddypress.org\">BuddyPress</a> en premier, ou "
+"de <a href=\"plugins.php\">desactiver Social Articles</a>."
+
+#: includes/social-articles-functions.php:102
+msgid "One of your articles was approved"
+msgstr "Un de vos articles a été approuvé"
+
+#: includes/social-articles-functions.php:102
+#: includes/social-articles-functions.php:110
+msgid "check it out!"
+msgstr "allez le voir !"
+
+#: includes/social-articles-functions.php:109
+msgid "There is a new article by "
+msgstr "Il y a un nouvel article écrit par"
+
+#: includes/social-articles-load.php:11 includes/social-articles-load.php:132
+msgid "Social Articles"
+msgstr "Social Articles"
+
+#: includes/social-articles-load.php:40
+msgid "Search articles..."
+msgstr "Chercher dans les articles"
+
+#: includes/social-articles-load.php:53
+msgid "My articles"
+msgstr "Mes articles"
+
+#: includes/social-articles-load.php:73 includes/sa-form/sa-form-class.php:125
+#: includes/templates/members/single/articles/new.php:6
+msgid "Published"
+msgstr "Publié"
+
+#: includes/social-articles-load.php:82
+msgid "Under Review"
+msgstr "En attente de modération"
+
+#: includes/social-articles-load.php:92 includes/sa-form/sa-form-class.php:126
+#: includes/templates/members/single/articles/new.php:7
+msgid "Draft"
+msgstr "Brouillon"
+
+#: includes/social-articles-load.php:101
+#: includes/templates/members/single/articles/new.php:35
+msgid "New article"
+msgstr "Nouvel article"
+
+#: includes/social-articles-load.php:139
+#, fuzzy, php-format
+msgid "My Articles <span class=\"count\">%s</span>"
+msgstr "Mes Articles <span class=\"count\">%d</span>"
+
+#: includes/social-articles-load.php:145
+msgid "New Article"
+msgstr "Nouvel article"
+
+#: includes/social-articles-manage-functions.php:95
+msgid "edit article"
+msgstr "éditer l'article"
+
+#: includes/social-articles-manage-functions.php:98
+msgid "delete article"
+msgstr "supprimer l'article"
+
+#: includes/social-articles-manage-functions.php:128
+msgid "Archived"
+msgstr "catégorie"
+
+#: includes/social-articles-manage-functions.php:135
+msgid "comments"
+msgstr "commentaires"
+
+#: includes/admin/social-articles-options.php:32
+msgid "Settings Saved"
+msgstr "Réglages enregistrés"
+
+#: includes/admin/social-articles-options.php:43
+msgid "Social Articles Settings"
+msgstr "Réglages de Social Articles"
+
+#: includes/admin/social-articles-options.php:51
+#: includes/admin/tabs/social-articles-general-settings.php:52
+msgid "General"
+msgstr "Général"
+
+#: includes/admin/social-articles-options.php:52
+#: includes/admin/tabs/social-articles-view-settings.php:18
+msgid "View"
+msgstr ""
+
+#: includes/admin/social-articles-options.php:53
+msgid "Form"
+msgstr ""
+
+#: includes/admin/social-articles-options.php:54
+msgid "Get Premium"
+msgstr ""
+
+#: includes/admin/social-articles-options.php:55
+msgid "There are unsaved changes"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:8
+msgid "Available Fields"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:10
+msgid ""
+"Drag and drop the fields you need from this column to the Form Layout column"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:27
+msgid "Form Layout"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:47
+msgid "Field Configuration"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:49
+#, php-format
+msgid "Click on %s to edit the field configuration"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-form-settings.php:58
+#: includes/admin/tabs/social-articles-general-settings.php:51
+#: includes/admin/tabs/social-articles-view-settings.php:17
+msgid "Update Social Articles Settings"
+msgstr "Mettre à jour les réglages de Social Articles"
+
+#: includes/admin/tabs/social-articles-general-settings.php:7
+msgid "Select workflow type"
+msgstr "Choisissez le type de publication"
+
+#: includes/admin/tabs/social-articles-general-settings.php:9
+msgid "Direct Publish"
+msgstr "Publication directe"
+
+#: includes/admin/tabs/social-articles-general-settings.php:10
+msgid "With Approval "
+msgstr "Avec modération"
+
+#: includes/admin/tabs/social-articles-general-settings.php:19
+msgid "To use this feature, you need to activate bb Friend Connections module."
+msgstr ""
+"Pour utiliser cette fonctionnalité, vous devez avoir activer le module bb "
+"Friend Connections"
+
+#: includes/admin/tabs/social-articles-general-settings.php:24
+msgid "Send buddyPress notifications?"
+msgstr "Envoyer des notifications via buddyPress ?"
+
+#: includes/admin/tabs/social-articles-general-settings.php:26
+#: includes/admin/tabs/social-articles-general-settings.php:36
+#: includes/admin/tabs/social-articles-general-settings.php:46
+msgid "False"
+msgstr "Faux"
+
+#: includes/admin/tabs/social-articles-general-settings.php:27
+#: includes/admin/tabs/social-articles-general-settings.php:37
+#: includes/admin/tabs/social-articles-general-settings.php:47
+msgid "True"
+msgstr "Vrai"
+
+#: includes/admin/tabs/social-articles-general-settings.php:34
+msgid "Can users edit their articles?"
+msgstr "Les utilisateurs peuvent-ils éditer leurs articles ?"
+
+#: includes/admin/tabs/social-articles-general-settings.php:44
+msgid "Can users delete their articles?"
+msgstr "Les utilisateurs peuvent-ils supprimer leurs articles ?"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:7
+msgid "Coming Soon!!!"
+msgstr "Bientôt !"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:11
+msgid "Mail Notifications"
+msgstr "Notifications par email"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:12
+msgid ""
+"Mail Notification sends mail to your mailboxes. When new notification "
+"arrives, Mail Notification sends a new email."
+msgstr ""
+"Notifications par email envoyées. Quand une nouvelle notifications arrive, "
+"mail notification envoie un nouvel email"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:14
+msgid "Html Template Customization"
+msgstr "Personnalisation du template HTML"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:15
+msgid "Customize your email with HTML Template Customizations!"
+msgstr "Personnalisez votre email avec des template HTML"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:17
+msgid "Custom Post Type definition"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:18
+msgid "Custom taxonomies"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:19
+#, fuzzy
+msgid "Taxonomies Black/White List"
+msgstr "Liste noire d'étiquette"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:20
+msgid "Hierarchical taxonomies"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:21
+msgid "Ability to add terms from the front end"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:22
+#, fuzzy
+msgid "Required Fields definition"
+msgstr "Définition des champs requis"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:23
+#, fuzzy
+msgid "Required Fields Messages definition"
+msgstr "Définition des champs requis"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:24
+msgid "More Editor Functions"
+msgstr "Fonctions supplémentaires d'éditeur"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:25
+#, fuzzy
+msgid "Premium features for each field"
+msgstr "Fonctionnalités premium"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:26
+msgid "Ability to change labels"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:27
+msgid "More!"
+msgstr ""
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:34
+msgid "Premium Features"
+msgstr "Fonctionnalités premium"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:40
+msgid ""
+"Want to help make this plugin even better? All donations are used to improve "
+"this plugin, so donate $20, $50 or $100 now!"
+msgstr ""
+"Vous voulez une meilleure extension ? Toutes les donations sont utilisées "
+"pour améliorer cette extension, 20$, 50$ ou 100$ même !"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:45
+msgid "Or you could:"
+msgstr "Ou vous pouvez :"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:47
+msgid "Rate the plugin 5★ on WordPress.org"
+msgstr "Noter cette extension 5★ sur WordPress.org"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:48
+msgid "Help out other users in the forums"
+msgstr "Aider les autres utilisateurs sur les forums"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:49
+#, php-format
+msgid "Blog about it & link to the %1$splugin page%2$s"
+msgstr ""
+"En parler sur votre blog et mettre un lien vers %1$sla page du plugin%2$s"
+
+#: includes/admin/tabs/social-articles-get-premium-settings.php:53
+msgid "Help Spread the Word!"
+msgstr "Aidez-nous !"
+
+#: includes/admin/tabs/social-articles-view-settings.php:7
+msgid "Post per page#"
+msgstr "Articles par page#"
+
+#: includes/admin/tabs/social-articles-view-settings.php:13
+msgid "Excerpt length#"
+msgstr "Longueur de l'extrait#"
+
+#: includes/sa-form/sa-form-class.php:127
+#: includes/templates/members/single/articles/new.php:8
+msgid "Under review"
+msgstr "En attente de modération"
+
+#: includes/sa-form/sa-form-class.php:128
+#: includes/templates/members/single/articles/new.php:9
+msgid "New"
+msgstr "Nouveau"
+
+#: includes/sa-form/sa-form-class.php:137
+msgid ""
+"Your article is under review. When the editors approve it you will get a "
+"notification."
+msgstr ""
+"Votre article a été soumis. Lorsqu'il sera approuvé, vous recevrez une "
+"notification."
+
+#: includes/sa-form/sa-form-class.php:141
+msgid "Your article is in draft form."
+msgstr "Votre article est un brouillon."
+
+#: includes/sa-form/sa-form-class.php:145
+msgid "Your article has been published."
+msgstr "Votre article a été publié."
+
+#: includes/sa-form/sa-helper-class.php:37
+#: includes/sa-form/fields/classes/sa-title-class.php:10
+msgid "Title"
+msgstr "Titre"
+
+#: includes/sa-form/sa-helper-class.php:58
+msgid "Content"
+msgstr ""
+
+#: includes/sa-form/sa-helper-class.php:64
+msgid "Featured image"
+msgstr ""
+
+#: includes/sa-form/fields/classes/sa-content-class.php:11
+#, fuzzy
+msgid "Article content"
+msgstr "Contenu de l'article"
+
+#: includes/sa-form/fields/classes/sa-featured-image-class.php:10
+#, fuzzy
+msgid "Featured Image"
+msgstr "Téléverser une image"
+
+#: includes/sa-form/fields/classes/sa-title-class.php:11
+#, fuzzy
+msgid "Insert the title"
+msgstr "Insérer une liste ordonnée"
+
+#: includes/sa-form/fields/classes/sa-title-class.php:12
+msgid "Title is required"
+msgstr "Le titre est obligatoire"
+
+#: includes/sa-form/fields/commons/uploader.php:138
+msgid "Server error. Upload directory isn't writable."
+msgstr ""
+
+#: includes/sa-form/fields/commons/uploader.php:142
+msgid "No files were uploaded."
+msgstr ""
+
+#: includes/sa-form/fields/commons/uploader.php:148
+msgid "File is empty"
+msgstr ""
+
+#: includes/sa-form/fields/commons/uploader.php:152
+msgid "File is too large"
+msgstr ""
+
+#: includes/sa-form/fields/commons/uploader.php:162
+#, php-format
+msgid "File has an invalid extension, it should be one of %s."
+msgstr ""
+
+#: includes/sa-form/fields/commons/uploader.php:175
+msgid ""
+"Could not save uploaded file. The upload was cancelled, or server error "
+"encountered"
+msgstr ""
+
+#: includes/sa-form/fields/templates/commons/article-status-tpart.php:4
+msgid "Status"
+msgstr "Statut"
+
+#: includes/sa-form/fields/templates/commons/publish-actions-tpart.php:4
+msgid "Save and move it under review"
+msgstr "Enregistrer et passer l'article en modération"
+
+#: includes/sa-form/fields/templates/commons/publish-actions-tpart.php:8
+msgid "Save and publish"
+msgstr "Enregistrer et publier"
+
+#: includes/sa-form/fields/templates/content/backend-part.php:4
+#: includes/sa-form/fields/templates/featured-image/backend-part.php:6
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:4
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:4
+#: includes/sa-form/fields/templates/title/backend-part.php:6
+#, php-format
+msgid "Field: %s "
+msgstr ""
+
+#: includes/sa-form/fields/templates/content/backend-part.php:7
+#: includes/sa-form/fields/templates/featured-image/backend-part.php:9
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:7
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:7
+#: includes/sa-form/fields/templates/title/backend-part.php:9
+msgid "Label"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/backend-part.php:13
+#, php-format
+msgid "Maximum upload file size: %s (PHP limit)"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:14
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:36
+#, fuzzy
+msgid "Generating preview"
+msgstr "En attente de modération"
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:60
+msgid "Choose image"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:61
+msgid "or"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:62
+msgid "Drag your file here to upload"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:63
+msgid "Drop your file"
+msgstr ""
+
+#: includes/sa-form/fields/templates/featured-image/frontend-part.php:64
+#, php-format
+msgid "Maximum upload file size: %s."
+msgstr ""
+
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:11
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:11
+#: includes/sa-form/fields/templates/title/backend-part.php:13
+msgid "Placeholder"
+msgstr ""
+
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:16
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:16
+msgid "Type"
+msgstr ""
+
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:18
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:18
+msgid "Multiple"
+msgstr "Multiple"
+
+#: includes/sa-form/fields/templates/taxonomy-hierarchical/backend-part.php:19
+#: includes/sa-form/fields/templates/taxonomy-regular/backend-part.php:19
+msgid "Single"
+msgstr "Simple"
+
+#: includes/sa-form/fields/templates/title/backend-part.php:19
+msgid "Required"
+msgstr ""
+
+#: includes/sa-form/fields/templates/title/backend-part.php:21
+msgid "Upgrade to premium to change this setting"
+msgstr ""
+
+#: includes/sa-form/fields/templates/title/backend-part.php:24
+msgid "Messages"
+msgstr ""
+
+#: includes/sa-form/fields/templates/title/backend-part.php:26
+msgid "Empty"
+msgstr ""
+
+#: includes/templates/members/single/articles/loop.php:19
+msgid "Load more articles"
+msgstr "Afficher plus d'articles"
+
+#: includes/templates/members/single/articles/loop.php:28
+msgid "This user doesn't have any article."
+msgstr "Cet utilisateur n'a pas encore d'article."
+
+#: includes/templates/members/single/articles/new.php:33
+msgid "Edit article"
+msgstr "Editer l'article"
+
+#: includes/templates/members/single/articles/new.php:34
+msgid "View article"
+msgstr "Voir l'article"
+
+#: includes/templates/members/single/articles/new.php:39
+msgid "Saving your article. Please wait."
+msgstr "Enregistrement en cours. Merci de patienter."
+
+#: includes/templates/members/single/articles/new.php:49
+msgid "Save"
+msgstr "Enregistrer"
+
+#: includes/templates/members/single/articles/new.php:50
+msgid "Cancel"
+msgstr "Annuler"
+
+#~ msgid "My articles <span>%d</span>"
+#~ msgstr "Mes articles <span>%d</span>"
+
+#~ msgid "Error creating the article. Try again please."
+#~ msgstr ""
+#~ "Il y a eu une erreur lors de la création de l'article. Merci de réessayer."
+
+#~ msgid "done"
+#~ msgstr "effectué"
+
+#~ msgid "Select category type"
+#~ msgstr "Choisissez le type de catégorie"
+
+#~ msgid "Number of categories people can select"
+#~ msgstr "Nombre de catégories que les utilisateurs peuvent choisir"
+
+#~ msgid "Category Black List"
+#~ msgstr "Liste noire de catégorie"
+
+#~ msgid "Post type"
+#~ msgstr "Type d'article"
+
+#~ msgid "Selection of areas to display"
+#~ msgstr "Sélections de zones à afficher"
+
+#~ msgid "Galleries"
+#~ msgstr "Galeries"
+
+#~ msgid "Why not do any or all of the following:"
+#~ msgstr "Pourquoi ne pas faire tout ça :"
+
+#~ msgid "Link to it so other folks can find out about it."
+#~ msgstr "Mettre un lien pour que les autres puissent le découvrir"
+
+#~ msgid "Give it a 5 star rating on WordPress.org."
+#~ msgstr "Notre 5 étoiles sur Wordpress.org"
+
+#~ msgid "Let other people know that it works with your WordPress setup."
+#~ msgstr ""
+#~ "Faire savoir aux autres que ça fonctionne avec votre environnement "
+#~ "Wordpress"
+
+#~ msgid "Like this plugin?"
+#~ msgstr "Vous aimez ce plugin ?"
+
+#~ msgid "Found a bug?"
+#~ msgstr "Un bug ?"
+
+#~ msgid "You cannot perform this action"
+#~ msgstr "Action non permise"
+
+#~ msgid "Categories"
+#~ msgstr "Catégories"
+
+#~ msgid "Select your category"
+#~ msgstr "Choisissez votre catégorie"
+
+#~ msgid "Tags"
+#~ msgstr "Etiquettes"
+
+#~ msgid "Select your tags"
+#~ msgstr "Choisissez vos étiquettes"
+
+#~ msgid "Article title..."
+#~ msgstr "Titre de l'article ..."
+
+#~ msgid "Insert unordered list"
+#~ msgstr "Insérer une liste non ordonnée"
+
+#~ msgid "Insert link"
+#~ msgstr "Insérer un lien"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Max size allowed is 2 MB"
+#~ msgstr "La taille maximum de l'image est de 2 MB"
+
+#~ msgid "Uploading your image. Please wait."
+#~ msgstr "Chargement de l'image. Merci de patienter."
